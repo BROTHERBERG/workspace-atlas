@@ -1,0 +1,181 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 12.2%; /* Universal black tone (#1f1f1f) */
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 12.2%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 12.2%;
+    --primary: 0 0% 12.2%; /* Universal black tone (#1f1f1f) */
+    --primary-foreground: 0 0% 100%;
+    --secondary: 0 0% 96.1%;
+    --secondary-foreground: 0 0% 12.2%;
+    --muted: 0 0% 96.1%;
+    --muted-foreground: 0 0% 45.1%;
+    --accent: 60 96% 50%;
+    --accent-foreground: 0 0% 12.2%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 12.2%; /* Universal black tone (#1f1f1f) */
+    --input: 0 0% 12.2%;
+    --ring: 60 96% 50%;
+    --radius: 0.5rem;
+    --soft-black: #1f1f1f; /* Universal black tone */
+    --universal-yellow: #f9cb16; /* Universal yellow tone */
+  }
+
+  .dark {
+    --background: 0 0% 12.2%; /* Universal black tone (#1f1f1f) for dark mode */
+    --foreground: 0 0% 98%;
+    --card: 0 0% 12.2%;
+    --card-foreground: 0 0% 98%;
+    --popover: 0 0% 12.2%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 0 0% 98%;
+    --primary-foreground: 0 0% 12.2%;
+    --secondary: 0 0% 20%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 0 0% 20%;
+    --muted-foreground: 0 0% 63.9%;
+    --accent: 60 96% 50%;
+    --accent-foreground: 0 0% 12.2%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 20%;
+    --input: 0 0% 20%;
+    --ring: 60 96% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-cal;
+  }
+}
+
+/* Button animations */
+.btn-press {
+  @apply transition-all duration-200 ease-out;
+  transform: translateY(0);
+  box-shadow: 0 5px 0 0 rgba(31, 31, 31, 0.2);
+}
+
+.btn-press:hover {
+  transform: translateY(2px);
+  box-shadow: 0 3px 0 0 rgba(31, 31, 31, 0.2);
+}
+
+.btn-press:active {
+  transform: translateY(4px);
+  box-shadow: 0 1px 0 0 rgba(31, 31, 31, 0.2);
+}
+
+.btn-press-yellow {
+  @apply transition-all duration-200 ease-out;
+  transform: translateY(0);
+  box-shadow: 0 5px 0 0 rgba(249, 203, 22, 0.5);
+}
+
+.btn-press-yellow:hover {
+  transform: translateY(2px);
+  box-shadow: 0 3px 0 0 rgba(249, 203, 22, 0.5);
+}
+
+.btn-press-yellow:active {
+  transform: translateY(4px);
+  box-shadow: 0 1px 0 0 rgba(249, 203, 22, 0.5);
+}
+
+.btn-press-white {
+  @apply transition-all duration-200 ease-out;
+  transform: translateY(0);
+  box-shadow: 0 5px 0 0 rgba(255, 255, 255, 0.3);
+}
+
+.btn-press-white:hover {
+  transform: translateY(2px);
+  box-shadow: 0 3px 0 0 rgba(255, 255, 255, 0.3);
+}
+
+.btn-press-white:active {
+  transform: translateY(4px);
+  box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.3);
+}
+
+/* Custom nav hover with black underline - high specificity override */
+.yellow-hover:hover,
+.NavigationMenuLink.yellow-hover:hover,
+[class*='navigation-menu'] .yellow-hover:hover,
+header nav .yellow-hover:hover,
+header a.yellow-hover:hover,
+header button.yellow-hover:hover {
+  color: inherit !important;
+  text-decoration: underline !important;
+  text-decoration-color: black !important;
+  text-decoration-thickness: 2px !important;
+  text-underline-offset: 4px !important;
+  background-color: transparent !important;
+}
+
+/* Hand-drawn elements */
+.hand-drawn {
+  position: relative;
+}
+
+.hand-drawn::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 2px solid var(--soft-black);
+  border-radius: 0.5rem;
+  transform: rotate(-0.5deg);
+  pointer-events: none;
+}
+
+.hand-drawn-line {
+  position: relative;
+  height: 2px;
+  background-color: var(--soft-black);
+  transform: rotate(-0.5deg);
+}
+
+.hand-drawn-line::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--soft-black);
+  transform: rotate(1deg);
+  opacity: 0.5;
+}
+
+/* Atlas map animation */
+.atlas-map {
+  filter: drop-shadow(5px 5px 0 rgba(31, 31, 31, 0.3));
+  transition: all 0.3s ease;
+}
+
+.atlas-map:hover {
+  transform: translateY(-5px);
+  filter: drop-shadow(8px 8px 0 rgba(31, 31, 31, 0.3));
+}
