@@ -1,0 +1,419 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// User management and authentication
+model User {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  name      String?
+  password  String?  // For email/password auth
+  image         String?
+  role          UserRole @default(USER)
+  verified      Boolean  @default(false)
+  emailVerified DateTime? // Added for NextAuth compatibility
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  // Relations
+  accounts     Account[]
+  sessions     Session[]
+  workspaces   Workspace[]
+  reviews      Review[]
+  bookings     Booking[]
+  havenPassport HavenPassport?
+  scoreRequests ScoreRequest[]
+  contactForms ContactForm[]
+  contactSubmissions ContactSubmission[]
+
+  @@map("users")
+}
+
+model Account {
+  id                String  @id @default(cuid())
+  userId            String
+  type              String
+  provider          String
+  providerAccountId String
+  refresh_token     String? @db.Text
+  access_token      String? @db.Text
+  expires_at        Int?
+  token_type        String?
+  scope             String?
+  id_token          String? @db.Text
+  session_state     String?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerAccountId])
+  @@map("accounts")
+}
+
+model Session {
+  id           String   @id @default(cuid())
+  sessionToken String   @unique
+  userId       String
+  expires      DateTime
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("sessions")
+}
+
+model VerificationToken {
+  identifier String
+  token      String   @unique
+  expires    DateTime
+
+  @@unique([identifier, token])
+  @@map("verificationtokens")
+}
+
+// Core workspace/space management
+model Workspace {
+  id          String          @id @default(cuid())
+  name        String
+  slug        String          @unique
+  description String?         @db.Text
+  status      WorkspaceStatus @default(ACTIVE)
+  featured    Boolean         @default(false)
+  verified    Boolean         @default(false)
+  isActive    Boolean         @default(true)
+  
+  // Location data
+  city        String?
+  country     String?
+  address     String?         @db.Text
+  latitude    Float?
+  longitude   Float?
+  
+  // Contact information
+  website     String?
+  phone       String?
+  email       String?
+  
+  // Social media URLs (simplified)
+  instagramUrl String?
+  twitterUrl   String?
+  linkedinUrl  String?
+  facebookUrl  String?
+  
+  // Images as JSON array (simplified for import)
+  images      String[]        @default([])
+  
+  // Amenities as JSON array (simplified for import)  
+  amenities   String[]        @default([])
+  
+  // Hours as text description
+  hoursDescription String?    @db.Text
+  
+  // Simplified pricing fields
+  pricingCurrency      String? @default("USD")
+  hotDeskPrice        Float?
+  dedicatedDeskPrice  Float?
+  privateOfficePrice  Float?
+  
+  // Metrics
+  digitalScore Int?           @default(0)
+  rating       Float?         @default(0)
+  reviewCount  Int            @default(0)
+  
+  // Data source tracking
+  source      String?         // e.g., "Google Places", "Manual", etc.
+  sourceId    String?         // External ID from source
+  scrapedAt   DateTime?       // When data was scraped
+  
+  // Timestamps
+  createdAt   DateTime        @default(now())
+  updatedAt   DateTime        @updatedAt
+  
+  // Relations (make owner optional for scraped data)
+  userId      String?
+  user        User?           @relation(fields: [userId], references: [id])
+  
+  // Keep existing relations for manual data
+  workspaceImages      WorkspaceImage[]
+  workspacePricing     WorkspacePricing[]
+  workspaceAmenities   WorkspaceAmenity[]
+  openingHours         WorkspaceHours?
+  reviews              Review[]
+  bookings             Booking[]
+  scoreData            WorkspaceScore?
+  scoreRequests        ScoreRequest[]
+  
+  // Legacy fields for compatibility
+  workspaceTypeId      Int?           @default(1)
+  planId              Int?           @default(1)
+
+  @@map("workspaces")
+}
+
+model WorkspaceAmenity {
+  id          String    @id @default(cuid())
+  workspaceId String
+  amenity     String
+  
+  workspace   Workspace @relation(fields: [workspaceId], references: [id], onDelete: Cascade)
+  
+  @@unique([workspaceId, amenity])
+  @@map("workspace_amenities")
+}
+
+model WorkspaceImage {
+  id          String    @id @default(cuid())
+  workspaceId String
+  url         String
+  alt         String?
+  isMain      Boolean   @default(false)
+  order       Int       @default(0)
+  
+  workspace   Workspace @relation(fields: [workspaceId], references: [id], onDelete: Cascade)
+  
+  @@map("workspace_images")
+}
+
+model WorkspacePricing {
+  id          String      @id @default(cuid())
+  workspaceId String
+  type        PricingType
+  price       Float
+  currency    String      @default("USD")
+  description String?
+  capacity    Int?
+  active      Boolean     @default(true)
+  
+  workspace   Workspace   @relation(fields: [workspaceId], references: [id], onDelete: Cascade)
+  
+  @@map("workspace_pricing")
+}
+
+model WorkspaceHours {
+  id          String    @id @default(cuid())
+  workspaceId String    @unique
+  monday      String?
+  tuesday     String?
+  wednesday   String?
+  thursday    String?
+  friday      String?
+  saturday    String?
+  sunday      String?
+  
+  workspace   Workspace @relation(fields: [workspaceId], references: [id], onDelete: Cascade)
+  
+  @@map("workspace_hours")
+}
+
+// Digital scoring system
+model WorkspaceScore {
+  id                String    @id @default(cuid())
+  workspaceId       String    @unique
+  overallScore      Int       @default(0)
+  websiteScore      Int       @default(0)
+  socialScore       Int       @default(0)
+  reviewScore       Int       @default(0)
+  presenceScore     Int       @default(0)
+  lastCalculated    DateTime  @default(now())
+  
+  workspace         Workspace @relation(fields: [workspaceId], references: [id], onDelete: Cascade)
+  
+  @@map("workspace_scores")
+}
+
+// Reviews and ratings
+model Review {
+  id          String    @id @default(cuid())
+  workspaceId String
+  userId      String
+  rating      Int       // 1-5 stars
+  title       String?
+  content     String?   @db.Text
+  helpful     Int       @default(0)
+  unhelpful   Int       @default(0)
+  verified    Boolean   @default(false)
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+  
+  workspace   Workspace @relation(fields: [workspaceId], references: [id], onDelete: Cascade)
+  user        User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  
+  @@unique([workspaceId, userId]) // One review per user per workspace
+  @@map("reviews")
+}
+
+// Booking system
+model Booking {
+  id          String        @id @default(cuid())
+  workspaceId String
+  userId      String
+  type        PricingType
+  startDate   DateTime
+  endDate     DateTime
+  totalPrice  Float
+  currency    String        @default("USD")
+  status      BookingStatus @default(PENDING)
+  notes       String?       @db.Text
+  createdAt   DateTime      @default(now())
+  updatedAt   DateTime      @updatedAt
+  
+  workspace   Workspace     @relation(fields: [workspaceId], references: [id], onDelete: Cascade)
+  user        User          @relation(fields: [userId], references: [id], onDelete: Cascade)
+  
+  @@map("bookings")
+}
+
+// Haven Passport system
+model HavenPassport {
+  id            String              @id @default(cuid())
+  userId        String              @unique
+  tier          PassportTier        @default(NOMAD)
+  points        Int                 @default(0)
+  totalVisits   Int                 @default(0)
+  createdAt     DateTime            @default(now())
+  updatedAt     DateTime            @updatedAt
+  
+  user          User                @relation(fields: [userId], references: [id], onDelete: Cascade)
+  visits        PassportVisit[]
+  achievements  PassportAchievement[]
+  
+  @@map("haven_passports")
+}
+
+model PassportVisit {
+  id              String        @id @default(cuid())
+  passportId      String
+  workspaceId     String
+  visitDate       DateTime      @default(now())
+  pointsEarned    Int           @default(10)
+  verified        Boolean       @default(false)
+  
+  passport        HavenPassport @relation(fields: [passportId], references: [id], onDelete: Cascade)
+  
+  @@map("passport_visits")
+}
+
+model PassportAchievement {
+  id              String        @id @default(cuid())
+  passportId      String
+  type            String        // e.g., "first_visit", "city_explorer", etc.
+  title           String
+  description     String?
+  pointsAwarded   Int           @default(0)
+  unlockedAt      DateTime      @default(now())
+  
+  passport        HavenPassport @relation(fields: [passportId], references: [id], onDelete: Cascade)
+  
+  @@map("passport_achievements")
+}
+
+// Form submissions
+model ContactForm {
+  id        String   @id @default(cuid())
+  userId    String?
+  name      String
+  email     String
+  subject   String?
+  message   String   @db.Text
+  status    String   @default("pending") // pending, responded, closed
+  createdAt DateTime @default(now())
+  
+  user      User?    @relation(fields: [userId], references: [id], onDelete: SetNull)
+  
+  @@map("contact_forms")
+}
+
+model ContactSubmission {
+  id        String   @id @default(cuid())
+  userId    String?
+  name      String
+  email     String
+  subject   String?
+  message   String   @db.Text
+  status    SubmissionStatus @default(UNREAD)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  
+  user      User?    @relation(fields: [userId], references: [id], onDelete: SetNull)
+  
+  @@map("contact_submissions")
+}
+
+model ScoreRequest {
+  id               String   @id @default(cuid())
+  userId           String?
+  email            String
+  spaceName        String
+  websiteUrl       String?  // Changed from website to match admin expectations
+  socialMediaUrls  String[] @default([])
+  description      String?  @db.Text
+  status           RequestStatus @default(PENDING)
+  score            Int?
+  feedback         String?  @db.Text
+  notes            String?  @db.Text // Added notes field
+  createdAt        DateTime @default(now())
+  completedAt      DateTime?
+  
+  user             User?      @relation(fields: [userId], references: [id], onDelete: SetNull)
+  workspace        Workspace? @relation(fields: [workspaceId], references: [id], onDelete: SetNull)
+  workspaceId      String?
+  
+  @@map("score_requests")
+}
+
+// Enums
+enum UserRole {
+  USER
+  SPACE_OWNER
+  ADMIN
+}
+
+enum WorkspaceStatus {
+  DRAFT
+  PENDING
+  ACTIVE
+  INACTIVE
+  SUSPENDED
+}
+
+enum PricingType {
+  HOURLY
+  DAILY
+  MONTHLY
+  HOT_DESK
+  DEDICATED_DESK
+  PRIVATE_OFFICE
+  MEETING_ROOM
+}
+
+enum BookingStatus {
+  PENDING
+  CONFIRMED
+  CANCELLED
+  COMPLETED
+}
+
+enum PassportTier {
+  NOMAD
+  EXPLORER
+  PIONEER
+}
+
+enum SubmissionStatus {
+  UNREAD
+  READ
+  RESPONDED
+  CLOSED
+}
+
+enum RequestStatus {
+  PENDING
+  PROCESSING
+  COMPLETED
+  FAILED
+}

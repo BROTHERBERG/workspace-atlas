@@ -2,7 +2,7 @@ import Image from "next/image"
 import { ArrowRight, Award, Zap, Globe, BarChart } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
-import ScoreMySpaceForm from "@/components/score-my-space-form"
+import { ScoreRequestForm } from "@/components/forms/ScoreRequestForm"
 
 export default function ScoreMySpacePage() {
   return (
@@ -165,7 +165,7 @@ export default function ScoreMySpacePage() {
             </p>
           </div>
           <div className="mx-auto mt-12 max-w-2xl rounded-lg border bg-white p-6 shadow-sm">
-            <ScoreMySpaceForm />
+            <ScoreRequestForm />
           </div>
         </div>
       </section>

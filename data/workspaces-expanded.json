@@ -1,0 +1,5748 @@
+[
+  {
+    "id": 1,
+    "name": "WeWork Times Square",
+    "location": {
+      "city": "New York",
+      "country": "USA",
+      "address": "1460 Broadway, New York, NY 10036",
+      "coordinates": {
+        "lat": 40.7589,
+        "lng": -73.9851
+      }
+    },
+    "description": "Premium coworking space in the heart of Times Square with stunning city views and modern amenities",
+    "amenities": [
+      "High-Speed WiFi",
+      "Coffee Bar",
+      "Meeting Rooms",
+      "24/7 Access",
+      "Phone Booths",
+      "Printing Services",
+      "Event Space",
+      "Kitchen"
+    ],
+    "pricing": {
+      "hourly": 23,
+      "daily": 450,
+      "monthly": 650,
+      "currency": "USD"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1497366000000?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000001?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000002?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000003?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000004?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "rating": 4.945142252241965,
+    "reviewCount": 180,
+    "digitalScore": 70,
+    "featured": true,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+1-212-555-0100",
+      "email": "info@weworktimessquare.com",
+      "website": "https://www.wework.com/buildings/times-square--new-york--NY"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 2,
+    "name": "WeWork Bryant Park",
+    "location": {
+      "city": "New York",
+      "country": "USA",
+      "address": "7 W 34th St, New York, NY 10001",
+      "coordinates": {
+        "lat": 40.7506,
+        "lng": -73.9881
+      }
+    },
+    "description": "Beautiful coworking space near Bryant Park with excellent natural light",
+    "amenities": [
+      "High-Speed WiFi",
+      "Coffee Bar",
+      "Meeting Rooms",
+      "24/7 Access",
+      "Phone Booths",
+      "Printing Services",
+      "Event Space"
+    ],
+    "pricing": {
+      "hourly": 21,
+      "daily": 425,
+      "monthly": 625,
+      "currency": "USD"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1497366000000?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000001?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000002?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000003?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000004?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "rating": 4.740336726647943,
+    "reviewCount": 130,
+    "digitalScore": 70,
+    "featured": false,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+1-212-555-0101",
+      "email": "info@weworkbryantpark.com",
+      "website": "https://www.wework.com/buildings/bryant-park--new-york--NY"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 3,
+    "name": "Regus Empire State Building",
+    "location": {
+      "city": "New York",
+      "country": "USA",
+      "address": "350 Fifth Avenue, Suite 5935, New York, NY 10118",
+      "coordinates": {
+        "lat": 40.7484,
+        "lng": -73.9857
+      }
+    },
+    "description": "Prestigious office space in the iconic Empire State Building",
+    "amenities": [
+      "High-Speed WiFi",
+      "Meeting Rooms",
+      "Reception",
+      "Phone Booths",
+      "Printing Services",
+      "Admin Support"
+    ],
+    "pricing": {
+      "hourly": 25,
+      "daily": 500,
+      "monthly": 700,
+      "currency": "USD"
+    },
+    "images": [
+      "https://assets.iwgplc.com/image/upload/c_fill,f_auto,q_auto,w_240,h_240,g_auto:subject/v1695826836/WebsiteImagery/Brands/Regus/Error-Pages/full_digital_access_upper.png"
+    ],
+    "rating": 4.5240003622262615,
+    "reviewCount": 181,
+    "digitalScore": 70,
+    "featured": true,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+1-212-555-0200",
+      "email": "info@regusempirestatebuilding.com",
+      "website": "https://www.regus.com/en-us/united-states/new-york/new-york-empire-state-building"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 4,
+    "name": "The Wing Soho",
+    "location": {
+      "city": "New York",
+      "country": "USA",
+      "address": "52 Mercer St, New York, NY 10013",
+      "coordinates": {
+        "lat": 40.7236,
+        "lng": -73.9991
+      }
+    },
+    "description": "Women-focused coworking and community space in trendy Soho with beautiful design",
+    "amenities": [
+      "High-Speed WiFi",
+      "Coffee Bar",
+      "Wellness Room",
+      "Beauty Room",
+      "Meeting Rooms",
+      "Phone Booths",
+      "Showers",
+      "Lounge Area"
+    ],
+    "pricing": {
+      "hourly": 25,
+      "daily": 500,
+      "monthly": 700,
+      "currency": "USD"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1497366000000?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000001?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000002?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000003?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000004?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "rating": 4.088496243839582,
+    "reviewCount": 191,
+    "digitalScore": 70,
+    "featured": false,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "",
+      "email": "info@thewingsoho.com",
+      "website": "https://www.the-wing.com"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 5,
+    "name": "Spaces Brooklyn",
+    "location": {
+      "city": "New York",
+      "country": "USA",
+      "address": "594 Broadway, Brooklyn, NY 11211",
+      "coordinates": {
+        "lat": 40.7081,
+        "lng": -73.9571
+      }
+    },
+    "description": "Creative coworking space in trendy Williamsburg with rooftop terrace",
+    "amenities": [
+      "High-Speed WiFi",
+      "Coffee Bar",
+      "Meeting Rooms",
+      "Outdoor Space",
+      "Bike Storage",
+      "Event Space",
+      "Kitchen"
+    ],
+    "pricing": {
+      "hourly": 19,
+      "daily": 380,
+      "monthly": 550,
+      "currency": "USD"
+    },
+    "images": [
+      "https://spaces-wp.imgix.net/2021/01/5683_3-scaled.jpg?auto=compress,format&q=50",
+      "https://spaces-wp.imgix.net/2021/05/Booking-1.png?auto=compress,format&#038;q=50",
+      "https://spaces-wp.imgix.net/2021/05/CitizenM.png?auto=compress,format&#038;q=50",
+      "https://spaces-wp.imgix.net/2021/05/EY.png?auto=compress,format&#038;q=50",
+      "https://spaces-wp.imgix.net/2021/05/Paypal.png?auto=compress,format&#038;q=50",
+      "https://spaces-wp.imgix.net/2021/05/Uber.png?auto=compress,format&#038;q=50"
+    ],
+    "rating": 4.051170820290852,
+    "reviewCount": 48,
+    "digitalScore": 70,
+    "featured": false,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+1-718-555-0100",
+      "email": "info@spacesbrooklyn.com",
+      "website": "https://www.spacesworks.com"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 6,
+    "name": "WeWork SOMA",
+    "location": {
+      "city": "San Francisco",
+      "country": "USA",
+      "address": "535 Mission St, San Francisco, CA 94105",
+      "coordinates": {
+        "lat": 37.7886,
+        "lng": -122.3988
+      }
+    },
+    "description": "Modern coworking space in SOMA with tech startup community",
+    "amenities": [
+      "High-Speed WiFi",
+      "Coffee Bar",
+      "Meeting Rooms",
+      "24/7 Access",
+      "Phone Booths",
+      "Printing Services",
+      "Event Space",
+      "Bike Storage"
+    ],
+    "pricing": {
+      "hourly": 28,
+      "daily": 550,
+      "monthly": 750,
+      "currency": "USD"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1497366000000?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000001?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000002?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000003?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000004?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "rating": 4.747335614221906,
+    "reviewCount": 209,
+    "digitalScore": 70,
+    "featured": true,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+1-415-555-0100",
+      "email": "info@weworksoma.com",
+      "website": "https://www.wework.com/buildings/535-mission-street--san-francisco--CA"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 7,
+    "name": "Galvanize San Francisco",
+    "location": {
+      "city": "San Francisco",
+      "country": "USA",
+      "address": "44 Tehama St, San Francisco, CA 94105",
+      "coordinates": {
+        "lat": 37.7876,
+        "lng": -122.3965
+      }
+    },
+    "description": "Tech-focused coworking and education space in SOMA district",
+    "amenities": [
+      "High-Speed WiFi",
+      "Coffee Bar",
+      "Meeting Rooms",
+      "Event Space",
+      "Kitchen",
+      "Podcast Studio",
+      "Gym Access"
+    ],
+    "pricing": {
+      "hourly": 23,
+      "daily": 450,
+      "monthly": 650,
+      "currency": "USD"
+    },
+    "images": [
+      "https://i.ytimg.com/vi/ID/hqdefault.jpg"
+    ],
+    "rating": 4.33753920647942,
+    "reviewCount": 157,
+    "digitalScore": 70,
+    "featured": true,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "",
+      "email": "info@galvanizesanfrancisco.com",
+      "website": "https://www.galvanize.com/san-francisco"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 8,
+    "name": "The Vault SF",
+    "location": {
+      "city": "San Francisco",
+      "country": "USA",
+      "address": "415 Jackson St, San Francisco, CA 94111",
+      "coordinates": {
+        "lat": 37.7962,
+        "lng": -122.4025
+      }
+    },
+    "description": "Historic bank vault transformed into unique coworking space in Financial District",
+    "amenities": [
+      "High-Speed WiFi",
+      "Meeting Rooms",
+      "Phone Booths",
+      "Printing Services",
+      "Kitchen",
+      "Historic Architecture"
+    ],
+    "pricing": {
+      "hourly": 24,
+      "daily": 480,
+      "monthly": 680,
+      "currency": "USD"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1497366000000?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000001?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000002?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000003?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000004?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "rating": 4.845546627070603,
+    "reviewCount": 159,
+    "digitalScore": 70,
+    "featured": false,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+1-415-555-0200",
+      "email": "info@thevaultsf.com",
+      "website": "https://www.thevaultsf.com"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 9,
+    "name": "Sandbox Suites",
+    "location": {
+      "city": "San Francisco",
+      "country": "USA",
+      "address": "301 Howard St, San Francisco, CA 94105",
+      "coordinates": {
+        "lat": 37.7895,
+        "lng": -122.3951
+      }
+    },
+    "description": "Premium coworking with private offices and startup focus in SOMA",
+    "amenities": [
+      "High-Speed WiFi",
+      "Coffee Bar",
+      "Meeting Rooms",
+      "24/7 Access",
+      "Reception",
+      "Mail Handling",
+      "Parking"
+    ],
+    "pricing": {
+      "hourly": 26,
+      "daily": 520,
+      "monthly": 720,
+      "currency": "USD"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1497366000000?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000001?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000002?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000003?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000004?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "rating": 4.953781554085917,
+    "reviewCount": 112,
+    "digitalScore": 70,
+    "featured": false,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+1-415-555-0300",
+      "email": "info@sandboxsuites.com",
+      "website": "https://www.sandboxsuites.com"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 10,
+    "name": "WeWork Chancery Lane",
+    "location": {
+      "city": "London",
+      "country": "UK",
+      "address": "7-10 Chandos Street, London W1G 9DQ",
+      "coordinates": {
+        "lat": 51.5158,
+        "lng": -0.1249
+      }
+    },
+    "description": "Historic building transformed into modern workspace in central London",
+    "amenities": [
+      "High-Speed WiFi",
+      "Coffee Bar",
+      "Meeting Rooms",
+      "Reception",
+      "Phone Booths",
+      "Printing Services",
+      "Event Space"
+    ],
+    "pricing": {
+      "hourly": 18,
+      "daily": 350,
+      "monthly": 500,
+      "currency": "GBP"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1497366000000?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000001?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000002?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000003?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000004?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "rating": 4.134637872301592,
+    "reviewCount": 137,
+    "digitalScore": 70,
+    "featured": true,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+44-20-5555-0100",
+      "email": "info@weworkchancerylane.com",
+      "website": "https://www.wework.com/en-GB/buildings/chancery-lane--london"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 11,
+    "name": "Second Home Spitalfields",
+    "location": {
+      "city": "London",
+      "country": "UK",
+      "address": "68-80 Hanbury St, London E1 5JL",
+      "coordinates": {
+        "lat": 51.5197,
+        "lng": -0.0716
+      }
+    },
+    "description": "Beautiful plant-filled coworking space designed for creatives in East London",
+    "amenities": [
+      "High-Speed WiFi",
+      "Coffee Bar",
+      "Meeting Rooms",
+      "Outdoor Space",
+      "Event Space",
+      "Plants",
+      "Kitchen"
+    ],
+    "pricing": {
+      "hourly": 19,
+      "daily": 380,
+      "monthly": 550,
+      "currency": "GBP"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1497366000000?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000001?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000002?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000003?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000004?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "rating": 4.49447810558001,
+    "reviewCount": 51,
+    "digitalScore": 70,
+    "featured": true,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+44-20-5555-0200",
+      "email": "info@secondhomespitalfields.com",
+      "website": "https://www.secondhome.io/location/spitalfields"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 12,
+    "name": "Huckletree Shoreditch",
+    "location": {
+      "city": "London",
+      "country": "UK",
+      "address": "18 Finsbury Sq, London EC2A 1AH",
+      "coordinates": {
+        "lat": 51.5203,
+        "lng": -0.085
+      }
+    },
+    "description": "Innovation-focused coworking space for tech companies and startups",
+    "amenities": [
+      "High-Speed WiFi",
+      "Coffee Bar",
+      "Meeting Rooms",
+      "Phone Booths",
+      "Event Space",
+      "Podcast Studio"
+    ],
+    "pricing": {
+      "hourly": 18,
+      "daily": 360,
+      "monthly": 520,
+      "currency": "GBP"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1497366000000?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000001?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000002?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000003?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000004?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "rating": 4.249468142283767,
+    "reviewCount": 53,
+    "digitalScore": 70,
+    "featured": false,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+44-20-5555-0300",
+      "email": "info@huckletreeshoreditch.com",
+      "website": "https://www.huckletree.com/shoreditch"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 13,
+    "name": "The Trampery Old Street",
+    "location": {
+      "city": "London",
+      "country": "UK",
+      "address": "239 Old St, London EC1V 9EY",
+      "coordinates": {
+        "lat": 51.5252,
+        "lng": -0.0867
+      }
+    },
+    "description": "Community-driven coworking supporting social enterprises and startups",
+    "amenities": [
+      "High-Speed WiFi",
+      "Meeting Rooms",
+      "Event Space",
+      "Kitchen",
+      "Lounge Area"
+    ],
+    "pricing": {
+      "hourly": 16,
+      "daily": 320,
+      "monthly": 480,
+      "currency": "GBP"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1497366000000?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000001?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000002?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000003?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000004?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "rating": 4.6937921896016945,
+    "reviewCount": 148,
+    "digitalScore": 70,
+    "featured": false,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+44-20-5555-0400",
+      "email": "info@thetramperyoldstreet.com",
+      "website": "https://www.thetrampery.com"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 14,
+    "name": "betahaus Berlin",
+    "location": {
+      "city": "Berlin",
+      "country": "Germany",
+      "address": "Prinzessinnenstr. 19-20, 10969 Berlin",
+      "coordinates": {
+        "lat": 52.5025,
+        "lng": 13.4105
+      }
+    },
+    "description": "Iconic Berlin coworking space fostering creative collaboration since 2009",
+    "amenities": [
+      "High-Speed WiFi",
+      "Coffee Bar",
+      "Meeting Rooms",
+      "Event Space",
+      "Bike Storage",
+      "Workshop Space",
+      "Kitchen"
+    ],
+    "pricing": {
+      "hourly": 14,
+      "daily": 280,
+      "monthly": 420,
+      "currency": "EUR"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1497366000000?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000001?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000002?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000003?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000004?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "rating": 4.619037702199423,
+    "reviewCount": 124,
+    "digitalScore": 70,
+    "featured": true,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+49-30-5555-0100",
+      "email": "info@betahausberlin.com",
+      "website": "https://www.betahaus.com/berlin"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 15,
+    "name": "Factory Berlin",
+    "location": {
+      "city": "Berlin",
+      "country": "Germany",
+      "address": "Rheinsberger Str. 76/77, 10115 Berlin",
+      "coordinates": {
+        "lat": 52.532,
+        "lng": 13.3822
+      }
+    },
+    "description": "Premium tech community and coworking space in restored factory building",
+    "amenities": [
+      "High-Speed WiFi",
+      "Coffee Bar",
+      "Meeting Rooms",
+      "24/7 Access",
+      "Event Space",
+      "Gym Access",
+      "Rooftop Terrace"
+    ],
+    "pricing": {
+      "hourly": 18,
+      "daily": 350,
+      "monthly": 500,
+      "currency": "EUR"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1497366000000?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000001?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000002?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000003?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000004?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "rating": 4.457931455724609,
+    "reviewCount": 126,
+    "digitalScore": 70,
+    "featured": true,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+49-30-5555-0200",
+      "email": "info@factoryberlin.com",
+      "website": "https://www.factoryberlin.com"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 16,
+    "name": "St. Oberholz",
+    "location": {
+      "city": "Berlin",
+      "country": "Germany",
+      "address": "Rosenthaler Str. 72a, 10119 Berlin",
+      "coordinates": {
+        "lat": 52.5262,
+        "lng": 13.4016
+      }
+    },
+    "description": "Historic cafe and coworking space in vibrant Mitte district",
+    "amenities": [
+      "High-Speed WiFi",
+      "Cafe",
+      "Meeting Rooms",
+      "Lounge Area",
+      "Event Space"
+    ],
+    "pricing": {
+      "hourly": 13,
+      "daily": 250,
+      "monthly": 380,
+      "currency": "EUR"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1497366000000?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000001?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000002?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000003?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000004?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "rating": 4.796672840763355,
+    "reviewCount": 185,
+    "digitalScore": 70,
+    "featured": false,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+49-30-5555-0300",
+      "email": "info@st.oberholz.com",
+      "website": "https://www.sanktoberholz.de"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 17,
+    "name": "ahoy! Berlin",
+    "location": {
+      "city": "Berlin",
+      "country": "Germany",
+      "address": "Wattstraße 11, 13355 Berlin",
+      "coordinates": {
+        "lat": 52.5438,
+        "lng": 13.3753
+      }
+    },
+    "description": "Large creative campus with coworking in Wedding district",
+    "amenities": [
+      "High-Speed WiFi",
+      "Coffee Bar",
+      "Meeting Rooms",
+      "Event Space",
+      "Outdoor Space",
+      "Workshop Space"
+    ],
+    "pricing": {
+      "hourly": 14,
+      "daily": 270,
+      "monthly": 400,
+      "currency": "EUR"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1497366000000?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000001?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000002?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000003?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000004?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "rating": 4.44506768655254,
+    "reviewCount": 63,
+    "digitalScore": 70,
+    "featured": false,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+49-30-5555-0400",
+      "email": "info@ahoy!berlin.com",
+      "website": "https://www.ahoyberlin.com"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 18,
+    "name": "JustCo Singapore Marina",
+    "location": {
+      "city": "Singapore",
+      "country": "Singapore",
+      "address": "9 Straits View, Marina One West Tower",
+      "coordinates": {
+        "lat": 1.2784,
+        "lng": 103.8535
+      }
+    },
+    "description": "Premium flexible workspace in iconic Marina Bay with harbor views",
+    "amenities": [
+      "High-Speed WiFi",
+      "Coffee Bar",
+      "Meeting Rooms",
+      "24/7 Access",
+      "Phone Booths",
+      "Event Space",
+      "Wellness Room"
+    ],
+    "pricing": {
+      "hourly": 21,
+      "daily": 420,
+      "monthly": 600,
+      "currency": "SGD"
+    },
+    "images": [
+      "https://www.justco.com/wp-content/uploads/2019/10/machine3.png"
+    ],
+    "rating": 4.055163411048794,
+    "reviewCount": 150,
+    "digitalScore": 70,
+    "featured": true,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+65-5555-0100",
+      "email": "info@justcosingaporemarina.com",
+      "website": "https://www.justco.com"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 19,
+    "name": "The Working Capitol",
+    "location": {
+      "city": "Singapore",
+      "country": "Singapore",
+      "address": "1 Keong Saik Rd, Singapore 089109",
+      "coordinates": {
+        "lat": 1.279,
+        "lng": 103.8435
+      }
+    },
+    "description": "Boutique coworking in heritage shophouse with local charm",
+    "amenities": [
+      "High-Speed WiFi",
+      "Coffee Bar",
+      "Meeting Rooms",
+      "Rooftop Terrace",
+      "Event Space",
+      "Bar"
+    ],
+    "pricing": {
+      "hourly": 19,
+      "daily": 380,
+      "monthly": 550,
+      "currency": "SGD"
+    },
+    "images": [
+      "http://static1.squarespace.com/static/6509091695d2fb63ff1b90d1/t/650ab45cfe687205a4c4ead0/1695200348647/TWC-Combination+Mark-blue.png?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/6509091695d2fb63ff1b90d1/c224982f-86fd-44ef-9ab0-722635d291cf/TWC-Combination+Mark-blue.png?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/6509091695d2fb63ff1b90d1/6dea85ee-2316-4682-8a94-0c94c61cf558/1KS-Workspot-11-Web.jpg",
+      "https://images.squarespace-cdn.com/content/v1/6509091695d2fb63ff1b90d1/637c2ba7-33ef-4a4f-a1d8-f1ff05914a95/TWC-Space_Workspace-3.jpeg",
+      "https://images.squarespace-cdn.com/content/v1/6509091695d2fb63ff1b90d1/db83107a-1b99-4cdd-846c-7a2b6dcd03a0/80FCBBB7-D9CB-4572-9C93-B46FD791777D.JPG",
+      "https://images.squarespace-cdn.com/content/v1/6509091695d2fb63ff1b90d1/5305d5e8-e3e0-400b-9a67-f034a99f9b74/TWC-Space_Workspot-4.jpeg"
+    ],
+    "rating": 4.431461909674247,
+    "reviewCount": 179,
+    "digitalScore": 70,
+    "featured": true,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+65-5555-0200",
+      "email": "info@theworkingcapitol.com",
+      "website": "https://www.theworkingcapitol.com"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 20,
+    "name": "WeWork Beach Centre",
+    "location": {
+      "city": "Singapore",
+      "country": "Singapore",
+      "address": "15 Beach Rd, Singapore 189677",
+      "coordinates": {
+        "lat": 1.296,
+        "lng": 103.8546
+      }
+    },
+    "description": "Modern coworking in prime CBD location near Marina Bay",
+    "amenities": [
+      "High-Speed WiFi",
+      "Coffee Bar",
+      "Meeting Rooms",
+      "24/7 Access",
+      "Phone Booths",
+      "Printing Services",
+      "Event Space"
+    ],
+    "pricing": {
+      "hourly": 23,
+      "daily": 450,
+      "monthly": 650,
+      "currency": "SGD"
+    },
+    "images": [
+      "https://ctfassets.imgix.net/vh7r69kgcki3/1yD4Tmm83DWGhp6UzGId5z/baa2c10600153343d3b72c24762ba571/Web_150DPI-20201217_WeWork_Km_5_Av_Las_Palmas_-_Medellin_007.jpg",
+      "https://ctfassets.imgix.net/vh7r69kgcki3/6cBBTXTBLLJmb8mjB6syls/fb88793890ed5c8a2bb236144a1b0c20/Web_150DPI-20221216_WeWork_Product_Shoot_Q4_14__1_.jpg?auto=format%20compress&amp;fit=crop&amp;q=50&amp;w=750&amp;h=422",
+      "https://ctfassets.imgix.net/vh7r69kgcki3/t4UAkeHly6OCor52rENRn/2197e8dc052dc617380e6e754449306d/on-demand_600.webp?auto=format%20compress&amp;fit=crop&amp;q=50&amp;w=750&amp;h=422",
+      "https://ctfassets.imgix.net/vh7r69kgcki3/0IXuJtQz8ISqIdYIusVlC/4b31f0085de7f9fef22ae430e5626282/microsoft.png",
+      "https://ctfassets.imgix.net/vh7r69kgcki3/6ucfeSUkXAQhX3LvdjHaL4/53586fbd893593b8ce3b2c3904160cd9/samsung.png",
+      "https://ctfassets.imgix.net/vh7r69kgcki3/3f7ZKaZZF7tSAQfCA7Zs8P/41ea5b9545b4f293661db6cf95c80d78/visa.png"
+    ],
+    "rating": 4.060705867093712,
+    "reviewCount": 21,
+    "digitalScore": 70,
+    "featured": false,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+65-5555-0300",
+      "email": "info@weworkbeachcentre.com",
+      "website": "https://www.wework.com"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 21,
+    "name": "WeWork Shibuya",
+    "location": {
+      "city": "Tokyo",
+      "country": "Japan",
+      "address": "1-2-20 Shibuya, Shibuya-ku, Tokyo",
+      "coordinates": {
+        "lat": 35.6595,
+        "lng": 139.7004
+      }
+    },
+    "description": "Modern workspace in the heart of vibrant Shibuya crossing area",
+    "amenities": [
+      "High-Speed WiFi",
+      "Coffee Bar",
+      "Meeting Rooms",
+      "24/7 Access",
+      "Phone Booths",
+      "Event Space"
+    ],
+    "pricing": {
+      "hourly": 19,
+      "daily": 380,
+      "monthly": 550,
+      "currency": "JPY"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1497366000000?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000001?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000002?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000003?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000004?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "rating": 4.217175866929197,
+    "reviewCount": 29,
+    "digitalScore": 70,
+    "featured": true,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+81-3-5555-0100",
+      "email": "info@weworkshibuya.com",
+      "website": "https://www.wework.com/ja-JP/buildings/shibuya--tokyo"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 22,
+    "name": "Fabbit Roppongi",
+    "location": {
+      "city": "Tokyo",
+      "country": "Japan",
+      "address": "7-20-12 Roppongi, Minato-ku, Tokyo",
+      "coordinates": {
+        "lat": 35.6627,
+        "lng": 139.7293
+      }
+    },
+    "description": "Startup-focused coworking in international Roppongi district",
+    "amenities": [
+      "High-Speed WiFi",
+      "Meeting Rooms",
+      "Event Space",
+      "Kitchen",
+      "Lounge Area"
+    ],
+    "pricing": {
+      "hourly": 17,
+      "daily": 340,
+      "monthly": 500,
+      "currency": "JPY"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1497366000000?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000001?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000002?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000003?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000004?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "rating": 4.648547235890165,
+    "reviewCount": 115,
+    "digitalScore": 70,
+    "featured": false,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+81-3-5555-0200",
+      "email": "info@fabbitroppongi.com",
+      "website": "https://www.fabbit.co.jp"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 23,
+    "name": "the SNACK",
+    "location": {
+      "city": "Tokyo",
+      "country": "Japan",
+      "address": "2-3-4 Azabujuban, Minato-ku, Tokyo",
+      "coordinates": {
+        "lat": 35.6549,
+        "lng": 139.7375
+      }
+    },
+    "description": "Creative coworking with cafe atmosphere in trendy Azabu area",
+    "amenities": [
+      "High-Speed WiFi",
+      "Cafe",
+      "Meeting Rooms",
+      "Event Space",
+      "Outdoor Space"
+    ],
+    "pricing": {
+      "hourly": 16,
+      "daily": 320,
+      "monthly": 480,
+      "currency": "JPY"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1497366000000?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000001?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000002?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000003?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000004?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "rating": 4.52655656999281,
+    "reviewCount": 55,
+    "digitalScore": 70,
+    "featured": false,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+81-3-5555-0300",
+      "email": "info@thesnack.com",
+      "website": "https://www.thesnack.jp"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 24,
+    "name": "Anticafe Marais",
+    "location": {
+      "city": "Paris",
+      "country": "France",
+      "address": "79 Rue Quincampoix, 75003 Paris",
+      "coordinates": {
+        "lat": 48.8628,
+        "lng": 2.3509
+      }
+    },
+    "description": "Pay-per-minute cafe and coworking in historic Marais district",
+    "amenities": [
+      "High-Speed WiFi",
+      "Unlimited Coffee",
+      "Meeting Rooms",
+      "Lounge Area",
+      "Games"
+    ],
+    "pricing": {
+      "hourly": 0,
+      "daily": 8,
+      "monthly": 12,
+      "currency": "EUR"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1497366000000?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000001?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000002?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000003?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000004?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "rating": 4.859614774829209,
+    "reviewCount": 165,
+    "digitalScore": 70,
+    "featured": true,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+33-1-5555-0100",
+      "email": "info@anticafemarais.com",
+      "website": "https://www.anticafe.eu/marais"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 25,
+    "name": "Numa Paris Sentier",
+    "location": {
+      "city": "Paris",
+      "country": "France",
+      "address": "24 Rue du Sentier, 75002 Paris",
+      "coordinates": {
+        "lat": 48.8686,
+        "lng": 2.3458
+      }
+    },
+    "description": "Modern coworking in the historic newspaper district",
+    "amenities": [
+      "High-Speed WiFi",
+      "Coffee Bar",
+      "Meeting Rooms",
+      "Event Space",
+      "Kitchen"
+    ],
+    "pricing": {
+      "hourly": 18,
+      "daily": 350,
+      "monthly": 500,
+      "currency": "EUR"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1497366000000?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000001?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000002?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000003?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000004?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "rating": 4.27560488781833,
+    "reviewCount": 123,
+    "digitalScore": 70,
+    "featured": false,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+33-1-5555-0200",
+      "email": "info@numaparissentier.com",
+      "website": "https://www.numahq.com"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 26,
+    "name": "Spaces Jardin",
+    "location": {
+      "city": "Paris",
+      "country": "France",
+      "address": "153 Bd Haussmann, 75008 Paris",
+      "coordinates": {
+        "lat": 48.8748,
+        "lng": 2.3131
+      }
+    },
+    "description": "Elegant coworking near Champs-Élysées with Parisian charm",
+    "amenities": [
+      "High-Speed WiFi",
+      "Coffee Bar",
+      "Meeting Rooms",
+      "24/7 Access",
+      "Terrace",
+      "Event Space"
+    ],
+    "pricing": {
+      "hourly": 19,
+      "daily": 380,
+      "monthly": 550,
+      "currency": "EUR"
+    },
+    "images": [
+      "https://spaces-wp.imgix.net/2021/01/5683_3-scaled.jpg?auto=compress,format&q=50",
+      "https://spaces-wp.imgix.net/2021/05/Booking-1.png?auto=compress,format&#038;q=50",
+      "https://spaces-wp.imgix.net/2021/05/CitizenM.png?auto=compress,format&#038;q=50",
+      "https://spaces-wp.imgix.net/2021/05/EY.png?auto=compress,format&#038;q=50",
+      "https://spaces-wp.imgix.net/2021/05/Paypal.png?auto=compress,format&#038;q=50",
+      "https://spaces-wp.imgix.net/2021/05/Uber.png?auto=compress,format&#038;q=50"
+    ],
+    "rating": 4.713451311697368,
+    "reviewCount": 133,
+    "digitalScore": 70,
+    "featured": false,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+33-1-5555-0300",
+      "email": "info@spacesjardin.com",
+      "website": "https://www.spacesworks.com"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 27,
+    "name": "B.Amsterdam West",
+    "location": {
+      "city": "Amsterdam",
+      "country": "Netherlands",
+      "address": "Hamerstraat 3, 1021 JD Amsterdam",
+      "coordinates": {
+        "lat": 52.3905,
+        "lng": 4.8751
+      }
+    },
+    "description": "Vibrant startup hub and coworking in creative Noord district",
+    "amenities": [
+      "High-Speed WiFi",
+      "Coffee Bar",
+      "Meeting Rooms",
+      "Event Space",
+      "Bike Storage",
+      "Rooftop",
+      "Kitchen"
+    ],
+    "pricing": {
+      "hourly": 15,
+      "daily": 290,
+      "monthly": 420,
+      "currency": "EUR"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1497366000000?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000001?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000002?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000003?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000004?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "rating": 4.7252122839969175,
+    "reviewCount": 69,
+    "digitalScore": 70,
+    "featured": true,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+31-20-5555-0100",
+      "email": "info@b.amsterdamwest.com",
+      "website": "https://www.b-amsterdam.nl"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 28,
+    "name": "Spaces Vijzelstraat",
+    "location": {
+      "city": "Amsterdam",
+      "country": "Netherlands",
+      "address": "Vijzelstraat 68-78, 1017 HL Amsterdam",
+      "coordinates": {
+        "lat": 52.3629,
+        "lng": 4.8927
+      }
+    },
+    "description": "Central coworking space in canal ring with classic Amsterdam views",
+    "amenities": [
+      "High-Speed WiFi",
+      "Coffee Bar",
+      "Meeting Rooms",
+      "Phone Booths",
+      "Event Space",
+      "Bike Storage"
+    ],
+    "pricing": {
+      "hourly": 17,
+      "daily": 340,
+      "monthly": 490,
+      "currency": "EUR"
+    },
+    "images": [
+      "https://spaces-wp.imgix.net/2021/01/5683_3-scaled.jpg?auto=compress,format&q=50",
+      "https://spaces-wp.imgix.net/2021/05/Booking-1.png?auto=compress,format&#038;q=50",
+      "https://spaces-wp.imgix.net/2021/05/CitizenM.png?auto=compress,format&#038;q=50",
+      "https://spaces-wp.imgix.net/2021/05/EY.png?auto=compress,format&#038;q=50",
+      "https://spaces-wp.imgix.net/2021/05/Paypal.png?auto=compress,format&#038;q=50",
+      "https://spaces-wp.imgix.net/2021/05/Uber.png?auto=compress,format&#038;q=50"
+    ],
+    "rating": 4.9188302895469835,
+    "reviewCount": 81,
+    "digitalScore": 70,
+    "featured": false,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+31-20-5555-0200",
+      "email": "info@spacesvijzelstraat.com",
+      "website": "https://www.spacesworks.com"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 29,
+    "name": "The Thinking Hut",
+    "location": {
+      "city": "Amsterdam",
+      "country": "Netherlands",
+      "address": "Keizersgracht 62-64, 1015 CS Amsterdam",
+      "coordinates": {
+        "lat": 52.3745,
+        "lng": 4.8871
+      }
+    },
+    "description": "Boutique coworking in historic canal house in Jordaan",
+    "amenities": [
+      "High-Speed WiFi",
+      "Meeting Rooms",
+      "Canal Views",
+      "Kitchen",
+      "Lounge Area"
+    ],
+    "pricing": {
+      "hourly": 16,
+      "daily": 310,
+      "monthly": 450,
+      "currency": "EUR"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1497366000000?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000001?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000002?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000003?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000004?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "rating": 4.49377880159206,
+    "reviewCount": 32,
+    "digitalScore": 70,
+    "featured": false,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+31-20-5555-0300",
+      "email": "info@thethinkinghut.com",
+      "website": "https://www.thinkinghut.com"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 30,
+    "name": "Astrolabs Dubai",
+    "location": {
+      "city": "Dubai",
+      "country": "UAE",
+      "address": "Dubai Internet City, Building 13",
+      "coordinates": {
+        "lat": 25.0932,
+        "lng": 55.1684
+      }
+    },
+    "description": "Tech-focused coworking supporting MENA startups and entrepreneurs",
+    "amenities": [
+      "High-Speed WiFi",
+      "Coffee Bar",
+      "Meeting Rooms",
+      "24/7 Access",
+      "Event Space",
+      "Podcast Studio"
+    ],
+    "pricing": {
+      "hourly": 20,
+      "daily": 400,
+      "monthly": 580,
+      "currency": "AED"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1497366000000?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000001?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000002?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000003?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000004?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "rating": 4.519704449470958,
+    "reviewCount": 202,
+    "digitalScore": 70,
+    "featured": true,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+971-4-555-0100",
+      "email": "info@astrolabsdubai.com",
+      "website": "https://www.astrolabs.com"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 31,
+    "name": "The Bureau",
+    "location": {
+      "city": "Dubai",
+      "country": "UAE",
+      "address": "Cluster I, JLT, Dubai",
+      "coordinates": {
+        "lat": 25.0711,
+        "lng": 55.1445
+      }
+    },
+    "description": "Modern coworking in Jumeirah Lakes Towers with community focus",
+    "amenities": [
+      "High-Speed WiFi",
+      "Coffee Bar",
+      "Meeting Rooms",
+      "Phone Booths",
+      "Event Space",
+      "Prayer Room"
+    ],
+    "pricing": {
+      "hourly": 19,
+      "daily": 380,
+      "monthly": 550,
+      "currency": "AED"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1497366000000?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000001?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000002?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000003?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000004?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "rating": 4.554742692565535,
+    "reviewCount": 53,
+    "digitalScore": 70,
+    "featured": false,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+971-4-555-0200",
+      "email": "info@thebureau.com",
+      "website": "https://www.thebureau.ae"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 32,
+    "name": "MAKE Business Hub",
+    "location": {
+      "city": "Dubai",
+      "country": "UAE",
+      "address": "Building 4, Dubai Design District",
+      "coordinates": {
+        "lat": 25.1918,
+        "lng": 55.2882
+      }
+    },
+    "description": "Creative coworking in Dubai Design District supporting creative businesses",
+    "amenities": [
+      "High-Speed WiFi",
+      "Meeting Rooms",
+      "Event Space",
+      "Workshop Space",
+      "Terrace",
+      "Printing Services"
+    ],
+    "pricing": {
+      "hourly": 21,
+      "daily": 420,
+      "monthly": 600,
+      "currency": "AED"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1497366000000?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000001?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000002?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000003?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000004?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "rating": 4.119310099572306,
+    "reviewCount": 127,
+    "digitalScore": 70,
+    "featured": false,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+971-4-555-0300",
+      "email": "info@makebusinesshub.com",
+      "website": "https://www.makebusinesshub.ae"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 33,
+    "name": "Fishburners Sydney",
+    "location": {
+      "city": "Sydney",
+      "country": "Australia",
+      "address": "11 York St, Sydney NSW 2000",
+      "coordinates": {
+        "lat": -33.8673,
+        "lng": 151.2068
+      }
+    },
+    "description": "Australia's largest startup community and coworking space in CBD",
+    "amenities": [
+      "High-Speed WiFi",
+      "Coffee Bar",
+      "Meeting Rooms",
+      "Event Space",
+      "Mentorship",
+      "Workshops"
+    ],
+    "pricing": {
+      "hourly": 19,
+      "daily": 380,
+      "monthly": 550,
+      "currency": "AUD"
+    },
+    "images": [
+      "https://framerusercontent.com/assets/HFIkb34iIJw8kASSbxy9efdZqQ.jpg",
+      "https://framerusercontent.com/images/lSbV4unid7TZKUZLyrFHpqIy2Y.png?width=106&amp;height=106",
+      "https://framerusercontent.com/images/7DhLLomxJfuOF8858cWUJCB5Mgg.jpg?width=311&amp;height=406",
+      "https://framerusercontent.com/images/x3fhGtVIw5Q3zHPnouX5pr01SLA.png?width=453&amp;height=405",
+      "https://framerusercontent.com/images/GDq4ohATj0zpWGqsLaydd8PVM.png?width=727&amp;height=727",
+      "https://framerusercontent.com/images/WDxg3EM2ZyqMPmVJypuiAuevxI.jpg?width=311&amp;height=406"
+    ],
+    "rating": 4.522510141410044,
+    "reviewCount": 73,
+    "digitalScore": 70,
+    "featured": true,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+61-2-5555-0100",
+      "email": "info@fishburnerssydney.com",
+      "website": "https://fishburners.org"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 34,
+    "name": "Tank Stream Labs",
+    "location": {
+      "city": "Sydney",
+      "country": "Australia",
+      "address": "12-14 O'Connell St, Sydney NSW 2000",
+      "coordinates": {
+        "lat": -33.8642,
+        "lng": 151.2103
+      }
+    },
+    "description": "Tech startup hub in heritage building in Sydney CBD",
+    "amenities": [
+      "High-Speed WiFi",
+      "Meeting Rooms",
+      "Event Space",
+      "Mentorship",
+      "Lounge Area"
+    ],
+    "pricing": {
+      "hourly": 18,
+      "daily": 360,
+      "monthly": 520,
+      "currency": "AUD"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1497366000000?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000001?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000002?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000003?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000004?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "rating": 4.560839814442492,
+    "reviewCount": 204,
+    "digitalScore": 70,
+    "featured": true,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+61-2-5555-0200",
+      "email": "info@tankstreamlabs.com",
+      "website": "https://tankstreamlabs.com"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 35,
+    "name": "Hub Australia",
+    "location": {
+      "city": "Sydney",
+      "country": "Australia",
+      "address": "50 York St, Sydney NSW 2000",
+      "coordinates": {
+        "lat": -33.8672,
+        "lng": 151.2063
+      }
+    },
+    "description": "Premium coworking with focus on sustainability and community",
+    "amenities": [
+      "High-Speed WiFi",
+      "Coffee Bar",
+      "Meeting Rooms",
+      "24/7 Access",
+      "Wellness Room",
+      "Event Space"
+    ],
+    "pricing": {
+      "hourly": 20,
+      "daily": 400,
+      "monthly": 580,
+      "currency": "AUD"
+    },
+    "images": [
+      "https://www.hubaustralia.com/wp-content/uploads/2025/03/Melbourne.jpg"
+    ],
+    "rating": 4.1235996970265765,
+    "reviewCount": 21,
+    "digitalScore": 70,
+    "featured": false,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+61-2-5555-0300",
+      "email": "info@hubaustralia.com",
+      "website": "https://www.hubaustralia.com"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 36,
+    "name": "MaRS Discovery District",
+    "location": {
+      "city": "Toronto",
+      "country": "Canada",
+      "address": "101 College St, Toronto, ON M5G 1L7",
+      "coordinates": {
+        "lat": 43.6596,
+        "lng": -79.3896
+      }
+    },
+    "description": "Canada's largest urban innovation hub supporting tech and science ventures",
+    "amenities": [
+      "High-Speed WiFi",
+      "Coffee Bar",
+      "Meeting Rooms",
+      "Event Space",
+      "Labs",
+      "Mentorship"
+    ],
+    "pricing": {
+      "hourly": 18,
+      "daily": 350,
+      "monthly": 500,
+      "currency": "CAD"
+    },
+    "images": [
+      "https://www.marsdd.com/wp-content/uploads/2019/04/Homepage-YOAST-2.png",
+      "https://marsdd-public-files.s3.ca-central-1.amazonaws.com/wp-content/uploads/2025/10/31092714/lithium.webp",
+      "https://marsdd-public-files.s3.ca-central-1.amazonaws.com/wp-content/uploads/2025/10/31092657/Vive-Crop.webp",
+      "https://marsdd-public-files.s3.ca-central-1.amazonaws.com/wp-content/uploads/2025/10/31092639/Tulip.webp",
+      "https://marsdd-public-files.s3.ca-central-1.amazonaws.com/wp-content/uploads/2025/10/31092742/Willful-min-1-scaled-1.webp",
+      "https://marsdd-public-files.s3.ca-central-1.amazonaws.com/wp-content/uploads/2025/10/31092802/Dispersa-min-scaled-1.webp"
+    ],
+    "rating": 4.692333415984367,
+    "reviewCount": 56,
+    "digitalScore": 70,
+    "featured": true,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+1-416-673-6557",
+      "email": "info@marsdiscoverydistrict.com",
+      "website": "https://www.marsdd.com"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 37,
+    "name": "WeWork Richmond Adelaide",
+    "location": {
+      "city": "Toronto",
+      "country": "Canada",
+      "address": "180 John St, Toronto, ON M5T 1X5",
+      "coordinates": {
+        "lat": 43.6491,
+        "lng": -79.3897
+      }
+    },
+    "description": "Modern coworking in Entertainment District with startup community",
+    "amenities": [
+      "High-Speed WiFi",
+      "Coffee Bar",
+      "Meeting Rooms",
+      "24/7 Access",
+      "Phone Booths",
+      "Event Space"
+    ],
+    "pricing": {
+      "hourly": 19,
+      "daily": 380,
+      "monthly": 550,
+      "currency": "CAD"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1497366000000?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000001?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000002?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000003?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000004?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "rating": 4.763455544173609,
+    "reviewCount": 15,
+    "digitalScore": 70,
+    "featured": false,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+1-416-555-0200",
+      "email": "info@weworkrichmondadelaide.com",
+      "website": "https://www.wework.com"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 38,
+    "name": "The Workplace One",
+    "location": {
+      "city": "Toronto",
+      "country": "Canada",
+      "address": "1 Yonge St, Toronto, ON M5E 1W7",
+      "coordinates": {
+        "lat": 43.6427,
+        "lng": -79.3768
+      }
+    },
+    "description": "Executive coworking with premium amenities at PATH entrance",
+    "amenities": [
+      "High-Speed WiFi",
+      "Coffee Bar",
+      "Meeting Rooms",
+      "Reception",
+      "Concierge",
+      "Lake Views"
+    ],
+    "pricing": {
+      "hourly": 21,
+      "daily": 420,
+      "monthly": 600,
+      "currency": "CAD"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1497366000000?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000001?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000002?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000003?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000004?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "rating": 4.95019545727436,
+    "reviewCount": 60,
+    "digitalScore": 70,
+    "featured": false,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+1-416-555-0300",
+      "email": "info@theworkplaceone.com",
+      "website": "https://www.workplaceone.com"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 39,
+    "name": "SUP46",
+    "location": {
+      "city": "Stockholm",
+      "country": "Sweden",
+      "address": "Regeringsgatan 65, 111 56 Stockholm",
+      "coordinates": {
+        "lat": 59.3364,
+        "lng": 18.0625
+      }
+    },
+    "description": "Sweden's leading tech startup hub in central Stockholm",
+    "amenities": [
+      "High-Speed WiFi",
+      "Coffee Bar",
+      "Meeting Rooms",
+      "Event Space",
+      "Mentorship",
+      "Workshops"
+    ],
+    "pricing": {
+      "hourly": 16,
+      "daily": 320,
+      "monthly": 460,
+      "currency": "SEK"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1497366000000?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000001?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000002?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000003?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000004?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "rating": 4.849625756306397,
+    "reviewCount": 79,
+    "digitalScore": 70,
+    "featured": true,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+46-8-5555-0100",
+      "email": "info@sup46.com",
+      "website": "https://www.sup46.com"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 40,
+    "name": "Impact Hub Stockholm",
+    "location": {
+      "city": "Stockholm",
+      "country": "Sweden",
+      "address": "Luntmakargatan 25, 111 37 Stockholm",
+      "coordinates": {
+        "lat": 59.3383,
+        "lng": 18.0639
+      }
+    },
+    "description": "Global network space supporting social entrepreneurs in Stockholm",
+    "amenities": [
+      "High-Speed WiFi",
+      "Meeting Rooms",
+      "Event Space",
+      "Community Kitchen",
+      "Sustainability Focus"
+    ],
+    "pricing": {
+      "hourly": 15,
+      "daily": 290,
+      "monthly": 420,
+      "currency": "SEK"
+    },
+    "images": [
+      "https://b2007359.smushcdn.com/2007359/wp-content/uploads/2024/06/62242519_2328412007220331_8154316198268370944_n.jpg?lossy=2&strip=1&webp=1",
+      "https://b2007359.smushcdn.com/2007359/wp-content/uploads/2024/06/20240606_DBR6164-scaled.jpg?lossy=2&strip=1&webp=1",
+      "https://b2007359.smushcdn.com/2007359/wp-content/uploads/2024/06/119217051_3388525847875603_8770603800140552842_n.jpg?lossy=2&strip=1&webp=1",
+      "https://b2007359.smushcdn.com/2007359/wp-content/uploads/2024/06/84334501_2817505221644338_6110197599740887040_n.jpg?lossy=2&strip=1&webp=1",
+      "https://b2007359.smushcdn.com/2007359/wp-content/uploads/2024/06/84499917_2815848571810003_7432058632163819520_n.jpg?lossy=2&strip=1&webp=1",
+      "https://b2007359.smushcdn.com/2007359/wp-content/uploads/2024/06/Captura-de-pantalla-2023-05-15-135152.jpg?lossy=2&strip=1&webp=1"
+    ],
+    "rating": 4.758373768424589,
+    "reviewCount": 78,
+    "digitalScore": 70,
+    "featured": true,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+46-8-5555-0200",
+      "email": "info@impacthubstockholm.com",
+      "website": "https://stockholm.impacthub.net"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 41,
+    "name": "United Spaces Kungsgatan",
+    "location": {
+      "city": "Stockholm",
+      "country": "Sweden",
+      "address": "Kungsgatan 36, 111 35 Stockholm",
+      "coordinates": {
+        "lat": 59.334,
+        "lng": 18.0617
+      }
+    },
+    "description": "Premium flexible workspace on Stockholm's main shopping street",
+    "amenities": [
+      "High-Speed WiFi",
+      "Coffee Bar",
+      "Meeting Rooms",
+      "24/7 Access",
+      "Event Space",
+      "Lounge Area"
+    ],
+    "pricing": {
+      "hourly": 17,
+      "daily": 340,
+      "monthly": 490,
+      "currency": "SEK"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1497366000000?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000001?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000002?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000003?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000004?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "rating": 4.655357145731951,
+    "reviewCount": 159,
+    "digitalScore": 70,
+    "featured": false,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+46-8-5555-0300",
+      "email": "info@unitedspaceskungsgatan.com",
+      "website": "https://unitedspaces.se"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 42,
+    "name": "WeWork Austin Domain",
+    "location": {
+      "city": "Austin",
+      "country": "USA",
+      "address": "11601 Domain Dr, Austin, TX 78758",
+      "coordinates": {
+        "lat": 30.4008,
+        "lng": -97.7209
+      }
+    },
+    "description": "Tech-focused coworking in Austin's Domain district with startup energy",
+    "amenities": [
+      "High-Speed WiFi",
+      "Coffee Bar",
+      "Meeting Rooms",
+      "24/7 Access",
+      "Event Space",
+      "Bike Storage",
+      "Podcast Studio"
+    ],
+    "pricing": {
+      "hourly": 21,
+      "daily": 420,
+      "monthly": 600,
+      "currency": "USD"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1497366000000?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000001?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000002?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000003?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000004?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "rating": 4.523630812109116,
+    "reviewCount": 11,
+    "digitalScore": 70,
+    "featured": true,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+1-512-555-0100",
+      "email": "info@weworkaustindomain.com",
+      "website": "https://www.wework.com"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 43,
+    "name": "Capital Factory",
+    "location": {
+      "city": "Austin",
+      "country": "USA",
+      "address": "701 Brazos St, Austin, TX 78701",
+      "coordinates": {
+        "lat": 30.2686,
+        "lng": -97.7431
+      }
+    },
+    "description": "Legendary Austin startup hub and accelerator with coworking",
+    "amenities": [
+      "High-Speed WiFi",
+      "Meeting Rooms",
+      "Event Space",
+      "Mentorship",
+      "Pitch Room",
+      "Rooftop"
+    ],
+    "pricing": {
+      "hourly": 19,
+      "daily": 380,
+      "monthly": 550,
+      "currency": "USD"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1497366000000?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000001?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000002?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000003?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000004?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "rating": 4.539866096346708,
+    "reviewCount": 208,
+    "digitalScore": 70,
+    "featured": true,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+1-512-555-0200",
+      "email": "info@capitalfactory.com",
+      "website": "https://www.capitalfactory.com"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 44,
+    "name": "Link Coworking",
+    "location": {
+      "city": "Austin",
+      "country": "USA",
+      "address": "601 W 26th St, Austin, TX 78705",
+      "coordinates": {
+        "lat": 30.2954,
+        "lng": -97.7489
+      }
+    },
+    "description": "Community-driven coworking near UT Austin campus",
+    "amenities": [
+      "High-Speed WiFi",
+      "Coffee Bar",
+      "Meeting Rooms",
+      "Outdoor Space",
+      "Community Events"
+    ],
+    "pricing": {
+      "hourly": 16,
+      "daily": 320,
+      "monthly": 480,
+      "currency": "USD"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1497366000000?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000001?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000002?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000003?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000004?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "rating": 4.791473358015238,
+    "reviewCount": 35,
+    "digitalScore": 60,
+    "featured": false,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+1-512-555-0300",
+      "email": "info@linkcoworking.com",
+      "website": "https://linkcoworking.com"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 45,
+    "name": "WeWork Miami Beach",
+    "location": {
+      "city": "Miami",
+      "country": "USA",
+      "address": "1 Lincoln Rd, Miami Beach, FL 33139",
+      "coordinates": {
+        "lat": 25.7907,
+        "lng": -80.13
+      }
+    },
+    "description": "Premium oceanside coworking on iconic Lincoln Road",
+    "amenities": [
+      "High-Speed WiFi",
+      "Coffee Bar",
+      "Meeting Rooms",
+      "24/7 Access",
+      "Ocean Views",
+      "Terrace"
+    ],
+    "pricing": {
+      "hourly": 24,
+      "daily": 480,
+      "monthly": 680,
+      "currency": "USD"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1497366000000?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000001?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000002?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000003?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000004?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "rating": 4.3936745592841895,
+    "reviewCount": 83,
+    "digitalScore": 60,
+    "featured": true,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+1-305-555-0100",
+      "email": "info@weworkmiamibeach.com",
+      "website": "https://www.wework.com"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 46,
+    "name": "The LAB Miami",
+    "location": {
+      "city": "Miami",
+      "country": "USA",
+      "address": "400 NW 26th St, Miami, FL 33127",
+      "coordinates": {
+        "lat": 25.8018,
+        "lng": -80.1987
+      }
+    },
+    "description": "Creative coworking in Wynwood Arts District",
+    "amenities": [
+      "High-Speed WiFi",
+      "Meeting Rooms",
+      "Art Gallery",
+      "Event Space",
+      "Rooftop",
+      "Bar"
+    ],
+    "pricing": {
+      "hourly": 18,
+      "daily": 360,
+      "monthly": 520,
+      "currency": "USD"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1497366000000?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000001?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000002?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000003?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000004?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "rating": 4.810298080193462,
+    "reviewCount": 27,
+    "digitalScore": 60,
+    "featured": true,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+1-305-555-0200",
+      "email": "info@thelabmiami.com",
+      "website": "https://thelabmiami.com"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 47,
+    "name": "Pipeline Brickell",
+    "location": {
+      "city": "Miami",
+      "country": "USA",
+      "address": "1101 Brickell Ave, Miami, FL 33131",
+      "coordinates": {
+        "lat": 25.7617,
+        "lng": -80.1918
+      }
+    },
+    "description": "Modern coworking in Miami's financial district",
+    "amenities": [
+      "High-Speed WiFi",
+      "Coffee Bar",
+      "Meeting Rooms",
+      "24/7 Access",
+      "Event Space"
+    ],
+    "pricing": {
+      "hourly": 21,
+      "daily": 420,
+      "monthly": 600,
+      "currency": "USD"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1497366000000?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000001?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000002?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000003?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000004?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "rating": 4.043232896581387,
+    "reviewCount": 141,
+    "digitalScore": 60,
+    "featured": false,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+1-305-555-0300",
+      "email": "info@pipelinebrickell.com",
+      "website": "https://www.pipelineworkspaces.com"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 48,
+    "name": "WeWork Chicago Fulton Market",
+    "location": {
+      "city": "Chicago",
+      "country": "USA",
+      "address": "220 N Green St, Chicago, IL 60607",
+      "coordinates": {
+        "lat": 41.8858,
+        "lng": -87.6489
+      }
+    },
+    "description": "Industrial-chic coworking in trendy Fulton Market",
+    "amenities": [
+      "High-Speed WiFi",
+      "Coffee Bar",
+      "Meeting Rooms",
+      "24/7 Access",
+      "Event Space",
+      "Bike Storage"
+    ],
+    "pricing": {
+      "hourly": 20,
+      "daily": 400,
+      "monthly": 580,
+      "currency": "USD"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1497366000000?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000001?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000002?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000003?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000004?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "rating": 4.989564582239591,
+    "reviewCount": 162,
+    "digitalScore": 60,
+    "featured": true,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+1-312-555-0100",
+      "email": "info@weworkchicagofultonmarket.com",
+      "website": "https://www.wework.com"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 49,
+    "name": "1871 Chicago",
+    "location": {
+      "city": "Chicago",
+      "country": "USA",
+      "address": "222 Merchandise Mart Plaza, Chicago, IL 60654",
+      "coordinates": {
+        "lat": 41.8882,
+        "lng": -87.6356
+      }
+    },
+    "description": "Chicago's premier tech hub and startup incubator",
+    "amenities": [
+      "High-Speed WiFi",
+      "Meeting Rooms",
+      "Event Space",
+      "Mentorship",
+      "Workshops",
+      "River Views"
+    ],
+    "pricing": {
+      "hourly": 19,
+      "daily": 380,
+      "monthly": 550,
+      "currency": "USD"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1497366000000?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000001?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000002?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000003?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000004?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "rating": 4.066299340769693,
+    "reviewCount": 10,
+    "digitalScore": 60,
+    "featured": true,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+1-312-555-0200",
+      "email": "info@1871chicago.com",
+      "website": "https://www.1871.com"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 50,
+    "name": "The Coop",
+    "location": {
+      "city": "Chicago",
+      "country": "USA",
+      "address": "~~5 W Monroe St, Chicago, IL 60603",
+      "coordinates": {
+        "lat": 41.8806,
+        "lng": -87.6287
+      }
+    },
+    "description": "Professional coworking in Chicago Loop with networking focus",
+    "amenities": [
+      "High-Speed WiFi",
+      "Meeting Rooms",
+      "Event Space",
+      "Lounge Area",
+      "Kitchen"
+    ],
+    "pricing": {
+      "hourly": 18,
+      "daily": 360,
+      "monthly": 520,
+      "currency": "USD"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1497366000000?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000001?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000002?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000003?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000004?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "rating": 4.753783680927017,
+    "reviewCount": 175,
+    "digitalScore": 70,
+    "featured": false,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+1-312-555-0300",
+      "email": "info@thecoop.com",
+      "website": "https://www.thecoopchicago.com"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 51,
+    "name": "WeWork Seattle South Lake Union",
+    "location": {
+      "city": "Seattle",
+      "country": "USA",
+      "address": "500 Yale Ave N, Seattle, WA 98109",
+      "coordinates": {
+        "lat": 47.6235,
+        "lng": -122.3301
+      }
+    },
+    "description": "Modern workspace in Seattle's tech hub near Amazon HQ",
+    "amenities": [
+      "High-Speed WiFi",
+      "Coffee Bar",
+      "Meeting Rooms",
+      "24/7 Access",
+      "Lake Views",
+      "Bike Storage"
+    ],
+    "pricing": {
+      "hourly": 23,
+      "daily": 450,
+      "monthly": 650,
+      "currency": "USD"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1497366000000?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000001?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000002?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000003?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000004?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "rating": 4.817333312033326,
+    "reviewCount": 184,
+    "digitalScore": 70,
+    "featured": true,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+1-206-555-0100",
+      "email": "info@weworkseattlesouthlakeunion.com",
+      "website": "https://www.wework.com"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 52,
+    "name": "Galvanize Seattle",
+    "location": {
+      "city": "Seattle",
+      "country": "USA",
+      "address": "44 Union St, Seattle, WA 98101",
+      "coordinates": {
+        "lat": 47.6088,
+        "lng": -122.3373
+      }
+    },
+    "description": "Tech education and coworking space in Pioneer Square",
+    "amenities": [
+      "High-Speed WiFi",
+      "Coffee Bar",
+      "Meeting Rooms",
+      "Event Space",
+      "Classrooms"
+    ],
+    "pricing": {
+      "hourly": 21,
+      "daily": 420,
+      "monthly": 600,
+      "currency": "USD"
+    },
+    "images": [
+      "https://www.galvanize.com/wp-content/uploads/2022/11/OpenGraph-Galvanize-HackReactor.jpg",
+      "https://i.ytimg.com/vi/ID/hqdefault.jpg"
+    ],
+    "rating": 4.544179858955182,
+    "reviewCount": 56,
+    "digitalScore": 70,
+    "featured": true,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+1-206-555-0200",
+      "email": "info@galvanizeseattle.com",
+      "website": "https://www.galvanize.com"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 53,
+    "name": "WeWork Boston Seaport",
+    "location": {
+      "city": "Boston",
+      "country": "USA",
+      "address": "50 Seaport Blvd, Boston, MA 02210",
+      "coordinates": {
+        "lat": 42.3527,
+        "lng": -71.0445
+      }
+    },
+    "description": "Waterfront coworking in Boston's Innovation District",
+    "amenities": [
+      "High-Speed WiFi",
+      "Coffee Bar",
+      "Meeting Rooms",
+      "24/7 Access",
+      "Harbor Views",
+      "Event Space"
+    ],
+    "pricing": {
+      "hourly": 23,
+      "daily": 460,
+      "monthly": 660,
+      "currency": "USD"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1497366000000?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000001?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000002?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000003?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000004?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "rating": 4.2909355136233955,
+    "reviewCount": 119,
+    "digitalScore": 70,
+    "featured": true,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+1-617-555-0100",
+      "email": "info@weworkbostonseaport.com",
+      "website": "https://www.wework.com"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 54,
+    "name": "CIC Boston",
+    "location": {
+      "city": "Boston",
+      "country": "USA",
+      "address": "50 Milk St, Boston, MA 02109",
+      "coordinates": {
+        "lat": 42.3577,
+        "lng": -71.0556
+      }
+    },
+    "description": "Largest coworking and innovation campus in Boston",
+    "amenities": [
+      "High-Speed WiFi",
+      "Meeting Rooms",
+      "Event Space",
+      "Labs",
+      "Cafeteria",
+      "Venture Services"
+    ],
+    "pricing": {
+      "hourly": 20,
+      "daily": 400,
+      "monthly": 580,
+      "currency": "USD"
+    },
+    "images": [
+      "https://cic.com/wp-content/uploads/2025/03/3.-4220-Coworking-edited-scaled.jpg",
+      "https://cic.com/wp-content/uploads/flags/American Flag.png",
+      "https://cic.com/wp-content/uploads/flags/Japan.png",
+      "https://cic.com/wp-content/uploads/flags/Poland.png",
+      "https://cic.com/wp-content/uploads/2025/03/BER_CIC_VC_Inauguration_20241010_5843_web.jpg",
+      "https://cic.com/wp-content/uploads/2023/07/Hubspot.png"
+    ],
+    "rating": 4.9338047696960485,
+    "reviewCount": 195,
+    "digitalScore": 60,
+    "featured": true,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+1-617-555-0200",
+      "email": "info@cicboston.com",
+      "website": "https://cic.com"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 55,
+    "name": "WeWork LA Arts District",
+    "location": {
+      "city": "Los Angeles",
+      "country": "USA",
+      "address": "800 E 3rd St, Los Angeles, CA 90013",
+      "coordinates": {
+        "lat": 34.0442,
+        "lng": -118.2348
+      }
+    },
+    "description": "Creative coworking in LA's vibrant Arts District",
+    "amenities": [
+      "High-Speed WiFi",
+      "Coffee Bar",
+      "Meeting Rooms",
+      "24/7 Access",
+      "Rooftop",
+      "Event Space"
+    ],
+    "pricing": {
+      "hourly": 22,
+      "daily": 440,
+      "monthly": 640,
+      "currency": "USD"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1497366000000?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000001?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000002?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000003?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000004?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "rating": 4.5120041974501754,
+    "reviewCount": 47,
+    "digitalScore": 60,
+    "featured": true,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+1-213-555-0100",
+      "email": "info@weworklaartsdistrict.com",
+      "website": "https://www.wework.com"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 56,
+    "name": "Cross Campus",
+    "location": {
+      "city": "Los Angeles",
+      "country": "USA",
+      "address": "820 Broadway, Santa Monica, CA 90401",
+      "coordinates": {
+        "lat": 34.0143,
+        "lng": -118.4965
+      }
+    },
+    "description": "Santa Monica coworking with beach vibes and tech community",
+    "amenities": [
+      "High-Speed WiFi",
+      "Coffee Bar",
+      "Meeting Rooms",
+      "Event Space",
+      "Outdoor Lounge"
+    ],
+    "pricing": {
+      "hourly": 21,
+      "daily": 420,
+      "monthly": 600,
+      "currency": "USD"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1497366000000?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000001?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000002?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000003?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000004?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "rating": 4.9690778648819895,
+    "reviewCount": 135,
+    "digitalScore": 70,
+    "featured": true,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+1-310-555-0200",
+      "email": "info@crosscampus.com",
+      "website": "https://www.crosscamp us.com"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 57,
+    "name": "The Yard Columbus Circle",
+    "location": {
+      "city": "New York",
+      "country": "USA",
+      "address": "157 Columbus Ave, New York, NY 10023",
+      "coordinates": {
+        "lat": 40.7742,
+        "lng": -73.9819
+      }
+    },
+    "description": "Boutique coworking near Central Park West",
+    "amenities": [
+      "High-Speed WiFi",
+      "Coffee Bar",
+      "Meeting Rooms",
+      "Wellness Room",
+      "Event Space"
+    ],
+    "pricing": {
+      "hourly": 23,
+      "daily": 460,
+      "monthly": 660,
+      "currency": "USD"
+    },
+    "images": [
+      "https://theyard.com/wp-content/uploads/2025/10/2-2-1-scaled-e1760976036144.jpg",
+      "https://theyard.com/wp-content/uploads/2025/10/image-23.jpg",
+      "https://theyard.com/wp-content/uploads/2025/10/image-21.jpg",
+      "https://theyard.com/wp-content/uploads/2025/10/image-22-1.jpg",
+      "https://theyard.com/wp-content/uploads/2025/10/3-2-scaled.jpg",
+      "https://theyard.com/wp-content/uploads/2025/10/b7c0ecf68eb2162d00256177a9a9b1760323fea0.png"
+    ],
+    "rating": 4.070896779474258,
+    "reviewCount": 56,
+    "digitalScore": 60,
+    "featured": false,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+1-212-555-0300",
+      "email": "info@theyardcolumbuscircle.com",
+      "website": "https://theyard.com"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 58,
+    "name": "Industrious Brooklyn",
+    "location": {
+      "city": "New York",
+      "country": "USA",
+      "address": "25 Kent Ave, Brooklyn, NY 11249",
+      "coordinates": {
+        "lat": 40.7205,
+        "lng": -73.9645
+      }
+    },
+    "description": "Premium coworking with waterfront views in Williamsburg",
+    "amenities": [
+      "High-Speed WiFi",
+      "Coffee Bar",
+      "Meeting Rooms",
+      "Reception",
+      "Phone Booths",
+      "Event Space"
+    ],
+    "pricing": {
+      "hourly": 24,
+      "daily": 480,
+      "monthly": 680,
+      "currency": "USD"
+    },
+    "images": [
+      "https://www-assets.industriousoffice.com/images/defaultOpenGraphImage.webp",
+      "https://www-assets.industriousoffice.com/images/solutions-pages/access.webp?width=2048&amp;quality=100&amp;format=webp",
+      "https://www-assets.industriousoffice.com/images/solutions-pages/dedicatedOffice.webp?width=2048&amp;quality=100&amp;format=webp",
+      "https://www-assets.industriousoffice.com/images/solutions-pages/meetingRoom.webp?width=2048&amp;quality=100&amp;format=webp",
+      "https://www-assets.industriousoffice.com/images/home/value-1.webp?width=2048&amp;quality=100&amp;format=webp",
+      "https://www-assets.industriousoffice.com/images/home/value-2.webp?width=2048&amp;quality=100&amp;format=webp"
+    ],
+    "rating": 4.300540971286193,
+    "reviewCount": 168,
+    "digitalScore": 70,
+    "featured": false,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+1-718-555-0400",
+      "email": "info@industriousbrooklyn.com",
+      "website": "https://www.industriousoffice.com"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 59,
+    "name": "Mindspace Hamburg",
+    "location": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "address": "Caffamacherreihe 5, 20355 Hamburg",
+      "coordinates": {
+        "lat": 53.5511,
+        "lng": 9.9937
+      }
+    },
+    "description": "Design-led coworking in Hamburg city center",
+    "amenities": [
+      "High-Speed WiFi",
+      "Coffee Bar",
+      "Meeting Rooms",
+      "Event Space",
+      "Wellness Room"
+    ],
+    "pricing": {
+      "hourly": 16,
+      "daily": 320,
+      "monthly": 460,
+      "currency": "EUR"
+    },
+    "images": [
+      "https://www.mindspace.me/wp-content/uploads/2025/11/image-2.png",
+      "https://www.mindspace.me/wp-content/uploads/2025/06/miami-2.png",
+      "https://www.mindspace.me/wp-content/uploads/2025/06/dc-1.png",
+      "https://www.mindspace.me/wp-content/uploads/2025/06/NY.jpg",
+      "https://www.mindspace.me/wp-content/uploads/2025/06/Warsaw.jpg",
+      "https://www.mindspace.me/wp-content/uploads/2025/06/London.png"
+    ],
+    "rating": 4.001951399710903,
+    "reviewCount": 84,
+    "digitalScore": 60,
+    "featured": true,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+49-40-5555-0100",
+      "email": "info@mindspacehamburg.com",
+      "website": "https://www.mindspace.me"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 60,
+    "name": "betahaus Hamburg",
+    "location": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "address": "Eifflerstraße 43, 22769 Hamburg",
+      "coordinates": {
+        "lat": 53.5566,
+        "lng": 9.9428
+      }
+    },
+    "description": "Creative coworking community in Altona",
+    "amenities": [
+      "High-Speed WiFi",
+      "Meeting Rooms",
+      "Workshop Space",
+      "Event Space",
+      "Kitchen"
+    ],
+    "pricing": {
+      "hourly": 14,
+      "daily": 280,
+      "monthly": 420,
+      "currency": "EUR"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1497366000000?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000001?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000002?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000003?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000004?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "rating": 4.4929965889835,
+    "reviewCount": 147,
+    "digitalScore": 60,
+    "featured": false,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+49-40-5555-0200",
+      "email": "info@betahaushamburg.com",
+      "website": "https://www.betahaus.com/hamburg"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 61,
+    "name": "Utopicus Madrid",
+    "location": {
+      "city": "Madrid",
+      "country": "Spain",
+      "address": "Calle de Alcalá 21, 28014 Madrid",
+      "coordinates": {
+        "lat": 40.4194,
+        "lng": -3.6996
+      }
+    },
+    "description": "Elegant coworking in historic Madrid building",
+    "amenities": [
+      "High-Speed WiFi",
+      "Coffee Bar",
+      "Meeting Rooms",
+      "24/7 Access",
+      "Event Space",
+      "Terrace"
+    ],
+    "pricing": {
+      "hourly": 17,
+      "daily": 340,
+      "monthly": 490,
+      "currency": "EUR"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1497366000000?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000001?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000002?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000003?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000004?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "rating": 4.95251597584861,
+    "reviewCount": 124,
+    "digitalScore": 60,
+    "featured": true,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+34-91-555-0100",
+      "email": "info@utopicusmadrid.com",
+      "website": "https://www.utopicus.es"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 62,
+    "name": "Impact Hub Madrid",
+    "location": {
+      "city": "Madrid",
+      "country": "Spain",
+      "address": "Calle de la Alameda 22, 28014 Madrid",
+      "coordinates": {
+        "lat": 40.4174,
+        "lng": -3.7018
+      }
+    },
+    "description": "Social impact coworking community in Huertas",
+    "amenities": [
+      "High-Speed WiFi",
+      "Meeting Rooms",
+      "Event Space",
+      "Community Kitchen",
+      "Sustainability Focus"
+    ],
+    "pricing": {
+      "hourly": 15,
+      "daily": 300,
+      "monthly": 440,
+      "currency": "EUR"
+    },
+    "images": [
+      "https://madrid.impacthub.net/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png",
+      "https://madrid.impacthub.net/wp-content/uploads/bb-plugin/cache/DSC07771-min-square-832ba013753d3a65b1d96418810e59fc-.webp",
+      "https://madrid.impacthub.net/wp-content/uploads/2025/10/20-aniversario-impact-hub-640.webp",
+      "https://madrid.impacthub.net/wp-content/uploads/2024/09/1-IHMadrid.-Alameda.jpg",
+      "https://madrid.impacthub.net/wp-content/uploads/2024/09/2-IHMadrid.-Piamonte.jpg",
+      "https://madrid.impacthub.net/wp-content/uploads/2024/09/3-IHMadrid.-Barcelo.png"
+    ],
+    "rating": 4.508260475224336,
+    "reviewCount": 186,
+    "digitalScore": 60,
+    "featured": true,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+34-91-555-0200",
+      "email": "info@impacthubmadrid.com",
+      "website": "https://madrid.impacthub.net"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 63,
+    "name": "Talent Garden Barcelona",
+    "location": {
+      "city": "Barcelona",
+      "country": "Spain",
+      "address": "Carrer de Pujades 102, 08005 Barcelona",
+      "coordinates": {
+        "lat": 41.3959,
+        "lng": 2.1923
+      }
+    },
+    "description": "Digital innovation campus and coworking in Poblenou",
+    "amenities": [
+      "High-Speed WiFi",
+      "Coffee Bar",
+      "Meeting Rooms",
+      "Event Space",
+      "Rooftop",
+      "Training"
+    ],
+    "pricing": {
+      "hourly": 17,
+      "daily": 330,
+      "monthly": 480,
+      "currency": "EUR"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1497366000000?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000001?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000002?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000003?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000004?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "rating": 4.888454975270911,
+    "reviewCount": 108,
+    "digitalScore": 70,
+    "featured": true,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+34-93-555-0100",
+      "email": "info@talentgardenbarcelona.com",
+      "website": "https://talentgarden.org"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 64,
+    "name": "MOB Barcelona",
+    "location": {
+      "city": "Barcelona",
+      "country": "Spain",
+      "address": "Carrer de Bailèn 11, 08010 Barcelona",
+      "coordinates": {
+        "lat": 41.3901,
+        "lng": 2.1705
+      }
+    },
+    "description": "Maker-focused coworking with FabLab in Eixample",
+    "amenities": [
+      "High-Speed WiFi",
+      "Meeting Rooms",
+      "FabLab",
+      "Workshop Space",
+      "3D Printers",
+      "Laser Cutters"
+    ],
+    "pricing": {
+      "hourly": 16,
+      "daily": 310,
+      "monthly": 450,
+      "currency": "EUR"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1497366000000?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000001?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000002?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000003?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000004?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "rating": 4.5756291219363945,
+    "reviewCount": 154,
+    "digitalScore": 60,
+    "featured": true,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+34-93-555-0200",
+      "email": "info@mobbarcelona.com",
+      "website": "https://www.mob-barcelona.com"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 65,
+    "name": "Spaces Barcelona",
+    "location": {
+      "city": "Barcelona",
+      "country": "Spain",
+      "address": "Gran Via de les Corts Catalanes 159, 08014 Barcelona",
+      "coordinates": {
+        "lat": 41.3784,
+        "lng": 2.1564
+      }
+    },
+    "description": "Modern coworking on Barcelona's main avenue",
+    "amenities": [
+      "High-Speed WiFi",
+      "Coffee Bar",
+      "Meeting Rooms",
+      "Event Space",
+      "Terrace"
+    ],
+    "pricing": {
+      "hourly": 18,
+      "daily": 350,
+      "monthly": 500,
+      "currency": "EUR"
+    },
+    "images": [
+      "https://spaces-wp.imgix.net/2021/01/5683_3-scaled.jpg?auto=compress,format&q=50",
+      "https://spaces-wp.imgix.net/2021/05/Booking-1.png?auto=compress,format&#038;q=50",
+      "https://spaces-wp.imgix.net/2021/05/CitizenM.png?auto=compress,format&#038;q=50",
+      "https://spaces-wp.imgix.net/2021/05/EY.png?auto=compress,format&#038;q=50",
+      "https://spaces-wp.imgix.net/2021/05/Paypal.png?auto=compress,format&#038;q=50",
+      "https://spaces-wp.imgix.net/2021/05/Uber.png?auto=compress,format&#038;q=50"
+    ],
+    "rating": 4.106710173712017,
+    "reviewCount": 202,
+    "digitalScore": 60,
+    "featured": false,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+34-93-555-0300",
+      "email": "info@spacesbarcelona.com",
+      "website": "https://www.spacesworks.com"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 66,
+    "name": "La Mutinerie",
+    "location": {
+      "city": "Paris",
+      "country": "France",
+      "address": "176 Rue Oberkampf, 75011 Paris",
+      "coordinates": {
+        "lat": 48.867,
+        "lng": 2.3822
+      }
+    },
+    "description": "Inclusive coworking space in vibrant Oberkampf",
+    "amenities": [
+      "High-Speed WiFi",
+      "Meeting Rooms",
+      "Event Space",
+      "Bar",
+      "Community Kitchen"
+    ],
+    "pricing": {
+      "hourly": 14,
+      "daily": 280,
+      "monthly": 420,
+      "currency": "EUR"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1497366000000?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000001?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000002?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000003?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000004?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "rating": 4.928875686316373,
+    "reviewCount": 147,
+    "digitalScore": 60,
+    "featured": false,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+33-1-5555-0400",
+      "email": "info@lamutinerie.com",
+      "website": "https://lamutinerie.eu"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 67,
+    "name": "Morning Coworking",
+    "location": {
+      "city": "Paris",
+      "country": "France",
+      "address": "11 Rue Réaumur, 75003 Paris",
+      "coordinates": {
+        "lat": 48.8643,
+        "lng": 2.3565
+      }
+    },
+    "description": "Premium coworking network with multiple Paris locations",
+    "amenities": [
+      "High-Speed WiFi",
+      "Coffee Bar",
+      "Meeting Rooms",
+      "Phone Booths",
+      "Event Space"
+    ],
+    "pricing": {
+      "hourly": 18,
+      "daily": 360,
+      "monthly": 520,
+      "currency": "EUR"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1497366000000?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000001?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000002?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000003?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000004?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "rating": 4.135411546046702,
+    "reviewCount": 105,
+    "digitalScore": 70,
+    "featured": false,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+33-1-5555-0500",
+      "email": "info@morningcoworking.com",
+      "website": "https://morning.fr"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 68,
+    "name": "Cohome",
+    "location": {
+      "city": "Copenhagen",
+      "country": "Denmark",
+      "address": "Folke Bernadottes Allé 7, 2100 Copenhagen",
+      "coordinates": {
+        "lat": 55.7023,
+        "lng": 12.5766
+      }
+    },
+    "description": "Danish design meets coworking in Østerbro",
+    "amenities": [
+      "High-Speed WiFi",
+      "Coffee Bar",
+      "Meeting Rooms",
+      "Event Space",
+      "Kitchen",
+      "Bike Parking"
+    ],
+    "pricing": {
+      "hourly": 19,
+      "daily": 380,
+      "monthly": 550,
+      "currency": "DKK"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1497366000000?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000001?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000002?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000003?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000004?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "rating": 4.509843212660633,
+    "reviewCount": 200,
+    "digitalScore": 60,
+    "featured": true,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+45-5555-0100",
+      "email": "info@cohome.com",
+      "website": "https://www.cohome.dk"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 69,
+    "name": "SOHO Copenhagen",
+    "location": {
+      "city": "Copenhagen",
+      "country": "Denmark",
+      "address": "Frederiksborggade 15, 1360 Copenhagen",
+      "coordinates": {
+        "lat": 55.6836,
+        "lng": 12.5717
+      }
+    },
+    "description": "Central coworking with Scandinavian minimalism",
+    "amenities": [
+      "High-Speed WiFi",
+      "Meeting Rooms",
+      "Lounge Area",
+      "Kitchen",
+      "Event Space"
+    ],
+    "pricing": {
+      "hourly": 18,
+      "daily": 360,
+      "monthly": 520,
+      "currency": "DKK"
+    },
+    "images": [
+      "https://sohocopenhagen.com/cdn/shop/files/Design_uden_navn_-_2025-07-31T142918.732.png?v=1753965148&amp;width=1500",
+      "https://sohocopenhagen.com/cdn/shop/files/Design_uden_navn_-_2025-07-31T143023.411.png?v=1753965149&amp;width=1500",
+      "https://sohocopenhagen.com/cdn/shop/files/Design_uden_navn_-_2025-07-31T143139.786.png?v=1753965149&amp;width=1500",
+      "https://sohocopenhagen.com/cdn/shop/files/RetroBlackShine1.jpg?v=1708071182&amp;width=5760",
+      "https://sohocopenhagen.com/cdn/shop/files/RetroBlackShine4.jpg?v=1722673056&amp;width=4490",
+      "https://sohocopenhagen.com/cdn/shop/files/RetroBlackshine2.jpg?v=1722673056&amp;width=5760"
+    ],
+    "rating": 4.916464878335404,
+    "reviewCount": 200,
+    "digitalScore": 60,
+    "featured": false,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+45-5555-0200",
+      "email": "info@sohocopenhagen.com",
+      "website": "https://sohocopenhagen.com"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 70,
+    "name": "WeWork Tel Aviv",
+    "location": {
+      "city": "Tel Aviv",
+      "country": "Israel",
+      "address": "1 Azrieli Center, Tel Aviv 6701101",
+      "coordinates": {
+        "lat": 32.0744,
+        "lng": 34.7925
+      }
+    },
+    "description": "Premium coworking in Tel Aviv's iconic Azrieli Towers",
+    "amenities": [
+      "High-Speed WiFi",
+      "Coffee Bar",
+      "Meeting Rooms",
+      "24/7 Access",
+      "Event Space",
+      "City Views"
+    ],
+    "pricing": {
+      "hourly": 20,
+      "daily": 400,
+      "monthly": 580,
+      "currency": "ILS"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1497366000000?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000001?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000002?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000003?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000004?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "rating": 4.466432503674078,
+    "reviewCount": 109,
+    "digitalScore": 70,
+    "featured": true,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+972-3-5555-0100",
+      "email": "info@weworktelaviv.com",
+      "website": "https://www.wework.com"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 71,
+    "name": "LABS Tel Aviv",
+    "location": {
+      "city": "Tel Aviv",
+      "country": "Israel",
+      "address": "28 Ben Avigdor St, Tel Aviv 6136902",
+      "coordinates": {
+        "lat": 32.0773,
+        "lng": 34.7744
+      }
+    },
+    "description": "Tech-focused coworking in heart of Tel Aviv startup scene",
+    "amenities": [
+      "High-Speed WiFi",
+      "Meeting Rooms",
+      "Event Space",
+      "Mentorship",
+      "Rooftop"
+    ],
+    "pricing": {
+      "hourly": 19,
+      "daily": 380,
+      "monthly": 550,
+      "currency": "ILS"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1497366000000?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000001?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000002?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000003?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000004?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "rating": 4.3614515460318835,
+    "reviewCount": 95,
+    "digitalScore": 70,
+    "featured": true,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+972-3-5555-0200",
+      "email": "info@labstelaviv.com",
+      "website": "https://www.labs.com"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 72,
+    "name": "WeWork Seoul Gangnam",
+    "location": {
+      "city": "Seoul",
+      "country": "South Korea",
+      "address": "152 Teheran-ro, Gangnam-gu, Seoul",
+      "coordinates": {
+        "lat": 37.5004,
+        "lng": 127.0358
+      }
+    },
+    "description": "Modern coworking in Seoul's tech and business district",
+    "amenities": [
+      "High-Speed WiFi",
+      "Coffee Bar",
+      "Meeting Rooms",
+      "24/7 Access",
+      "Phone Booths",
+      "Event Space"
+    ],
+    "pricing": {
+      "hourly": 21,
+      "daily": 420,
+      "monthly": 600,
+      "currency": "KRW"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1497366000000?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000001?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000002?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000003?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000004?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "rating": 4.545571176264157,
+    "reviewCount": 165,
+    "digitalScore": 70,
+    "featured": true,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+82-2-5555-0100",
+      "email": "info@weworkseoulgangnam.com",
+      "website": "https://www.wework.com"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 73,
+    "name": "Maru 180",
+    "location": {
+      "city": "Seoul",
+      "country": "South Korea",
+      "address": "180 Seongmisan-ro, Mapo-gu, Seoul",
+      "coordinates": {
+        "lat": 37.5665,
+        "lng": 126.9201
+      }
+    },
+    "description": "Community-driven coworking in creative Hongdae area",
+    "amenities": [
+      "High-Speed WiFi",
+      "Meeting Rooms",
+      "Event Space",
+      "Library",
+      "Cafe",
+      "Rooftop"
+    ],
+    "pricing": {
+      "hourly": 17,
+      "daily": 340,
+      "monthly": 490,
+      "currency": "KRW"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1497366000000?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000001?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000002?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000003?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000004?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "rating": 4.842094493741429,
+    "reviewCount": 109,
+    "digitalScore": 70,
+    "featured": true,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+82-2-5555-0200",
+      "email": "info@maru180.com",
+      "website": "https://www.maru180.com"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 74,
+    "name": "The Hive Hong Kong",
+    "location": {
+      "city": "Hong Kong",
+      "country": "Hong Kong",
+      "address": "33 Hysan Ave, Causeway Bay",
+      "coordinates": {
+        "lat": 22.2794,
+        "lng": 114.1837
+      }
+    },
+    "description": "Premium coworking in bustling Causeway Bay",
+    "amenities": [
+      "High-Speed WiFi",
+      "Coffee Bar",
+      "Meeting Rooms",
+      "24/7 Access",
+      "Event Space",
+      "Lounge Area"
+    ],
+    "pricing": {
+      "hourly": 23,
+      "daily": 450,
+      "monthly": 650,
+      "currency": "HKD"
+    },
+    "images": [
+      "https://thehivehk.wpenginepowered.com/wp-content/uploads/2025/02/50.png",
+      "https://thehivehk.wpenginepowered.com/wp-content/uploads/2018/10/network.jpg",
+      "https://thehivehk.wpenginepowered.com/wp-content/uploads/2023/09/Untitled-design-2023-09-21T125955.124.jpg",
+      "https://thehivehk.wpenginepowered.com/wp-content/uploads/2019/07/IMG_5138.jpg",
+      "https://thehivehk.wpenginepowered.com/wp-content/uploads/2018/11/wchotdesk-1.jpg",
+      "https://thehivehk.wpenginepowered.com/wp-content/uploads/2019/03/ktdd-1.jpg"
+    ],
+    "rating": 4.147931284194391,
+    "reviewCount": 104,
+    "digitalScore": 60,
+    "featured": true,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+852-5555-0100",
+      "email": "info@thehivehongkong.com",
+      "website": "https://thehive.com.hk"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 75,
+    "name": "Garage Society",
+    "location": {
+      "city": "Hong Kong",
+      "country": "Hong Kong",
+      "address": "Level 9, 8 Hart Avenue, Tsim Sha Tsui",
+      "coordinates": {
+        "lat": 22.2975,
+        "lng": 114.1718
+      }
+    },
+    "description": "Boutique coworking with harbor views in TST",
+    "amenities": [
+      "High-Speed WiFi",
+      "Coffee Bar",
+      "Meeting Rooms",
+      "Event Space",
+      "Harbor Views",
+      "Terrace"
+    ],
+    "pricing": {
+      "hourly": 21,
+      "daily": 420,
+      "monthly": 600,
+      "currency": "HKD"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1497366000000?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000001?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000002?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000003?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000004?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "rating": 4.057196179208955,
+    "reviewCount": 89,
+    "digitalScore": 60,
+    "featured": true,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+852-5555-0200",
+      "email": "info@garagesociety.com",
+      "website": "https://www.garagesociety.com"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 76,
+    "name": "91SpringBoard Bangalore",
+    "location": {
+      "city": "Bangalore",
+      "country": "India",
+      "address": "Creaticity Mall, Yemalur, Bangalore 560037",
+      "coordinates": {
+        "lat": 12.9346,
+        "lng": 77.6907
+      }
+    },
+    "description": "India's largest coworking network in tech capital",
+    "amenities": [
+      "High-Speed WiFi",
+      "Coffee Bar",
+      "Meeting Rooms",
+      "Event Space",
+      "Cafeteria",
+      "Gym"
+    ],
+    "pricing": {
+      "hourly": 14,
+      "daily": 280,
+      "monthly": 420,
+      "currency": "INR"
+    },
+    "images": [
+      "https://www.91springboard.com/wp-content/uploads/2025/11/07-1.jpg",
+      "https://www.91springboard.com/wp-content/themes/91springboard/assets-new/img/arrow1.png",
+      "https://www.91springboard.com/wp-content/uploads/2025/03/dlf-14b-banner3-2.jpg",
+      "https://www.91springboard.com/wp-content/uploads/2025/03/Copy-of-Building-image-2.webp",
+      "https://www.91springboard.com/wp-content/themes/91springboard/assets-new/img/be-part/community-perks-thumb.jpg",
+      "https://www.91springboard.com/wp-content/uploads/2025/10/1-1.jpg"
+    ],
+    "rating": 4.918476046830519,
+    "reviewCount": 29,
+    "digitalScore": 60,
+    "featured": true,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+91-80-5555-0100",
+      "email": "info@91springboardbangalore.com",
+      "website": "https://www.91springboard.com"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 77,
+    "name": "WeWork Bangalore",
+    "location": {
+      "city": "Bangalore",
+      "country": "India",
+      "address": "Salarpuria Symbiosis, Marathahalli, Bangalore",
+      "coordinates": {
+        "lat": 12.9592,
+        "lng": 77.6992
+      }
+    },
+    "description": "Global coworking brand in Bangalore's IT corridor",
+    "amenities": [
+      "High-Speed WiFi",
+      "Coffee Bar",
+      "Meeting Rooms",
+      "24/7 Access",
+      "Event Space",
+      "Game Room"
+    ],
+    "pricing": {
+      "hourly": 16,
+      "daily": 320,
+      "monthly": 460,
+      "currency": "INR"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1497366000000?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000001?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000002?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000003?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000004?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "rating": 4.984873659623955,
+    "reviewCount": 64,
+    "digitalScore": 60,
+    "featured": true,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+91-80-5555-0200",
+      "email": "info@weworkbangalore.com",
+      "website": "https://www.wework.com"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 78,
+    "name": "Cowrks Mumbai",
+    "location": {
+      "city": "Mumbai",
+      "country": "India",
+      "address": "Parel East, Mumbai 400012",
+      "coordinates": {
+        "lat": 19.0113,
+        "lng": 72.8417
+      }
+    },
+    "description": "Premium coworking in Mumbai's business district",
+    "amenities": [
+      "High-Speed WiFi",
+      "Coffee Bar",
+      "Meeting Rooms",
+      "Event Space",
+      "Wellness Room",
+      "Rooftop"
+    ],
+    "pricing": {
+      "hourly": 17,
+      "daily": 340,
+      "monthly": 490,
+      "currency": "INR"
+    },
+    "images": [
+      "https://cms.cowrksassets.com/cms/image/500x/51.jpg",
+      "https://cms.cowrksassets.com/cms/image/820x/workspace-solution.jpg",
+      "https://cms.cowrksassets.com/cms/image/820x/artfully-design.jpg",
+      "https://cms.cowrksassets.com/cms/image/820x/colaaborative-space.jpg",
+      "https://cms.cowrksassets.com/cms/image/820x/tech-integrate.jpg",
+      "https://cms.cowrksassets.com/cms/image/520x/Prospero_Cybercity_compressed.jpg"
+    ],
+    "rating": 4.200377290507025,
+    "reviewCount": 136,
+    "digitalScore": 60,
+    "featured": true,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+91-22-5555-0100",
+      "email": "info@cowrksmumbai.com",
+      "website": "https://www.cowrks.com"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 79,
+    "name": "WeWork Mexico City",
+    "location": {
+      "city": "Mexico City",
+      "country": "Mexico",
+      "address": "Montes Urales 424, Miguel Hidalgo, CDMX",
+      "coordinates": {
+        "lat": 19.427,
+        "lng": -99.2015
+      }
+    },
+    "description": "Modern coworking in upscale Polanco district",
+    "amenities": [
+      "High-Speed WiFi",
+      "Coffee Bar",
+      "Meeting Rooms",
+      "24/7 Access",
+      "Event Space",
+      "Terrace"
+    ],
+    "pricing": {
+      "hourly": 18,
+      "daily": 360,
+      "monthly": 520,
+      "currency": "MXN"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1497366000000?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000001?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000002?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000003?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000004?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "rating": 4.1120219894501036,
+    "reviewCount": 190,
+    "digitalScore": 60,
+    "featured": true,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+52-55-5555-0100",
+      "email": "info@weworkmexicocity.com",
+      "website": "https://www.wework.com"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 80,
+    "name": "Impact Hub CDMX",
+    "location": {
+      "city": "Mexico City",
+      "country": "Mexico",
+      "address": "Medellín 28, Roma Norte, CDMX",
+      "coordinates": {
+        "lat": 19.4136,
+        "lng": -99.168
+      }
+    },
+    "description": "Social impact coworking in trendy Roma Norte",
+    "amenities": [
+      "High-Speed WiFi",
+      "Meeting Rooms",
+      "Event Space",
+      "Community Garden",
+      "Kitchen"
+    ],
+    "pricing": {
+      "hourly": 15,
+      "daily": 300,
+      "monthly": 440,
+      "currency": "MXN"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1497366000000?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000001?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000002?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000003?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000004?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "rating": 4.631575269446957,
+    "reviewCount": 73,
+    "digitalScore": 60,
+    "featured": true,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+52-55-5555-0200",
+      "email": "info@impacthubcdmx.com",
+      "website": "https://hubcdmx.mx"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 81,
+    "name": "WeWork Sao Paulo",
+    "location": {
+      "city": "Sao Paulo",
+      "country": "Brazil",
+      "address": "Av Faria Lima 3064, Sao Paulo",
+      "coordinates": {
+        "lat": 23.5749,
+        "lng": -46.6901
+      }
+    },
+    "description": "Premium coworking on Sao Paulo's main business avenue",
+    "amenities": [
+      "High-Speed WiFi",
+      "Coffee Bar",
+      "Meeting Rooms",
+      "24/7 Access",
+      "Event Space",
+      "Lounge Area"
+    ],
+    "pricing": {
+      "hourly": 19,
+      "daily": 380,
+      "monthly": 550,
+      "currency": "BRL"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1497366000000?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000001?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000002?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000003?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000004?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "rating": 4.788155701489619,
+    "reviewCount": 53,
+    "digitalScore": 70,
+    "featured": true,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+55-11-5555-0100",
+      "email": "info@weworksaopaulo.com",
+      "website": "https://www.wework.com"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 82,
+    "name": "Spaces Faria Lima",
+    "location": {
+      "city": "Sao Paulo",
+      "country": "Brazil",
+      "address": "Av Brigadeiro Faria Lima 1485, Sao Paulo",
+      "coordinates": {
+        "lat": 23.5693,
+        "lng": -46.6922
+      }
+    },
+    "description": "Modern flexible workspace in Jardins",
+    "amenities": [
+      "High-Speed WiFi",
+      "Coffee Bar",
+      "Meeting Rooms",
+      "Event Space",
+      "Terrace"
+    ],
+    "pricing": {
+      "hourly": 18,
+      "daily": 360,
+      "monthly": 520,
+      "currency": "BRL"
+    },
+    "images": [
+      "https://spaces-wp.imgix.net/2021/01/5683_3-scaled.jpg?auto=compress,format&q=50",
+      "https://spaces-wp.imgix.net/2021/05/Booking-1.png?auto=compress,format&#038;q=50",
+      "https://spaces-wp.imgix.net/2021/05/CitizenM.png?auto=compress,format&#038;q=50",
+      "https://spaces-wp.imgix.net/2021/05/EY.png?auto=compress,format&#038;q=50",
+      "https://spaces-wp.imgix.net/2021/05/Paypal.png?auto=compress,format&#038;q=50",
+      "https://spaces-wp.imgix.net/2021/05/Uber.png?auto=compress,format&#038;q=50"
+    ],
+    "rating": 4.2092299183975985,
+    "reviewCount": 184,
+    "digitalScore": 60,
+    "featured": false,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+55-11-5555-0200",
+      "email": "info@spacesfarialima.com",
+      "website": "https://www.spacesworks.com"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 83,
+    "name": "WeWork Shanghai",
+    "location": {
+      "city": "Shanghai",
+      "country": "China",
+      "address": "1000 Huaihai Middle Rd, Shanghai",
+      "coordinates": {
+        "lat": 31.2165,
+        "lng": 121.4566
+      }
+    },
+    "description": "Global coworking in Shanghai's premier shopping district",
+    "amenities": [
+      "High-Speed WiFi",
+      "Coffee Bar",
+      "Meeting Rooms",
+      "24/7 Access",
+      "Event Space",
+      "City Views"
+    ],
+    "pricing": {
+      "hourly": 21,
+      "daily": 420,
+      "monthly": 600,
+      "currency": "CNY"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1497366000000?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000001?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000002?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000003?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000004?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "rating": 4.070440765935107,
+    "reviewCount": 153,
+    "digitalScore": 70,
+    "featured": true,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+86-21-5555-0100",
+      "email": "info@weworkshanghai.com",
+      "website": "https://www.wework.com"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 84,
+    "name": "Naked Hub Shanghai",
+    "location": {
+      "city": "Shanghai",
+      "country": "China",
+      "address": "188 Jiangning Rd, Shanghai",
+      "coordinates": {
+        "lat": 31.2429,
+        "lng": 121.4475
+      }
+    },
+    "description": "Design-forward coworking with multiple Shanghai locations",
+    "amenities": [
+      "High-Speed WiFi",
+      "Coffee Bar",
+      "Meeting Rooms",
+      "Wellness Room",
+      "Event Space",
+      "Art Gallery"
+    ],
+    "pricing": {
+      "hourly": 20,
+      "daily": 400,
+      "monthly": 580,
+      "currency": "CNY"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1497366000000?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000001?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000002?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000003?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000004?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "rating": 4.914365328846751,
+    "reviewCount": 76,
+    "digitalScore": 70,
+    "featured": true,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+86-21-5555-0200",
+      "email": "info@nakedhubshanghai.com",
+      "website": "https://www.nakedhub.com"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 85,
+    "name": "WeWork Beijing",
+    "location": {
+      "city": "Beijing",
+      "country": "China",
+      "address": "85 Jianguo Rd, Chaoyang District, Beijing",
+      "coordinates": {
+        "lat": 39.9075,
+        "lng": 116.4612
+      }
+    },
+    "description": "Premium coworking in Beijing's CBD",
+    "amenities": [
+      "High-Speed WiFi",
+      "Coffee Bar",
+      "Meeting Rooms",
+      "24/7 Access",
+      "Event Space",
+      "Lounge Area"
+    ],
+    "pricing": {
+      "hourly": 21,
+      "daily": 410,
+      "monthly": 590,
+      "currency": "CNY"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1497366000000?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000001?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000002?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000003?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000004?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "rating": 4.318062297158938,
+    "reviewCount": 158,
+    "digitalScore": 60,
+    "featured": true,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+86-10-5555-0100",
+      "email": "info@weworkbeijing.com",
+      "website": "https://www.wework.com"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 86,
+    "name": "Kr Space Beijing",
+    "location": {
+      "city": "Beijing",
+      "country": "China",
+      "address": "Dongdaqiao Rd, Chaoyang, Beijing",
+      "coordinates": {
+        "lat": 39.9142,
+        "lng": 116.4584
+      }
+    },
+    "description": "Tech startup coworking with VC connections",
+    "amenities": [
+      "High-Speed WiFi",
+      "Meeting Rooms",
+      "Event Space",
+      "Pitch Room",
+      "Mentorship"
+    ],
+    "pricing": {
+      "hourly": 19,
+      "daily": 380,
+      "monthly": 550,
+      "currency": "CNY"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1497366000000?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000001?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000002?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000003?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000004?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "rating": 4.862344885082175,
+    "reviewCount": 149,
+    "digitalScore": 60,
+    "featured": true,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+86-10-5555-0200",
+      "email": "info@krspacebeijing.com",
+      "website": "https://www.krspace.cn"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 87,
+    "name": "WeWork Manila",
+    "location": {
+      "city": "Manila",
+      "country": "Philippines",
+      "address": "The Infinity Tower, BGC, Metro Manila",
+      "coordinates": {
+        "lat": 14.5515,
+        "lng": 121.0499
+      }
+    },
+    "description": "Modern coworking in Bonifacio Global City",
+    "amenities": [
+      "High-Speed WiFi",
+      "Coffee Bar",
+      "Meeting Rooms",
+      "24/7 Access",
+      "Event Space"
+    ],
+    "pricing": {
+      "hourly": 16,
+      "daily": 320,
+      "monthly": 460,
+      "currency": "PHP"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1497366000000?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000001?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000002?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000003?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000004?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "rating": 4.306483403290762,
+    "reviewCount": 184,
+    "digitalScore": 60,
+    "featured": true,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+63-2-5555-0100",
+      "email": "info@weworkmanila.com",
+      "website": "https://www.wework.com"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 88,
+    "name": "ASPACE Manila",
+    "location": {
+      "city": "Manila",
+      "country": "Philippines",
+      "address": "Felcris Centrale, BGC, Metro Manila",
+      "coordinates": {
+        "lat": 14.5529,
+        "lng": 121.0485
+      }
+    },
+    "description": "Local coworking brand with Filipino hospitality",
+    "amenities": [
+      "High-Speed WiFi",
+      "Meeting Rooms",
+      "Event Space",
+      "Cafe",
+      "Lounge Area"
+    ],
+    "pricing": {
+      "hourly": 14,
+      "daily": 280,
+      "monthly": 420,
+      "currency": "PHP"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1497366000000?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000001?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000002?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000003?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000004?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "rating": 4.870278633793819,
+    "reviewCount": 98,
+    "digitalScore": 60,
+    "featured": false,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+63-2-5555-0200",
+      "email": "info@aspacemanila.com",
+      "website": "https://www.aspace.com.ph"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 89,
+    "name": "WeWork Bangkok",
+    "location": {
+      "city": "Bangkok",
+      "country": "Thailand",
+      "address": "87 Wireless Rd, Lumpini, Bangkok",
+      "coordinates": {
+        "lat": 13.7428,
+        "lng": 100.5481
+      }
+    },
+    "description": "Premium coworking in Bangkok's business district",
+    "amenities": [
+      "High-Speed WiFi",
+      "Coffee Bar",
+      "Meeting Rooms",
+      "24/7 Access",
+      "Event Space",
+      "Wellness Room"
+    ],
+    "pricing": {
+      "hourly": 18,
+      "daily": 350,
+      "monthly": 500,
+      "currency": "THB"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1497366000000?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000001?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000002?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000003?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000004?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "rating": 4.4121477335258845,
+    "reviewCount": 86,
+    "digitalScore": 60,
+    "featured": true,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+66-2-555-0100",
+      "email": "info@weworkbangkok.com",
+      "website": "https://www.wework.com"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 90,
+    "name": "Hubba Thailand",
+    "location": {
+      "city": "Bangkok",
+      "country": "Thailand",
+      "address": "Sukhumvit 71, Phra Khanong Nuea, Bangkok",
+      "coordinates": {
+        "lat": 13.7252,
+        "lng": 100.5901
+      }
+    },
+    "description": "Vibrant startup community and coworking in Thonglor",
+    "amenities": [
+      "High-Speed WiFi",
+      "Meeting Rooms",
+      "Event Space",
+      "Cafe",
+      "Outdoor Space"
+    ],
+    "pricing": {
+      "hourly": 15,
+      "daily": 300,
+      "monthly": 440,
+      "currency": "THB"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1497366000000?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000001?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000002?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000003?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000004?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "rating": 4.517838783297162,
+    "reviewCount": 62,
+    "digitalScore": 70,
+    "featured": true,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+66-2-555-0200",
+      "email": "info@hubbathailand.com",
+      "website": "https://hubbathailand.com"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 91,
+    "name": "Fishburners Brisbane",
+    "location": {
+      "city": "Brisbane",
+      "country": "Australia",
+      "address": "Level 2, 315 Brunswick St, Fortitude Valley",
+      "coordinates": {
+        "lat": 27.456,
+        "lng": 153.0334
+      }
+    },
+    "description": "Queensland's leading startup hub in Fortitude Valley",
+    "amenities": [
+      "High-Speed WiFi",
+      "Coffee Bar",
+      "Meeting Rooms",
+      "Event Space",
+      "Mentorship"
+    ],
+    "pricing": {
+      "hourly": 17,
+      "daily": 340,
+      "monthly": 490,
+      "currency": "AUD"
+    },
+    "images": [
+      "https://framerusercontent.com/assets/HFIkb34iIJw8kASSbxy9efdZqQ.jpg",
+      "https://framerusercontent.com/images/lSbV4unid7TZKUZLyrFHpqIy2Y.png?width=106&amp;height=106",
+      "https://framerusercontent.com/images/7DhLLomxJfuOF8858cWUJCB5Mgg.jpg?width=311&amp;height=406",
+      "https://framerusercontent.com/images/x3fhGtVIw5Q3zHPnouX5pr01SLA.png?width=453&amp;height=405",
+      "https://framerusercontent.com/images/GDq4ohATj0zpWGqsLaydd8PVM.png?width=727&amp;height=727",
+      "https://framerusercontent.com/images/WDxg3EM2ZyqMPmVJypuiAuevxI.jpg?width=311&amp;height=406"
+    ],
+    "rating": 4.076030830315178,
+    "reviewCount": 117,
+    "digitalScore": 70,
+    "featured": true,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+61-7-5555-0100",
+      "email": "info@fishburnersbrisbane.com",
+      "website": "https://fishburners.org"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 92,
+    "name": "WeWork Melbourne",
+    "location": {
+      "city": "Melbourne",
+      "country": "Australia",
+      "address": "699 Bourke St, Melbourne VIC 3000",
+      "coordinates": {
+        "lat": -37.8154,
+        "lng": 144.9572
+      }
+    },
+    "description": "Modern coworking in Melbourne's Docklands precinct",
+    "amenities": [
+      "High-Speed WiFi",
+      "Coffee Bar",
+      "Meeting Rooms",
+      "24/7 Access",
+      "Event Space",
+      "Harbor Views"
+    ],
+    "pricing": {
+      "hourly": 20,
+      "daily": 400,
+      "monthly": 580,
+      "currency": "AUD"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1497366000000?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000001?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000002?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000003?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000004?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "rating": 4.371805879017973,
+    "reviewCount": 35,
+    "digitalScore": 60,
+    "featured": true,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+61-3-5555-0100",
+      "email": "info@weworkmelbourne.com",
+      "website": "https://www.wework.com"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 93,
+    "name": "WeWork Montreal",
+    "location": {
+      "city": "Montreal",
+      "country": "Canada",
+      "address": "1 Westmount Square, Montreal, QC H3Z 2P9",
+      "coordinates": {
+        "lat": 45.4887,
+        "lng": -73.5943
+      }
+    },
+    "description": "Bilingual coworking community in Westmount Square",
+    "amenities": [
+      "High-Speed WiFi",
+      "Coffee Bar",
+      "Meeting Rooms",
+      "Event Space",
+      "Lounge Area"
+    ],
+    "pricing": {
+      "hourly": 18,
+      "daily": 360,
+      "monthly": 520,
+      "currency": "CAD"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1497366000000?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000001?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000002?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000003?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000004?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "rating": 4.82834096784369,
+    "reviewCount": 96,
+    "digitalScore": 60,
+    "featured": false,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+1-514-555-0100",
+      "email": "info@weworkmontreal.com",
+      "website": "https://www.wework.com"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 94,
+    "name": "Crew Collective",
+    "location": {
+      "city": "Montreal",
+      "country": "Canada",
+      "address": "360 Saint-Jacques St, Montreal, QC H2Y 1P5",
+      "coordinates": {
+        "lat": 45.5011,
+        "lng": -73.5567
+      }
+    },
+    "description": "Stunning coworking in historic bank building",
+    "amenities": [
+      "High-Speed WiFi",
+      "Cafe",
+      "Meeting Rooms",
+      "Event Space",
+      "Historic Architecture"
+    ],
+    "pricing": {
+      "hourly": 19,
+      "daily": 380,
+      "monthly": 550,
+      "currency": "CAD"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1497366000000?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000001?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000002?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000003?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000004?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "rating": 4.783354693812165,
+    "reviewCount": 53,
+    "digitalScore": 60,
+    "featured": true,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+1-514-555-0200",
+      "email": "info@crewcollective.com",
+      "website": "https://www.crewcollective.com"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 95,
+    "name": "WeWork Vancouver",
+    "location": {
+      "city": "Vancouver",
+      "country": "Canada",
+      "address": "505 Burrard St, Vancouver, BC V7X 1M3",
+      "coordinates": {
+        "lat": 49.2829,
+        "lng": -123.1188
+      }
+    },
+    "description": "Downtown coworking with mountain and ocean views",
+    "amenities": [
+      "High-Speed WiFi",
+      "Coffee Bar",
+      "Meeting Rooms",
+      "24/7 Access",
+      "Mountain Views",
+      "Event Space"
+    ],
+    "pricing": {
+      "hourly": 21,
+      "daily": 420,
+      "monthly": 600,
+      "currency": "CAD"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1497366000000?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000001?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000002?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000003?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000004?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "rating": 4.7018754838008245,
+    "reviewCount": 10,
+    "digitalScore": 60,
+    "featured": true,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+1-604-555-0100",
+      "email": "info@weworkvancouver.com",
+      "website": "https://www.wework.com"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  },
+  {
+    "id": 96,
+    "name": "The Network Hub",
+    "location": {
+      "city": "Vancouver",
+      "country": "Canada",
+      "address": "128 W Hastings St, Vancouver, BC V6B 1G8",
+      "coordinates": {
+        "lat": 49.2826,
+        "lng": -123.1089
+      }
+    },
+    "description": "Community-focused coworking in Gastown",
+    "amenities": [
+      "High-Speed WiFi",
+      "Meeting Rooms",
+      "Event Space",
+      "Lounge Area",
+      "Kitchen"
+    ],
+    "pricing": {
+      "hourly": 18,
+      "daily": 360,
+      "monthly": 520,
+      "currency": "CAD"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1497366000000?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000001?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000002?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000003?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497366000004?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "rating": 4.027714813493482,
+    "reviewCount": 61,
+    "digitalScore": 60,
+    "featured": false,
+    "verified": true,
+    "openingHours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "phone": "+1-604-555-0200",
+      "email": "info@thenetworkhub.com",
+      "website": "https://www.thenetworkhub.ca"
+    },
+    "socialMedia": {
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  }
+]

@@ -5,6 +5,7 @@ import { Badge } from "@/components/ui/badge"
 import { Card, CardContent, CardFooter } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import DigitalScoreWidget from "@/components/digital-score-widget"
+import { getWorkspaceImageSrc, RESPONSIVE_SIZES, IMAGE_QUALITY } from "@/lib/image-utils"
 
 // Mock data for featured spaces
 const featuredSpaces = [
@@ -47,24 +48,27 @@ export default function FeaturedSpaces() {
   return (
     <>
       {featuredSpaces.map((space) => (
-        <Card key={space.id} className="overflow-hidden border-2 border-[#1f1f1f] shadow-[5px_5px_0px_0px_rgba(31,31,31,1)]">
+        <Card key={space.id} className="overflow-hidden card-brutalist">
           <div className="relative">
-            <div className="absolute -inset-1 border-2 border-dashed border-[#f9cb16] rounded-lg -rotate-1 z-10"></div>
+            <div className="absolute -inset-1 border-2 border-dashed border-yellow rounded-lg -rotate-1 z-10"></div>
             <Image
-              src={space.image || "/placeholder.svg"}
-              alt={space.name}
+              src={getWorkspaceImageSrc(space.image)}
+              alt={`${space.name} workspace`}
               width={500}
               height={300}
+              quality={IMAGE_QUALITY.high}
+              sizes={RESPONSIVE_SIZES.workspace_card}
               className="h-48 w-full object-cover relative z-20"
+              priority
             />
             {space.featured && (
-              <Badge className="absolute left-2 top-2 z-30 bg-[#f9cb16] text-black hover:bg-[#f9cb16]">
+              <Badge className="absolute left-2 top-2 z-30 bg-yellow text-black hover:bg-yellow">
                 Featured
               </Badge>
             )}
             {space.verified && (
               <Badge className="absolute right-2 top-2 z-30 bg-white text-[#1f1f1f] hover:bg-white/80 border-2 border-[#1f1f1f]">
-                <Star className="mr-1 h-3 w-3 fill-[#f9cb16] text-[#f9cb16]" /> Verified
+                <Star className="mr-1 h-3 w-3 fill-yellow text-yellow" /> Verified
               </Badge>
             )}
           </div>
@@ -97,7 +101,7 @@ export default function FeaturedSpaces() {
           <CardFooter className="p-4 pt-0">
             <Link href={`/spaces/${space.id}`} className="w-full">
               <Button
-                className="w-full bg-[#1f1f1f] text-white hover:bg-[#1f1f1f]/90 hover:text-[#f9cb16] shadow-[3px_3px_0px_0px_rgba(249,203,22,1)] transition-all hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-none"
+                className="w-full bg-black text-white hover:bg-black/90 hover:text-yellow shadow-brutalist-yellow transition-all hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-none"
                 variant="outline"
               >
                 View Space

@@ -6,6 +6,7 @@ import { Card, CardContent, CardFooter } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import DigitalScoreWidget from "@/components/digital-score-widget"
 import { getWorkspace, WorkspaceData } from "@/lib/mock-data"
+import { getWorkspaceImageSrc, RESPONSIVE_SIZES, IMAGE_QUALITY } from "@/lib/image-utils"
 
 interface SpaceCardProps {
   id: number
@@ -20,10 +21,12 @@ export default function SpaceCard({ id, workspace }: SpaceCardProps) {
     <Card className="overflow-hidden border-2 border-black shadow-[5px_5px_0px_0px_rgba(0,0,0,1)] transition-all hover:-translate-y-1">
       <div className="relative">
         <Image
-          src={space.images[0]}
-          alt={space.name}
+          src={getWorkspaceImageSrc(space.images[0])}
+          alt={`${space.name} workspace`}
           width={500}
           height={300}
+          quality={IMAGE_QUALITY.high}
+          sizes={RESPONSIVE_SIZES.workspace_card}
           className="h-48 w-full object-cover"
         />
         {space.featured && (

@@ -20,7 +20,7 @@ const config = {
     extend: {
       colors: {
         black: "#1f1f1f", // Universal black tone for the entire site
-        yellow: "#facc14", // Universal yellow tone for the entire site
+        yellow: "#f9cb16", // Universal yellow tone for the entire site
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -61,7 +61,7 @@ const config = {
         sm: "calc(var(--radius) - 4px)",
       },
       fontFamily: {
-        sans: ["var(--font-sans)"],
+        sans: ["-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Helvetica Neue", "Arial", "sans-serif"],
         cal: ["var(--font-cal)"],
       },
       keyframes: {

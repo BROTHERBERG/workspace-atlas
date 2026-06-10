@@ -11,8 +11,9 @@ import { ArrowLeft, Building, ImageIcon, MapPin, Save, Star, Trash2 } from "luci
 import Link from "next/link"
 import Image from "next/image"
 
-export default function EditSpacePage({ params }: { params: { id: string } }) {
-  const isNew = params.id === "new"
+export default async function EditSpacePage({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params
+  const isNew = id === "new"
   const title = isNew ? "Add New Space" : "Edit Space"
 
   // Mock data for existing space (would be fetched from API in real app)
@@ -25,7 +26,7 @@ export default function EditSpacePage({ params }: { params: { id: string } }) {
         website: "",
         phone: "",
         email: "",
-        amenities: [],
+        amenities: [] as string[],
         featured: false,
         verified: false,
         status: "draft",
@@ -33,8 +34,8 @@ export default function EditSpacePage({ params }: { params: { id: string } }) {
         images: [],
       }
     : {
-        id: Number.parseInt(params.id),
-        name: `Workspace ${params.id}`,
+        id: Number.parseInt(id),
+        name: `Workspace ${id}`,
         description: "A premium coworking environment designed for productivity and collaboration.",
         location: "New York, USA",
         address: "123 Workspace Street, New York, NY 10001",
@@ -42,14 +43,14 @@ export default function EditSpacePage({ params }: { params: { id: string } }) {
         phone: "+1 (234) 567-890",
         email: "info@workspace.com",
         amenities: ["High-Speed Wifi", "Coffee Bar", "24/7 Access", "Meeting Rooms"],
-        featured: Number.parseInt(params.id) % 5 === 0,
-        verified: Number.parseInt(params.id) % 3 === 0 || Number.parseInt(params.id) % 7 === 0,
-        status: ["active", "pending", "draft"][Number.parseInt(params.id) % 3],
+        featured: Number.parseInt(id) % 5 === 0,
+        verified: Number.parseInt(id) % 3 === 0 || Number.parseInt(id) % 7 === 0,
+        status: ["active", "pending", "draft"][Number.parseInt(id) % 3],
         digitalScore: Math.floor(70 + Math.random() * 25),
         images: [
-          `/placeholder.svg?height=600&width=1000&query=modern coworking space interior ${params.id}`,
-          `/placeholder.svg?height=300&width=500&query=coworking meeting room ${params.id}`,
-          `/placeholder.svg?height=300&width=500&query=coworking lounge area ${params.id}`,
+          `/placeholder.svg?height=600&width=1000&query=modern coworking space interior ${id}`,
+          `/placeholder.svg?height=300&width=500&query=coworking meeting room ${id}`,
+          `/placeholder.svg?height=300&width=500&query=coworking lounge area ${id}`,
         ],
       }
 
@@ -68,7 +69,7 @@ export default function EditSpacePage({ params }: { params: { id: string } }) {
           <Button variant="outline" className="border-2 border-black">
             Preview
           </Button>
-          <Button className="bg-black text-white border-2 border-black shadow-[3px_3px_0px_0px_rgba(250,204,21,1)] hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-none">
+          <Button className="bg-black text-white border-2 border-black shadow-brutalist-yellow hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-none">
             <Save className="mr-2 h-4 w-4" /> Save Space
           </Button>
         </div>
@@ -104,7 +105,7 @@ export default function EditSpacePage({ params }: { params: { id: string } }) {
 
         <TabsContent value="details" className="pt-6">
           <div className="grid gap-6 md:grid-cols-2">
-            <Card className="border-2 border-black shadow-[5px_5px_0px_0px_rgba(0,0,0,1)]">
+            <Card className="border-2 border-black shadow-brutalist">
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
                   <Building className="h-5 w-5" /> Basic Information
@@ -160,7 +161,7 @@ export default function EditSpacePage({ params }: { params: { id: string } }) {
               </CardContent>
             </Card>
 
-            <Card className="border-2 border-black shadow-[5px_5px_0px_0px_rgba(0,0,0,1)]">
+            <Card className="border-2 border-black shadow-brutalist">
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
                   <MapPin className="h-5 w-5" /> Location & Contact
@@ -195,7 +196,7 @@ export default function EditSpacePage({ params }: { params: { id: string } }) {
         </TabsContent>
 
         <TabsContent value="images" className="pt-6">
-          <Card className="border-2 border-black shadow-[5px_5px_0px_0px_rgba(0,0,0,1)]">
+          <Card className="border-2 border-black shadow-brutalist">
             <CardHeader>
               <CardTitle className="flex items-center gap-2">
                 <ImageIcon className="h-5 w-5" /> Space Images
@@ -242,7 +243,7 @@ export default function EditSpacePage({ params }: { params: { id: string } }) {
                       </Button>
                     </div>
                     {index === 0 && (
-                      <Badge className="absolute top-2 left-2 bg-[#facc14] text-black">Main Image</Badge>
+                      <Badge className="absolute top-2 left-2 bg-yellow text-black">Main Image</Badge>
                     )}
                   </div>
                 ))}
@@ -252,7 +253,7 @@ export default function EditSpacePage({ params }: { params: { id: string } }) {
         </TabsContent>
 
         <TabsContent value="amenities" className="pt-6">
-          <Card className="border-2 border-black shadow-[5px_5px_0px_0px_rgba(0,0,0,1)]">
+          <Card className="border-2 border-black shadow-brutalist">
             <CardHeader>
               <CardTitle className="flex items-center gap-2">
                 <Star className="h-5 w-5" /> Amenities & Features
@@ -296,7 +297,7 @@ export default function EditSpacePage({ params }: { params: { id: string } }) {
         </TabsContent>
 
         <TabsContent value="pricing" className="pt-6">
-          <Card className="border-2 border-black shadow-[5px_5px_0px_0px_rgba(0,0,0,1)]">
+          <Card className="border-2 border-black shadow-brutalist">
             <CardHeader>
               <CardTitle className="flex items-center gap-2">
                 <Star className="h-5 w-5" /> Pricing Options
@@ -354,7 +355,7 @@ export default function EditSpacePage({ params }: { params: { id: string } }) {
               <Button variant="outline" className="border-2 border-black">
                 Cancel
               </Button>
-              <Button className="bg-black text-white border-2 border-black shadow-[3px_3px_0px_0px_rgba(250,204,21,1)] hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-none">
+              <Button className="bg-black text-white border-2 border-black shadow-brutalist-yellow hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-none">
                 <Save className="mr-2 h-4 w-4" /> Save Pricing
               </Button>
             </CardFooter>

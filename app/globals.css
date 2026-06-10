@@ -26,6 +26,13 @@
     --radius: 0.5rem;
     --soft-black: #1f1f1f; /* Universal black tone */
     --universal-yellow: #f9cb16; /* Universal yellow tone */
+    
+    /* Shadow patterns for consistent brutalist design */
+    --shadow-brutalist-black: 5px 5px 0px 0px rgba(0, 0, 0, 1);
+    --shadow-brutalist-yellow: 3px 3px 0px 0px rgba(249, 203, 22, 1);
+    --shadow-brutalist-yellow-large: 5px 5px 0px 0px rgba(249, 203, 22, 1);
+    --shadow-brutalist-soft: 8px 8px 0px 0px rgba(0, 0, 0, 1);
+    --shadow-brutalist-yellow-soft: 8px 8px 0px 0px rgba(249, 203, 22, 1);
   }
 
   .dark {
@@ -57,6 +64,7 @@
   }
   body {
     @apply bg-background text-foreground;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, var(--font-sans);
   }
   h1,
   h2,
@@ -178,4 +186,64 @@ header button.yellow-hover:hover {
 .atlas-map:hover {
   transform: translateY(-5px);
   filter: drop-shadow(8px 8px 0 rgba(31, 31, 31, 0.3));
+}
+
+/* Animated border input effect */
+.input-animated-border {
+  position: relative;
+  border: 2px solid transparent;
+  box-shadow:
+    0 3px 0 0 #f9cb16,
+    3px 0 0 0 #f9cb16;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.input-animated-border:focus,
+.input-animated-border:focus-visible {
+  outline: none;
+  box-shadow:
+    0 3px 0 0 #f9cb16,
+    3px 0 0 0 #f9cb16,
+    0 -3px 0 0 #f9cb16,
+    -3px 0 0 0 #f9cb16;
+  border: 2px solid transparent;
+}
+
+/* Brutalist shadow utility classes */
+.shadow-brutalist {
+  box-shadow: var(--shadow-brutalist-black);
+}
+
+.shadow-brutalist-yellow {
+  box-shadow: var(--shadow-brutalist-yellow);
+}
+
+.shadow-brutalist-yellow-large {
+  box-shadow: var(--shadow-brutalist-yellow-large);
+}
+
+.shadow-brutalist-soft {
+  box-shadow: var(--shadow-brutalist-soft);  
+}
+
+.shadow-brutalist-yellow-soft {
+  box-shadow: var(--shadow-brutalist-yellow-soft);
+}
+
+/* Brutalist card styles */
+.card-brutalist {
+  @apply border-2 border-black shadow-brutalist;
+}
+
+.card-brutalist-yellow {
+  @apply border-2 border-black shadow-brutalist-yellow;
+}
+
+/* Brutalist button base styles */
+.btn-brutalist {
+  @apply border-2 border-black shadow-brutalist transition-all hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-none;
+}
+
+.btn-brutalist-yellow {
+  @apply border-2 border-black shadow-brutalist-yellow transition-all hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-none;
 }

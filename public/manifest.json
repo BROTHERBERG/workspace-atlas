@@ -1,0 +1,119 @@
+{
+  "name": "Workspace Atlas",
+  "short_name": "Workspace Atlas",
+  "description": "Global coworking directory that scores spaces, helps improve their digital presence, and connects them with talent",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1f1f1f",
+  "theme_color": "#f9cb16",
+  "orientation": "portrait-primary",
+  "categories": ["productivity", "business"],
+  "lang": "en-US",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/icons/icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icons/icon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icons/icon-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icons/icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icons/icon-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icons/icon-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Find Spaces",
+      "short_name": "Directory",
+      "description": "Browse coworking spaces",
+      "url": "/directory",
+      "icons": [
+        {
+          "src": "/icons/shortcut-search.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Score My Space",
+      "short_name": "Score",
+      "description": "Get your space scored",
+      "url": "/score-my-space",
+      "icons": [
+        {
+          "src": "/icons/shortcut-score.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Recruitment",
+      "short_name": "Talent",
+      "description": "Find talent for your space",
+      "url": "/recruitment",
+      "icons": [
+        {
+          "src": "/icons/shortcut-talent.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "screenshots": [
+    {
+      "src": "/screenshots/desktop.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Workspace Atlas Desktop View"
+    },
+    {
+      "src": "/screenshots/mobile.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Workspace Atlas Mobile View"
+    }
+  ]
+}

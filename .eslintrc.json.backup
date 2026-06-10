@@ -1,0 +1,106 @@
+{
+  "extends": [
+    "next/core-web-vitals",
+    "@typescript-eslint/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"],
+  "rules": {
+    "react/no-unescaped-entities": "off",
+    
+    // TypeScript specific rules
+    "@typescript-eslint/no-unused-vars": ["error", { "argsIgnorePattern": "^_" }],
+    "@typescript-eslint/no-explicit-any": "error",
+    "@typescript-eslint/prefer-const": "error",
+    "@typescript-eslint/no-inferrable-types": "error",
+    
+    // Code quality rules
+    "prefer-const": "error",
+    "no-var": "error",
+    "no-console": "warn",
+    "no-debugger": "error",
+    "no-alert": "error",
+    "no-eval": "error",
+    
+    // React specific rules
+    "react-hooks/exhaustive-deps": "error",
+    "react/jsx-key": "error",
+    "react/jsx-no-duplicate-props": "error",
+    "react/jsx-no-undef": "error",
+    "react/no-direct-mutation-state": "error",
+    "react/no-unknown-property": "error",
+    
+    // Import rules
+    "import/no-duplicates": "error",
+    "import/no-unresolved": "error",
+    "import/order": [
+      "error",
+      {
+        "groups": [
+          "builtin",
+          "external",
+          "internal",
+          "parent",
+          "sibling",
+          "index"
+        ],
+        "newlines-between": "always",
+        "alphabetize": {
+          "order": "asc",
+          "caseInsensitive": true
+        }
+      }
+    ],
+    
+    // Performance rules
+    "react/jsx-no-bind": "warn",
+    "react/jsx-no-leaked-render": "error",
+    
+    // Accessibility rules (basic)
+    "jsx-a11y/alt-text": "error",
+    "jsx-a11y/anchor-has-content": "error",
+    "jsx-a11y/anchor-is-valid": "error",
+    "jsx-a11y/click-events-have-key-events": "warn",
+    "jsx-a11y/no-static-element-interactions": "warn",
+    
+    // Security rules
+    "react/jsx-no-target-blank": "error",
+    "react/no-danger": "warn",
+    
+    // Code style rules
+    "prefer-template": "error",
+    "object-shorthand": "error",
+    "no-useless-concat": "error",
+    "no-useless-return": "error",
+    "no-duplicate-imports": "error",
+    
+    // Next.js specific
+    "@next/next/no-img-element": "error",
+    "@next/next/no-page-custom-font": "error",
+    "@next/next/no-title-in-document-head": "error"
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    },
+    "import/resolver": {
+      "typescript": {
+        "project": "./tsconfig.json"
+      }
+    }
+  },
+  "ignorePatterns": [
+    "node_modules/",
+    ".next/",
+    "out/",
+    "dist/",
+    "public/",
+    "*.config.js",
+    "*.config.mjs"
+  ]
+}

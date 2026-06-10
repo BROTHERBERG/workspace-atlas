@@ -4,6 +4,7 @@ import { MapPin, Briefcase, Star } from "lucide-react"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
+import { getUserAvatarSrc, RESPONSIVE_SIZES, IMAGE_QUALITY } from "@/lib/image-utils"
 
 // Mock data for talent profiles
 const talentProfiles = [
@@ -68,10 +69,12 @@ export default function TalentProfiles() {
             <div className="flex flex-col items-center text-center">
               <div className="relative">
                 <Image
-                  src={profile.image || "/placeholder.svg"}
-                  alt={profile.name}
+                  src={getUserAvatarSrc(profile.image)}
+                  alt={`${profile.name} profile photo`}
                   width={100}
                   height={100}
+                  quality={IMAGE_QUALITY.high}
+                  sizes={RESPONSIVE_SIZES.profile_avatar}
                   className="rounded-full"
                 />
                 {profile.featured && (
