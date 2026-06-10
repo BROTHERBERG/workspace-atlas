@@ -10,6 +10,7 @@ import { Textarea } from '@/components/ui/textarea'
 import { Label } from '@/components/ui/label'
 import { toast } from 'sonner'
 import { logger } from '@/lib/logger'
+import { fetchWithCsrf } from '@/lib/csrf-client'
 
 const scoreRequestSchema = z.object({
   email: z.string().email('Valid email is required'),
@@ -36,7 +37,7 @@ export function ScoreRequestForm() {
     setIsLoading(true)
 
     try {
-      const response = await fetch('/api/score-request', {
+      const response = await fetchWithCsrf('/api/score-request', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

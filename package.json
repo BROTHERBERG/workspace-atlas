@@ -24,7 +24,9 @@
     "db:seed": "tsx prisma/seed.ts",
     "db:reset": "prisma migrate reset",
     "import:workspaces": "tsx scripts/import-workspaces.ts",
-    "scrape:sample": "tsx scripts/scrape-coworking-spaces.ts"
+    "scrape:sample": "tsx scripts/scrape-coworking-spaces.ts",
+    "radar:scan": "tsx scripts/radar-scan.ts",
+    "radar:digest": "tsx scripts/radar-digest.ts"
   },
   "dependencies": {
     "@faker-js/faker": "^9.7.0",

@@ -1,0 +1,56 @@
+type,operator,title,category,seniority,location,days_open,status,url
+job_posting,WeWork,Test,other,staff,"Paris, fr",0,active,https://jobs.smartrecruiters.com/WeWork/744000032191419
+job_posting,WeWork,Chomeur,other,staff,"Kolkata, in",0,active,https://jobs.smartrecruiters.com/WeWork/743999865840785
+job_posting,Convene,Account Executive,sales,staff,"London, UK",0,active,https://job-boards.greenhouse.io/convene/jobs/7967244
+job_posting,Convene,Audio Visual Event Operations Manager,operations,manager,"New York, NY",0,active,https://job-boards.greenhouse.io/convene/jobs/7944520
+job_posting,Convene,Audio Visual Operations Manager,operations,manager,"London, UK",0,active,https://job-boards.greenhouse.io/convene/jobs/7955473
+job_posting,Convene,Cafe Attendant,other,staff,"New York, NY",0,active,https://job-boards.greenhouse.io/convene/jobs/7752555
+job_posting,Convene,Catering Services Manager,other,manager,"New York, NY",0,active,https://job-boards.greenhouse.io/convene/jobs/7974820
+job_posting,Convene,Chef De Partie,other,staff,"London, UK",0,active,https://job-boards.greenhouse.io/convene/jobs/7950089
+job_posting,Convene,Commis Chef,other,staff,"London, UK",0,active,https://job-boards.greenhouse.io/convene/jobs/7686310
+job_posting,Convene,Commis Chef- Client Support Team,other,staff,"London, UK",0,active,https://job-boards.greenhouse.io/convene/jobs/7491506
+job_posting,Convene,Conference & Events Assistant- Client Support Team,other,staff,"London, UK",0,active,https://job-boards.greenhouse.io/convene/jobs/7925925
+job_posting,Convene,Conference & Events Lead,other,manager,"London, UK",0,active,https://job-boards.greenhouse.io/convene/jobs/7960847
+job_posting,Convene,"Corporate AV Technician, Meetings & Events",other,staff,"London, UK",0,active,https://job-boards.greenhouse.io/convene/jobs/7893560
+job_posting,Convene,Corporate Beverage Director,other,vp_director,"New York, NY",0,active,https://job-boards.greenhouse.io/convene/jobs/7984193
+job_posting,Convene,"Event Coordinator, Live Events",marketing,staff,"New York, NY",0,active,https://job-boards.greenhouse.io/convene/jobs/7944543
+job_posting,Convene,Facilites Assistant- Client Support Team,other,staff,"London, UK",0,active,https://job-boards.greenhouse.io/convene/jobs/7491448
+job_posting,Convene,Facilities Assistant- Client Support Team,operations,staff,"St Paul's, London (EC4M 7DQ)",0,active,https://job-boards.greenhouse.io/convene/jobs/7930611
+job_posting,Convene,Food and Beverage Manager,other,manager,"Boston, MA",0,active,https://job-boards.greenhouse.io/convene/jobs/7991819
+job_posting,Convene,Food & Beverage Supervisor (Monday-Friday),other,manager,"London, UK",0,active,https://job-boards.greenhouse.io/convene/jobs/7742425
+job_posting,Convene,Hospitality Director of Operations,community,vp_director,"New York, NY",0,active,https://job-boards.greenhouse.io/convene/jobs/7950004
+job_posting,Convene,Hospitality Event Server,community,staff,"New York, NY",0,active,https://job-boards.greenhouse.io/convene/jobs/7899007
+job_posting,Convene,Hospitality Event Server,community,staff,"Washington, DC",0,active,https://job-boards.greenhouse.io/convene/jobs/7943912
+job_posting,Convene,Kitchen Porter,other,staff,"London, UK",0,active,https://job-boards.greenhouse.io/convene/jobs/7979383
+job_posting,Convene,Kitchen Porter- Client Support Team,other,staff,"London, UK",0,active,https://job-boards.greenhouse.io/convene/jobs/7491390
+job_posting,Convene,Line Cook,other,staff,"San Francisco, CA",0,active,https://job-boards.greenhouse.io/convene/jobs/7944026
+job_posting,Convene,Part-Time Barista,other,staff,"Chicago, IL",0,active,https://job-boards.greenhouse.io/convene/jobs/7974071
+job_posting,Convene,Part-Time Hospitality Event Server,community,staff,"Philadelphia, PA",0,active,https://job-boards.greenhouse.io/convene/jobs/7852253
+job_posting,Convene,Sales Executive- Inbound Sales,sales,staff,"London, UK",0,active,https://job-boards.greenhouse.io/convene/jobs/7954320
+job_posting,Convene,"Sales Executive, Private Events",sales,staff,"New York, NY",0,active,https://job-boards.greenhouse.io/convene/jobs/7972476
+job_posting,Convene,Senior Account Manager,sales,manager,"London, UK",0,active,https://job-boards.greenhouse.io/convene/jobs/7967028
+job_posting,Convene,Senior Sales Executive,sales,staff,"New York, NY",0,active,https://job-boards.greenhouse.io/convene/jobs/7939386
+job_posting,Convene,Service Manager,other,manager,"New York, NY",0,active,https://job-boards.greenhouse.io/convene/jobs/7997229
+job_posting,Convene,Sous Chef,other,staff,"London, UK",0,active,https://job-boards.greenhouse.io/convene/jobs/7590783
+job_posting,Convene,Student Placement Sales Executive- Inbound Sales,sales,staff,"London, UK",0,active,https://job-boards.greenhouse.io/convene/jobs/7954428
+job_posting,Convene,Talent Acquisition Coordinator (Fixed-Term Contract),people,staff,"New York, NY",0,active,https://job-boards.greenhouse.io/convene/jobs/7967135
+job_posting,Convene,"V1 Video Engineer, Live Events",tech,staff,"New York, NY",0,active,https://job-boards.greenhouse.io/convene/jobs/7984667
+job_posting,CIC (Cambridge Innovation Center),"Accounting Manager - Tokyo, Japan",finance,manager,"Tokyo, JP",0,active,https://jobs.lever.co/cic/47c2a02b-e453-4178-aceb-5140f62f5d9b
+job_posting,CIC (Cambridge Innovation Center),"Architecture & Design Specialist - Cambridge, MA",other,staff,"Cambridge, MA",0,active,https://jobs.lever.co/cic/3b84dcd9-b4d3-478f-a65c-e67ea0442c7a
+job_posting,CIC (Cambridge Innovation Center),"Architecture & Design Specialist - Warsaw, PL",other,staff,"Warsaw, PL",0,active,https://jobs.lever.co/cic/b6dd839d-1eca-4faf-ad69-ca319c7043ea
+job_posting,CIC (Cambridge Innovation Center),"Community & Facilities Operations Manager - St. Louis, MO",community,manager,"St. Louis, MO",0,active,https://jobs.lever.co/cic/8357e79c-8cb0-4e3b-a1ff-b79c3724d0d8
+job_posting,CIC (Cambridge Innovation Center),Community Operations Coordinator - Cambridge,community,staff,"Cambridge, MA",0,active,https://jobs.lever.co/cic/86abd877-8372-4e3d-a2de-7f8380f14580
+job_posting,CIC (Cambridge Innovation Center),"Events Coordinator - Cambridge, MA",marketing,staff,"Cambridge, MA",0,active,https://jobs.lever.co/cic/e176ae8a-103a-4296-9112-f1aae610e25f
+job_posting,CIC (Cambridge Innovation Center),General Interest Submissions,other,staff,Global,0,active,https://jobs.lever.co/cic/d28988a7-1ae5-4099-810a-ecf635ccf14e
+job_posting,CIC (Cambridge Innovation Center),"General Manager - Cambridge, MA",general_management,manager,"Cambridge, MA",0,active,https://jobs.lever.co/cic/246c66f4-69c2-41c5-b6aa-ebd4504bade0
+job_posting,CIC (Cambridge Innovation Center),"Lab Operations Manager - St. Louis, MO",operations,manager,"St. Louis, MO",0,active,https://jobs.lever.co/cic/fc97e530-f063-4add-a17c-e546f817bda5
+job_posting,CIC (Cambridge Innovation Center),"Project Associate & Innovation Consultant, CIC Catalyst - Tokyo, JP",other,staff,"Tokyo, JP",0,active,https://jobs.lever.co/cic/6f5bc87f-21b8-4407-9527-05732185aa5b
+job_posting,CIC (Cambridge Innovation Center),"Systems & Network Engineer, Japan",tech,staff,"Tokyo, JP",0,active,https://jobs.lever.co/cic/488d0ff2-0585-477c-bc4e-efd00dbb1bc5
+news,Allwork.Space,"Workspace Group Posts £120M Loss, Launches Turnaround Plan To Revive Earnings",other,staff,,0,active,https://allwork.space/2026/06/workspace-group-posts-120m-loss-launches-turnaround-plan-to-revive-earnings/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=workspace-group-posts-120m-loss-launches-turnaround-plan-to-revive-earnings
+news,IWG (Regus / Spaces / HQ),"IWG Bets Big on Egypt, Targets 150 Flexible Workspaces by 2030",other,staff,,0,active,https://allwork.space/2026/06/iwg-bets-big-on-egypt-targets-150-flexible-workspaces-by-2030/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=iwg-bets-big-on-egypt-targets-150-flexible-workspaces-by-2030
+news,Fora (The Office Group),Fostering Community: Engaging Events and Initiatives to Bring Members Together,community,staff,,0,active,https://coworkinginsights.com/fostering-community-engaging-events-and-initiatives-to-bring-members-together/
+news,IWG (Regus / Spaces / HQ),Stronger Together: How Small Businesses Thrive in Coworking Spaces,other,staff,,0,active,https://coworkinginsights.com/stronger-together-how-small-businesses-thrive-in-coworking-spaces/
+news,Coworking Insights,Work.life Opens Its Largest Location in the Historic Heart of London’s Farringdon,other,staff,,0,active,https://coworkinginsights.com/work-life-opens-its-largest-location-in-the-historic-heart-of-londons-farringdon/
+news,Coworking Insights,Cubo Celebrates Launch Event at Its Landmark Soho Workspace,other,staff,,0,active,https://coworkinginsights.com/cubo-celebrates-launch-event-at-its-landmark-soho-workspace/
+news,IWG (Regus / Spaces / HQ),Leading APAC Flexible Workspace The Work Project to Open First UK Location,other,staff,,0,active,https://coworkinginsights.com/leading-apac-flexible-workspace-the-work-project-to-open-first-uk-location/
+news,Coworking Insights,Cubo Launches First London Workspace in Soho,other,staff,,0,active,https://coworkinginsights.com/cubo-launches-first-london-workspace-in-soho/

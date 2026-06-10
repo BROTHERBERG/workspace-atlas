@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 import { ArrowRight, Users, Building, Briefcase, Search, ChevronDown } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
@@ -24,7 +25,9 @@ export default function RecruitmentPage() {
                 </p>
               </div>
               <div className="flex flex-col gap-2 min-[400px]:flex-row">
-                <Button className="bg-[#f9cb16] text-black hover:bg-[#f9cb16]">Hire Talent</Button>
+                <Button asChild className="bg-[#f9cb16] text-black hover:bg-[#f9cb16]">
+                  <Link href="/request-talent">Hire Talent</Link>
+                </Button>
                 <Button variant="outline" className="border-white text-white hover:bg-white/10">
                   Find a Job
                 </Button>
@@ -98,10 +101,13 @@ export default function RecruitmentPage() {
                   <div className="space-y-2">
                     <h3 className="text-xl font-bold">Looking to Hire?</h3>
                     <p className="text-gray-500">
-                      Post your job listing and reach thousands of qualified candidates in the coworking industry.
+                      Tell us who you need and we&apos;ll connect you with matched leadership candidates from the
+                      coworking industry.
                     </p>
                     <div className="pt-2">
-                      <Button>Post a Job</Button>
+                      <Button asChild>
+                        <Link href="/request-talent">Request Talent</Link>
+                      </Button>
                     </div>
                   </div>
                 </div>

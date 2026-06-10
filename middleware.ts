@@ -79,8 +79,13 @@ export async function middleware(req: NextRequest) {
     }
   }
 
+  // Demo access: a signed-in demo cookie matching ADMIN_DEMO_KEY bypasses
+  // NextAuth for /admin while the database-backed auth isn't provisioned.
+  const demoKey = process.env.ADMIN_DEMO_KEY
+  const hasDemoAccess = !!demoKey && req.cookies.get('atlas_admin')?.value === demoKey
+
   // Admin route protection
-  if (pathname.startsWith('/admin')) {
+  if (pathname.startsWith('/admin') && !hasDemoAccess) {
     try {
       const token = await getToken({ 
         req, 
@@ -101,7 +106,7 @@ export async function middleware(req: NextRequest) {
   }
 
   // API admin route protection
-  if (pathname.startsWith('/api/admin/')) {
+  if (pathname.startsWith('/api/admin/') && !hasDemoAccess) {
     try {
       const token = await getToken({ 
         req, 

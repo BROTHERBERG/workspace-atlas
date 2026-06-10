@@ -1,0 +1,279 @@
+{
+  "ranAt": "2026-06-10T22:37:12.355Z",
+  "sourceResults": [
+    {
+      "board": "smartrecruiters:WeWork",
+      "operator": "WeWork",
+      "ok": true,
+      "count": 2
+    },
+    {
+      "board": "greenhouse:wework",
+      "operator": "WeWork",
+      "ok": false,
+      "count": 0
+    },
+    {
+      "board": "greenhouse:industriousoffice",
+      "operator": "Industrious",
+      "ok": false,
+      "count": 0
+    },
+    {
+      "board": "greenhouse:industrious",
+      "operator": "Industrious",
+      "ok": false,
+      "count": 0
+    },
+    {
+      "board": "smartrecruiters:IWG",
+      "operator": "IWG (Regus / Spaces / HQ)",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "board": "workable:iwg",
+      "operator": "IWG (Regus / Spaces / HQ)",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "board": "greenhouse:convene",
+      "operator": "Convene",
+      "ok": true,
+      "count": 34
+    },
+    {
+      "board": "greenhouse:mindspace",
+      "operator": "Mindspace",
+      "ok": false,
+      "count": 0
+    },
+    {
+      "board": "lever:mindspace",
+      "operator": "Mindspace",
+      "ok": false,
+      "count": 0
+    },
+    {
+      "board": "lever:justco",
+      "operator": "JustCo",
+      "ok": false,
+      "count": 0
+    },
+    {
+      "board": "greenhouse:justco",
+      "operator": "JustCo",
+      "ok": false,
+      "count": 0
+    },
+    {
+      "board": "workable:justco",
+      "operator": "JustCo",
+      "ok": false,
+      "count": 0
+    },
+    {
+      "board": "greenhouse:theyard",
+      "operator": "The Yard",
+      "ok": false,
+      "count": 0
+    },
+    {
+      "board": "lever:theyard",
+      "operator": "The Yard",
+      "ok": false,
+      "count": 0
+    },
+    {
+      "board": "greenhouse:impacthub",
+      "operator": "Impact Hub",
+      "ok": false,
+      "count": 0
+    },
+    {
+      "board": "workable:impact-hub",
+      "operator": "Impact Hub",
+      "ok": false,
+      "count": 0
+    },
+    {
+      "board": "greenhouse:knotel",
+      "operator": "Knotel",
+      "ok": false,
+      "count": 0
+    },
+    {
+      "board": "greenhouse:cic",
+      "operator": "CIC (Cambridge Innovation Center)",
+      "ok": false,
+      "count": 0
+    },
+    {
+      "board": "lever:cic",
+      "operator": "CIC (Cambridge Innovation Center)",
+      "ok": true,
+      "count": 11
+    },
+    {
+      "board": "greenhouse:workbar",
+      "operator": "Workbar",
+      "ok": false,
+      "count": 0
+    },
+    {
+      "board": "lever:workbar",
+      "operator": "Workbar",
+      "ok": false,
+      "count": 0
+    },
+    {
+      "board": "lever:hubaustralia",
+      "operator": "Hub Australia",
+      "ok": false,
+      "count": 0
+    },
+    {
+      "board": "greenhouse:hubaustralia",
+      "operator": "Hub Australia",
+      "ok": false,
+      "count": 0
+    },
+    {
+      "board": "greenhouse:fora",
+      "operator": "Fora (The Office Group)",
+      "ok": false,
+      "count": 0
+    },
+    {
+      "board": "greenhouse:theofficegroup",
+      "operator": "Fora (The Office Group)",
+      "ok": false,
+      "count": 0
+    },
+    {
+      "board": "workable:fora",
+      "operator": "Fora (The Office Group)",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "board": "workable:huckletree",
+      "operator": "Huckletree",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "board": "greenhouse:huckletree",
+      "operator": "Huckletree",
+      "ok": false,
+      "count": 0
+    },
+    {
+      "board": "workable:techspace",
+      "operator": "Techspace",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "board": "greenhouse:techspace",
+      "operator": "Techspace",
+      "ok": false,
+      "count": 0
+    },
+    {
+      "board": "workable:talent-garden",
+      "operator": "Talent Garden",
+      "ok": false,
+      "count": 0
+    },
+    {
+      "board": "greenhouse:talentgarden",
+      "operator": "Talent Garden",
+      "ok": false,
+      "count": 0
+    },
+    {
+      "board": "greenhouse:serendipitylabs",
+      "operator": "Serendipity Labs",
+      "ok": false,
+      "count": 0
+    },
+    {
+      "board": "lever:serendipitylabs",
+      "operator": "Serendipity Labs",
+      "ok": false,
+      "count": 0
+    },
+    {
+      "board": "greenhouse:premierworkspaces",
+      "operator": "Premier Workspaces",
+      "ok": false,
+      "count": 0
+    },
+    {
+      "board": "lever:premierworkspaces",
+      "operator": "Premier Workspaces",
+      "ok": false,
+      "count": 0
+    },
+    {
+      "board": "greenhouse:venturex",
+      "operator": "Venture X",
+      "ok": false,
+      "count": 0
+    },
+    {
+      "board": "greenhouse:expansive",
+      "operator": "Expansive",
+      "ok": false,
+      "count": 0
+    },
+    {
+      "board": "lever:expansive",
+      "operator": "Expansive",
+      "ok": false,
+      "count": 0
+    },
+    {
+      "board": "greenhouse:servcorp",
+      "operator": "Servcorp",
+      "ok": false,
+      "count": 0
+    },
+    {
+      "board": "smartrecruiters:Servcorp",
+      "operator": "Servcorp",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "board": "lever:wotso",
+      "operator": "WOTSO",
+      "ok": false,
+      "count": 0
+    },
+    {
+      "board": "greenhouse:wotso",
+      "operator": "WOTSO",
+      "ok": false,
+      "count": 0
+    }
+  ],
+  "feedResults": [
+    {
+      "feed": "Allwork.Space",
+      "ok": true,
+      "kept": 2
+    },
+    {
+      "feed": "Coworking Insights",
+      "ok": true,
+      "kept": 6
+    }
+  ],
+  "added": 55,
+  "refreshed": 0,
+  "closed": 0,
+  "total": 55
+}
