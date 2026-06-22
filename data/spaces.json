@@ -1,0 +1,2739 @@
+{
+  "generatedAt": "2026-06-21",
+  "market": "Calgary & Alberta",
+  "methodology": {
+    "enumeration": "Real spaces sourced from operator sites, Coworker.com, CoworkingCafe, Spaces/Regus & WeWork directories, cross-verified against a second source. Unknown attributes left null \u2014 never fabricated.",
+    "digitalScore": "Live headless-Chromium render of each site (2026-06-21). 0-100 from real signals: reachable/200 (20), HTTPS (18), mobile viewport (18), title (8), meta description (8), Open Graph (6), social links up to 3 (12), booking CTA (10). Bot-protected pages flagged low-confidence, not scored as failing.",
+    "limits": "google ratings sparse (not metered-API-pulled to avoid cost). 3 independent domains did not resolve via DNS on scan day \u2014 flagged, not assumed closed."
+  },
+  "spaces": [
+    {
+      "id": 1,
+      "slug": "work-nicer-coworking-red-mile",
+      "name": "Work Nicer Coworking \u2014 Red Mile",
+      "operator": "Work Nicer",
+      "isChain": false,
+      "city": "Calgary",
+      "neighborhood": "Beltline (17th Ave & 5th St SW)",
+      "address": "1550 5 Street SW, Calgary, AB",
+      "website": "https://worknicer.com/red-mile",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "startups, freelancers, small teams",
+      "digital": {
+        "score": 92,
+        "band": "A",
+        "confidence": "high",
+        "gaps": [
+          "No meta description (weak SEO)"
+        ],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": false,
+          "openGraph": true,
+          "socialCount": 5,
+          "socials": [
+            "facebook",
+            "instagram",
+            "linkedin",
+            "twitter/x",
+            "youtube"
+          ],
+          "onlineBooking": true,
+          "dnsResolves": true
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "No careers page found on worknicer.com"
+      },
+      "sources": [
+        "https://worknicer.com/outposts/",
+        "https://worknicer.com/redmile/",
+        "https://www.coworker.com/canada/calgary/work-nicer-coworking-red-mile"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "scannedAt": "2026-06-21",
+      "featured": true
+    },
+    {
+      "id": 2,
+      "slug": "work-nicer-coworking-rail-yards",
+      "name": "Work Nicer Coworking \u2014 Rail Yards",
+      "operator": "Work Nicer",
+      "isChain": false,
+      "city": "Calgary",
+      "neighborhood": "Inglewood / Ramsay",
+      "address": "1206 20 Avenue SE, Calgary, AB T2G 1M8",
+      "website": "https://worknicer.com/rail-yards",
+      "phone": "(587) 316-2782",
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "startups, freelancers, small teams",
+      "digital": {
+        "score": 82,
+        "band": "B",
+        "confidence": "high",
+        "gaps": [
+          "No meta description (weak SEO)",
+          "No clear booking/conversion CTA"
+        ],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": false,
+          "openGraph": true,
+          "socialCount": 5,
+          "socials": [
+            "facebook",
+            "instagram",
+            "linkedin",
+            "twitter/x",
+            "youtube"
+          ],
+          "onlineBooking": false,
+          "dnsResolves": true
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": null
+      },
+      "sources": [
+        "https://worknicer.com/outposts/",
+        "https://www.coworkingcafe.com/coworking-property/ca/ab/calgary/1206-20-avenue-southeast/",
+        "https://nicelocal.ca/calgary/business/work_nicer_coworking_rail_yards/"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "scannedAt": "2026-06-21",
+      "featured": false
+    },
+    {
+      "id": 3,
+      "slug": "workhaus-core",
+      "name": "Workhaus Core",
+      "operator": "Workhaus",
+      "isChain": false,
+      "city": "Calgary",
+      "neighborhood": "Downtown Core",
+      "address": "606 4th Street SW, Suite 1100, Calgary, AB T2P 1T1",
+      "website": "https://workhaus.ca/calgary/",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "professionals, small teams",
+      "digital": {
+        "score": 100,
+        "band": "A",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": true,
+          "socialCount": 3,
+          "socials": [
+            "facebook",
+            "instagram",
+            "twitter/x"
+          ],
+          "onlineBooking": true,
+          "dnsResolves": true
+        }
+      },
+      "hiring": {
+        "hasCareersPage": true,
+        "careersUrl": "https://workhaus.ca/careers/",
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "Real careers page exists but shows no current openings (stale Toronto filter dated Jul 2024)."
+      },
+      "sources": [
+        "https://workhaus.ca/calgary/",
+        "https://workhaus.ca/careers/",
+        "https://www.coworkingcafe.com/coworking-property/ca/ab/calgary/workhaus-core/",
+        "https://www.coworker.com/canada/calgary/workhaus-core"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": true,
+      "scannedAt": "2026-06-21",
+      "featured": true
+    },
+    {
+      "id": 4,
+      "slug": "assembly-coworking-space",
+      "name": "Assembly Coworking Space",
+      "operator": "Assembly",
+      "isChain": false,
+      "city": "Calgary",
+      "neighborhood": "Kensington",
+      "address": "Suite 400, 119 14th Street NW, Calgary, AB T2N 1Z6",
+      "website": "https://www.assemblycs.com",
+      "phone": "(403) 351-2591",
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "tech start-ups & small businesses",
+      "digital": {
+        "score": 96,
+        "band": "A",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": true,
+          "socialCount": 2,
+          "socials": [
+            "facebook",
+            "twitter/x"
+          ],
+          "onlineBooking": true,
+          "dnsResolves": true
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "No careers/jobs page found on assemblycs.com"
+      },
+      "sources": [
+        "https://www.assemblycs.com/",
+        "https://www.yelp.ca/biz/assembly-coworking-space-calgary",
+        "https://www.coworker.com/canada/calgary/assembly"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "scannedAt": "2026-06-21",
+      "featured": true
+    },
+    {
+      "id": 5,
+      "slug": "emergehub",
+      "name": "emergeHUB",
+      "operator": "emergeHUB (International Avenue BRZ)",
+      "isChain": false,
+      "city": "Calgary",
+      "neighborhood": "East Calgary / International Avenue (17 Ave SE)",
+      "address": "Suite 250, 3515 17th Avenue SE, Calgary, AB T2A 0R5",
+      "website": "https://www.emergehub.ca",
+      "phone": "(403) 454-3482",
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "entrepreneurs, craft/food producers, makers, community innovators",
+      "digital": {
+        "score": 90,
+        "band": "A",
+        "confidence": "high",
+        "gaps": [
+          "No clear booking/conversion CTA"
+        ],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": true,
+          "socialCount": 3,
+          "socials": [
+            "facebook",
+            "instagram",
+            "twitter/x"
+          ],
+          "onlineBooking": false,
+          "dnsResolves": true
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "No careers/jobs page found"
+      },
+      "sources": [
+        "https://www.emergehub.ca/",
+        "https://www.coworker.com/canada/calgary/emergehub",
+        "https://www.coworkingcafe.com/coworking-property/ca/ab/calgary/3515-17-avenue-southeast/"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "scannedAt": "2026-06-21",
+      "featured": true
+    },
+    {
+      "id": 6,
+      "slug": "shedpoint",
+      "name": "Shedpoint",
+      "operator": "Shedpoint",
+      "isChain": false,
+      "city": "Calgary",
+      "neighborhood": "SE Calgary",
+      "address": "1212 34 Avenue SE, Calgary, AB (postal code reported variously T2G 1V5 / T2G 1V7)",
+      "website": "https://shedpoint.com",
+      "phone": "(587) 225-5681",
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "e-commerce, small industrial / product businesses (co-warehousing)",
+      "digital": {
+        "score": 100,
+        "band": "A",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": true,
+          "socialCount": 3,
+          "socials": [
+            "facebook",
+            "linkedin",
+            "twitter/x"
+          ],
+          "onlineBooking": true,
+          "dnsResolves": true
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "No careers page found"
+      },
+      "sources": [
+        "https://shedpoint.com/",
+        "https://www.coworkingcafe.com/coworking-property/ca/ab/calgary/shedpoint/",
+        "https://www.loopnet.ca/Listing/1212-34th-Ave-SE-Calgary-AB/34790197/"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "scannedAt": "2026-06-21",
+      "featured": true
+    },
+    {
+      "id": 7,
+      "slug": "tradespace",
+      "name": "TradeSpace",
+      "operator": "TradeSpace",
+      "isChain": false,
+      "city": "Calgary",
+      "neighborhood": "Multiple \u2014 SE (HQ) and NE",
+      "address": "HQ: 4030 8 Street SE; also 4121 23B Street NE and 2360 Portland St SE \u2014 Calgary, AB (3 locations)",
+      "website": "https://www.gotradespace.com",
+      "phone": "(587) 317-5457",
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "product-based / e-commerce & service businesses needing warehouse + office",
+      "digital": {
+        "score": 100,
+        "band": "A",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": true,
+          "socialCount": 3,
+          "socials": [
+            "facebook",
+            "instagram",
+            "linkedin"
+          ],
+          "onlineBooking": true,
+          "dnsResolves": true
+        }
+      },
+      "hiring": {
+        "hasCareersPage": true,
+        "careersUrl": "https://www.gotradespace.com/life-at-tradespace/tradespace-as-a-workplace",
+        "confirmedOpening": true,
+        "liveJobBoard": false,
+        "notes": "Real careers page with an actual current opening (Community Manager, Calgary) + open-CV invitation. Strongest hiring signal found."
+      },
+      "sources": [
+        "https://www.gotradespace.com/",
+        "https://www.gotradespace.com/life-at-tradespace/tradespace-as-a-workplace",
+        "https://www.coworker.com/canada/calgary/tradespace"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": true,
+      "scannedAt": "2026-06-21",
+      "featured": true
+    },
+    {
+      "id": 8,
+      "slug": "wrk-calgary-coworking-space",
+      "name": "wrk: Calgary Coworking Space",
+      "operator": "wrk (gettowork.com)",
+      "isChain": false,
+      "city": "Calgary",
+      "neighborhood": "Downtown Core",
+      "address": "Suite 300, 404 6 Avenue SW, Calgary, AB T2P 0R9",
+      "website": "https://gettowork.com",
+      "phone": "(403) 219-2713",
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "freelancers, consultants, remote workers, growing teams; no membership fees",
+      "digital": {
+        "score": 88,
+        "band": "A",
+        "confidence": "high",
+        "gaps": [
+          "No social links on site"
+        ],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": true,
+          "socialCount": 0,
+          "socials": [],
+          "onlineBooking": true,
+          "dnsResolves": true
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "No careers page found"
+      },
+      "sources": [
+        "https://gettowork.com/",
+        "https://gettowork.com/contact/",
+        "https://coworkingmag.com/listings/coworking-property/ca/ab/calgary/wrk/"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "scannedAt": "2026-06-21",
+      "featured": false
+    },
+    {
+      "id": 9,
+      "slug": "work-buddiz",
+      "name": "Work Buddiz",
+      "operator": "Buddiz Management",
+      "isChain": false,
+      "city": "Calgary",
+      "neighborhood": "NE Calgary",
+      "address": "Suite 400, 3115 12 Street NE, Calgary, AB T2E 7J2",
+      "website": "https://www.workbuddiz.com",
+      "phone": "(403) 475-0750",
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "entrepreneurs, freelancers, small businesses; serviced + virtual offices",
+      "digital": {
+        "score": 66,
+        "band": "C",
+        "confidence": "high",
+        "gaps": [
+          "Missing/blank page title",
+          "No meta description (weak SEO)",
+          "No Open Graph tags (poor social sharing)",
+          "No social links on site"
+        ],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": false,
+          "openGraph": false,
+          "socialCount": 0,
+          "socials": [],
+          "onlineBooking": true,
+          "dnsResolves": true
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "Could not load website to verify"
+      },
+      "sources": [
+        "https://www.yellowpages.ca/bus/Alberta/Calgary/Work-Buddiz/102251347.html",
+        "https://www.yelp.ca/biz/work-buddiz-calgary",
+        "https://www.property.co/canada/alberta/calgary/work-buddiz",
+        "https://www.facebook.com/buddizmanagement/"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "scannedAt": "2026-06-21",
+      "featured": false
+    },
+    {
+      "id": 10,
+      "slug": "platform-calgary-innovation-centre",
+      "name": "Platform Calgary Innovation Centre",
+      "operator": "Platform Calgary",
+      "isChain": false,
+      "city": "Calgary",
+      "neighborhood": "East Village",
+      "address": "407 9 Ave SE, Calgary, AB T2G 2K7",
+      "website": "https://www.platformcalgary.com",
+      "phone": "(403) 284-6400",
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "startups, tech founders & innovators",
+      "digital": {
+        "score": 100,
+        "band": "A",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": true,
+          "socialCount": 5,
+          "socials": [
+            "facebook",
+            "instagram",
+            "linkedin",
+            "twitter/x",
+            "youtube"
+          ],
+          "onlineBooking": true,
+          "dnsResolves": true
+        }
+      },
+      "hiring": {
+        "hasCareersPage": true,
+        "careersUrl": "https://www.platformcalgary.com/about/careers",
+        "confirmedOpening": false,
+        "liveJobBoard": true,
+        "notes": "Real 'Work with us' careers page; live job board at platformcalgary.applytojobs.ca."
+      },
+      "sources": [
+        "https://www.platformcalgary.com/contact",
+        "https://www.platformcalgary.com/about/careers",
+        "https://www.platformcalgary.com/innovation-centre"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": true,
+      "scannedAt": "2026-06-21",
+      "featured": false
+    },
+    {
+      "id": 11,
+      "slug": "cspace-marda-loop",
+      "name": "cSPACE Marda Loop",
+      "operator": "cSPACE Projects",
+      "isChain": false,
+      "city": "Calgary",
+      "neighborhood": "Marda Loop (King Edward / South Calgary)",
+      "address": "1721 29 Avenue SW, Calgary, AB T2T 6T7 (suite varies: Suite 125 per contact page)",
+      "website": "https://cspacemardaloop.com",
+      "phone": "(403) 476-2025",
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "artists, creatives, arts/culture organizations & nonprofits",
+      "digital": {
+        "score": 64,
+        "band": "C",
+        "confidence": "high",
+        "gaps": [
+          "No meta description (weak SEO)",
+          "No Open Graph tags (poor social sharing)",
+          "No social links on site",
+          "No clear booking/conversion CTA"
+        ],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": false,
+          "openGraph": false,
+          "socialCount": 0,
+          "socials": [],
+          "onlineBooking": false,
+          "dnsResolves": true
+        }
+      },
+      "hiring": {
+        "hasCareersPage": true,
+        "careersUrl": "https://cspaceprojects.com/careers-opportunities/",
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "'Careers & Opportunities' page exists; specific open roles not confirmed."
+      },
+      "sources": [
+        "https://cspaceprojects.com/contact/",
+        "https://cspaceprojects.com/coworking-memberships/",
+        "https://cspacemardaloop.com/"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": true,
+      "scannedAt": "2026-06-21",
+      "featured": false
+    },
+    {
+      "id": 12,
+      "slug": "the-commons-calgary",
+      "name": "The Commons Calgary",
+      "operator": "The Commons (founders Erynn & Zach Lyster)",
+      "isChain": false,
+      "city": "Calgary",
+      "neighborhood": "Ramsay (Ramsay Design Centre, near Inglewood)",
+      "address": null,
+      "website": "https://thecommonscalgary.com",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "entrepreneurs, creatives, accountants, designers",
+      "digital": {
+        "score": 100,
+        "band": "A",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": true,
+          "socialCount": 4,
+          "socials": [
+            "facebook",
+            "instagram",
+            "linkedin",
+            "pinterest"
+          ],
+          "onlineBooking": true,
+          "dnsResolves": true
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "No careers/jobs page found"
+      },
+      "sources": [
+        "https://thecommonscalgary.com/",
+        "https://www.avenuecalgary.com/City-Life/Office-Space/Inside-The-Commons-Coworking-Office-Ramsay/",
+        "https://www.coworker.com/canada/calgary/the-commons-calgary"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "scannedAt": "2026-06-21",
+      "featured": false
+    },
+    {
+      "id": 13,
+      "slug": "thrive-business-centre",
+      "name": "Thrive Business Centre",
+      "operator": "Thrive Business Centre",
+      "isChain": false,
+      "city": "Calgary",
+      "neighborhood": "Douglasdale / Douglas Glen (SE)",
+      "address": "11500 29 Street SE, Unit 105, Calgary, AB T2Z 3W9",
+      "website": "https://www.thrivebusinesscentre.com",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "small businesses, entrepreneurs, wellness/counselling/psychology professionals",
+      "digital": {
+        "score": 96,
+        "band": "A",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": true,
+          "socialCount": 2,
+          "socials": [
+            "facebook",
+            "instagram"
+          ],
+          "onlineBooking": true,
+          "dnsResolves": true
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "No careers/jobs page found"
+      },
+      "sources": [
+        "https://www.thrivebusinesscentre.com/",
+        "https://www.yelp.ca/biz/thrive-business-centre-calgary",
+        "https://www.coworkingcafe.com/coworking-property/ca/ab/calgary/thrive-business-centre/"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "scannedAt": "2026-06-21",
+      "featured": false
+    },
+    {
+      "id": 14,
+      "slug": "staples-studio-calgary-university-district",
+      "name": "Staples Studio \u2014 Calgary University District",
+      "operator": "Staples Canada",
+      "isChain": false,
+      "city": "Calgary",
+      "neighborhood": "University District (NW)",
+      "address": "3909 University Avenue NW, Calgary, AB T3B 2V7",
+      "website": "https://studio.staples.ca/studio/calgaryuniversity",
+      "phone": null,
+      "googleRating": 2.8,
+      "googleReviewCount": 10,
+      "targetMember": "entrepreneurs, small businesses, corporations, community groups",
+      "digital": {
+        "score": 82,
+        "band": "B",
+        "confidence": "high",
+        "gaps": [
+          "No Open Graph tags (poor social sharing)",
+          "No social links on site"
+        ],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": false,
+          "socialCount": 0,
+          "socials": [],
+          "onlineBooking": true,
+          "dnsResolves": true
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "Not confirmed at location level; corporate Staples Canada careers exist but not verified for this site."
+      },
+      "sources": [
+        "https://studio.staples.ca/studio/calgaryuniversity",
+        "https://www.coworkingcafe.com/coworking-property/ca/ab/calgary/staples-studio-calgary-university-district/",
+        "https://www.newswire.ca/news-releases/staples-canada-unveils-its-next-generation-of-the-working-and-learning-store-in-calgary-s-university-district-878459182.html"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "scannedAt": "2026-06-21",
+      "featured": false
+    },
+    {
+      "id": 15,
+      "slug": "smart-executive-centre-inc",
+      "name": "Smart Executive Centre Inc",
+      "operator": "Smart Executive Centre Inc.",
+      "isChain": false,
+      "city": "Calgary",
+      "neighborhood": "NE Calgary (between airport and downtown)",
+      "address": "#115, 1925 18 Ave NE, Calgary, AB T2E 7T8",
+      "website": "https://smartexecutive.ca",
+      "phone": "(403) 457-4700",
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "entrepreneurs, small business owners needing a professional office presence",
+      "digital": {
+        "score": 96,
+        "band": "A",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": true,
+          "socialCount": 2,
+          "socials": [
+            "facebook",
+            "linkedin"
+          ],
+          "onlineBooking": true,
+          "dnsResolves": true
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "No careers/jobs page found"
+      },
+      "sources": [
+        "https://smartexecutive.ca/",
+        "https://smartexecutive.ca/contact-us/",
+        "https://www.coworker.com/canada/calgary/17728-smart-executive-centre-inc"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "scannedAt": "2026-06-21",
+      "featured": false
+    },
+    {
+      "id": 16,
+      "slug": "antares-business-center",
+      "name": "Antares Business Center",
+      "operator": "Antares Business Center",
+      "isChain": false,
+      "city": "Calgary",
+      "neighborhood": "Beltline / downtown core",
+      "address": "602 12 Avenue SW #500, Calgary, AB T2R 1J3",
+      "website": "https://www.antaresbusinesscenter.com",
+      "phone": "(403) 407-1981",
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "flexible professionals, hybrid workers, growing businesses",
+      "digital": {
+        "score": 100,
+        "band": "A",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": true,
+          "socialCount": 3,
+          "socials": [
+            "facebook",
+            "instagram",
+            "linkedin"
+          ],
+          "onlineBooking": true,
+          "dnsResolves": true
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "No careers/jobs page found"
+      },
+      "sources": [
+        "https://www.antaresbusinesscenter.com/",
+        "https://www.coworker.com/canada/calgary/antares-business-center"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "scannedAt": "2026-06-21",
+      "featured": false
+    },
+    {
+      "id": 17,
+      "slug": "zeina-s-office-space",
+      "name": "Zeina's Office Space",
+      "operator": "independent (private host, via LiquidSpace)",
+      "isChain": false,
+      "city": "Calgary",
+      "neighborhood": "SE Calgary",
+      "address": "11651 40 St SE, #36, Calgary, AB (per LiquidSpace listing)",
+      "website": null,
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "oil & gas contractors, therapists, naturopaths, coaches, solopreneurs",
+      "digital": {
+        "score": 8,
+        "band": "F",
+        "confidence": "high",
+        "gaps": [
+          "No website found \u2014 invisible online"
+        ],
+        "signals": {
+          "reachable": false,
+          "https": null,
+          "mobileOptimized": null,
+          "metaDescription": null,
+          "openGraph": null,
+          "socialCount": null,
+          "socials": [],
+          "onlineBooking": null,
+          "dnsResolves": null
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "Marketplace listing only; no website or careers presence."
+      },
+      "sources": [
+        "https://liquidspace.com/ca/ab/calgary/zeinas-office-space/office-1"
+      ],
+      "leadWebUpgrade": true,
+      "leadTalent": false,
+      "scannedAt": "2026-06-21",
+      "featured": false
+    },
+    {
+      "id": 18,
+      "slug": "stratus-stratus-offices-calgary",
+      "name": "STRATUS (Stratus Offices) \u2014 Calgary",
+      "operator": "Stratus Offices",
+      "isChain": false,
+      "city": "Calgary",
+      "neighborhood": "Beltline \u2014 PetroWest Plaza; also the 534 Building on 17 Ave SW",
+      "address": "1210 8 Street SW, Calgary, AB (PetroWest Plaza); 2nd Calgary location at the 534 Building, 17 Ave SW",
+      "website": "https://www.stratusoffices.com",
+      "phone": "(587) 392-5545",
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "professionals & businesses wanting flexible private + shared offices",
+      "digital": {
+        "score": 54,
+        "band": "D",
+        "confidence": "high",
+        "gaps": [
+          "HTTP 202",
+          "No meta description (weak SEO)",
+          "No Open Graph tags (poor social sharing)",
+          "No social links on site",
+          "No clear booking/conversion CTA"
+        ],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": false,
+          "openGraph": false,
+          "socialCount": 0,
+          "socials": [],
+          "onlineBooking": false,
+          "dnsResolves": true
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "No careers page confirmed; has a company LinkedIn."
+      },
+      "sources": [
+        "https://www.stratusoffices.com/",
+        "https://www.coworker.com/canada/calgary/stratus",
+        "https://ca.linkedin.com/company/stratusoffices"
+      ],
+      "leadWebUpgrade": true,
+      "leadTalent": false,
+      "scannedAt": "2026-06-21",
+      "featured": false
+    },
+    {
+      "id": 19,
+      "slug": "the-collective-12-12",
+      "name": "The Collective 12|12",
+      "operator": "The Collective 12|12",
+      "isChain": false,
+      "city": "Calgary",
+      "neighborhood": "Inglewood / Ramsay (9 Ave SE)",
+      "address": "1212 9 Avenue SE, Calgary, AB T2G 0T1",
+      "website": "https://thecollective1212.com",
+      "phone": "(403) 652-8947",
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "entrepreneurs, startups, freelancers; events/meetings community",
+      "digital": {
+        "score": 12,
+        "band": "F",
+        "confidence": "high",
+        "gaps": [
+          "Website unreachable / failed to load"
+        ],
+        "signals": {
+          "reachable": false,
+          "https": null,
+          "mobileOptimized": null,
+          "metaDescription": null,
+          "openGraph": null,
+          "socialCount": null,
+          "socials": [],
+          "onlineBooking": null,
+          "dnsResolves": false
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "No careers page found"
+      },
+      "sources": [
+        "https://www.coworker.com/canada/calgary/the-collective-12-12",
+        "https://www.facebook.com/TheCollective1212/",
+        "https://www.upsuite.com/coworking/calgary/the-collective-9-ave/"
+      ],
+      "leadWebUpgrade": true,
+      "leadTalent": false,
+      "scannedAt": "2026-06-21",
+      "featured": false
+    },
+    {
+      "id": 20,
+      "slug": "vennyyc",
+      "name": "VennYYC",
+      "operator": "VennYYC",
+      "isChain": false,
+      "city": "Calgary",
+      "neighborhood": "Inglewood",
+      "address": "1232 9 Avenue SE, Calgary, AB T2G 0T1",
+      "website": "https://vennyyc.com/",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "freelancers, consultants, small teams; private offices/dedicated desks/drop-in",
+      "digital": {
+        "score": 54,
+        "band": "D",
+        "confidence": "high",
+        "gaps": [
+          "HTTP 202",
+          "No meta description (weak SEO)",
+          "No Open Graph tags (poor social sharing)",
+          "No social links on site",
+          "No clear booking/conversion CTA"
+        ],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": false,
+          "openGraph": false,
+          "socialCount": 0,
+          "socials": [],
+          "onlineBooking": false,
+          "dnsResolves": true
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "Site loaded empty on fetch; none seen in listings."
+      },
+      "sources": [
+        "https://vennyyc.com/",
+        "https://www.coworker.com/canada/calgary/vennyyc",
+        "https://www.coworkingcafe.com/coworking-property/ca/ab/calgary/vennyyc/"
+      ],
+      "leadWebUpgrade": true,
+      "leadTalent": false,
+      "scannedAt": "2026-06-21",
+      "featured": false
+    },
+    {
+      "id": 21,
+      "slug": "fish-creek-executive-centre",
+      "name": "Fish Creek Executive Centre",
+      "operator": "Calgary Executive Centres",
+      "isChain": false,
+      "city": "Calgary",
+      "neighborhood": "Midnapore / SE Calgary",
+      "address": "Suite 300, 340 Midpark Way SE, Calgary, AB T2X 1P1",
+      "website": "https://www.calgaryexecutivecentres.com/fish-creek",
+      "phone": "(403) 256-3669",
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "SE Calgary/Okotoks/High River businesses; private offices, coworking, virtual",
+      "digital": {
+        "score": 100,
+        "band": "A",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": true,
+          "socialCount": 3,
+          "socials": [
+            "facebook",
+            "instagram",
+            "linkedin"
+          ],
+          "onlineBooking": true,
+          "dnsResolves": true
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "None found"
+      },
+      "sources": [
+        "https://www.calgaryexecutivecentres.com/fish-creek",
+        "https://www.yelp.ca/biz/fish-creek-executive-centre-calgary",
+        "https://www.coworkingcafe.com/coworking-property/ca/ab/calgary/fish-creek-executive-centre/"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "scannedAt": "2026-06-21",
+      "featured": false
+    },
+    {
+      "id": 22,
+      "slug": "mount-royal-executive-centre",
+      "name": "Mount Royal Executive Centre",
+      "operator": "Calgary Executive Centres",
+      "isChain": false,
+      "city": "Calgary",
+      "neighborhood": "Lower Mount Royal / Beltline (17 Ave SW)",
+      "address": "Suite 400, 909 17 Avenue SW, Calgary, AB T2T 0A4",
+      "website": "https://www.calgaryexecutivecentres.com/mount-royal",
+      "phone": "(403) 201-5229",
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "startups, expanding companies, professionals; private offices, coworking, virtual",
+      "digital": {
+        "score": 100,
+        "band": "A",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": true,
+          "socialCount": 3,
+          "socials": [
+            "facebook",
+            "instagram",
+            "linkedin"
+          ],
+          "onlineBooking": true,
+          "dnsResolves": true
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "None found"
+      },
+      "sources": [
+        "https://www.calgaryexecutivecentres.com/mount-royal",
+        "https://www.spacelist.ca/listings/681970/ab/calgary/for-lease/office-coworking/mount_royal_executive_centre-909_17_avenue_southwest",
+        "https://www.commercialcafe.com/coworking-property/ca/ab/calgary/mount-royal-executive-centre/"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "scannedAt": "2026-06-21",
+      "featured": false
+    },
+    {
+      "id": 23,
+      "slug": "the-collab-hub",
+      "name": "The Collab Hub",
+      "operator": "Collab Hub / Collab Coworking",
+      "isChain": false,
+      "city": "Calgary",
+      "neighborhood": "Beltline",
+      "address": "535 10 Avenue SW, Unit 103, Calgary, AB T2R 0A8",
+      "website": "https://www.thecollabhub.ca/",
+      "phone": "(403) 888-8199",
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "creatives / remote workers; dedicated desks + event/photoshoot rental",
+      "digital": {
+        "score": 12,
+        "band": "F",
+        "confidence": "high",
+        "gaps": [
+          "Website unreachable / failed to load"
+        ],
+        "signals": {
+          "reachable": false,
+          "https": null,
+          "mobileOptimized": null,
+          "metaDescription": null,
+          "openGraph": null,
+          "socialCount": null,
+          "socials": [],
+          "onlineBooking": null,
+          "dnsResolves": false
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "None found"
+      },
+      "sources": [
+        "https://www.collabcoworking.ca/",
+        "https://www.thecollabhub.ca/about",
+        "https://drop-desk.com/blog/best/coworking-spaces-calgary/"
+      ],
+      "leadWebUpgrade": true,
+      "leadTalent": false,
+      "scannedAt": "2026-06-21",
+      "featured": false
+    },
+    {
+      "id": 24,
+      "slug": "seventy-70-cowork",
+      "name": "Seventy 70 Cowork",
+      "operator": "Seventy 70 Workspaces (7070 Design HQ)",
+      "isChain": true,
+      "city": "Calgary",
+      "neighborhood": "Fairview / SE Calgary (Farrell Rd)",
+      "address": "7070 Farrell Road SE, Calgary, AB T2H 0T2",
+      "website": "https://7070design.com/",
+      "phone": "(587) 332-0211",
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "designers, creative entrepreneurs, freelancers, small teams",
+      "digital": {
+        "score": 88,
+        "band": "A",
+        "confidence": "high",
+        "gaps": [
+          "No social links on site"
+        ],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": true,
+          "socialCount": 0,
+          "socials": [],
+          "onlineBooking": true,
+          "dnsResolves": true
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "None found"
+      },
+      "sources": [
+        "https://7070design.com/",
+        "https://www.coworkingcafe.com/coworking-property/ca/ab/calgary/7070-farrell-road-southeast/",
+        "https://www.coworker.com/canada/calgary/24954-seventy-seventy-design-headquarters"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "scannedAt": "2026-06-21",
+      "featured": false
+    },
+    {
+      "id": 25,
+      "slug": "highfield-hive",
+      "name": "Highfield Hive",
+      "operator": "Highfield Hive",
+      "isChain": false,
+      "city": "Calgary",
+      "neighborhood": "Highfield / Manchester (SE)",
+      "address": "1289 Highfield Crescent SE #116, Calgary, AB",
+      "website": "https://hfhive.ca/",
+      "phone": "(403) 401-5040",
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "SE Calgary neighbourhood coworkers; individual offices/shared desks",
+      "digital": {
+        "score": 12,
+        "band": "F",
+        "confidence": "high",
+        "gaps": [
+          "Website unreachable / failed to load"
+        ],
+        "signals": {
+          "reachable": false,
+          "https": null,
+          "mobileOptimized": null,
+          "metaDescription": null,
+          "openGraph": null,
+          "socialCount": null,
+          "socials": [],
+          "onlineBooking": null,
+          "dnsResolves": false
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "None found; site blocked automated fetch."
+      },
+      "sources": [
+        "https://hfhive.ca/",
+        "https://www.coworkingcafe.com/coworking-property/ca/ab/calgary/1289-highfield-crescent-se/",
+        "https://www.servicedoffice.com/canada/alberta/calgary/highfield-hive"
+      ],
+      "leadWebUpgrade": true,
+      "leadTalent": false,
+      "scannedAt": "2026-06-21",
+      "featured": false
+    },
+    {
+      "id": 26,
+      "slug": "pavilion-cowork-courthouse-6-ave",
+      "name": "Pavilion Cowork \u2014 Courthouse 6 Ave",
+      "operator": "Pavilion Cowork (Alabaster Homes)",
+      "isChain": false,
+      "city": "Calgary",
+      "neighborhood": "Downtown Core (Calgary House, 8th floor)",
+      "address": "550 6 Avenue SW, 8th floor, Calgary, AB",
+      "website": "https://pavilioncowork.com/location/courthouse-6-ave/",
+      "phone": "(604) 558-5863",
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "teams/professionals wanting premium downtown flex space",
+      "digital": {
+        "score": 92,
+        "band": "A",
+        "confidence": "high",
+        "gaps": [
+          "No meta description (weak SEO)"
+        ],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": false,
+          "openGraph": true,
+          "socialCount": 3,
+          "socials": [
+            "facebook",
+            "instagram",
+            "linkedin"
+          ],
+          "onlineBooking": true,
+          "dnsResolves": true
+        }
+      },
+      "hiring": {
+        "hasCareersPage": true,
+        "careersUrl": "https://pavilioncowork.com/career/",
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "Real 'Careers' page on site."
+      },
+      "sources": [
+        "https://pavilioncowork.com/location/courthouse-6-ave/",
+        "https://retail-insider.com/retail-insider/2026/03/alabaster-homes-expands-pavilion-cowork-concept-to-calgary-with-amenity-focused-space/",
+        "https://www.avisonyoung.ca/properties/calgary-house-pavilion-coworking"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": true,
+      "scannedAt": "2026-06-21",
+      "featured": false
+    },
+    {
+      "id": 27,
+      "slug": "house-831",
+      "name": "HOUSE 831",
+      "operator": "Long Calgary",
+      "isChain": false,
+      "city": "Calgary",
+      "neighborhood": "Lower Mount Royal / Beltline (17 Ave SW)",
+      "address": "831 17 Avenue SW, Calgary, AB",
+      "website": "https://house831.com/",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "founders, builders, creators (curated members-club)",
+      "digital": {
+        "score": 86,
+        "band": "A",
+        "confidence": "high",
+        "gaps": [
+          "No clear booking/conversion CTA"
+        ],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": true,
+          "socialCount": 2,
+          "socials": [
+            "instagram",
+            "linkedin"
+          ],
+          "onlineBooking": false,
+          "dnsResolves": true
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "None found"
+      },
+      "sources": [
+        "https://house831.com/",
+        "https://calgary.tech/2024/05/15/long-calgary-house-831-coworking-space/",
+        "https://thefounderspress.com/long-calgary-unveils-house-831/"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "scannedAt": "2026-06-21",
+      "featured": false
+    },
+    {
+      "id": 28,
+      "slug": "victoria-park-business-centre",
+      "name": "Victoria Park Business Centre",
+      "operator": "Victoria Park Business Centre",
+      "isChain": false,
+      "city": "Calgary",
+      "neighborhood": "Victoria Park / Beltline",
+      "address": "Suite 200, 1212 1 Street SE, Calgary, AB T2G 2H8",
+      "website": "https://www.vpbusinesscentre.ca/",
+      "phone": "(587) 600-1925",
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "entrepreneurs, small businesses, consultants, remote pros; private offices, coworking, virtual, meeting rooms",
+      "digital": {
+        "score": 100,
+        "band": "A",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": true,
+          "socialCount": 3,
+          "socials": [
+            "facebook",
+            "instagram",
+            "linkedin"
+          ],
+          "onlineBooking": true,
+          "dnsResolves": true
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "None found"
+      },
+      "sources": [
+        "https://www.vpbusinesscentre.ca/about",
+        "https://app.deskpass.com/spaces/victoria-park-business-centre/reserve",
+        "https://www.yelp.ca/biz/victoria-park-business-centre-calgary"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "scannedAt": "2026-06-21",
+      "featured": false
+    },
+    {
+      "id": 29,
+      "slug": "astra-business-centre",
+      "name": "Astra Business Centre",
+      "operator": "Astra Business Centre",
+      "isChain": false,
+      "city": "Calgary",
+      "neighborhood": "Beltline",
+      "address": "638 11 Avenue SW #200, Calgary, AB T2R 0E2",
+      "website": "https://astrayyc.ca/",
+      "phone": "(587) 327-7272",
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "local Beltline businesses; coworking shared desks, private + virtual offices",
+      "digital": {
+        "score": 100,
+        "band": "A",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": true,
+          "socialCount": 3,
+          "socials": [
+            "facebook",
+            "instagram",
+            "linkedin"
+          ],
+          "onlineBooking": true,
+          "dnsResolves": true
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "Site returned 403 to automated fetch; none found in listings."
+      },
+      "sources": [
+        "https://astrayyc.ca/",
+        "https://www.coworker.com/canada/calgary/astra-business-centre",
+        "https://www.coworkingcafe.com/coworking-property/ca/ab/calgary/638-11-avenue-southwest/"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "scannedAt": "2026-06-21",
+      "featured": false
+    },
+    {
+      "id": 30,
+      "slug": "spaces-regus-calgary-place",
+      "name": "Spaces / Regus \u2014 Calgary Place",
+      "operator": "IWG (cross-listed Spaces + Regus)",
+      "isChain": true,
+      "city": "Calgary",
+      "neighborhood": "Downtown / Financial District",
+      "address": "330 5th Avenue SW, Suite 1800, Calgary, AB T2P 0L4",
+      "website": "https://www.spacesworks.com/en/ca/4335",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "professionals & enterprise teams",
+      "digital": {
+        "score": 56,
+        "band": "C",
+        "confidence": "high",
+        "gaps": [
+          "Missing/blank page title",
+          "No meta description (weak SEO)",
+          "No Open Graph tags (poor social sharing)",
+          "No social links on site",
+          "No clear booking/conversion CTA"
+        ],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": false,
+          "openGraph": false,
+          "socialCount": 0,
+          "socials": [],
+          "onlineBooking": false,
+          "dnsResolves": true
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "IWG corporate careers (Community Associate/Manager roles); not location-level."
+      },
+      "sources": [
+        "https://www.spacesworks.com/en/ca/4335",
+        "https://www.regus.com/en/ca/4335",
+        "https://www.spacesworks.com/en/ca/alberta/calgary/"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "scannedAt": "2026-06-21",
+      "featured": false
+    },
+    {
+      "id": 31,
+      "slug": "spaces-regus-telus-sky",
+      "name": "Spaces / Regus \u2014 Telus Sky",
+      "operator": "IWG (Spaces brand-of-record; cross-listed as Regus)",
+      "isChain": true,
+      "city": "Calgary",
+      "neighborhood": "Downtown / Centre Street",
+      "address": "685 Centre Street SW, Calgary, AB T2G 5P6",
+      "website": "https://www.spacesworks.com/en/ca/5713",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "professionals & enterprise teams",
+      "digital": {
+        "score": 56,
+        "band": "C",
+        "confidence": "high",
+        "gaps": [
+          "Missing/blank page title",
+          "No meta description (weak SEO)",
+          "No Open Graph tags (poor social sharing)",
+          "No social links on site",
+          "No clear booking/conversion CTA"
+        ],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": false,
+          "openGraph": false,
+          "socialCount": 0,
+          "socials": [],
+          "onlineBooking": false,
+          "dnsResolves": true
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "IWG corporate careers."
+      },
+      "sources": [
+        "https://www.spacesworks.com/en/ca/5713",
+        "https://www.regus.com/en/ca/5713",
+        "https://www.coworker.com/canada/calgary/regus-calgary-telus-sky"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "scannedAt": "2026-06-21",
+      "featured": false
+    },
+    {
+      "id": 32,
+      "slug": "spaces-regus-altius-centre",
+      "name": "Spaces / Regus \u2014 Altius Centre",
+      "operator": "IWG (cross-listed Spaces + Regus)",
+      "isChain": true,
+      "city": "Calgary",
+      "neighborhood": "Downtown",
+      "address": "500 4th Avenue SW, Suite 2500, Calgary, AB T2P 2V6",
+      "website": "https://www.spacesworks.com/en/ca/4336",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "professionals & enterprise teams",
+      "digital": {
+        "score": 56,
+        "band": "C",
+        "confidence": "high",
+        "gaps": [
+          "Missing/blank page title",
+          "No meta description (weak SEO)",
+          "No Open Graph tags (poor social sharing)",
+          "No social links on site",
+          "No clear booking/conversion CTA"
+        ],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": false,
+          "openGraph": false,
+          "socialCount": 0,
+          "socials": [],
+          "onlineBooking": false,
+          "dnsResolves": true
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "IWG corporate careers."
+      },
+      "sources": [
+        "https://www.spacesworks.com/en/ca/4336",
+        "https://www.regus.com/en/ca/4336"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "scannedAt": "2026-06-21",
+      "featured": false
+    },
+    {
+      "id": 33,
+      "slug": "spaces-regus-canada-trust-td-canada-trust",
+      "name": "Spaces / Regus \u2014 Canada Trust (TD Canada Trust)",
+      "operator": "IWG (cross-listed Spaces + Regus)",
+      "isChain": true,
+      "city": "Calgary",
+      "neighborhood": "Downtown",
+      "address": "421 7th Avenue SE, 30th Floor, Calgary, AB T2P 4K9",
+      "website": "https://www.spacesworks.com/en/ca/3054",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "professionals & enterprise teams",
+      "digital": {
+        "score": 56,
+        "band": "C",
+        "confidence": "high",
+        "gaps": [
+          "Missing/blank page title",
+          "No meta description (weak SEO)",
+          "No Open Graph tags (poor social sharing)",
+          "No social links on site",
+          "No clear booking/conversion CTA"
+        ],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": false,
+          "openGraph": false,
+          "socialCount": 0,
+          "socials": [],
+          "onlineBooking": false,
+          "dnsResolves": true
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "IWG corporate careers."
+      },
+      "sources": [
+        "https://www.spacesworks.com/en/ca/3054",
+        "https://www.regus.com/en/ca/3054"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "scannedAt": "2026-06-21",
+      "featured": false
+    },
+    {
+      "id": 34,
+      "slug": "spaces-regus-bankers-hall",
+      "name": "Spaces / Regus \u2014 Bankers Hall",
+      "operator": "IWG (Spaces brand-of-record; cross-listed as Regus)",
+      "isChain": true,
+      "city": "Calgary",
+      "neighborhood": "Downtown / Financial District",
+      "address": "888 3rd Street SW, West Tower, 10th Floor, Calgary, AB T2P 5C5",
+      "website": "https://www.spacesworks.com/en/ca/414",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "professionals & enterprise teams",
+      "digital": {
+        "score": 56,
+        "band": "C",
+        "confidence": "high",
+        "gaps": [
+          "Missing/blank page title",
+          "No meta description (weak SEO)",
+          "No Open Graph tags (poor social sharing)",
+          "No social links on site",
+          "No clear booking/conversion CTA"
+        ],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": false,
+          "openGraph": false,
+          "socialCount": 0,
+          "socials": [],
+          "onlineBooking": false,
+          "dnsResolves": true
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "IWG corporate careers."
+      },
+      "sources": [
+        "https://www.spacesworks.com/en/ca/414",
+        "https://www.regus.com/en/ca/414"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "scannedAt": "2026-06-21",
+      "featured": false
+    },
+    {
+      "id": 35,
+      "slug": "spaces-regus-1011-1-st-sw",
+      "name": "Spaces / Regus \u2014 1011 1 St SW",
+      "operator": "IWG (cross-listed Spaces + Regus)",
+      "isChain": true,
+      "city": "Calgary",
+      "neighborhood": "Beltline / Downtown south edge",
+      "address": "1011 1st Street SW, 4th Floor, Calgary, AB T2R 1J2",
+      "website": "https://www.spacesworks.com/en/ca/10130",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "professionals & enterprise teams",
+      "digital": {
+        "score": 56,
+        "band": "C",
+        "confidence": "high",
+        "gaps": [
+          "Missing/blank page title",
+          "No meta description (weak SEO)",
+          "No Open Graph tags (poor social sharing)",
+          "No social links on site",
+          "No clear booking/conversion CTA"
+        ],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": false,
+          "openGraph": false,
+          "socialCount": 0,
+          "socials": [],
+          "onlineBooking": false,
+          "dnsResolves": true
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "IWG corporate careers."
+      },
+      "sources": [
+        "https://www.spacesworks.com/en/ca/10130",
+        "https://www.regus.com/en/ca/10130"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "scannedAt": "2026-06-21",
+      "featured": false
+    },
+    {
+      "id": 36,
+      "slug": "spaces-regus-mcdougall",
+      "name": "Spaces / Regus \u2014 McDougall",
+      "operator": "IWG (cross-listed Spaces + Regus)",
+      "isChain": true,
+      "city": "Calgary",
+      "neighborhood": "Downtown",
+      "address": "639 5th Avenue SW, Suite 2500, Calgary, AB T2P 0M9",
+      "website": "https://www.regus.com/en/ca/4961",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "professionals & enterprise teams",
+      "digital": {
+        "score": 56,
+        "band": "C",
+        "confidence": "high",
+        "gaps": [
+          "Missing/blank page title",
+          "No meta description (weak SEO)",
+          "No Open Graph tags (poor social sharing)",
+          "No social links on site",
+          "No clear booking/conversion CTA"
+        ],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": false,
+          "openGraph": false,
+          "socialCount": 0,
+          "socials": [],
+          "onlineBooking": false,
+          "dnsResolves": true
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "IWG corporate careers."
+      },
+      "sources": [
+        "https://www.regus.com/en/ca/4961",
+        "https://www.spacesworks.com/en/ca/alberta/calgary/"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "scannedAt": "2026-06-21",
+      "featured": false
+    },
+    {
+      "id": 37,
+      "slug": "spaces-regus-903-8th-avenue-sw",
+      "name": "Spaces / Regus \u2014 903 8th Avenue SW",
+      "operator": "IWG (cross-listed Spaces + Regus)",
+      "isChain": true,
+      "city": "Calgary",
+      "neighborhood": "Downtown West End",
+      "address": "903 8th Avenue SW, Suite 900, Calgary, AB T2P 0P7",
+      "website": "https://www.myregus.com/centre/5824/details",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "professionals & enterprise teams",
+      "digital": {
+        "score": 56,
+        "band": "C",
+        "confidence": "high",
+        "gaps": [
+          "Missing/blank page title",
+          "No meta description (weak SEO)",
+          "No Open Graph tags (poor social sharing)",
+          "No social links on site",
+          "No clear booking/conversion CTA"
+        ],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": false,
+          "openGraph": false,
+          "socialCount": 0,
+          "socials": [],
+          "onlineBooking": false,
+          "dnsResolves": true
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "IWG corporate careers."
+      },
+      "sources": [
+        "https://www.myregus.com/centre/5824/details",
+        "https://www.spacesworks.com/en/ca/alberta/calgary/"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "scannedAt": "2026-06-21",
+      "featured": false
+    },
+    {
+      "id": 38,
+      "slug": "spaces-regus-one-executive-place",
+      "name": "Spaces / Regus \u2014 One Executive Place",
+      "operator": "IWG (cross-listed Spaces + Regus)",
+      "isChain": true,
+      "city": "Calgary",
+      "neighborhood": "Hounsfield Heights / NW (Crowchild Trail)",
+      "address": "1816 Crowchild Trail NW, Suite 700, Calgary, AB T2M 3Y7",
+      "website": "https://www.spacesworks.com/en/ca/1940",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "professionals & enterprise teams",
+      "digital": {
+        "score": 56,
+        "band": "C",
+        "confidence": "high",
+        "gaps": [
+          "Missing/blank page title",
+          "No meta description (weak SEO)",
+          "No Open Graph tags (poor social sharing)",
+          "No social links on site",
+          "No clear booking/conversion CTA"
+        ],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": false,
+          "openGraph": false,
+          "socialCount": 0,
+          "socials": [],
+          "onlineBooking": false,
+          "dnsResolves": true
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "IWG corporate careers."
+      },
+      "sources": [
+        "https://www.regus.com/en-gb/canada/calgary/one-executive-place-1940",
+        "https://www.spacesworks.com/en/ca/1940"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "scannedAt": "2026-06-21",
+      "featured": false
+    },
+    {
+      "id": 39,
+      "slug": "spaces-regus-macleod-place-ii",
+      "name": "Spaces / Regus \u2014 Macleod Place II",
+      "operator": "IWG (cross-listed Spaces + Regus)",
+      "isChain": true,
+      "city": "Calgary",
+      "neighborhood": "South / Manchester (Macleod Trail)",
+      "address": "5940 Macleod Trail SW, Suite 500, Calgary, AB T2H 2H4",
+      "website": "https://www.spacesworks.com/en/ca/1701",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "professionals & enterprise teams",
+      "digital": {
+        "score": 56,
+        "band": "C",
+        "confidence": "high",
+        "gaps": [
+          "Missing/blank page title",
+          "No meta description (weak SEO)",
+          "No Open Graph tags (poor social sharing)",
+          "No social links on site",
+          "No clear booking/conversion CTA"
+        ],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": false,
+          "openGraph": false,
+          "socialCount": 0,
+          "socials": [],
+          "onlineBooking": false,
+          "dnsResolves": true
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "IWG corporate careers."
+      },
+      "sources": [
+        "https://www.coworkingcafe.com/coworking-property/ca/ab/calgary/macleod-place-ii/",
+        "https://www.spacesworks.com/en/ca/1701"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "scannedAt": "2026-06-21",
+      "featured": false
+    },
+    {
+      "id": 40,
+      "slug": "spaces-regus-westmount-corporate-campus",
+      "name": "Spaces / Regus \u2014 WestMount Corporate Campus",
+      "operator": "IWG (cross-listed Spaces + Regus)",
+      "isChain": true,
+      "city": "Calgary",
+      "neighborhood": "Westmount / SW (Richard Road)",
+      "address": "4838 Richard Road SW, Suite 300, Calgary, AB T3E 6L1",
+      "website": "https://www.spacesworks.com/en/ca/5336",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "professionals & enterprise teams",
+      "digital": {
+        "score": 56,
+        "band": "C",
+        "confidence": "high",
+        "gaps": [
+          "Missing/blank page title",
+          "No meta description (weak SEO)",
+          "No Open Graph tags (poor social sharing)",
+          "No social links on site",
+          "No clear booking/conversion CTA"
+        ],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": false,
+          "openGraph": false,
+          "socialCount": 0,
+          "socials": [],
+          "onlineBooking": false,
+          "dnsResolves": true
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "IWG corporate careers."
+      },
+      "sources": [
+        "https://www.spacesworks.com/en/ca/5336",
+        "https://www.coworker.com/canada/calgary/regus-alberta-calgary-westmount"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "scannedAt": "2026-06-21",
+      "featured": false
+    },
+    {
+      "id": 41,
+      "slug": "spaces-regus-4503-brisebois-dr-nw",
+      "name": "Spaces / Regus \u2014 4503 Brisebois Dr NW",
+      "operator": "IWG (cross-listed Spaces + Regus)",
+      "isChain": true,
+      "city": "Calgary",
+      "neighborhood": "Brentwood / University District NW",
+      "address": "4503 Brisebois Drive NW, Calgary, AB T2L 2G3",
+      "website": "https://www.spacesworks.com/en/ca/11302",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "professionals & enterprise teams",
+      "digital": {
+        "score": 56,
+        "band": "C",
+        "confidence": "high",
+        "gaps": [
+          "Missing/blank page title",
+          "No meta description (weak SEO)",
+          "No Open Graph tags (poor social sharing)",
+          "No social links on site",
+          "No clear booking/conversion CTA"
+        ],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": false,
+          "openGraph": false,
+          "socialCount": 0,
+          "socials": [],
+          "onlineBooking": false,
+          "dnsResolves": true
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "IWG corporate careers."
+      },
+      "sources": [
+        "https://www.spacesworks.com/en/ca/11302",
+        "https://www.regus.com/en/ca/alberta/calgary/office-space"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "scannedAt": "2026-06-21",
+      "featured": false
+    },
+    {
+      "id": 42,
+      "slug": "regus-6815-8th-street-ne",
+      "name": "Regus \u2014 6815 8th Street NE",
+      "operator": "Regus (IWG)",
+      "isChain": true,
+      "city": "Calgary",
+      "neighborhood": "NE / McCall (Deerfoot area)",
+      "address": "6815 8th Street NE, Suite 290, Calgary, AB T2E 7H7",
+      "website": "https://www.regus.com/en-gb/canada/calgary/6815-8th-street-6189",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "professionals & enterprise teams",
+      "digital": {
+        "score": 56,
+        "band": "C",
+        "confidence": "high",
+        "gaps": [
+          "Missing/blank page title",
+          "No meta description (weak SEO)",
+          "No Open Graph tags (poor social sharing)",
+          "No social links on site",
+          "No clear booking/conversion CTA"
+        ],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": false,
+          "openGraph": false,
+          "socialCount": 0,
+          "socials": [],
+          "onlineBooking": false,
+          "dnsResolves": true
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "IWG corporate careers."
+      },
+      "sources": [
+        "https://www.regus.com/en-gb/canada/calgary/6815-8th-street-6189"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "scannedAt": "2026-06-21",
+      "featured": false
+    },
+    {
+      "id": 43,
+      "slug": "regus-quarry-park",
+      "name": "Regus \u2014 Quarry Park",
+      "operator": "Regus (IWG)",
+      "isChain": true,
+      "city": "Calgary",
+      "neighborhood": "Quarry Park / SE",
+      "address": "160 Quarry Park Boulevard SE, Suite 300, Calgary, AB T2C 3G3",
+      "website": "https://www.regus.com/en-us/canada/calgary/quarry-park-1941",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "professionals & enterprise teams",
+      "digital": {
+        "score": 56,
+        "band": "C",
+        "confidence": "high",
+        "gaps": [
+          "Missing/blank page title",
+          "No meta description (weak SEO)",
+          "No Open Graph tags (poor social sharing)",
+          "No social links on site",
+          "No clear booking/conversion CTA"
+        ],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": false,
+          "openGraph": false,
+          "socialCount": 0,
+          "socials": [],
+          "onlineBooking": false,
+          "dnsResolves": true
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "IWG corporate careers."
+      },
+      "sources": [
+        "https://www.regus.com/en-us/canada/calgary/quarry-park-1941",
+        "https://www.coworker.com/canada/calgary/regus-alberta-calgary-quarry-park"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "scannedAt": "2026-06-21",
+      "featured": false
+    },
+    {
+      "id": 44,
+      "slug": "regus-crowfoot-centre",
+      "name": "Regus \u2014 Crowfoot Centre",
+      "operator": "Regus (IWG)",
+      "isChain": true,
+      "city": "Calgary",
+      "neighborhood": "Crowfoot / NW",
+      "address": "600 Crowfoot Crescent NW, Suite 340, Calgary, AB T3G 0B4",
+      "website": "https://www.regus.com/en-us/canada/calgary/crowfoot-centre-2556",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "professionals & enterprise teams",
+      "digital": {
+        "score": 56,
+        "band": "C",
+        "confidence": "high",
+        "gaps": [
+          "Missing/blank page title",
+          "No meta description (weak SEO)",
+          "No Open Graph tags (poor social sharing)",
+          "No social links on site",
+          "No clear booking/conversion CTA"
+        ],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": false,
+          "openGraph": false,
+          "socialCount": 0,
+          "socials": [],
+          "onlineBooking": false,
+          "dnsResolves": true
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "IWG corporate careers."
+      },
+      "sources": [
+        "https://www.regus.com/en-us/canada/calgary/crowfoot-centre-2556"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "scannedAt": "2026-06-21",
+      "featured": false
+    },
+    {
+      "id": 45,
+      "slug": "wework-stephen-avenue-place",
+      "name": "WeWork \u2014 Stephen Avenue Place",
+      "operator": "WeWork",
+      "isChain": true,
+      "city": "Calgary",
+      "neighborhood": "Downtown / Stephen Avenue",
+      "address": "700 2nd Street SW, Floor 19, Calgary, AB T2P 2W2",
+      "website": "https://www.wework.com/buildings/stephen-avenue-place--calgary",
+      "phone": "(403) 879-9080",
+      "googleRating": 4.9,
+      "googleReviewCount": 48,
+      "targetMember": "professionals & enterprise teams",
+      "digital": {
+        "score": 100,
+        "band": "A",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": true,
+          "socialCount": 5,
+          "socials": [
+            "facebook",
+            "instagram",
+            "linkedin",
+            "twitter/x",
+            "youtube"
+          ],
+          "onlineBooking": true,
+          "dnsResolves": true
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "WeWork corporate careers (Workday-hosted); not Calgary-specific."
+      },
+      "sources": [
+        "https://www.wework.com/buildings/stephen-avenue-place--calgary",
+        "https://www.coworker.com/canada/calgary/wework-stephen-avenue-place"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "scannedAt": "2026-06-21",
+      "featured": false
+    },
+    {
+      "id": 46,
+      "slug": "grupdesk",
+      "name": "GrupDesk",
+      "operator": "GrupDesk (independent)",
+      "isChain": false,
+      "city": "Red Deer",
+      "neighborhood": "Downtown Red Deer",
+      "address": "B102, 5212 48 St, Red Deer, AB",
+      "website": "https://grupdesk.com",
+      "phone": "(587) 272-4787",
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "entrepreneurs, freelancers, independent contractors",
+      "digital": {
+        "score": 90,
+        "band": "A",
+        "confidence": "high",
+        "gaps": [
+          "No clear booking/conversion CTA"
+        ],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": true,
+          "socialCount": 4,
+          "socials": [
+            "facebook",
+            "instagram",
+            "linkedin",
+            "twitter/x"
+          ],
+          "onlineBooking": false,
+          "dnsResolves": true
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "No careers page found on site"
+      },
+      "sources": [
+        "https://grupdesk.com/",
+        "https://coworkingmag.com/listings/coworking-space/ca/ab/red-deer/"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "scannedAt": "2026-06-21",
+      "featured": false
+    },
+    {
+      "id": 47,
+      "slug": "regus-red-deer",
+      "name": "Regus \u2014 Red Deer",
+      "operator": "Regus (IWG)",
+      "isChain": true,
+      "city": "Red Deer",
+      "neighborhood": "Downtown / 50 Street",
+      "address": "4909 50 Street, 2nd Floor, Red Deer, AB",
+      "website": "https://www.regus.com/en/ca/alberta/red-deer/coworking",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "sole traders, startups, enterprises",
+      "digital": {
+        "score": 56,
+        "band": "C",
+        "confidence": "high",
+        "gaps": [
+          "Missing/blank page title",
+          "No meta description (weak SEO)",
+          "No Open Graph tags (poor social sharing)",
+          "No social links on site",
+          "No clear booking/conversion CTA"
+        ],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": false,
+          "openGraph": false,
+          "socialCount": 0,
+          "socials": [],
+          "onlineBooking": false,
+          "dnsResolves": true
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "IWG corporate careers; not location-level."
+      },
+      "sources": [
+        "https://www.regus.com/en/ca/alberta/red-deer/coworking",
+        "https://www.coworkingcafe.com/coworking-property/ca/ab/red-deer/ab-red-deer-50-street/"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "scannedAt": "2026-06-21",
+      "featured": false
+    },
+    {
+      "id": 48,
+      "slug": "work-nicer-coworking-beaver-house",
+      "name": "Work Nicer Coworking \u2014 Beaver House",
+      "operator": "Work Nicer",
+      "isChain": false,
+      "city": "Edmonton",
+      "neighborhood": "Downtown Edmonton (near ICE District)",
+      "address": "10160 103 Street NW, Edmonton, AB T5J 0X6",
+      "website": "https://www.worknicer.com/beaverhouse/",
+      "phone": "(587) 316-2782",
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "founders, remote workers, small teams",
+      "digital": {
+        "score": 100,
+        "band": "A",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": true,
+          "socialCount": 5,
+          "socials": [
+            "facebook",
+            "instagram",
+            "linkedin",
+            "twitter/x",
+            "youtube"
+          ],
+          "onlineBooking": true,
+          "dnsResolves": true
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "No public careers page found"
+      },
+      "sources": [
+        "https://www.worknicer.com/beaverhouse/",
+        "https://www.yelp.ca/biz/work-nicer-coworking-beaver-house-edmonton",
+        "https://edmonton.taproot.news/news/2022/06/28/work-nicer-to-take-over-startup-edmonton-space-in-mercer-warehouse"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "scannedAt": "2026-06-21",
+      "featured": false
+    },
+    {
+      "id": 49,
+      "slug": "roundhouse",
+      "name": "Roundhouse",
+      "operator": "MacEwan University Innovation Hub",
+      "isChain": false,
+      "city": "Edmonton",
+      "neighborhood": "Allard Hall, MacEwan University (downtown)",
+      "address": "11110 104 Avenue NW, Room 11-159 Allard Hall, Edmonton, AB",
+      "website": "http://roundhouse.net/",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "community + MacEwan-affiliated entrepreneurs, creatives, collaborators",
+      "digital": {
+        "score": 100,
+        "band": "A",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": true,
+          "socialCount": 6,
+          "socials": [
+            "facebook",
+            "instagram",
+            "linkedin",
+            "twitter/x",
+            "youtube",
+            "tiktok"
+          ],
+          "onlineBooking": true,
+          "dnsResolves": true
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "University-run; hiring would route through MacEwan careers."
+      },
+      "sources": [
+        "https://www.servicedoffice.com/canada/alberta/edmonton/roundhouse",
+        "https://blog.mastermaq.ca/2018/05/31/roundhouse-coworking-space-is-now-open-inside-macewan-universitys-allard-hall/",
+        "https://reimagine.ca/work/project/roundhouse--macewan-innovation-hub"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "scannedAt": "2026-06-21",
+      "featured": false
+    },
+    {
+      "id": 50,
+      "slug": "kowork",
+      "name": "KOWORK",
+      "operator": "KOWORK (independent)",
+      "isChain": false,
+      "city": "Airdrie",
+      "neighborhood": "Highland Park Green, NE Airdrie",
+      "address": "Unit 3001, 3 Highland Park Green NE, Airdrie, AB T4A 2L5",
+      "website": null,
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "entrepreneurs, remote workers, small businesses, consultants, startups",
+      "digital": {
+        "score": 8,
+        "band": "F",
+        "confidence": "high",
+        "gaps": [
+          "No website found \u2014 invisible online"
+        ],
+        "signals": {
+          "reachable": false,
+          "https": null,
+          "mobileOptimized": null,
+          "metaDescription": null,
+          "openGraph": null,
+          "socialCount": null,
+          "socials": [],
+          "onlineBooking": null,
+          "dnsResolves": null
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "Small owner-run space; no careers page found."
+      },
+      "sources": [
+        "https://airdrielife.com/worklife/kowork-local-business-owner-creates-coworking-centre/",
+        "https://www.airdriechamber.ab.ca/list/member/kowork-2575",
+        "https://regionaldashboard.alberta.ca/property/943345"
+      ],
+      "leadWebUpgrade": true,
+      "leadTalent": false,
+      "scannedAt": "2026-06-21",
+      "featured": false
+    },
+    {
+      "id": 51,
+      "slug": "the-corner-coworking-railway-st-hq",
+      "name": "The Corner Coworking \u2014 Railway St (HQ)",
+      "operator": "The Corner Coworking (independent)",
+      "isChain": false,
+      "city": "Cochrane",
+      "neighborhood": "Downtown Cochrane",
+      "address": "225 Railway St E, Cochrane, AB T4C 2C3",
+      "website": "https://thecornercoworking.ca",
+      "phone": "(587) 315-2167",
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "solo workers, small teams, growing businesses",
+      "digital": {
+        "score": 88,
+        "band": "A",
+        "confidence": "high",
+        "gaps": [
+          "No social links on site"
+        ],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": true,
+          "socialCount": 0,
+          "socials": [],
+          "onlineBooking": true,
+          "dnsResolves": true
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "None found"
+      },
+      "sources": [
+        "https://thecornercoworking.ca/locations/",
+        "https://liquidspace.com/ca/ab/cochrane/the-corner-coworking",
+        "https://www.facebook.com/CornerCowork/"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "scannedAt": "2026-06-21",
+      "featured": false
+    },
+    {
+      "id": 52,
+      "slug": "the-corner-coworking-okotoks-riverside",
+      "name": "The Corner Coworking \u2014 Okotoks (Riverside)",
+      "operator": "The Corner Coworking (independent)",
+      "isChain": false,
+      "city": "Okotoks",
+      "neighborhood": "Okotoks Arts & Learning Campus (above Okotoks Public Library)",
+      "address": "23 Riverside Drive, 2nd floor, Okotoks, AB",
+      "website": "https://thecornercoworking.ca",
+      "phone": "(587) 315-2167",
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "solo workers, small teams, remote workers",
+      "digital": {
+        "score": 88,
+        "band": "A",
+        "confidence": "high",
+        "gaps": [
+          "No social links on site"
+        ],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": true,
+          "socialCount": 0,
+          "socials": [],
+          "onlineBooking": true,
+          "dnsResolves": true
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "None found"
+      },
+      "sources": [
+        "https://www.westernwheel.ca/local-news/first-dedicated-coworking-space-opens-in-okotoks-6531386",
+        "https://liquidspace.com/ca/ab/okotoks/the-corner-coworking-riverside",
+        "https://www.commercialsearch.com/coworking-property/ca/ab/okotoks/23-riverside-drive/"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "scannedAt": "2026-06-21",
+      "featured": false
+    }
+  ]
+}

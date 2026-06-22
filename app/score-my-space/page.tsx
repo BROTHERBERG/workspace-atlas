@@ -1,10 +1,14 @@
 import Image from "next/image"
+import Link from "next/link"
 import { ArrowRight, Award, Zap, Globe, BarChart } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
-import { ScoreRequestForm } from "@/components/forms/ScoreRequestForm"
+import ScoreMySpaceForm from "@/components/score-my-space-form"
+import { sortedByScore, allSpaces, bandColor } from "@/lib/spaces"
 
 export default function ScoreMySpacePage() {
+  const ranked = sortedByScore(allSpaces().filter((s) => s.digital.score !== null && !s.isChain))
+  const examples = [ranked[0], ranked[Math.floor(ranked.length / 2)], ranked[ranked.length - 1]].filter(Boolean)
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
@@ -47,8 +51,8 @@ export default function ScoreMySpacePage() {
           <div className="mx-auto max-w-3xl text-center">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">How It Works</h2>
             <p className="mt-4 text-gray-500 md:text-xl">
-              Our proprietary scoring system analyzes multiple factors to give you a comprehensive view of your digital
-              presence.
+              We render your live site in a real browser and check the five signals that decide whether a member finds —
+              and books — your space.
             </p>
           </div>
           <div className="mt-12 grid gap-8 md:grid-cols-3">
@@ -165,96 +169,54 @@ export default function ScoreMySpacePage() {
             </p>
           </div>
           <div className="mx-auto mt-12 max-w-2xl rounded-lg border bg-white p-6 shadow-sm">
-            <ScoreRequestForm />
+            <ScoreMySpaceForm />
           </div>
         </div>
       </section>
 
-      {/* Testimonials */}
+      {/* Real examples from the live scan */}
       <section className="bg-gray-50 py-16 md:py-24">
         <div className="container px-4 md:px-6">
           <div className="mx-auto max-w-3xl text-center">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">What Space Operators Say</h2>
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">How real Calgary spaces score</h2>
             <p className="mt-4 text-gray-500 md:text-xl">
-              Hear from coworking space operators who have improved their digital presence.
+              Pulled live from the market scan — the strongest, the middle, and the one with the most to gain.
             </p>
           </div>
-          <div className="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-            <Card>
-              <CardContent className="p-6">
-                <div className="flex flex-col space-y-4">
-                  <div className="flex items-center space-x-4">
-                    <div className="rounded-full bg-gray-100 p-1">
-                      <Image
-                        src="/confident-professional.png"
-                        alt="Sarah Johnson"
-                        width={60}
-                        height={60}
-                        className="rounded-full"
-                      />
+          <div className="mt-12 grid gap-8 md:grid-cols-3">
+            {examples.map((space) => {
+              const c = bandColor(space.digital.band)
+              return (
+                <Card key={space.id} className="border-2 border-black shadow-[5px_5px_0px_0px_rgba(0,0,0,1)]">
+                  <CardContent className="p-6">
+                    <div className="flex items-center gap-4">
+                      <div className={`flex h-16 w-16 shrink-0 flex-col items-center justify-center rounded-md border-2 border-black ${c.bg} text-black`}>
+                        <span className="font-cal text-2xl leading-none">{space.digital.band}</span>
+                        <span className="text-xs font-bold">{space.digital.score}</span>
+                      </div>
+                      <div>
+                        <p className="font-cal text-lg leading-tight">{space.name.split("—")[0].trim()}</p>
+                        <p className="text-sm text-gray-500">{space.neighborhood || space.city}</p>
+                      </div>
                     </div>
-                    <div>
-                      <p className="font-medium">Sarah Johnson</p>
-                      <p className="text-sm text-gray-500">The Collective, New York</p>
-                    </div>
-                  </div>
-                  <p className="text-gray-600">
-                    "The digital score analysis was eye-opening. We implemented the recommendations and saw a 40%
-                    increase in website inquiries within just two months."
-                  </p>
-                </div>
-              </CardContent>
-            </Card>
-            <Card>
-              <CardContent className="p-6">
-                <div className="flex flex-col space-y-4">
-                  <div className="flex items-center space-x-4">
-                    <div className="rounded-full bg-gray-100 p-1">
-                      <Image
-                        src="/confident-businessman.png"
-                        alt="Michael Chen"
-                        width={60}
-                        height={60}
-                        className="rounded-full"
-                      />
-                    </div>
-                    <div>
-                      <p className="font-medium">Michael Chen</p>
-                      <p className="text-sm text-gray-500">WorkHub Central, London</p>
-                    </div>
-                  </div>
-                  <p className="text-gray-600">
-                    "We thought our digital presence was strong until we got our score. The detailed insights helped us
-                    fix issues we didn't even know existed."
-                  </p>
-                </div>
-              </CardContent>
-            </Card>
-            <Card>
-              <CardContent className="p-6">
-                <div className="flex flex-col space-y-4">
-                  <div className="flex items-center space-x-4">
-                    <div className="rounded-full bg-gray-100 p-1">
-                      <Image
-                        src="/confident-professional.png"
-                        alt="Aisha Patel"
-                        width={60}
-                        height={60}
-                        className="rounded-full"
-                      />
-                    </div>
-                    <div>
-                      <p className="font-medium">Aisha Patel</p>
-                      <p className="text-sm text-gray-500">Nomad Space, Berlin</p>
-                    </div>
-                  </div>
-                  <p className="text-gray-600">
-                    "The digital score wasn't just a number - it came with actionable recommendations that transformed
-                    our online presence and member acquisition."
-                  </p>
-                </div>
-              </CardContent>
-            </Card>
+                    {space.digital.gaps.length > 0 ? (
+                      <ul className="mt-4 list-inside list-disc space-y-1 text-sm text-gray-600">
+                        {space.digital.gaps.slice(0, 3).map((g, i) => (
+                          <li key={i}>{g}</li>
+                        ))}
+                      </ul>
+                    ) : (
+                      <p className="mt-4 text-sm text-emerald-700">Clean across every signal we measure.</p>
+                    )}
+                  </CardContent>
+                </Card>
+              )
+            })}
+          </div>
+          <div className="mt-10 text-center">
+            <Link href="/intelligence" className="inline-flex items-center gap-1.5 font-semibold text-black underline hover:text-[#caa406]">
+              See every space scored <ArrowRight className="h-4 w-4" />
+            </Link>
           </div>
         </div>
       </section>

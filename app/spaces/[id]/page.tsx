@@ -1,305 +1,241 @@
-import { Metadata } from 'next'
-import { notFound } from 'next/navigation'
-import Image from 'next/image'
-import { getRealWorkspace, getRealWorkspaces } from '@/lib/real-workspace-data'
-import { WorkspaceHeader } from '@/components/workspace/WorkspaceHeader'
-import { WorkspaceInfo } from '@/components/workspace/WorkspaceInfo'
-import { WorkspacePricing } from '@/components/workspace/WorkspacePricing'
-import { WorkspaceAmenities } from '@/components/workspace/WorkspaceAmenities'
-import { WorkspaceBooking } from '@/components/workspace/WorkspaceBooking'
-import { LazyLoad } from '@/components/lazy/LazyComponents'
+import Link from "next/link"
+import { notFound } from "next/navigation"
 import {
-  LazyWorkspaceGallery,
-  LazyWorkspaceReviews,
-  LazyWorkspaceLocation
-} from '@/lib/code-splitting'
-import { WorkspaceScore } from '@/components/workspace/WorkspaceScore'
-import { getServerSession } from 'next-auth'
-import { authOptions } from '@/lib/auth'
-import SimilarWorkspaces from '@/components/recommendations/SimilarWorkspaces'
-import { ErrorBoundary } from '@/components/ErrorBoundary'
+  MapPin,
+  Phone,
+  ExternalLink,
+  ArrowLeft,
+  Wand2,
+  Briefcase,
+  Users,
+  Link2,
+  CheckCircle2,
+} from "lucide-react"
+import { Badge } from "@/components/ui/badge"
+import { Button } from "@/components/ui/button"
+import { Card, CardContent } from "@/components/ui/card"
+import DigitalScoreWidget from "@/components/digital-score-widget"
+import ContactForm from "@/components/contact-form"
+import { getSpace, allSpaces } from "@/lib/spaces"
 
-interface WorkspacePageProps {
-  params: Promise<{ id: string }>
+export function generateStaticParams() {
+  return allSpaces().map((s) => ({ id: String(s.id) }))
 }
 
-export async function generateMetadata({ params }: WorkspacePageProps): Promise<Metadata> {
+export default async function SpacePage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params
-  const workspaceId = parseInt(id) || 1
-  const workspace = getRealWorkspace(workspaceId)
+  const space = getSpace(Number.parseInt(id))
+  if (!space) notFound()
 
-  if (!workspace) {
-    return {
-      title: 'Workspace Not Found - Workspace Atlas',
-    }
-  }
-
-  return {
-    title: `${workspace.name} - ${workspace.location.city} | Workspace Atlas`,
-    description: workspace.description || `Coworking space in ${workspace.location.city}, ${workspace.location.country}`,
-    openGraph: {
-      title: workspace.name,
-      description: workspace.description || `Coworking space in ${workspace.location.city}, ${workspace.location.country}`,
-      images: workspace.images && workspace.images.length > 0 ? [workspace.images[0]] : [],
-    },
-  }
-}
-
-export default async function WorkspacePage({ params }: WorkspacePageProps) {
-  const { id } = await params
-  const session = await getServerSession(authOptions)
-
-  const workspaceId = parseInt(id) || 1
-  const workspace = getRealWorkspace(workspaceId)
-
-  if (!workspace) {
-    notFound()
-  }
-
-  // Transform mock data to match expected format
-  const transformedWorkspace = {
-    id: String(workspace.id),
-    name: workspace.name,
-    description: workspace.description,
-    city: workspace.location.city,
-    country: workspace.location.country,
-    address: workspace.location.address,
-    website: workspace.contactInfo.website,
-    digitalScore: workspace.digitalScore,
-    rating: workspace.rating,
-    featured: workspace.featured,
-    verified: workspace.verified,
-    images: workspace.images,
-    amenities: workspace.amenities,
-    _count: {
-      reviews: workspace.reviewCount,
-      bookings: 0
-    },
-    user: {
-      id: '1',
-      name: 'Space Owner',
-      email: workspace.contactInfo.email,
-      image: null
-    }
-  }
-
-  // Get similar workspaces (from same city or country)
-  const allWorkspaces = getRealWorkspaces()
-  const similarWorkspaces = allWorkspaces
-    .filter(ws =>
-      ws.id !== workspace.id &&
-      (ws.location.city === workspace.location.city || ws.location.country === workspace.location.country)
-    )
-    .slice(0, 3)
-    .map(ws => ({
-      id: String(ws.id),
-      name: ws.name,
-      city: ws.location.city,
-      country: ws.location.country,
-      images: ws.images,
-      digitalScore: ws.digitalScore,
-      featured: ws.featured,
-      _count: {
-        reviews: ws.reviewCount
-      }
-    }))
+  const d = space.digital
+  const hostname = space.website ? space.website.replace(/^https?:\/\//, "").replace(/\/.*$/, "") : null
 
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Header */}
-      <WorkspaceHeader workspace={transformedWorkspace} />
-
-      <div className="container mx-auto px-4 py-8">
-        <div className="grid gap-8 lg:grid-cols-3">
-          {/* Main Content */}
-          <div className="lg:col-span-2 space-y-8">
-            {/* Gallery - Lazy loaded */}
-            <LazyLoad fallback={<div className="h-64 bg-gray-200 animate-pulse rounded-lg" />}>
-              <LazyWorkspaceGallery
-                images={(workspace.images || []).map((url, index) => ({
-                  id: `${workspace.id}-${index}`,
-                  url,
-                  alt: `${workspace.name} image ${index + 1}`,
-                  isMain: index === 0,
-                  order: index
-                }))}
-              />
-            </LazyLoad>
-
-            {/* Basic Info - Load immediately */}
-            <WorkspaceInfo
-              workspace={transformedWorkspace}
-              owner={transformedWorkspace.user}
-              totalBookings={0}
-            />
-
-            {/* Digital Score */}
-            {workspace.digitalScore && (
-              <div className="rounded-lg border-2 border-black bg-white p-6 shadow-[5px_5px_0px_0px_rgba(0,0,0,1)]">
-                <h3 className="text-lg font-semibold mb-2">Digital Score</h3>
-                <div className="text-3xl font-bold text-yellow-600">{workspace.digitalScore}/100</div>
-                <p className="text-sm text-gray-600 mt-2">Digital presence rating</p>
+      <div className="border-b-2 border-black bg-[#1f1f1f] text-white">
+        <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6 lg:px-10">
+          <Link href="/directory" className="inline-flex items-center gap-1.5 text-sm text-gray-400 hover:text-[#f9cb16]">
+            <ArrowLeft className="h-4 w-4" /> Back to directory
+          </Link>
+          <div className="mt-5 flex flex-col gap-5 md:flex-row md:items-end md:justify-between">
+            <div>
+              <div className="flex flex-wrap items-center gap-2">
+                {space.leadWebUpgrade && (
+                  <Badge className="border border-orange-400 bg-orange-500/20 text-orange-200 hover:bg-orange-500/20">
+                    <Wand2 className="mr-1 h-3 w-3" /> Web-services lead
+                  </Badge>
+                )}
+                {space.hiring.confirmedOpening ? (
+                  <Badge className="bg-[#f9cb16] text-black hover:bg-[#f9cb16]">
+                    <Briefcase className="mr-1 h-3 w-3" /> Hiring now
+                  </Badge>
+                ) : space.leadTalent ? (
+                  <Badge className="border border-[#f9cb16]/50 bg-[#f9cb16]/15 text-[#f9cb16] hover:bg-[#f9cb16]/15">
+                    <Briefcase className="mr-1 h-3 w-3" /> Talent signal
+                  </Badge>
+                ) : null}
               </div>
-            )}
-
-            {/* Amenities */}
-            <WorkspaceAmenities
-              amenities={(workspace.amenities || []).map((amenity, index) => ({
-                id: `${workspace.id}-amenity-${index}`,
-                amenity
-              }))}
-            />
-
-            {/* Pricing */}
-            <WorkspacePricing
-              pricing={[
-                {
-                  id: `${workspace.id}-hourly`,
-                  type: 'Hourly',
-                  price: workspace.pricing.hourly || 10,
-                  currency: workspace.pricing.currency,
-                  description: 'Per hour access',
-                  capacity: null,
-                  active: !!workspace.pricing.hourly
-                },
-                {
-                  id: `${workspace.id}-daily`,
-                  type: 'Daily',
-                  price: workspace.pricing.daily || 25,
-                  currency: workspace.pricing.currency,
-                  description: 'Full day access',
-                  capacity: null,
-                  active: !!workspace.pricing.daily
-                },
-                {
-                  id: `${workspace.id}-monthly`,
-                  type: 'Monthly',
-                  price: workspace.pricing.monthly || 200,
-                  currency: workspace.pricing.currency,
-                  description: 'Monthly membership',
-                  capacity: null,
-                  active: !!workspace.pricing.monthly
-                }
-              ].filter(p => p.active)}
-              openingHours={{
-                id: `${workspace.id}-hours`,
-                monday: workspace.openingHours.monday,
-                tuesday: workspace.openingHours.tuesday,
-                wednesday: workspace.openingHours.wednesday,
-                thursday: workspace.openingHours.thursday,
-                friday: workspace.openingHours.friday,
-                saturday: workspace.openingHours.saturday,
-                sunday: workspace.openingHours.sunday
-              }}
-            />
-
-            {/* Location */}
-            <div className="rounded-lg border-2 border-black bg-white p-6 shadow-[5px_5px_0px_0px_rgba(0,0,0,1)]">
-              <h3 className="text-lg font-semibold mb-2">Location</h3>
-              <p className="text-gray-600">
-                {[workspace.location.city, workspace.location.country].filter(Boolean).join(', ')}
-              </p>
-              {workspace.location.address && (
-                <p className="text-sm text-gray-500 mt-1">{workspace.location.address}</p>
+              <h1 className="mt-3 font-cal text-3xl tracking-tight sm:text-4xl">{space.name}</h1>
+              <div className="mt-2 flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-gray-300">
+                <span>{space.operator || "Independent"}</span>
+                <span className="flex items-center gap-1">
+                  <MapPin className="h-3.5 w-3.5 text-[#f9cb16]" />
+                  {space.neighborhood ? `${space.neighborhood}, ` : ""}
+                  {space.city}
+                </span>
+              </div>
+            </div>
+            <div className="flex flex-wrap gap-2">
+              {space.website && (
+                <a href={space.website} target="_blank" rel="noopener noreferrer">
+                  <Button className="bg-[#f9cb16] text-black hover:bg-[#ffd83a]">
+                    <ExternalLink className="mr-2 h-4 w-4" /> Visit site
+                  </Button>
+                </a>
+              )}
+              {space.phone && (
+                <a href={`tel:${space.phone}`}>
+                  <Button variant="outline" className="border-white/30 bg-transparent text-white hover:bg-white/10">
+                    <Phone className="mr-2 h-4 w-4" /> {space.phone}
+                  </Button>
+                </a>
               )}
             </div>
-
-            {/* Reviews */}
-            <div className="rounded-lg border-2 border-black bg-white p-6 shadow-[5px_5px_0px_0px_rgba(0,0,0,1)]">
-              <h3 className="text-lg font-semibold mb-2">Reviews</h3>
-              <div className="flex items-center gap-2 mb-4">
-                <span className="text-3xl font-bold">{workspace.rating.toFixed(1)}</span>
-                <div>
-                  <div className="flex items-center">
-                    {Array.from({ length: 5 }).map((_, i) => (
-                      <svg
-                        key={i}
-                        className={`h-5 w-5 ${i < Math.round(workspace.rating) ? 'text-yellow fill-yellow' : 'text-gray-300'}`}
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 20 20"
-                        fill="currentColor"
-                      >
-                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                      </svg>
-                    ))}
-                  </div>
-                  <p className="text-sm text-gray-600">{workspace.reviewCount} reviews</p>
-                </div>
-              </div>
-            </div>
           </div>
+        </div>
+      </div>
 
-          {/* Sidebar */}
-          <div className="space-y-6">
-            {/* Booking Card */}
-            <div className="rounded-lg border-2 border-black bg-white p-6 shadow-[5px_5px_0px_0px_rgba(0,0,0,1)]">
-              <h3 className="text-lg font-semibold mb-4">Book This Space</h3>
-              <div className="space-y-4">
-                <div className="text-2xl font-bold">
-                  {workspace.pricing.currency} ${workspace.pricing.daily || 25}/day
-                </div>
-                <p className="text-sm text-gray-600">Book your workspace today</p>
-                <button className="w-full bg-yellow text-black font-semibold py-3 px-4 rounded-lg border-2 border-black shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] hover:shadow-none hover:translate-x-1 hover:translate-y-1 transition-all">
-                  {session?.user?.id ? 'Book Now' : 'Sign In to Book'}
-                </button>
-              </div>
-            </div>
-
-            {/* Similar Workspaces */}
-            {similarWorkspaces.length > 0 && (
-              <div className="rounded-lg border-2 border-black bg-white p-6 shadow-[5px_5px_0px_0px_rgba(0,0,0,1)]">
-                <h3 className="text-lg font-semibold mb-4">Similar Spaces</h3>
-                <div className="space-y-4">
-                  {similarWorkspaces.map((similar) => (
-                    <div key={similar.id} className="flex space-x-3">
-                      <div className="flex-shrink-0">
-                        <Image
-                          src={(similar.images && similar.images[0]) || '/placeholder-workspace.jpg'}
-                          alt={similar.name}
-                          width={64}
-                          height={64}
-                          className="w-16 h-16 rounded-lg object-cover"
-                        />
+      {/* Body */}
+      <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6 lg:px-10">
+        <div className="grid gap-8 lg:grid-cols-3">
+          {/* Left */}
+          <div className="space-y-8 lg:col-span-2">
+            {/* Why it's on the radar */}
+            {(space.leadWebUpgrade || space.leadTalent) && (
+              <div>
+                <h2 className="font-cal text-xl">Why this space is on the radar</h2>
+                <div className="mt-4 grid gap-4 sm:grid-cols-2">
+                  {space.leadWebUpgrade && (
+                    <div className="rounded-lg border-2 border-black bg-orange-50 p-5 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
+                      <div className="flex items-center gap-2">
+                        <Wand2 className="h-5 w-5 text-orange-600" />
+                        <h3 className="font-cal">Web-services opportunity</h3>
                       </div>
-                      <div className="flex-1 min-w-0">
-                        <h4 className="text-sm font-medium text-gray-900 truncate">
-                          {similar.name}
-                        </h4>
-                        <p className="text-xs text-gray-500">
-                          {similar.city}, {similar.country}
-                        </p>
-                        <div className="flex items-center mt-1">
-                          <span className="text-xs text-gray-500">
-                            {similar._count.reviews} reviews
-                          </span>
-                          {similar.digitalScore && (
-                            <>
-                              <span className="mx-1 text-gray-300">•</span>
-                              <span className="text-xs font-medium text-yellow-600">
-                                Score: {similar.digitalScore}
-                              </span>
-                            </>
-                          )}
-                        </div>
-                      </div>
+                      <p className="mt-2 text-sm text-gray-600">
+                        {!space.website
+                          ? "No website at all — invisible to anyone searching online. A clear pitch for a Crush Digital build."
+                          : d.signals.dnsResolves === false
+                            ? "Their domain no longer resolves — the site is offline. A rebuild conversation waiting to happen."
+                            : "A live but weak site. The fixes below are exactly what a Crush Digital engagement delivers."}
+                      </p>
+                      {d.gaps.length > 0 && d.signals.reachable && (
+                        <ul className="mt-3 list-inside list-disc space-y-0.5 text-sm text-orange-900">
+                          {d.gaps.slice(0, 4).map((g, i) => (
+                            <li key={i}>{g}</li>
+                          ))}
+                        </ul>
+                      )}
                     </div>
-                  ))}
+                  )}
+                  {space.leadTalent && (
+                    <div className="rounded-lg border-2 border-black bg-[#1f1f1f] p-5 text-white shadow-[4px_4px_0px_0px_rgba(249,203,22,1)]">
+                      <div className="flex items-center gap-2">
+                        <Briefcase className="h-5 w-5 text-[#f9cb16]" />
+                        <h3 className="font-cal">Recruitment signal</h3>
+                      </div>
+                      {space.hiring.confirmedOpening && (
+                        <p className="mt-2 flex items-center gap-1.5 text-sm font-medium text-[#f9cb16]">
+                          <CheckCircle2 className="h-4 w-4" /> Live leadership opening detected
+                        </p>
+                      )}
+                      {space.hiring.notes && <p className="mt-2 text-sm text-gray-300">{space.hiring.notes}</p>}
+                      {space.hiring.careersUrl && (
+                        <a
+                          href={space.hiring.careersUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="mt-3 inline-flex items-center gap-1 text-sm font-semibold text-[#f9cb16] hover:text-white"
+                        >
+                          Open careers page <ExternalLink className="h-3 w-3" />
+                        </a>
+                      )}
+                    </div>
+                  )}
                 </div>
               </div>
             )}
+
+            {/* What we know */}
+            <div>
+              <h2 className="font-cal text-xl">What we know</h2>
+              <dl className="mt-4 grid gap-px overflow-hidden rounded-lg border-2 border-black bg-black/10 text-sm sm:grid-cols-2">
+                {[
+                  { k: "Operator", v: space.operator || "Independent" },
+                  { k: "Area", v: space.neighborhood || space.city },
+                  { k: "Address", v: space.address || "Not published" },
+                  { k: "Best for", v: space.targetMember || "General members" },
+                  { k: "Website", v: hostname || "None found" },
+                  { k: "Type", v: space.isChain ? "National chain location" : "Independent operator" },
+                ].map((row) => (
+                  <div key={row.k} className="bg-white p-4">
+                    <dt className="text-xs uppercase tracking-wide text-gray-400">{row.k}</dt>
+                    <dd className="mt-0.5 font-medium text-gray-800">{row.v}</dd>
+                  </div>
+                ))}
+              </dl>
+            </div>
+
+            {/* Recruitment partner (proposed) */}
+            <div>
+              <h2 className="font-cal text-xl">Need leadership for this space?</h2>
+              <div className="mt-4 rounded-lg border-2 border-black bg-white p-6 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
+                <div className="flex flex-col items-start gap-5 sm:flex-row">
+                  <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-md border-2 border-black bg-[#1f1f1f] text-white">
+                    <Users className="h-8 w-8" />
+                  </div>
+                  <div>
+                    <h3 className="font-cal text-lg">Bottle Rocket Search Group</h3>
+                    <p className="mt-1 text-sm text-gray-600">
+                      Specialist recruitment for flexible-workspace operators — Community Managers, General Managers and
+                      Operations leaders. Talent signals surfaced here route straight to their desk.
+                    </p>
+                    <Link href="/request-talent" className="mt-3 inline-block">
+                      <Button className="border-2 border-black bg-[#f9cb16] text-black hover:bg-[#ffd83a]">
+                        Get connected
+                      </Button>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Sources */}
+            {space.sources.length > 0 && (
+              <div>
+                <h2 className="flex items-center gap-2 font-cal text-xl">
+                  <Link2 className="h-5 w-5 text-gray-400" /> Sources
+                </h2>
+                <ul className="mt-3 space-y-1.5 text-sm">
+                  {space.sources.map((src, i) => (
+                    <li key={i}>
+                      <a
+                        href={src}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="break-all text-gray-500 hover:text-[#caa406] hover:underline"
+                      >
+                        {src}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+                <p className="mt-2 text-xs text-gray-400">Scanned {space.scannedAt}. Every figure is sourced — nothing is fabricated.</p>
+              </div>
+            )}
+          </div>
+
+          {/* Right */}
+          <div className="space-y-6">
+            <DigitalScoreWidget
+              score={d.score}
+              band={d.band}
+              signals={d.signals}
+              gaps={d.gaps}
+              confidence={d.confidence}
+              detailed
+            />
+            <Card className="border-2 border-black shadow-[5px_5px_0px_0px_rgba(0,0,0,1)]">
+              <CardContent className="p-6">
+                <h2 className="font-cal text-lg">Contact this space</h2>
+                <p className="mt-1 text-sm text-gray-500">Reach out through Workscape Atlas.</p>
+                <div className="mt-4">
+                  <ContactForm />
+                </div>
+              </CardContent>
+            </Card>
           </div>
         </div>
-
-        {/* Similar Workspaces Section */}
-        <ErrorBoundary>
-          <div className="mt-16">
-            <SimilarWorkspaces
-              workspaceId={String(workspace.id)}
-              workspaceName={workspace.name}
-              count={6}
-            />
-          </div>
-        </ErrorBoundary>
       </div>
     </div>
   )
