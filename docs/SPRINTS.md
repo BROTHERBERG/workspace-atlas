@@ -30,8 +30,12 @@ Files: app/search/page.tsx, app/recommendations/page.tsx.
 Verify: build clean (101 pp); /recruitment + /admin/radar both 0 console errors / 0 404s (Playwright).
 Files: app/recruitment/page.tsx, app/admin/layout.tsx, data/radar/{signals,last-scan}.json.
 
-## S4 — Verify lead-capture loop end-to-end — PENDING
-Playwright: /request-talent → /api/talent-request → data/leads/*.json → /admin/talent-leads (file-based, no DB). Email/Slack routing = propose only.
+## S4 — Verify lead-capture loop end-to-end — ✅ DONE (2026-06-22)
+- Talent loop verified E2E (Playwright drove the real form): POST /api/talent-request → 201 → data/leads/talent-requests.json → appears in /admin/talent-leads. CSRF handled.
+- **Bug found + fixed:** /score-my-space form's "Submit" was inert (no handler, never called /api/score-request). Wired it (controlled fields + `fetchWithCsrf` + success state). Re-tested E2E: 201 → data/leads/score-requests.json captured, success UI, 0 console errors.
+- Both loops are file-based (no DB needed). Test leads cleaned; leads files reset to `[]`.
+- Email/Slack routing on submit = NOT wired (outbound — left for Eric).
+Files: components/score-my-space-form.tsx, data/leads/score-requests.json.
 
 ## S5 — Full QA sweep + Derek package — PENDING
 Whole-site brand/mobile/console-clean + honesty audit; refresh docs/DEREK-BRIEF.md + click-through script; final screenshots. Then stop at review gate.

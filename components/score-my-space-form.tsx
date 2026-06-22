@@ -1,31 +1,80 @@
 "use client"
 
 import { useState } from "react"
+import { CheckCircle2 } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { Label } from "@/components/ui/label"
 import { Checkbox } from "@/components/ui/checkbox"
+import { fetchWithCsrf } from "@/lib/csrf-client"
 
 export default function ScoreMySpaceForm() {
   const [step, setStep] = useState(1)
   const totalSteps = 3
 
-  const nextStep = () => {
-    if (step < totalSteps) {
-      setStep(step + 1)
+  // Controlled fields the API actually stores (rest are optional enrichment)
+  const [spaceName, setSpaceName] = useState("")
+  const [website, setWebsite] = useState("")
+  const [email, setEmail] = useState("")
+  const [goals, setGoals] = useState("")
+
+  const [submitting, setSubmitting] = useState(false)
+  const [submitted, setSubmitted] = useState(false)
+  const [error, setError] = useState<string | null>(null)
+
+  const nextStep = () => step < totalSteps && setStep(step + 1)
+  const prevStep = () => step > 1 && setStep(step - 1)
+
+  async function handleSubmit(e: React.FormEvent) {
+    e.preventDefault()
+    setError(null)
+    if (!spaceName.trim()) {
+      setError("Please enter your space name (step 1).")
+      setStep(1)
+      return
+    }
+    if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) {
+      setError("Please enter a valid email so we can send your score.")
+      return
+    }
+    setSubmitting(true)
+    try {
+      const res = await fetchWithCsrf("/api/score-request", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          email: email.trim(),
+          spaceName: spaceName.trim(),
+          website: website.trim() || undefined,
+          description: goals.trim() || undefined,
+        }),
+      })
+      if (!res.ok) throw new Error((await res.json().catch(() => ({})))?.error || "Something went wrong")
+      setSubmitted(true)
+    } catch (err) {
+      setError(err instanceof Error ? err.message : "Something went wrong — please try again.")
+    } finally {
+      setSubmitting(false)
     }
   }
 
-  const prevStep = () => {
-    if (step > 1) {
-      setStep(step - 1)
-    }
+  if (submitted) {
+    return (
+      <div className="flex flex-col items-center py-8 text-center">
+        <CheckCircle2 className="h-12 w-12 text-emerald-600" />
+        <h3 className="mt-4 font-cal text-xl">Request received.</h3>
+        <p className="mt-2 max-w-sm text-gray-600">
+          We'll run a live scan of {website ? website : "your site"} and send the full Digital Presence Score to{" "}
+          <span className="font-medium text-black">{email}</span>.
+        </p>
+      </div>
+    )
   }
 
   return (
-    <div className="space-y-6">
+    <form onSubmit={handleSubmit} className="space-y-6">
       <div className="flex items-center justify-between">
         <h3 className="text-lg font-bold">
           Step {step} of {totalSteps}
@@ -46,11 +95,11 @@ export default function ScoreMySpaceForm() {
         <div className="space-y-4">
           <div className="space-y-2">
             <Label htmlFor="space-name">Space Name</Label>
-            <Input id="space-name" placeholder="Enter your coworking space name" />
+            <Input id="space-name" placeholder="Enter your coworking space name" value={spaceName} onChange={(e) => setSpaceName(e.target.value)} />
           </div>
           <div className="space-y-2">
             <Label htmlFor="website">Website URL</Label>
-            <Input id="website" placeholder="https://yourspace.com" />
+            <Input id="website" placeholder="https://yourspace.com" value={website} onChange={(e) => setWebsite(e.target.value)} />
           </div>
           <div className="grid gap-4 sm:grid-cols-2">
             <div className="space-y-2">
@@ -102,28 +151,19 @@ export default function ScoreMySpaceForm() {
             <div className="space-y-2">
               <div className="flex items-center space-x-2">
                 <Checkbox id="has-booking" />
-                <label
-                  htmlFor="has-booking"
-                  className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-                >
+                <label htmlFor="has-booking" className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
                   Online booking system
                 </label>
               </div>
               <div className="flex items-center space-x-2">
                 <Checkbox id="has-virtual-tour" />
-                <label
-                  htmlFor="has-virtual-tour"
-                  className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-                >
+                <label htmlFor="has-virtual-tour" className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
                   Virtual tour
                 </label>
               </div>
               <div className="flex items-center space-x-2">
                 <Checkbox id="has-blog" />
-                <label
-                  htmlFor="has-blog"
-                  className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-                >
+                <label htmlFor="has-blog" className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
                   Blog or content marketing
                 </label>
               </div>
@@ -140,7 +180,7 @@ export default function ScoreMySpaceForm() {
           </div>
           <div className="space-y-2">
             <Label htmlFor="contact-email">Email</Label>
-            <Input id="contact-email" type="email" placeholder="you@example.com" />
+            <Input id="contact-email" type="email" placeholder="you@example.com" value={email} onChange={(e) => setEmail(e.target.value)} />
           </div>
           <div className="space-y-2">
             <Label htmlFor="contact-phone">Phone</Label>
@@ -164,7 +204,7 @@ export default function ScoreMySpaceForm() {
           </div>
           <div className="space-y-2">
             <Label htmlFor="goals">What are your main goals for improving your digital presence?</Label>
-            <Textarea id="goals" placeholder="Tell us what you hope to achieve..." rows={3} />
+            <Textarea id="goals" placeholder="Tell us what you hope to achieve..." rows={3} value={goals} onChange={(e) => setGoals(e.target.value)} />
           </div>
           <div className="flex items-center space-x-2">
             <Checkbox id="terms" />
@@ -174,6 +214,8 @@ export default function ScoreMySpaceForm() {
           </div>
         </div>
       )}
+
+      {error && <p className="text-sm font-medium text-red-600">{error}</p>}
 
       <div className="flex justify-between pt-4">
         {step > 1 ? (
@@ -188,9 +230,11 @@ export default function ScoreMySpaceForm() {
             Continue
           </Button>
         ) : (
-          <Button type="submit">Submit</Button>
+          <Button type="submit" disabled={submitting}>
+            {submitting ? "Submitting…" : "Submit"}
+          </Button>
         )}
       </div>
-    </div>
+    </form>
   )
 }
