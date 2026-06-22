@@ -55,21 +55,18 @@ export default function ScoreMySpaceForm() {
           <div className="grid gap-4 sm:grid-cols-2">
             <div className="space-y-2">
               <Label htmlFor="city">City</Label>
-              <Input id="city" placeholder="City" />
+              <Input id="city" defaultValue="Calgary" placeholder="Calgary" />
             </div>
             <div className="space-y-2">
-              <Label htmlFor="country">Country</Label>
-              <Select>
+              <Label htmlFor="country">Province</Label>
+              <Select defaultValue="ab">
                 <SelectTrigger id="country">
-                  <SelectValue placeholder="Select country" />
+                  <SelectValue placeholder="Select province" />
                 </SelectTrigger>
                 <SelectContent>
-                  <SelectItem value="us">United States</SelectItem>
-                  <SelectItem value="uk">United Kingdom</SelectItem>
-                  <SelectItem value="ca">Canada</SelectItem>
-                  <SelectItem value="au">Australia</SelectItem>
-                  <SelectItem value="de">Germany</SelectItem>
-                  <SelectItem value="fr">France</SelectItem>
+                  <SelectItem value="ab">Alberta</SelectItem>
+                  <SelectItem value="bc">British Columbia</SelectItem>
+                  <SelectItem value="sk">Saskatchewan</SelectItem>
                   <SelectItem value="other">Other</SelectItem>
                 </SelectContent>
               </Select>

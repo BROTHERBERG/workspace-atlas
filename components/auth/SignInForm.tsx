@@ -95,7 +95,10 @@ export function SignInForm() {
               </p>
             )}
           </div>
-          <Button disabled={isLoading} className="mt-2">
+          <Button
+            disabled={isLoading}
+            className="mt-2 border-2 border-black bg-[#f9cb16] font-bold text-black shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] transition-all hover:translate-x-[2px] hover:translate-y-[2px] hover:bg-[#ffd83a] hover:shadow-none"
+          >
             {isLoading && (
               <Icons.spinner className="mr-2 h-4 w-4 animate-spin" />
             )}

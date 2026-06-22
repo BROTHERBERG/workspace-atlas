@@ -1,24 +1,31 @@
 import { Metadata } from 'next'
 import { ContactForm } from '@/components/forms/ContactForm'
-import { MapPin, Mail, Clock } from 'lucide-react'
+import { Badge } from '@/components/ui/badge'
+import { marketStats } from '@/lib/spaces'
+import { MapPin, Mail, Clock, Send } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Contact Us - Workscape Atlas',
-  description: 'Get in touch with our team',
+  description: 'Get in touch with the Workscape Atlas team in Calgary, Alberta.',
 }
 
 export default function ContactPage() {
+  const s = marketStats()
+
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <section className="bg-black py-16 text-white md:py-24">
-        <div className="container px-4 md:px-6">
+      <section className="border-b-2 border-black bg-[#1f1f1f] text-white">
+        <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 md:py-24 lg:px-10">
           <div className="mx-auto max-w-3xl text-center">
-            <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-              Get in Touch
+            <Badge className="mb-5 inline-flex items-center gap-1.5 bg-[#f9cb16] text-black hover:bg-[#f9cb16]">
+              <MapPin className="h-3 w-3" /> Calgary &amp; Alberta
+            </Badge>
+            <h1 className="font-cal text-4xl tracking-tight sm:text-5xl md:text-6xl">
+              Get in touch
             </h1>
-            <p className="mt-4 text-gray-300 md:text-xl">
-              Have questions about Workscape Atlas? We'd love to hear from you.
+            <p className="mt-4 text-lg text-gray-300">
+              Questions about the scan, a listing, or a lead? We read every message.
             </p>
           </div>
         </div>
@@ -26,67 +33,69 @@ export default function ContactPage() {
 
       {/* Contact Section */}
       <section className="py-16 md:py-24">
-        <div className="container px-4 md:px-6">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-10">
           <div className="grid gap-12 lg:grid-cols-2">
             {/* Contact Information */}
             <div className="space-y-8">
               <div>
-                <h2 className="text-2xl font-bold tracking-tighter sm:text-3xl">
-                  Let's Connect
+                <h2 className="font-cal text-3xl tracking-tight sm:text-4xl">
+                  Let&apos;s connect
                 </h2>
                 <p className="mt-4 text-gray-600">
-                  Whether you're a coworking space operator looking to improve your digital presence 
-                  or a remote worker searching for the perfect workspace, we're here to help.
+                  Whether you run a coworking space looking to sharpen your digital presence
+                  or you&apos;re searching the Calgary market for the right workspace, we&apos;re here to help.
                 </p>
               </div>
 
-              <div className="space-y-6">
-                <div className="flex items-start space-x-4">
-                  <div className="flex h-10 w-10 items-center justify-center rounded-full bg-black text-white">
-                    <Mail className="h-5 w-5" />
+              <div className="space-y-5">
+                <div className="flex items-start gap-4 rounded-xl border-2 border-black bg-white p-5 shadow-[5px_5px_0px_0px_rgba(0,0,0,1)]">
+                  <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-md border-2 border-black bg-[#f9cb16]">
+                    <Mail className="h-5 w-5 text-black" />
                   </div>
                   <div>
-                    <h3 className="font-semibold">Email</h3>
-                    <p className="text-gray-600">hello@workscapeatlas.com</p>
-                    <p className="text-sm text-gray-500">We'll respond within 24 hours</p>
+                    <h3 className="font-cal text-lg">Email</h3>
+                    <p className="text-gray-700">hello@workscapeatlas.com</p>
+                    <p className="text-sm text-gray-500">We&apos;ll respond within 24 hours</p>
                   </div>
                 </div>
 
-                <div className="flex items-start space-x-4">
-                  <div className="flex h-10 w-10 items-center justify-center rounded-full bg-black text-white">
-                    <MapPin className="h-5 w-5" />
+                <div className="flex items-start gap-4 rounded-xl border-2 border-black bg-white p-5 shadow-[5px_5px_0px_0px_rgba(0,0,0,1)]">
+                  <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-md border-2 border-black bg-[#f9cb16]">
+                    <MapPin className="h-5 w-5 text-black" />
                   </div>
                   <div>
-                    <h3 className="font-semibold">Office</h3>
-                    <p className="text-gray-600">San Francisco, CA</p>
-                    <p className="text-sm text-gray-500">Remote-first team</p>
+                    <h3 className="font-cal text-lg">Based in</h3>
+                    <p className="text-gray-700">Calgary, Alberta</p>
+                    <p className="text-sm text-gray-500">Mapping the local coworking market</p>
                   </div>
                 </div>
 
-                <div className="flex items-start space-x-4">
-                  <div className="flex h-10 w-10 items-center justify-center rounded-full bg-black text-white">
-                    <Clock className="h-5 w-5" />
+                <div className="flex items-start gap-4 rounded-xl border-2 border-black bg-white p-5 shadow-[5px_5px_0px_0px_rgba(0,0,0,1)]">
+                  <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-md border-2 border-black bg-[#f9cb16]">
+                    <Clock className="h-5 w-5 text-black" />
                   </div>
                   <div>
-                    <h3 className="font-semibold">Response Time</h3>
-                    <p className="text-gray-600">Monday - Friday</p>
-                    <p className="text-sm text-gray-500">9:00 AM - 6:00 PM PST</p>
+                    <h3 className="font-cal text-lg">Response time</h3>
+                    <p className="text-gray-700">Monday – Friday</p>
+                    <p className="text-sm text-gray-500">9:00 AM – 6:00 PM MT</p>
                   </div>
                 </div>
               </div>
 
-              <div className="rounded-lg bg-yellow/10 p-6">
-                <h3 className="font-semibold text-black">For Space Operators</h3>
-                <p className="mt-2 text-sm text-gray-700">
-                  Interested in getting your space featured on Workscape Atlas? 
-                  Mention "Space Partnership" in your message and we'll prioritize your inquiry.
+              <div className="rounded-xl border-2 border-black bg-[#1f1f1f] p-6 text-white shadow-[5px_5px_0px_0px_rgba(249,203,22,1)]">
+                <h3 className="font-cal text-lg text-[#f9cb16]">For space operators</h3>
+                <p className="mt-2 text-sm text-gray-300">
+                  Want your space on Workscape Atlas? We&apos;ve already scored {s.total} spaces across Alberta.
+                  Mention &quot;Space Partnership&quot; in your message and we&apos;ll prioritize your inquiry.
                 </p>
               </div>
             </div>
 
             {/* Contact Form */}
-            <div className="rounded-lg border bg-white p-6 shadow-sm">
-              <h2 className="mb-6 text-xl font-semibold">Send us a message</h2>
+            <div className="rounded-xl border-2 border-black bg-white p-6 shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] md:p-8">
+              <h2 className="mb-6 flex items-center gap-2 font-cal text-2xl">
+                <Send className="h-5 w-5 text-[#caa406]" /> Send us a message
+              </h2>
               <ContactForm />
             </div>
           </div>
@@ -94,43 +103,46 @@ export default function ContactPage() {
       </section>
 
       {/* FAQ Section */}
-      <section className="bg-white py-16 md:py-24">
-        <div className="container px-4 md:px-6">
+      <section className="border-y-2 border-black bg-white py-16 md:py-24">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-10">
           <div className="mx-auto max-w-3xl text-center">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
-              Frequently Asked Questions
+            <Badge className="mb-4 inline-flex items-center gap-1.5 bg-[#f9cb16] text-black hover:bg-[#f9cb16]">
+              FAQ
+            </Badge>
+            <h2 className="font-cal text-3xl tracking-tight sm:text-4xl">
+              Frequently asked questions
             </h2>
           </div>
 
-          <div className="mx-auto mt-12 max-w-3xl space-y-8">
-            <div>
-              <h3 className="text-lg font-semibold">How do I get my coworking space listed?</h3>
-              <p className="mt-2 text-gray-600">
-                Submit your space through our "Score My Space" form. Our team will review your 
+          <div className="mx-auto mt-12 grid max-w-4xl gap-5 sm:grid-cols-2">
+            <div className="rounded-xl border-2 border-black bg-gray-50 p-6 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
+              <h3 className="font-cal text-lg">How do I get my coworking space listed?</h3>
+              <p className="mt-2 text-sm text-gray-600">
+                Submit your space through our &quot;Score My Space&quot; form. Our team will review your
                 digital presence and provide recommendations for improvement before featuring your space.
               </p>
             </div>
 
-            <div>
-              <h3 className="text-lg font-semibold">What is the digital scoring system?</h3>
-              <p className="mt-2 text-gray-600">
-                Our proprietary scoring system evaluates your website performance, SEO optimization, 
+            <div className="rounded-xl border-2 border-black bg-gray-50 p-6 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
+              <h3 className="font-cal text-lg">What is the digital scoring system?</h3>
+              <p className="mt-2 text-sm text-gray-600">
+                Our proprietary scoring system evaluates your website performance, SEO optimization,
                 social media presence, and online reputation to give you a comprehensive digital score.
               </p>
             </div>
 
-            <div>
-              <h3 className="text-lg font-semibold">Is the scoring service free?</h3>
-              <p className="mt-2 text-gray-600">
-                Yes! We provide a basic digital score analysis at no cost. Premium consulting 
+            <div className="rounded-xl border-2 border-black bg-gray-50 p-6 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
+              <h3 className="font-cal text-lg">Is the scoring service free?</h3>
+              <p className="mt-2 text-sm text-gray-600">
+                Yes! We provide a basic digital score analysis at no cost. Premium consulting
                 services are available for spaces looking for detailed improvement strategies.
               </p>
             </div>
 
-            <div>
-              <h3 className="text-lg font-semibold">How often is the directory updated?</h3>
-              <p className="mt-2 text-gray-600">
-                We continuously update our directory with new spaces and refresh digital scores 
+            <div className="rounded-xl border-2 border-black bg-gray-50 p-6 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
+              <h3 className="font-cal text-lg">How often is the directory updated?</h3>
+              <p className="mt-2 text-sm text-gray-600">
+                We continuously update our directory with new spaces and refresh digital scores
                 quarterly to ensure accuracy and relevance.
               </p>
             </div>
