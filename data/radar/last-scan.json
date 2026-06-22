@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-06-10T22:37:12.355Z",
+  "ranAt": "2026-06-22T06:20:21.906Z",
   "sourceResults": [
     {
       "board": "smartrecruiters:WeWork",
@@ -113,7 +113,7 @@
       "board": "lever:cic",
       "operator": "CIC (Cambridge Innovation Center)",
       "ok": true,
-      "count": 11
+      "count": 12
     },
     {
       "board": "greenhouse:workbar",
@@ -264,7 +264,7 @@
     {
       "feed": "Allwork.Space",
       "ok": true,
-      "kept": 2
+      "kept": 0
     },
     {
       "feed": "Coworking Insights",
@@ -272,8 +272,8 @@
       "kept": 6
     }
   ],
-  "added": 55,
-  "refreshed": 0,
-  "closed": 0,
-  "total": 55
+  "added": 12,
+  "refreshed": 42,
+  "closed": 11,
+  "total": 67
 }

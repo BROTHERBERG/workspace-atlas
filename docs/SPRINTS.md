@@ -23,8 +23,12 @@ Both pages rebuilt as self-contained components over `lib/spaces` + `SpaceCard` 
 Verify: build clean (101 pp); 0 console errors (both, desktop+mobile, incl. `?q=beltline`); both visually reviewed — consistent real Calgary data across the whole demo path now.
 Files: app/search/page.tsx, app/recommendations/page.tsx.
 
-## S3 — Surface the global Radar publicly — PENDING
-Refresh `radar:scan` (free), add a "Live leadership openings — industry Radar (Global)" section to /recruitment from `lib/radar/store.ts`, labeled Global vs Calgary leads. Confirm /admin/radar via cookie gate.
+## S3 — Surface the global Radar publicly — ✅ DONE (2026-06-22)
+- Refreshed `npm run radar:scan` (free ATS + RSS): 9 live boards, 67 signals stored, dated today. 48 active openings, 17 leadership-level (Convene 34 / CIC 12 / WeWork 2).
+- Added a public "Live leadership openings — the Radar" section to /recruitment (server-side `loadSignals()`), Global badge, framing (Calgary = method proof, Radar = scale to Bottle Rocket), top 9 leadership roles + "17 leadership / 48 total" + refreshed date. Filters out junk ("Test") + staff roles.
+- Confirmed `/admin/radar` renders through the cookie gate (`atlas_admin` == ADMIN_DEMO_KEY); fixed a dead `/admin/settings` sidebar link that 404'd.
+Verify: build clean (101 pp); /recruitment + /admin/radar both 0 console errors / 0 404s (Playwright).
+Files: app/recruitment/page.tsx, app/admin/layout.tsx, data/radar/{signals,last-scan}.json.
 
 ## S4 — Verify lead-capture loop end-to-end — PENDING
 Playwright: /request-talent → /api/talent-request → data/leads/*.json → /admin/talent-leads (file-based, no DB). Email/Slack routing = propose only.

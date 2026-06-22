@@ -8,10 +8,21 @@ import {
   ShieldCheck,
   Radar,
   ArrowRight,
+  Globe2,
+  MapPin,
 } from "lucide-react"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { talentLeads, marketStats, MARKET, GENERATED_AT } from "@/lib/spaces"
+import { loadSignals } from "@/lib/radar/store"
+
+const SENIORITY_LABEL: Record<string, string> = {
+  c_suite: "C-suite",
+  vp_director: "Director",
+  manager: "Manager",
+  staff: "Staff",
+}
+const SENIORITY_RANK: Record<string, number> = { c_suite: 0, vp_director: 1, manager: 2, staff: 3 }
 
 export const metadata = {
   title: "Recruitment — Workscape Atlas",
@@ -29,6 +40,18 @@ export default function RecruitmentPage() {
   const talent = talentLeads()
   const s = marketStats()
   const live = talent.filter((t) => t.hiring.confirmedOpening)
+
+  // Global industry Radar — live ATS scan across major operators (Bottle Rocket's targets).
+  const allSignals = loadSignals()
+  const radarActive = allSignals.filter(
+    (sig) => sig.type === "job_posting" && sig.status === "active" && sig.title.trim().toLowerCase() !== "test",
+  )
+  const radarLeadership = radarActive
+    .filter((sig) => sig.seniority === "c_suite" || sig.seniority === "vp_director" || sig.seniority === "manager")
+    .sort((a, b) => (SENIORITY_RANK[a.seniority] - SENIORITY_RANK[b.seniority]) || (b.postedAt || "").localeCompare(a.postedAt || ""))
+  const radarTop = radarLeadership.slice(0, 9)
+  const radarOperators = [...new Set(radarActive.map((sig) => sig.operator))]
+  const radarUpdated = allSignals.reduce((max, sig) => (sig.lastSeen > max ? sig.lastSeen : max), "").slice(0, 10)
 
   return (
     <div className="min-h-screen bg-white">
@@ -136,6 +159,62 @@ export default function RecruitmentPage() {
               </div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* Global Radar — live industry openings */}
+      <section className="border-y-2 border-black bg-[#1f1f1f] py-16 text-white">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-10">
+          <div className="flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
+            <div>
+              <div className="flex items-center gap-2">
+                <Globe2 className="h-6 w-6 text-[#f9cb16]" />
+                <h2 className="font-cal text-3xl tracking-tight">Live leadership openings — the Radar</h2>
+                <Badge className="bg-[#f9cb16] text-black hover:bg-[#f9cb16]">Global</Badge>
+              </div>
+              <p className="mt-2 max-w-2xl text-gray-300">
+                The Calgary leads above prove the method. The Radar is the same engine pointed at the whole industry —
+                a live scan of {radarActive.length} active openings across {radarOperators.slice(0, 3).join(", ")}
+                {radarOperators.length > 3 ? " and more" : ""} — Bottle Rocket's actual placement market.
+              </p>
+            </div>
+            {radarUpdated && (
+              <span className="flex items-center gap-1.5 whitespace-nowrap text-xs text-gray-400">
+                <span className="inline-block h-2 w-2 animate-pulse rounded-full bg-emerald-500" />
+                refreshed {radarUpdated}
+              </span>
+            )}
+          </div>
+
+          <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {radarTop.map((sig) => (
+              <a
+                key={sig.id}
+                href={sig.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group flex flex-col rounded-xl border-2 border-white/15 bg-black/30 p-5 transition-colors hover:border-[#f9cb16]/50"
+              >
+                <div className="flex items-center justify-between gap-2">
+                  <span className="text-sm font-semibold text-[#f9cb16]">{sig.operator}</span>
+                  <span className="rounded border border-white/20 px-1.5 py-0.5 text-[11px] uppercase tracking-wide text-gray-300">
+                    {SENIORITY_LABEL[sig.seniority] || sig.seniority}
+                  </span>
+                </div>
+                <h3 className="mt-2 font-medium leading-snug">{sig.title}</h3>
+                <div className="mt-2 flex items-center gap-1 text-xs text-gray-400">
+                  <MapPin className="h-3 w-3" /> {sig.locationRaw}
+                </div>
+                <span className="mt-auto inline-flex items-center gap-1 pt-4 text-sm font-semibold text-gray-200 group-hover:text-[#f9cb16]">
+                  View role <ExternalLink className="h-3 w-3" />
+                </span>
+              </a>
+            ))}
+          </div>
+          <p className="mt-6 text-sm text-gray-400">
+            {radarLeadership.length} leadership-level roles live now · {radarActive.length} total openings tracked.
+            Re-runs on demand (free ATS + industry feeds) and re-points at any market.
+          </p>
         </div>
       </section>
 

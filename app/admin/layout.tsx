@@ -49,14 +49,6 @@ export default function AdminLayout({ children }: { children: ReactNode }) {
                   </SidebarMenuButton>
                 </Link>
               </SidebarMenuItem>
-              <SidebarMenuItem>
-                <Link href="/admin/settings" passHref legacyBehavior>
-                  <SidebarMenuButton>
-                    <Settings className="h-4 w-4" />
-                    <span>Settings</span>
-                  </SidebarMenuButton>
-                </Link>
-              </SidebarMenuItem>
             </SidebarMenu>
           </SidebarContent>
           <SidebarFooter className="border-t">
