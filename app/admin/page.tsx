@@ -94,7 +94,7 @@ export default function AdminDashboardPage() {
                   <Star className="mr-2 h-4 w-4" /> Review Pending
                 </Button>
               </Link>
-              <Link href="/admin/settings">
+              <Link href="/admin/analytics">
                 <Button variant="outline" className="w-full justify-start border-2 border-black">
                   <TrendingUp className="mr-2 h-4 w-4" /> View Analytics
                 </Button>

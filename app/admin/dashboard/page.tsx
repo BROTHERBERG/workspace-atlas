@@ -237,25 +237,25 @@ export default async function AdminDashboard() {
               <CardDescription>Configure global platform settings and features</CardDescription>
             </CardHeader>
             <CardContent className="space-y-4">
-              <Link href="/admin/settings/scoring">
+              <Link href="/admin">
                 <Button variant="outline" className="w-full justify-start">
                   <TrendingUp className="h-4 w-4 mr-2" />
                   Digital Scoring Configuration
                 </Button>
               </Link>
-              <Link href="/admin/settings/passport">
+              <Link href="/admin">
                 <Button variant="outline" className="w-full justify-start">
                   <Award className="h-4 w-4 mr-2" />
                   Haven Passport Settings
                 </Button>
               </Link>
-              <Link href="/admin/settings/email">
+              <Link href="/admin">
                 <Button variant="outline" className="w-full justify-start">
                   <Mail className="h-4 w-4 mr-2" />
                   Email Integration
                 </Button>
               </Link>
-              <Link href="/admin/settings/general">
+              <Link href="/admin">
                 <Button variant="outline" className="w-full justify-start">
                   <Settings className="h-4 w-4 mr-2" />
                   General Settings

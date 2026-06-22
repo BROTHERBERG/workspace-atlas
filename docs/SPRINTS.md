@@ -37,5 +37,13 @@ Files: app/recruitment/page.tsx, app/admin/layout.tsx, data/radar/{signals,last-
 - Email/Slack routing on submit = NOT wired (outbound — left for Eric).
 Files: components/score-my-space-form.tsx, data/leads/score-requests.json.
 
-## S5 — Full QA sweep + Derek package — PENDING
-Whole-site brand/mobile/console-clean + honesty audit; refresh docs/DEREK-BRIEF.md + click-through script; final screenshots. Then stop at review gate.
+## S5 — Full QA sweep + Derek package — ✅ DONE (2026-06-22)
+- Swept all 23 reachable pages (public + admin via cookie, desktop + mobile) for console errors + 404s. Result: **every page console-clean at human pace** — the only errors are 429s on next-auth `/api/auth/session` (SessionProvider) triggered by the rapid automated sweep; first 10 pages of the sweep are 0 errors before the rate-limit window fills (artifact, not a user bug; individual captures = 0).
+- Fixed remaining dead `/admin/settings` links (admin home "View Analytics" → /admin/analytics; dashboard settings → /admin).
+- Honesty audit: faker components (testimonials/partners/globe) confirmed **unused/unrendered**; deleted stale `app/page.tsx.bak` (fake-homepage backup). Off-path leftovers noted (admin edit placeholder.svg, /haven-passport copy — both unreachable from nav/footer, auth-walled/internal).
+- Refreshed `docs/DEREK-BRIEF.md`: added the global Radar layer + a 4-stop pitch click-through + state-for-Eric.
+Files: app/admin/page.tsx, app/admin/dashboard/page.tsx, deleted app/page.tsx.bak, docs/DEREK-BRIEF.md.
+
+---
+
+## ✅ S1–S5 COMPLETE — review gate. Branch `calgary-real-rebuild`, not pushed (needs Eric's `git push`).

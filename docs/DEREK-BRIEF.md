@@ -46,6 +46,18 @@ Every lead carries its source URL. Nothing is invented — unknown values are le
 
 ---
 
+## The second layer: the global Radar (the scale story)
+
+Calgary proves the *method*. The **Radar** is the same engine pointed at the whole industry — a live scan of the major coworking operators' job boards (Convene, CIC, WeWork, IWG, Techspace…) for leadership openings. As of the latest scan:
+
+- **48 active openings** tracked, **17 at leadership level** (Directors of Membership / Hospitality Sales, GMs, Community & Ops Managers) across **3+ live operators**.
+- Refreshes on demand from **free** ATS + industry feeds — re-runs in minutes, re-points at any market.
+- Surfaced publicly on the **Recruitment** page (labeled *Global*) and in an internal **Radar dashboard**.
+
+This is the part that's directly Bottle Rocket's placement market — they place these exact roles, globally. Workscape Atlas is the top-of-funnel that makes that deal-flow systematic instead of network-driven.
+
+---
+
 ## Why this matters to Derek specifically
 
 - **It speaks in his P&L.** The recruitment list is Lean Six Search deal-flow; the web list is Crush deal-flow. Same engine, both businesses.
@@ -62,14 +74,27 @@ Every lead carries its source URL. Nothing is invented — unknown values are le
 
 ---
 
-## The ask (suggested)
+## The pitch — a 4-stop click-through
 
-Show Derek the **Intelligence page** — the market map + the two lead lists — and frame it as:
+It's a **working app**, not slides. Walk Derek through it in this order:
 
-> "This is one scan of one market. It just handed us 5 recruitment leads and 7 web-services leads, with sources. Do you want Bottle Rocket pointed at this — and which market do we scan next?"
+1. **Home** (`/`) — the live scan board + "two pipelines hiding in one map." Sets the frame in 10 seconds.
+2. **Intelligence** (`/intelligence`) — the money view: the full Calgary market, scored, with the **7 web-services leads** and **5 recruitment leads** tables (TradeSpace's live opening called out) + the honest methodology. *This is the result.*
+3. **Recruitment** (`/recruitment`) — the Calgary talent leads, then scroll to the **global Radar** (48 live openings) — "the same engine pointed at your actual market." Hit **Request talent** to show the capture form works.
+4. **Directory / Search** (`/directory`) — proves it's real data end-to-end, every space scored.
+
+(Optional: the internal **Radar dashboard** at `/admin/radar` for the "this runs continuously" point.)
+
+## The ask
+
+> "This is one scan of one market — it handed us 7 web-services leads and 5 recruitment leads with sources, plus 48 live leadership openings across the major operators. Do you want Bottle Rocket pointed at this, and which market do we scan next?"
 
 Decision for him: which market to run next, and whether Bottle Rocket works the talent pipeline.
 
 ---
 
-*Built by Crush Digital Atelier · scan date 2026-06-21 · reproducible, not mocked up.*
+## State (for Eric)
+
+Working, verified, on branch `calgary-real-rebuild` (not yet pushed — needs your `git push`). Build clean; every reachable page console-clean; both lead-capture forms work end-to-end (file-based, no DB). Demo runs locally with a dummy `.env.local`; a real launch needs real DB/auth/email provisioning. See `docs/SPRINTS.md` for the full build trail.
+
+*Built by Crush Digital Atelier · Calgary scan 2026-06-21, Radar refreshed 2026-06-22 · reproducible, not mocked up.*
