@@ -15,8 +15,13 @@ Brought all reachable side-pages to brand + removed remaining fabrication.
 Verify: build clean (101 pp); Playwright 0 console errors (signin/signup/contact/request-talent/score-my-space, desktop+mobile); 3 pages visually reviewed; source-confirmed no fake people / no SF / admin on real data.
 Files: app/auth/signin, app/auth/signup, app/contact, app/request-talent, app/admin/page.tsx, app/score-my-space/page.tsx, components/auth/SignInForm.tsx, components/score-my-space-form.tsx.
 
-## S2 — Rewire /search + /recommendations to real Calgary data — PENDING
-Plan: rebuild both as file-based pages over `lib/spaces` + `SpaceCard` (real fields only: text, city, score/band, lead type; content-based "similar"/"top" groupings). Drop Prisma + fake NY/SF/London prefs. No mock pricing/amenities.
+## S2 — Rewire /search + /recommendations to real Calgary data — ✅ DONE (2026-06-22)
+Both pages rebuilt as self-contained components over `lib/spaces` + `SpaceCard` (no Prisma, no faker, real fields only).
+- /search: client page reading `allSpaces()` — search hero (URL `?q=` via Suspense), text + city + lead-type filters, results ranked by digital score. Dropped the Prisma `/api/search` path + SearchBar/SearchResults/TrendingWorkspaces.
+- /recommendations: real curated sections from the scan — Best digital presence (88+ independents), Worth a web-services call (web leads), Hiring leadership (talent leads). Dropped fake NY/SF/London userProfile + getServerSession + RecommendationGrid.
+- Prisma API routes (`/api/search`, `/api/recommendations/*`) left dormant (nothing in the demo path calls them).
+Verify: build clean (101 pp); 0 console errors (both, desktop+mobile, incl. `?q=beltline`); both visually reviewed — consistent real Calgary data across the whole demo path now.
+Files: app/search/page.tsx, app/recommendations/page.tsx.
 
 ## S3 — Surface the global Radar publicly — PENDING
 Refresh `radar:scan` (free), add a "Live leadership openings — industry Radar (Global)" section to /recruitment from `lib/radar/store.ts`, labeled Global vs Calgary leads. Confirm /admin/radar via cookie gate.

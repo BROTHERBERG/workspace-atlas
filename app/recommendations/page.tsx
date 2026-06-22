@@ -1,141 +1,112 @@
-import { Metadata } from 'next'
-import { getServerSession } from 'next-auth'
-import { authOptions } from '@/lib/auth'
-import RecommendationGrid from '@/components/recommendations/RecommendationGrid'
-import TrendingWorkspaces from '@/components/recommendations/TrendingWorkspaces'
-import { ErrorBoundary } from '@/components/ErrorBoundary'
-import { Sparkles, User, Settings } from 'lucide-react'
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
-import { Button } from '@/components/ui/button'
-import Link from 'next/link'
+import Link from "next/link"
+import { Sparkles, TrendingUp, Wand2, Briefcase, ArrowRight, Radar } from "lucide-react"
+import { Badge } from "@/components/ui/badge"
+import SpaceCard from "@/components/space-card"
+import {
+  sortedByScore,
+  allSpaces,
+  webUpgradeLeads,
+  talentLeads,
+  MARKET,
+  GENERATED_AT,
+  type Space,
+} from "@/lib/spaces"
 
-export const metadata: Metadata = {
-  title: 'Personalized Recommendations - Workscape Atlas',
-  description: 'Discover workspaces tailored to your preferences and working style. Get personalized recommendations based on your activity and preferences.',
+export const metadata = {
+  title: "Recommended spaces — Workscape Atlas",
+  description: "Standout coworking spaces from the live Calgary & Alberta market scan.",
 }
 
-export default async function RecommendationsPage() {
-  const session = await getServerSession(authOptions)
+function Section({
+  icon: Icon,
+  title,
+  blurb,
+  spaces,
+  accent,
+}: {
+  icon: typeof TrendingUp
+  title: string
+  blurb: string
+  spaces: Space[]
+  accent: string
+}) {
+  if (!spaces.length) return null
+  return (
+    <section className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-10">
+      <div className="flex items-center gap-3">
+        <span className={`flex h-10 w-10 items-center justify-center rounded-md border-2 border-black ${accent}`}>
+          <Icon className="h-5 w-5" />
+        </span>
+        <div>
+          <h2 className="font-cal text-2xl tracking-tight">{title}</h2>
+          <p className="text-sm text-gray-500">{blurb}</p>
+        </div>
+      </div>
+      <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        {spaces.map((s) => (
+          <SpaceCard key={s.id} space={s} />
+        ))}
+      </div>
+    </section>
+  )
+}
 
-  // Mock user profile for demonstration - in production this would come from the database
-  const userProfile = session?.user?.id ? {
-    id: session.user.id,
-    preferences: {
-      workspaceTypes: ['Coworking Space', 'Private Office'],
-      amenities: ['High-speed WiFi', 'Coffee & Tea', 'Meeting Rooms', 'Printing'],
-      cities: ['New York', 'San Francisco', 'London'],
-      workingStyle: 'collaborative' as const,
-      priceRange: { min: 20, max: 150 }
-    },
-    behavior: {
-      recentSearches: ['coworking manhattan', 'meeting rooms nyc', 'startup office'],
-      viewedWorkspaces: [],
-      favoriteWorkspaces: [],
-      bookingHistory: []
-    }
-  } : undefined
+export default function RecommendationsPage() {
+  const topScored = sortedByScore(allSpaces().filter((s) => !s.isChain && (s.digital.score ?? 0) >= 88)).slice(0, 6)
+  const webLeads = webUpgradeLeads().slice(0, 6)
+  const talent = talentLeads()
 
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Header */}
-      <div className="bg-white border-b border-gray-200">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-          <div className="text-center">
-            <h1 className="text-3xl font-bold text-gray-900 sm:text-4xl">
-              <Sparkles className="w-8 h-8 inline mr-3 text-yellow-500" />
-              Your Workspace Recommendations
-            </h1>
-            <p className="mt-4 text-xl text-gray-600">
-              Discover spaces perfectly matched to your working style and preferences
-            </p>
-          </div>
-
-          {/* User Status */}
-          {session?.user ? (
-            <div className="mt-8 flex items-center justify-center gap-4">
-              <div className="flex items-center gap-2 text-sm text-gray-600">
-                <User className="w-4 h-4" />
-                Signed in as {session.user.name || session.user.email}
-              </div>
-              <Link href="/profile/preferences">
-                <Button variant="outline" size="sm">
-                  <Settings className="w-4 h-4 mr-2" />
-                  Update Preferences
-                </Button>
-              </Link>
-            </div>
-          ) : (
-            <div className="mt-8 text-center">
-              <Card className="max-w-md mx-auto">
-                <CardHeader>
-                  <CardTitle className="flex items-center gap-2">
-                    <User className="w-5 h-5" />
-                    Sign In for Personalized Recommendations
-                  </CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-sm text-gray-600 mb-4">
-                    Create an account to get recommendations based on your preferences, search history, and working style.
-                  </p>
-                  <div className="flex gap-2">
-                    <Link href="/auth/signin" className="flex-1">
-                      <Button className="w-full">Sign In</Button>
-                    </Link>
-                    <Link href="/auth/signup" className="flex-1">
-                      <Button variant="outline" className="w-full">Sign Up</Button>
-                    </Link>
-                  </div>
-                </CardContent>
-              </Card>
-            </div>
-          )}
+      <div className="border-b-2 border-black bg-[#1f1f1f] text-white">
+        <div className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-10">
+          <Badge className="mb-4 inline-flex items-center gap-1.5 bg-[#f9cb16] text-black hover:bg-[#f9cb16]">
+            <Radar className="h-3 w-3" /> {MARKET} · scanned {GENERATED_AT}
+          </Badge>
+          <h1 className="flex items-center gap-2 font-cal text-3xl tracking-tight sm:text-4xl">
+            <Sparkles className="h-7 w-7 text-[#f9cb16]" /> Recommended spaces
+          </h1>
+          <p className="mt-3 max-w-2xl text-gray-300">
+            Standouts pulled live from the market scan — the best-run sites, the operators worth a web-services call, and
+            the ones hiring leadership right now.
+          </p>
         </div>
       </div>
 
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="space-y-16">
-          {/* Personalized Recommendations */}
-          <ErrorBoundary>
-            <RecommendationGrid 
-              userProfile={userProfile}
-              count={12}
-              showReasons={true}
-            />
-          </ErrorBoundary>
+      <Section
+        icon={TrendingUp}
+        title="Best digital presence"
+        blurb="Independent operators setting the bar — scored 88+ on live web signals."
+        spaces={topScored}
+        accent="bg-emerald-100 text-emerald-600"
+      />
+      <Section
+        icon={Wand2}
+        title="Worth a web-services call"
+        blurb="Weak, broken, or missing websites → a Crush Digital opportunity."
+        spaces={webLeads}
+        accent="bg-orange-100 text-orange-600"
+      />
+      <Section
+        icon={Briefcase}
+        title="Hiring leadership"
+        blurb="Operators surfacing hiring signals → routed to Bottle Rocket Search."
+        spaces={talent}
+        accent="bg-[#f9cb16]/20 text-[#caa406]"
+      />
 
-          {/* Trending Workspaces */}
-          <ErrorBoundary>
-            <TrendingWorkspaces count={8} />
-          </ErrorBoundary>
-
-          {/* Recommendation Tips */}
-          <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-6">
-            <h3 className="text-lg font-semibold text-yellow-800 mb-4">
-              💡 Get Better Recommendations
-            </h3>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm">
-              <div>
-                <h4 className="font-medium text-yellow-800 mb-2">Update Your Preferences</h4>
-                <p className="text-yellow-700">
-                  Tell us about your preferred amenities, working style, and budget to get more accurate recommendations.
-                </p>
-              </div>
-              <div>
-                <h4 className="font-medium text-yellow-800 mb-2">Browse and Save</h4>
-                <p className="text-yellow-700">
-                  Save workspaces you like and view workspace details to help our algorithm learn your preferences.
-                </p>
-              </div>
-              <div>
-                <h4 className="font-medium text-yellow-800 mb-2">Use Search Filters</h4>
-                <p className="text-yellow-700">
-                  The more you search with specific filters, the better we understand what you're looking for.
-                </p>
-              </div>
-            </div>
-          </div>
+      <div className="mx-auto max-w-7xl px-4 pb-16 sm:px-6 lg:px-10">
+        <div className="rounded-xl border-2 border-black bg-white p-6 text-center shadow-[5px_5px_0px_0px_rgba(0,0,0,1)]">
+          <p className="text-gray-700">Want the full picture — every space, every lead, the methodology?</p>
+          <Link
+            href="/intelligence"
+            className="mt-3 inline-flex items-center gap-1.5 font-semibold text-black underline hover:text-[#caa406]"
+          >
+            Open the intelligence map <ArrowRight className="h-4 w-4" />
+          </Link>
         </div>
-      </main>
+      </div>
     </div>
   )
 }
