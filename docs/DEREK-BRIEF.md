@@ -50,7 +50,7 @@ Every lead carries its source URL. Nothing is invented — unknown values are le
 
 Calgary proves the *method*. The **Radar** is the same engine pointed at the whole industry — a live scan of the major coworking operators' job boards (Convene, CIC, WeWork, IWG, Techspace…) for leadership openings. As of the latest scan:
 
-- **48 active openings** tracked, **17 at leadership level** (Directors of Membership / Hospitality Sales, GMs, Community & Ops Managers) across **3+ live operators**.
+- **47 active openings** tracked, **17 at leadership level** (Directors of Membership / Hospitality Sales, GMs, Community & Ops Managers) across **3+ live operators**.
 - Refreshes on demand from **free** ATS + industry feeds — re-runs in minutes, re-points at any market.
 - Surfaced publicly on the **Recruitment** page (labeled *Global*) and in an internal **Radar dashboard**.
 

@@ -1,20 +1,5 @@
 [
   {
-    "id": "sr-WeWork-744000032191419",
-    "type": "job_posting",
-    "operator": "WeWork",
-    "title": "Test",
-    "roleCategory": "other",
-    "seniority": "staff",
-    "locationRaw": "Paris, fr",
-    "url": "https://jobs.smartrecruiters.com/WeWork/744000032191419",
-    "source": "smartrecruiters:WeWork",
-    "postedAt": "2024-12-16T14:42:15.531Z",
-    "firstSeen": "2026-06-10T22:37:12.355Z",
-    "lastSeen": "2026-06-22T06:20:21.906Z",
-    "status": "active"
-  },
-  {
     "id": "sr-WeWork-743999865840785",
     "type": "job_posting",
     "operator": "WeWork",
@@ -708,7 +693,7 @@
     "id": "rss-05eb1ba31b2f4de4",
     "type": "news",
     "operator": "Allwork.Space",
-    "title": "Workspace Group Posts £120M Loss, Launches Turnaround Plan To Revive Earnings",
+    "title": "Workspace Group Posts \u00a3120M Loss, Launches Turnaround Plan To Revive Earnings",
     "roleCategory": "other",
     "seniority": "staff",
     "locationRaw": "",
@@ -718,7 +703,7 @@
     "firstSeen": "2026-06-10T22:37:12.355Z",
     "lastSeen": "2026-06-10T22:37:12.355Z",
     "status": "active",
-    "summary": "Workspace Group reported a pre-tax loss of £120.5 million for the year ended March 31, 2026, after declining property values weighed heavily on results and offset earnings from its flexible\nThe post Workspace Group Posts £120M Loss, Launches Turnaround Plan To Revive Earnings app"
+    "summary": "Workspace Group reported a pre-tax loss of \u00a3120.5 million for the year ended March 31, 2026, after declining property values weighed heavily on results and offset earnings from its flexible\nThe post Workspace Group Posts \u00a3120M Loss, Launches Turnaround Plan To Revive Earnings app"
   },
   {
     "id": "rss-afc25e1c00cd9437",
@@ -734,7 +719,7 @@
     "firstSeen": "2026-06-10T22:37:12.355Z",
     "lastSeen": "2026-06-10T22:37:12.355Z",
     "status": "active",
-    "summary": "International Workplace Group (IWG) is ramping up its expansion across Egypt as demand for flexible office space continues to grow among businesses and workers embracing hybrid work, according to Zawya. \nThe post IWG Bets Big on Egypt, Targets 150 Flexible Workspaces by 2030 appe"
+    "summary": "International Workplace Group (IWG) is ramping up its expansion across Egypt as demand for flexible office space continues to grow among businesses and workers embracing hybrid work, according to Zawya.\u00a0\nThe post IWG Bets Big on Egypt, Targets 150 Flexible Workspaces by 2030 appe"
   },
   {
     "id": "rss-6563b9cff4e95fce",
@@ -772,7 +757,7 @@
     "id": "rss-5841a5ea9a0fc2ec",
     "type": "news",
     "operator": "Coworking Insights",
-    "title": "Work.life Opens Its Largest Location in the Historic Heart of London’s Farringdon",
+    "title": "Work.life Opens Its Largest Location in the Historic Heart of London\u2019s Farringdon",
     "roleCategory": "other",
     "seniority": "staff",
     "locationRaw": "",
@@ -782,7 +767,7 @@
     "firstSeen": "2026-06-10T22:37:12.355Z",
     "lastSeen": "2026-06-22T06:20:21.906Z",
     "status": "active",
-    "summary": "The new location follows the successful launch of Work.Life Borough in July 2024, with both sites adding over 54,000 sq. ft. to the company’s portfolio."
+    "summary": "The new location follows the successful launch of Work.Life Borough in July 2024, with both sites adding over 54,000 sq. ft. to the company\u2019s portfolio."
   },
   {
     "id": "rss-69c992eb7d7d2d45",
@@ -798,7 +783,7 @@
     "firstSeen": "2026-06-10T22:37:12.355Z",
     "lastSeen": "2026-06-22T06:20:21.906Z",
     "status": "active",
-    "summary": "Cubo Soho, the UK's fastest-growing flexible office operator, marked a major milestone in the company’s national expansion."
+    "summary": "Cubo Soho, the UK's fastest-growing flexible office operator, marked a major milestone in the company\u2019s national expansion."
   },
   {
     "id": "rss-09bd3a8255f16dbc",
@@ -830,7 +815,7 @@
     "firstSeen": "2026-06-10T22:37:12.355Z",
     "lastSeen": "2026-06-22T06:20:21.906Z",
     "status": "active",
-    "summary": "Cubo, the UK's fastest growing provider of flex office space, has officially landed in London with the opening of its exciting new workspace at Soho Estates’ prestigious Ilona Rose House, W1."
+    "summary": "Cubo, the UK's fastest growing provider of flex office space, has officially landed in London with the opening of its exciting new workspace at Soho Estates\u2019 prestigious Ilona Rose House, W1."
   },
   {
     "id": "gh-convene-8002065",

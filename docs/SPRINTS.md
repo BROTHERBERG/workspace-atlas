@@ -46,4 +46,14 @@ Files: app/admin/page.tsx, app/admin/dashboard/page.tsx, deleted app/page.tsx.ba
 
 ---
 
-## ✅ S1–S5 COMPLETE — review gate. Branch `calgary-real-rebuild`, not pushed (needs Eric's `git push`).
+## ✅ S1–S5 COMPLETE — branch `calgary-real-rebuild` pushed to origin 2026-06-23.
+
+---
+
+## Post-S5 — assessment + no-regret hardening (2026-06-22/23)
+Ran a multi-agent assessment workflow (2 design critics + backend audit + strategy + synthesis). **Strong consensus: treat this as a SALES WEAPON for Derek — deploy it clickable + bulletproof the pitch data; defer DB/auth/product.** (Design review was re-run after a server-crash blanked the first screenshot set — now valid.)
+Verified + fixed two real cracks the audit found (no-regret under any path):
+- **Contact form was 500-ing** on the demo path — `/api/contact` POSTed to `prisma.contactForm.create()` against the dummy DB (verified HTTP 500). Repointed to the file-based pattern (`data/leads/contact-messages.json`) like score/talent. Now **201**, verified.
+- **Radar data scrubbed**: removed a junk WeWork posting literally titled "Test"; added a junk-title guard in `scripts/radar-scan.ts` so it can't reappear. Counts reconcile to **47 active / 17 leadership** (brief updated).
+Open (for Eric's call): deploy to password-gated Vercel (rank #1, needs his account + go), route leads to durable store/email (serverless FS is ephemeral), then design polish.
+Files: app/api/contact/route.ts, scripts/radar-scan.ts, data/radar/signals.json, data/leads/contact-messages.json, docs/DEREK-BRIEF.md.

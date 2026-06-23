@@ -45,8 +45,11 @@ async function main() {
         }
         succeededBoardPrefixes.push(`${ID_PREFIX[kind]}-${token}-`)
         sourceResults.push({ board, operator: operator.name, ok: true, count: postings.length })
+        const JUNK_TITLES = ['test', 'test job', 'testing', 'example', 'sample', 'n/a', 'na', 'tbd', '-', 'untitled']
         for (const p of postings) {
           if (!p.title) continue
+          const tl = p.title.trim().toLowerCase()
+          if (tl.length < 3 || JUNK_TITLES.includes(tl)) continue // skip junk ATS records
           fresh.push({
             id: p.externalId,
             type: 'job_posting',
