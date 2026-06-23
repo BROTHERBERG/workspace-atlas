@@ -1,4 +1,5 @@
 import Link from "next/link"
+import type { ReactNode } from "react"
 import {
   ArrowRight,
   ShieldCheck,
@@ -20,6 +21,7 @@ import {
   talentLeads,
   bandColor,
   GENERATED_AT,
+  MARKET,
   type Band,
 } from "@/lib/spaces"
 
@@ -30,6 +32,26 @@ const SIGNALS = [
   { icon: Share2, label: "Social presence", note: "Links to live social profiles?" },
   { icon: CalendarCheck, label: "Booking CTA", note: "Can a member actually book?" },
 ]
+
+// Systems-diagram node — a labeled technical panel
+function DiagramNode({ label, title, accent, children }: { label: string; title: string; accent?: boolean; children: ReactNode }) {
+  return (
+    <div className={`relative flex flex-col rounded-lg border-2 p-5 ${accent ? "border-[#f9cb16] bg-[#f9cb16]/[0.06]" : "border-white/20 bg-black/40"}`}>
+      <span className="font-mono text-[10px] uppercase tracking-[0.18em] text-gray-500">{label}</span>
+      <h3 className="mt-1 font-cal text-lg">{title}</h3>
+      <div className="mt-3 flex-1">{children}</div>
+    </div>
+  )
+}
+
+// Flow connector — horizontal on desktop, vertical on mobile
+function Connector() {
+  return (
+    <div className="flex items-center justify-center py-1 lg:py-0">
+      <ArrowRight className="h-6 w-6 rotate-90 text-gray-600 lg:rotate-0" />
+    </div>
+  )
+}
 
 export default function Home() {
   const s = marketStats()
@@ -44,13 +66,13 @@ export default function Home() {
       {/* HERO — full viewport, marquee pinned above the fold */}
       <section className="relative flex min-h-[calc(100dvh-4rem)] flex-col bg-[#1f1f1f] text-white">
         <div className="flex flex-1 items-center">
-          <div className="mx-auto grid w-full max-w-7xl gap-10 px-4 py-12 sm:px-6 lg:grid-cols-2 lg:gap-12 lg:px-10">
+          <div className="mx-auto grid w-full max-w-7xl gap-10 px-4 py-12 sm:px-6 lg:grid-cols-[1.35fr_1fr] lg:gap-12 lg:px-10">
             {/* Left */}
             <div className="flex flex-col justify-center">
               <Badge className="mb-5 inline-flex w-fit items-center gap-1.5 bg-[#f9cb16] text-black hover:bg-[#f9cb16]">
                 <MapPin className="h-3 w-3" /> Calgary & Alberta · live coworking intelligence
               </Badge>
-              <h1 className="font-cal text-5xl leading-[1.05] tracking-tight sm:text-6xl xl:text-7xl">
+              <h1 className="font-cal text-5xl leading-[0.95] tracking-tight sm:text-6xl xl:text-7xl">
                 Find the space.
                 <br />
                 Score the market.
@@ -168,109 +190,81 @@ export default function Home() {
         </div>
       </section>
 
-      {/* TWO PIPELINES */}
-      <section className="border-y-2 border-black bg-gray-50 py-16 md:py-20">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-10">
-          <h2 className="font-cal text-3xl tracking-tight sm:text-4xl">Two pipelines hiding in one map</h2>
-          <p className="mt-2 max-w-2xl text-gray-500">
-            The same scan that builds the directory surfaces who to call — and why.
+      {/* SYSTEMS DIAGRAM — one scan, two pipelines */}
+      <section className="relative overflow-hidden border-y-2 border-black bg-[#161616] py-16 text-white md:py-24">
+        <div
+          className="pointer-events-none absolute inset-0 opacity-[0.06]"
+          style={{
+            backgroundImage:
+              "linear-gradient(#fff 1px, transparent 1px), linear-gradient(90deg, #fff 1px, transparent 1px)",
+            backgroundSize: "34px 34px",
+          }}
+        />
+        <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-10">
+          <span className="font-mono text-xs uppercase tracking-[0.2em] text-[#f9cb16]">how it works</span>
+          <h2 className="mt-2 font-cal text-4xl tracking-tight sm:text-5xl">One scan. Two pipelines.</h2>
+          <p className="mt-3 max-w-2xl text-gray-400">
+            One pass over the market becomes two lists someone can act on today — no human triage in between.
           </p>
-          <div className="mt-10 grid gap-6 lg:grid-cols-2">
-            {/* Web upgrade -> Crush */}
-            <div className="flex flex-col rounded-xl border-2 border-black bg-white p-7 shadow-[6px_6px_0px_0px_rgba(0,0,0,1)]">
-              <div className="flex items-center gap-3">
-                <span className="flex h-11 w-11 items-center justify-center rounded-md border-2 border-black bg-orange-100">
-                  <Wand2 className="h-5 w-5 text-orange-600" />
-                </span>
-                <div>
-                  <div className="font-cal text-xl">Web-services leads</div>
-                  <div className="text-sm text-gray-500">Spaces with weak, broken or missing websites</div>
-                </div>
-              </div>
-              <div className="mt-5 font-cal text-5xl text-orange-600">{webLeads.length}</div>
-              <ul className="mt-4 space-y-2 text-sm">
-                {webLeads.slice(0, 4).map((l) => (
-                  <li key={l.id} className="flex items-center justify-between gap-2 border-b border-gray-100 pb-2">
-                    <span className="font-medium text-gray-800">{l.name}</span>
-                    <span className="shrink-0 text-xs text-orange-600">
-                      {!l.website
-                        ? "no website"
-                        : l.digital.signals.dnsResolves === false
-                          ? "site offline"
-                          : `score ${l.digital.score}`}
-                    </span>
-                  </li>
+
+          <div className="mt-12 grid items-stretch gap-3 lg:grid-cols-[1fr_auto_1.15fr_auto_1.3fr]">
+            {/* INPUT */}
+            <DiagramNode label="01 · input" title="The market">
+              <div className="font-cal text-4xl text-white">{s.total}</div>
+              <p className="mt-1 text-sm text-gray-400">
+                coworking spaces — every live website + careers page, {MARKET}.
+              </p>
+            </DiagramNode>
+
+            <Connector />
+
+            {/* ENGINE */}
+            <DiagramNode label="02 · engine" title="Scan engine" accent>
+              <p className="text-sm text-gray-300">Each site rendered in a real browser, checked on five signals:</p>
+              <div className="mt-3 grid gap-1.5 font-mono text-xs text-gray-200">
+                {SIGNALS.map((sig) => (
+                  <div key={sig.label} className="flex items-center gap-2">
+                    <sig.icon className="h-3.5 w-3.5 shrink-0 text-[#f9cb16]" />
+                    {sig.label}
+                  </div>
                 ))}
-              </ul>
+              </div>
+              <p className="mt-3 text-sm text-gray-300">+ hiring signals read from careers pages &amp; job boards.</p>
+            </DiagramNode>
+
+            <Connector />
+
+            {/* OUTPUTS — the split */}
+            <div className="flex flex-col gap-3">
               <Link
                 href="/intelligence#web-upgrade"
-                className="mt-auto inline-flex items-center gap-1.5 pt-5 text-sm font-semibold text-black hover:text-orange-600"
+                className="group flex flex-1 flex-col justify-center rounded-lg border-2 border-orange-400/40 bg-orange-500/[0.08] p-5 transition-colors hover:border-orange-400"
               >
-                See every web-services lead <ArrowRight className="h-4 w-4" />
-              </Link>
-            </div>
-
-            {/* Talent -> Bottle Rocket / Lean Six Search */}
-            <div className="flex flex-col rounded-xl border-2 border-black bg-[#1f1f1f] p-7 text-white shadow-[6px_6px_0px_0px_rgba(249,203,22,1)]">
-              <div className="flex items-center gap-3">
-                <span className="flex h-11 w-11 items-center justify-center rounded-md border-2 border-[#f9cb16] bg-[#f9cb16]/15">
-                  <Briefcase className="h-5 w-5 text-[#f9cb16]" />
+                <div className="flex items-center justify-between gap-2">
+                  <span className="font-mono text-[11px] uppercase tracking-wider text-orange-300">→ web-services · Crush</span>
+                  <span className="font-cal text-3xl text-orange-400">{webLeads.length}</span>
+                </div>
+                <p className="mt-1 text-sm text-gray-300">Weak, broken or missing sites — a build/upgrade pitch.</p>
+                <span className="mt-2 inline-flex items-center gap-1 text-xs font-semibold text-orange-300 group-hover:text-orange-200">
+                  see the list <ArrowRight className="h-3 w-3" />
                 </span>
-                <div>
-                  <div className="font-cal text-xl">Recruitment leads</div>
-                  <div className="text-sm text-gray-400">Operators surfacing hiring & leadership signals</div>
-                </div>
-              </div>
-              <div className="mt-5 font-cal text-5xl text-[#f9cb16]">{talent.length}</div>
-              {liveOpening && (
-                <div className="mt-4 rounded-lg border border-[#f9cb16]/40 bg-[#f9cb16]/10 p-3">
-                  <div className="text-xs font-semibold uppercase tracking-wide text-[#f9cb16]">Live opening</div>
-                  <div className="mt-0.5 text-sm">
-                    {liveOpening.name.split("—")[0].trim()} is hiring a Community Manager in Calgary.
-                  </div>
-                </div>
-              )}
-              <ul className="mt-4 space-y-2 text-sm">
-                {talent
-                  .filter((t) => !t.hiring.confirmedOpening)
-                  .slice(0, 3)
-                  .map((l) => (
-                    <li key={l.id} className="flex items-center justify-between gap-2 border-b border-white/10 pb-2">
-                      <span className="font-medium text-gray-200">{l.name.split("—")[0].trim()}</span>
-                      <span className="shrink-0 text-xs text-gray-400">careers page live</span>
-                    </li>
-                  ))}
-              </ul>
+              </Link>
               <Link
                 href="/intelligence#talent"
-                className="mt-auto inline-flex items-center gap-1.5 pt-5 text-sm font-semibold text-[#f9cb16] hover:text-white"
+                className="group flex flex-1 flex-col justify-center rounded-lg border-2 border-[#f9cb16]/40 bg-[#f9cb16]/[0.08] p-5 transition-colors hover:border-[#f9cb16]"
               >
-                Route to Bottle Rocket Search <ArrowRight className="h-4 w-4" />
+                <div className="flex items-center justify-between gap-2">
+                  <span className="font-mono text-[11px] uppercase tracking-wider text-[#f9cb16]">→ recruitment · Bottle Rocket</span>
+                  <span className="font-cal text-3xl text-[#f9cb16]">{talent.length}</span>
+                </div>
+                <p className="mt-1 text-sm text-gray-300">
+                  Operators hiring leadership{liveOpening ? ` — incl. ${liveOpening.name.split("—")[0].trim()} hiring now` : ""}.
+                </p>
+                <span className="mt-2 inline-flex items-center gap-1 text-xs font-semibold text-[#f9cb16] group-hover:text-white">
+                  route to recruiter <ArrowRight className="h-3 w-3" />
+                </span>
               </Link>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* HOW THE SCORE WORKS */}
-      <section className="bg-white py-16 md:py-20">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-10">
-          <h2 className="font-cal text-3xl tracking-tight sm:text-4xl">How the score is measured</h2>
-          <p className="mt-2 max-w-2xl text-gray-500">
-            No vanity metrics. Each site is loaded in a real browser and checked against five signals that decide whether
-            a member ever finds — and books — the space.
-          </p>
-          <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
-            {SIGNALS.map((sig) => (
-              <div
-                key={sig.label}
-                className="rounded-lg border-2 border-black bg-gray-50 p-5 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]"
-              >
-                <sig.icon className="h-6 w-6 text-black" />
-                <div className="mt-3 font-cal">{sig.label}</div>
-                <div className="mt-1 text-sm text-gray-500">{sig.note}</div>
-              </div>
-            ))}
           </div>
         </div>
       </section>

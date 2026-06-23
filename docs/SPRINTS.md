@@ -57,3 +57,12 @@ Verified + fixed two real cracks the audit found (no-regret under any path):
 - **Radar data scrubbed**: removed a junk WeWork posting literally titled "Test"; added a junk-title guard in `scripts/radar-scan.ts` so it can't reappear. Counts reconcile to **47 active / 17 leadership** (brief updated).
 Open (for Eric's call): deploy to password-gated Vercel (rank #1, needs his account + go), route leads to durable store/email (serverless FS is ephemeral), then design polish.
 Files: app/api/contact/route.ts, scripts/radar-scan.ts, data/radar/signals.json, data/leads/contact-messages.json, docs/DEREK-BRIEF.md.
+
+## Post-S5 — design pass on the core pages (Eric: "keep hardening + polish here") (2026-06-23)
+Decision locked: SALES WEAPON, keep building locally, NO deploy yet. Did the high-impact, Derek-facing design fixes from the (re-run, valid) critique:
+- **Hero**: scaled the headline up (commands the viewport) — but caught + fixed a wrap (text-8xl broke "Score the market." onto 2 lines, violating the one-line rule); widened the headline column + capped at 7xl so all three stay ONE line at 1280 + 1920. Verified both widths.
+- **"Two pipelines" boxes → a real systems diagram**: market(input) → scan-engine(the 5 signals, mono) → two routed outputs (web-services·Crush / recruitment·Bottle Rocket), on a faint technical grid. Replaces the "toy boxes with icons" the bar rejects + folds in the old "how the score is measured" row. This is the visual that sells the dual-pipeline thesis.
+- **Footer finale**: added an oversized "Workscape Atlas" wordmark sign-off + mono "re-runs in minutes · re-points at any market" tagline — a designed finale, not a link list.
+Verify: build clean (101 pp); home 0 console errors desktop+mobile; hero one-line confirmed at lg+xl; diagram stacks vertically on mobile. Critique-loop (implement→screenshot→fix→re-screenshot) used on the hero wrap.
+NOT done (lower-ranked, awaiting Eric's taste call): space-card scorecard redesign, /intelligence table tier-banding, /directory leaderboard. **Eric judges visuals — needs his review.**
+Files: app/page.tsx, components/footer.tsx.

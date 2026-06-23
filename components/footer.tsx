@@ -90,7 +90,19 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-12 flex flex-col items-center justify-between gap-3 border-t border-white/10 pt-8 text-sm text-gray-400 sm:flex-row">
+        {/* Finale — oversized wordmark */}
+        <div className="mt-16 border-t border-white/10 pt-10">
+          <p className="font-mono text-[11px] uppercase tracking-[0.3em] text-gray-500">
+            re-runs in minutes · re-points at any market
+          </p>
+          <div className="mt-3 select-none overflow-hidden whitespace-nowrap leading-[0.82]">
+            <span className="font-cal tracking-tight text-white" style={{ fontSize: "clamp(2.75rem, 11vw, 8rem)" }}>
+              Workscape<span className="text-[#f9cb16]">&nbsp;Atlas</span>
+            </span>
+          </div>
+        </div>
+
+        <div className="mt-10 flex flex-col items-center justify-between gap-3 border-t border-white/10 pt-8 text-sm text-gray-400 sm:flex-row">
           <p>
             © {year} <span className="text-gray-200">Crush Digital Atelier</span> · Workscape Atlas
           </p>
