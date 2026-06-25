@@ -122,11 +122,11 @@ export default function IntelligencePage() {
       </section>
 
       {/* The map */}
-      <section className="border-b-2 border-black bg-white py-12">
+      <section className="border-b-2 border-black bg-[#1f1f1f] py-12 text-white">
         <div className="mx-auto max-w-7xl 2xl:max-w-[110rem] px-4 sm:px-6 lg:px-10">
           <h2 className="font-cal text-2xl">The map</h2>
-          <p className="mt-2 max-w-2xl text-gray-500">
-            Every space, plotted and colored by digital score. Click a marker for the score and lead status.
+          <p className="mt-2 max-w-2xl text-gray-400">
+            Every space, plotted and colored by digital score. Scroll to zoom, click a marker for score + lead status.
           </p>
           <div className="mt-6">
             <SpaceMap points={mapPoints} />

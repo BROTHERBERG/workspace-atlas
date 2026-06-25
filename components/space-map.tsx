@@ -27,8 +27,22 @@ const BAND_HEX: Record<string, string> = {
   "?": "#9ca3af",
 }
 
+// Calgary downtown — the default view (most spaces cluster here)
+const CALGARY: [number, number] = [51.045, -114.062]
+
 function esc(s: string) {
   return s.replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c] as string))
+}
+
+// rough great-circle distance in km
+function distKm(a: [number, number], b: [number, number]) {
+  const R = 6371
+  const dLat = ((b[0] - a[0]) * Math.PI) / 180
+  const dLng = ((b[1] - a[1]) * Math.PI) / 180
+  const la1 = (a[0] * Math.PI) / 180
+  const la2 = (b[0] * Math.PI) / 180
+  const x = Math.sin(dLat / 2) ** 2 + Math.cos(la1) * Math.cos(la2) * Math.sin(dLng / 2) ** 2
+  return 2 * R * Math.asin(Math.sqrt(x))
 }
 
 export default function SpaceMap({ points }: { points: MapPoint[] }) {
@@ -41,27 +55,25 @@ export default function SpaceMap({ points }: { points: MapPoint[] }) {
     ;(async () => {
       const L = (await import("leaflet")).default
       if (cancelled || !ref.current) return
-      const map = L.map(ref.current, { scrollWheelZoom: false, attributionControl: true })
+      const map = L.map(ref.current, { scrollWheelZoom: true }).setView(CALGARY, 12)
       mapRef.current = map
-      L.tileLayer("https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png", {
-        attribution: '&copy; OpenStreetMap &copy; CARTO',
+      L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png", {
+        attribution: "&copy; OpenStreetMap &copy; CARTO",
         maxZoom: 19,
       }).addTo(map)
 
-      const latlngs: [number, number][] = []
       for (const p of points) {
         const color = BAND_HEX[p.band] || BAND_HEX["?"]
         const marker = L.circleMarker([p.lat, p.lng], {
           radius: 8,
-          color: "#111",
+          color: "#000",
           weight: 1.5,
           fillColor: color,
-          fillOpacity: 0.92,
+          fillOpacity: 0.95,
         }).addTo(map)
-        latlngs.push([p.lat, p.lng])
         const tags = [
-          p.web ? '<span style="color:#ea580c;font-weight:600">web-services lead</span>' : "",
-          p.hiringNow ? '<span style="color:#ca8a04;font-weight:600">hiring now</span>' : p.talent ? '<span style="color:#6b7280">talent signal</span>' : "",
+          p.web ? '<span style="color:#fb923c;font-weight:600">web-services lead</span>' : "",
+          p.hiringNow ? '<span style="color:#eab308;font-weight:600">hiring now</span>' : p.talent ? '<span style="color:#9ca3af">talent signal</span>' : "",
         ].filter(Boolean).join(" · ")
         marker.bindPopup(
           `<div style="font-family:ui-sans-serif,system-ui;min-width:180px">
@@ -75,7 +87,26 @@ export default function SpaceMap({ points }: { points: MapPoint[] }) {
            </div>`,
         )
       }
-      if (latlngs.length) map.fitBounds(latlngs, { padding: [40, 40], maxZoom: 11 })
+
+      // Auto-zoom to the viewer's location — but only if they're near the market
+      // (so a far-away viewer, e.g. Derek in Dubai, still lands on Calgary, not an empty map).
+      if (typeof navigator !== "undefined" && navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(
+          (pos) => {
+            if (cancelled) return
+            const here: [number, number] = [pos.coords.latitude, pos.coords.longitude]
+            const nearest = points.reduce((m, p) => Math.min(m, distKm(here, [p.lat, p.lng])), Infinity)
+            if (nearest <= 250) {
+              map.flyTo(here, 13, { duration: 1.2 })
+              L.circleMarker(here, { radius: 7, color: "#fff", weight: 2, fillColor: "#3b82f6", fillOpacity: 1 })
+                .addTo(map)
+                .bindPopup('<strong style="font-size:12px">You are here</strong>')
+            }
+          },
+          () => {},
+          { enableHighAccuracy: false, timeout: 6000, maximumAge: 300000 },
+        )
+      }
     })()
     return () => {
       cancelled = true
@@ -86,10 +117,10 @@ export default function SpaceMap({ points }: { points: MapPoint[] }) {
   }, [points])
 
   return (
-    <div className="overflow-hidden rounded-xl border-2 border-black shadow-[5px_5px_0px_0px_rgba(0,0,0,1)]">
-      <div ref={ref} className="h-[460px] w-full bg-gray-100 2xl:h-[560px]" />
-      <div className="flex flex-wrap items-center gap-3 border-t-2 border-black bg-white px-4 py-2.5 text-xs">
-        <span className="font-medium text-gray-500">Digital score:</span>
+    <div className="overflow-hidden rounded-xl border-2 border-black shadow-[5px_5px_0px_0px_rgba(249,203,22,0.6)]">
+      <div ref={ref} className="h-[460px] w-full bg-[#1f1f1f] 2xl:h-[580px]" />
+      <div className="flex flex-wrap items-center gap-3 border-t-2 border-black bg-[#1f1f1f] px-4 py-2.5 text-xs text-gray-300">
+        <span className="font-medium text-gray-400">Digital score:</span>
         {[
           ["A", "#10b981"],
           ["B", "#84cc16"],
@@ -98,11 +129,11 @@ export default function SpaceMap({ points }: { points: MapPoint[] }) {
           ["F", "#ef4444"],
         ].map(([b, hex]) => (
           <span key={b} className="flex items-center gap-1">
-            <span className="inline-block h-3 w-3 rounded-full border border-black" style={{ background: hex }} />
+            <span className="inline-block h-3 w-3 rounded-full border border-white/40" style={{ background: hex }} />
             {b}
           </span>
         ))}
-        <span className="ml-auto text-gray-400">{points.length} spaces · OpenStreetMap</span>
+        <span className="ml-auto text-gray-500">scroll to zoom · {points.length} spaces · OpenStreetMap</span>
       </div>
     </div>
   )
