@@ -314,9 +314,18 @@ export default function IntelligencePage() {
               <tbody className="divide-y divide-gray-100">
                 {ranked.map((space, i) => (
                   <tr key={space.id} className="hover:bg-gray-50">
-                    <td className="px-4 py-2.5 text-gray-400">{i + 1}</td>
+                    <td className="px-4 py-2.5 font-mono text-xs text-gray-400">{String(i + 1).padStart(2, "0")}</td>
                     <td className="px-4 py-2.5">
-                      <BandChip band={space.digital.band} score={space.digital.score} />
+                      <div className="flex items-center gap-2">
+                        <div className="h-2 w-20 shrink-0 overflow-hidden rounded-full bg-gray-100">
+                          <div
+                            className={`h-full rounded-full ${bandColor(space.digital.band).bg}`}
+                            style={{ width: `${space.digital.score ?? 0}%` }}
+                          />
+                        </div>
+                        <span className="w-7 text-sm font-bold tabular-nums text-gray-800">{space.digital.score ?? "—"}</span>
+                        <span className="font-cal text-xs text-gray-400">{space.digital.band}</span>
+                      </div>
                     </td>
                     <td className="px-4 py-2.5">
                       <Link href={`/spaces/${space.id}`} className="font-medium text-gray-900 hover:text-[#caa406]">
