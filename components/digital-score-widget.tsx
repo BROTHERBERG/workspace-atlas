@@ -13,6 +13,24 @@ interface DigitalScoreWidgetProps {
   signals?: DigitalSignals
   gaps?: string[]
   confidence?: "high" | "low" | null
+  breakdown?: Record<string, number> | null
+}
+
+const BREAKDOWN_LABELS: { key: string; label: string }[] = [
+  { key: "security", label: "Security" },
+  { key: "performance", label: "Performance" },
+  { key: "mobile", label: "Mobile" },
+  { key: "seo", label: "SEO depth" },
+  { key: "social", label: "Social reach" },
+  { key: "conversion", label: "Conversion" },
+  { key: "content", label: "Content & freshness" },
+]
+
+function barColor(v: number) {
+  if (v >= 75) return "bg-emerald-500"
+  if (v >= 50) return "bg-[#f9cb16]"
+  if (v >= 30) return "bg-orange-500"
+  return "bg-red-500"
 }
 
 function scoreColor(value: number | null) {
@@ -43,6 +61,7 @@ export default function DigitalScoreWidget({
   signals,
   gaps = [],
   confidence,
+  breakdown,
 }: DigitalScoreWidgetProps) {
   const display = score === null ? "—" : score
 
@@ -114,7 +133,25 @@ export default function DigitalScoreWidget({
         </p>
       )}
 
-      {detailed && checks.length > 0 && (
+      {detailed && breakdown && (
+        <div className="mt-5 space-y-2.5 border-t border-gray-100 pt-4">
+          {BREAKDOWN_LABELS.map(({ key, label }) => {
+            const v = breakdown[key] ?? 0
+            return (
+              <div key={key} className="flex items-center gap-3">
+                <span className="w-32 shrink-0 text-sm text-gray-600">{label}</span>
+                <div className="h-2 flex-1 overflow-hidden rounded-full bg-gray-100">
+                  <div className={`h-full rounded-full ${barColor(v)}`} style={{ width: `${v}%` }} />
+                </div>
+                <span className="w-7 text-right text-xs font-semibold text-gray-500">{v}</span>
+              </div>
+            )
+          })}
+        </div>
+      )}
+
+      {/* Fallback to signal checks when no breakdown (e.g. no-site / blocked) */}
+      {detailed && !breakdown && checks.length > 0 && (
         <ul className="mt-4 space-y-2">
           {checks.map((c) => (
             <li key={c.label} className="flex items-center justify-between text-sm">
@@ -122,25 +159,10 @@ export default function DigitalScoreWidget({
                 <c.icon className="h-4 w-4 text-gray-400" />
                 {c.label}
               </span>
-              {c.ok ? (
-                <Check className="h-4 w-4 text-emerald-600" />
-              ) : (
-                <X className="h-4 w-4 text-red-500" />
-              )}
+              {c.ok ? <Check className="h-4 w-4 text-emerald-600" /> : <X className="h-4 w-4 text-red-500" />}
             </li>
           ))}
         </ul>
-      )}
-
-      {detailed && gaps.length > 0 && (
-        <div className="mt-4 rounded-md border border-dashed border-orange-300 bg-orange-50/60 p-3">
-          <p className="text-xs font-semibold uppercase tracking-wide text-orange-700">Opportunities</p>
-          <ul className="mt-1 list-inside list-disc space-y-0.5 text-sm text-orange-900">
-            {gaps.slice(0, 5).map((g, i) => (
-              <li key={i}>{g}</li>
-            ))}
-          </ul>
-        </div>
       )}
     </div>
   )

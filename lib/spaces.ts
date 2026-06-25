@@ -36,6 +36,7 @@ export interface Space {
     confidence: "high" | "low" | null
     gaps: string[]
     signals: DigitalSignals
+    breakdown: Record<string, number> | null
   }
   hiring: {
     hasCareersPage: boolean

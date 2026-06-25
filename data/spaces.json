@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-06-21",
+  "generatedAt": "2026-06-25",
   "market": "Calgary & Alberta",
   "methodology": {
-    "enumeration": "Real spaces sourced from operator sites, Coworker.com, CoworkingCafe, Spaces/Regus & WeWork directories, cross-verified against a second source. Unknown attributes left null — never fabricated.",
-    "digitalScore": "Live headless-Chromium render of each site (2026-06-21). 0-100 from real signals: reachable/200 (20), HTTPS (18), mobile viewport (18), title (8), meta description (8), Open Graph (6), social links up to 3 (12), booking CTA (10). Bot-protected pages flagged low-confidence, not scored as failing.",
-    "limits": "This scores web PRESENCE (technical hygiene: HTTPS, mobile, SEO meta, social, booking), not the quality of the space itself — and it saturates, so several strong sites tie at 100. National chain locations (Regus/Spaces) score on their thin templated location page, not the brand's main site, so their identical C scores reflect the template, not the operator. Booking/social detection is heuristic and can miss non-standard widgets. Google ratings are sparse (not metered-API-pulled, to avoid cost). 3 independent domains did not resolve via DNS on scan day — flagged, not assumed closed. Coordinates are geocoded from addresses (some at neighborhood/city precision)."
+    "enumeration": "Real spaces sourced from operator sites, Coworker.com, CoworkingCafe, Spaces/Regus & WeWork directories, cross-verified against a second source. Unknown attributes left null \u2014 never fabricated.",
+    "digitalScore": "Multi-signal score from a live headless-Chromium render (re-scanned 2026-06-25). Seven graded dimensions, weighted: security/HTTPS (12), performance \u2014 load time + request count (20), mobile incl. no-horizontal-overflow (15), SEO depth \u2014 title/meta quality, canonical, structured data (18), social & shareability \u2014 Open Graph, Twitter card, profile count (12), conversion \u2014 booking + contact (13), content & freshness \u2014 word count, image alt coverage, blog, copyright year (10). Graded continuously, so it spreads 0-100 and no longer saturates.",
+    "limits": "This scores web PRESENCE/quality, not the quality of the space itself. Performance is measured headless (no network throttling) so it reflects relative, not absolute, speed. Booking/social/contact detection is heuristic and can miss non-standard widgets. National-chain location pages (Regus/Spaces) now score on their real per-page signals (content-heavy, fast \u2014 so B-range), not an artifact. Google ratings are sparse (not metered-API-pulled, to avoid cost). 3 independent domains did not resolve via DNS on scan day. Coordinates geocoded from addresses (some at neighborhood/city precision)."
   },
   "spaces": [
     {
       "id": 1,
       "slug": "work-nicer-coworking-red-mile",
-      "name": "Work Nicer Coworking — Red Mile",
+      "name": "Work Nicer Coworking \u2014 Red Mile",
       "operator": "Work Nicer",
       "isChain": false,
       "city": "Calgary",
@@ -22,8 +22,8 @@
       "googleReviewCount": null,
       "targetMember": "startups, freelancers, small teams",
       "digital": {
-        "score": 92,
-        "band": "A",
+        "score": 66,
+        "band": "B",
         "confidence": "high",
         "gaps": [
           "No meta description (weak SEO)"
@@ -33,7 +33,7 @@
           "https": true,
           "mobileOptimized": true,
           "metaDescription": false,
-          "openGraph": true,
+          "openGraph": false,
           "socialCount": 5,
           "socials": [
             "facebook",
@@ -44,7 +44,17 @@
           ],
           "onlineBooking": true,
           "dnsResolves": true
-        }
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 41,
+          "mobile": 100,
+          "seo": 50,
+          "social": 60,
+          "conversion": 100,
+          "content": 19
+        },
+        "scanV2": "ok"
       },
       "hiring": {
         "hasCareersPage": false,
@@ -61,7 +71,7 @@
       "leadWebUpgrade": false,
       "leadTalent": false,
       "scannedAt": "2026-06-21",
-      "featured": true,
+      "featured": false,
       "screenshot": "/space-shots/work-nicer-coworking-red-mile.jpg",
       "lat": 51.0380718,
       "lng": -114.074009,
@@ -70,7 +80,7 @@
     {
       "id": 2,
       "slug": "work-nicer-coworking-rail-yards",
-      "name": "Work Nicer Coworking — Rail Yards",
+      "name": "Work Nicer Coworking \u2014 Rail Yards",
       "operator": "Work Nicer",
       "isChain": false,
       "city": "Calgary",
@@ -82,8 +92,8 @@
       "googleReviewCount": null,
       "targetMember": "startups, freelancers, small teams",
       "digital": {
-        "score": 82,
-        "band": "B",
+        "score": 60,
+        "band": "C",
         "confidence": "high",
         "gaps": [
           "No meta description (weak SEO)",
@@ -94,7 +104,7 @@
           "https": true,
           "mobileOptimized": true,
           "metaDescription": false,
-          "openGraph": true,
+          "openGraph": false,
           "socialCount": 5,
           "socials": [
             "facebook",
@@ -105,7 +115,17 @@
           ],
           "onlineBooking": false,
           "dnsResolves": true
-        }
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 26,
+          "mobile": 100,
+          "seo": 50,
+          "social": 60,
+          "conversion": 40,
+          "content": 68
+        },
+        "scanV2": "ok"
       },
       "hiring": {
         "hasCareersPage": false,
@@ -143,8 +163,8 @@
       "googleReviewCount": null,
       "targetMember": "professionals, small teams",
       "digital": {
-        "score": 100,
-        "band": "A",
+        "score": 79,
+        "band": "B",
         "confidence": "high",
         "gaps": [],
         "signals": {
@@ -152,7 +172,7 @@
           "https": true,
           "mobileOptimized": true,
           "metaDescription": true,
-          "openGraph": true,
+          "openGraph": false,
           "socialCount": 3,
           "socials": [
             "facebook",
@@ -161,7 +181,17 @@
           ],
           "onlineBooking": true,
           "dnsResolves": true
-        }
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 45,
+          "mobile": 100,
+          "seo": 100,
+          "social": 44,
+          "conversion": 100,
+          "content": 70
+        },
+        "scanV2": "ok"
       },
       "hiring": {
         "hasCareersPage": true,
@@ -179,7 +209,7 @@
       "leadWebUpgrade": false,
       "leadTalent": true,
       "scannedAt": "2026-06-21",
-      "featured": true,
+      "featured": false,
       "screenshot": "/space-shots/workhaus-core.jpg",
       "lat": 51.0473777,
       "lng": -114.0671989,
@@ -200,8 +230,8 @@
       "googleReviewCount": null,
       "targetMember": "tech start-ups & small businesses",
       "digital": {
-        "score": 96,
-        "band": "A",
+        "score": 77,
+        "band": "B",
         "confidence": "high",
         "gaps": [],
         "signals": {
@@ -217,7 +247,17 @@
           ],
           "onlineBooking": true,
           "dnsResolves": true
-        }
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 50,
+          "mobile": 50,
+          "seo": 100,
+          "social": 76,
+          "conversion": 100,
+          "content": 76
+        },
+        "scanV2": "ok"
       },
       "hiring": {
         "hasCareersPage": false,
@@ -234,7 +274,7 @@
       "leadWebUpgrade": false,
       "leadTalent": false,
       "scannedAt": "2026-06-21",
-      "featured": true,
+      "featured": false,
       "screenshot": "/space-shots/assembly-coworking-space.jpg",
       "lat": 51.0547122,
       "lng": -114.0859262,
@@ -255,8 +295,8 @@
       "googleReviewCount": null,
       "targetMember": "entrepreneurs, craft/food producers, makers, community innovators",
       "digital": {
-        "score": 90,
-        "band": "A",
+        "score": 66,
+        "band": "B",
         "confidence": "high",
         "gaps": [
           "No clear booking/conversion CTA"
@@ -275,7 +315,17 @@
           ],
           "onlineBooking": false,
           "dnsResolves": true
-        }
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 89,
+          "mobile": 100,
+          "seo": 27,
+          "social": 64,
+          "conversion": 40,
+          "content": 40
+        },
+        "scanV2": "ok"
       },
       "hiring": {
         "hasCareersPage": false,
@@ -292,7 +342,7 @@
       "leadWebUpgrade": false,
       "leadTalent": false,
       "scannedAt": "2026-06-21",
-      "featured": true,
+      "featured": false,
       "screenshot": "/space-shots/emergehub.jpg",
       "lat": 51.0456064,
       "lng": -114.057541,
@@ -313,7 +363,7 @@
       "googleReviewCount": null,
       "targetMember": "e-commerce, small industrial / product businesses (co-warehousing)",
       "digital": {
-        "score": 100,
+        "score": 85,
         "band": "A",
         "confidence": "high",
         "gaps": [],
@@ -331,7 +381,17 @@
           ],
           "onlineBooking": true,
           "dnsResolves": true
-        }
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 52,
+          "mobile": 100,
+          "seo": 100,
+          "social": 84,
+          "conversion": 100,
+          "content": 71
+        },
+        "scanV2": "ok"
       },
       "hiring": {
         "hasCareersPage": false,
@@ -348,7 +408,7 @@
       "leadWebUpgrade": false,
       "leadTalent": false,
       "scannedAt": "2026-06-21",
-      "featured": true,
+      "featured": false,
       "screenshot": "/space-shots/shedpoint.jpg",
       "lat": 51.021669,
       "lng": -114.0279867,
@@ -361,15 +421,15 @@
       "operator": "TradeSpace",
       "isChain": false,
       "city": "Calgary",
-      "neighborhood": "Multiple — SE (HQ) and NE",
-      "address": "HQ: 4030 8 Street SE; also 4121 23B Street NE and 2360 Portland St SE — Calgary, AB (3 locations)",
+      "neighborhood": "Multiple \u2014 SE (HQ) and NE",
+      "address": "HQ: 4030 8 Street SE; also 4121 23B Street NE and 2360 Portland St SE \u2014 Calgary, AB (3 locations)",
       "website": "https://www.gotradespace.com",
       "phone": "(587) 317-5457",
       "googleRating": null,
       "googleReviewCount": null,
       "targetMember": "product-based / e-commerce & service businesses needing warehouse + office",
       "digital": {
-        "score": 100,
+        "score": 88,
         "band": "A",
         "confidence": "high",
         "gaps": [],
@@ -387,7 +447,17 @@
           ],
           "onlineBooking": true,
           "dnsResolves": true
-        }
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 70,
+          "mobile": 100,
+          "seo": 80,
+          "social": 84,
+          "conversion": 100,
+          "content": 90
+        },
+        "scanV2": "ok"
       },
       "hiring": {
         "hasCareersPage": true,
@@ -425,7 +495,7 @@
       "googleReviewCount": null,
       "targetMember": "freelancers, consultants, remote workers, growing teams; no membership fees",
       "digital": {
-        "score": 88,
+        "score": 92,
         "band": "A",
         "confidence": "high",
         "gaps": [
@@ -441,7 +511,17 @@
           "socials": [],
           "onlineBooking": true,
           "dnsResolves": true
-        }
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 84,
+          "mobile": 100,
+          "seo": 100,
+          "social": 60,
+          "conversion": 100,
+          "content": 99
+        },
+        "scanV2": "ok"
       },
       "hiring": {
         "hasCareersPage": false,
@@ -458,7 +538,7 @@
       "leadWebUpgrade": false,
       "leadTalent": false,
       "scannedAt": "2026-06-21",
-      "featured": false,
+      "featured": true,
       "screenshot": "/space-shots/wrk-calgary-coworking-space.jpg",
       "lat": 51.0473777,
       "lng": -114.0671989,
@@ -479,7 +559,7 @@
       "googleReviewCount": null,
       "targetMember": "entrepreneurs, freelancers, small businesses; serviced + virtual offices",
       "digital": {
-        "score": 66,
+        "score": 57,
         "band": "C",
         "confidence": "high",
         "gaps": [
@@ -498,7 +578,17 @@
           "socials": [],
           "onlineBooking": true,
           "dnsResolves": true
-        }
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 100,
+          "mobile": 100,
+          "seo": 0,
+          "social": 0,
+          "conversion": 60,
+          "content": 20
+        },
+        "scanV2": "ok"
       },
       "hiring": {
         "hasCareersPage": false,
@@ -513,7 +603,7 @@
         "https://www.property.co/canada/alberta/calgary/work-buddiz",
         "https://www.facebook.com/buddizmanagement/"
       ],
-      "leadWebUpgrade": false,
+      "leadWebUpgrade": true,
       "leadTalent": false,
       "scannedAt": "2026-06-21",
       "featured": false,
@@ -537,7 +627,7 @@
       "googleReviewCount": null,
       "targetMember": "startups, tech founders & innovators",
       "digital": {
-        "score": 100,
+        "score": 86,
         "band": "A",
         "confidence": "high",
         "gaps": [],
@@ -557,7 +647,17 @@
           ],
           "onlineBooking": true,
           "dnsResolves": true
-        }
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 80,
+          "mobile": 100,
+          "seo": 60,
+          "social": 100,
+          "conversion": 100,
+          "content": 70
+        },
+        "scanV2": "ok"
       },
       "hiring": {
         "hasCareersPage": true,
@@ -574,7 +674,7 @@
       "leadWebUpgrade": false,
       "leadTalent": true,
       "scannedAt": "2026-06-21",
-      "featured": false,
+      "featured": true,
       "screenshot": "/space-shots/platform-calgary-innovation-centre.jpg",
       "lat": 51.044175,
       "lng": -114.0553551,
@@ -595,8 +695,8 @@
       "googleReviewCount": null,
       "targetMember": "artists, creatives, arts/culture organizations & nonprofits",
       "digital": {
-        "score": 64,
-        "band": "C",
+        "score": 68,
+        "band": "B",
         "confidence": "high",
         "gaps": [
           "No meta description (weak SEO)",
@@ -610,11 +710,21 @@
           "mobileOptimized": true,
           "metaDescription": false,
           "openGraph": false,
-          "socialCount": 0,
+          "socialCount": 4,
           "socials": [],
-          "onlineBooking": false,
+          "onlineBooking": true,
           "dnsResolves": true
-        }
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 18,
+          "mobile": 100,
+          "seo": 52,
+          "social": 52,
+          "conversion": 100,
+          "content": 89
+        },
+        "scanV2": "ok"
       },
       "hiring": {
         "hasCareersPage": true,
@@ -652,8 +762,8 @@
       "googleReviewCount": null,
       "targetMember": "entrepreneurs, creatives, accountants, designers",
       "digital": {
-        "score": 100,
-        "band": "A",
+        "score": 77,
+        "band": "B",
         "confidence": "high",
         "gaps": [],
         "signals": {
@@ -671,7 +781,17 @@
           ],
           "onlineBooking": true,
           "dnsResolves": true
-        }
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 20,
+          "mobile": 100,
+          "seo": 85,
+          "social": 92,
+          "conversion": 100,
+          "content": 67
+        },
+        "scanV2": "ok"
       },
       "hiring": {
         "hasCareersPage": false,
@@ -709,8 +829,8 @@
       "googleReviewCount": null,
       "targetMember": "small businesses, entrepreneurs, wellness/counselling/psychology professionals",
       "digital": {
-        "score": 96,
-        "band": "A",
+        "score": 66,
+        "band": "B",
         "confidence": "high",
         "gaps": [],
         "signals": {
@@ -724,9 +844,19 @@
             "facebook",
             "instagram"
           ],
-          "onlineBooking": true,
+          "onlineBooking": false,
           "dnsResolves": true
-        }
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 60,
+          "mobile": 50,
+          "seo": 85,
+          "social": 76,
+          "conversion": 40,
+          "content": 51
+        },
+        "scanV2": "ok"
       },
       "hiring": {
         "hasCareersPage": false,
@@ -752,7 +882,7 @@
     {
       "id": 14,
       "slug": "staples-studio-calgary-university-district",
-      "name": "Staples Studio — Calgary University District",
+      "name": "Staples Studio \u2014 Calgary University District",
       "operator": "Staples Canada",
       "isChain": false,
       "city": "Calgary",
@@ -764,7 +894,7 @@
       "googleReviewCount": 10,
       "targetMember": "entrepreneurs, small businesses, corporations, community groups",
       "digital": {
-        "score": 82,
+        "score": 76,
         "band": "B",
         "confidence": "high",
         "gaps": [
@@ -781,7 +911,17 @@
           "socials": [],
           "onlineBooking": true,
           "dnsResolves": true
-        }
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 72,
+          "mobile": 100,
+          "seo": 80,
+          "social": 0,
+          "conversion": 100,
+          "content": 69
+        },
+        "scanV2": "ok"
       },
       "hiring": {
         "hasCareersPage": false,
@@ -819,7 +959,7 @@
       "googleReviewCount": null,
       "targetMember": "entrepreneurs, small business owners needing a professional office presence",
       "digital": {
-        "score": 96,
+        "score": 87,
         "band": "A",
         "confidence": "high",
         "gaps": [],
@@ -836,7 +976,17 @@
           ],
           "onlineBooking": true,
           "dnsResolves": true
-        }
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 83,
+          "mobile": 100,
+          "seo": 85,
+          "social": 76,
+          "conversion": 100,
+          "content": 59
+        },
+        "scanV2": "ok"
       },
       "hiring": {
         "hasCareersPage": false,
@@ -853,7 +1003,7 @@
       "leadWebUpgrade": false,
       "leadTalent": false,
       "scannedAt": "2026-06-21",
-      "featured": false,
+      "featured": true,
       "screenshot": "/space-shots/smart-executive-centre-inc.jpg",
       "lat": 51.0456064,
       "lng": -114.057541,
@@ -874,7 +1024,7 @@
       "googleReviewCount": null,
       "targetMember": "flexible professionals, hybrid workers, growing businesses",
       "digital": {
-        "score": 100,
+        "score": 84,
         "band": "A",
         "confidence": "high",
         "gaps": [],
@@ -892,7 +1042,17 @@
           ],
           "onlineBooking": true,
           "dnsResolves": true
-        }
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 46,
+          "mobile": 100,
+          "seo": 100,
+          "social": 84,
+          "conversion": 100,
+          "content": 66
+        },
+        "scanV2": "ok"
       },
       "hiring": {
         "hasCareersPage": false,
@@ -933,7 +1093,7 @@
         "band": "F",
         "confidence": "high",
         "gaps": [
-          "No website found — invisible online"
+          "No website found \u2014 invisible online"
         ],
         "signals": {
           "reachable": false,
@@ -945,7 +1105,9 @@
           "socials": [],
           "onlineBooking": null,
           "dnsResolves": null
-        }
+        },
+        "breakdown": null,
+        "scanV2": "no website"
       },
       "hiring": {
         "hasCareersPage": false,
@@ -969,11 +1131,11 @@
     {
       "id": 18,
       "slug": "stratus-stratus-offices-calgary",
-      "name": "STRATUS (Stratus Offices) — Calgary",
+      "name": "STRATUS (Stratus Offices) \u2014 Calgary",
       "operator": "Stratus Offices",
       "isChain": false,
       "city": "Calgary",
-      "neighborhood": "Beltline — PetroWest Plaza; also the 534 Building on 17 Ave SW",
+      "neighborhood": "Beltline \u2014 PetroWest Plaza; also the 534 Building on 17 Ave SW",
       "address": "1210 8 Street SW, Calgary, AB (PetroWest Plaza); 2nd Calgary location at the 534 Building, 17 Ave SW",
       "website": "https://www.stratusoffices.com",
       "phone": "(587) 392-5545",
@@ -981,8 +1143,8 @@
       "googleReviewCount": null,
       "targetMember": "professionals & businesses wanting flexible private + shared offices",
       "digital": {
-        "score": 54,
-        "band": "D",
+        "score": 84,
+        "band": "A",
         "confidence": "high",
         "gaps": [
           "HTTP 202",
@@ -995,13 +1157,23 @@
           "reachable": true,
           "https": true,
           "mobileOptimized": true,
-          "metaDescription": false,
-          "openGraph": false,
-          "socialCount": 0,
+          "metaDescription": true,
+          "openGraph": true,
+          "socialCount": 3,
           "socials": [],
-          "onlineBooking": false,
+          "onlineBooking": true,
           "dnsResolves": true
-        }
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 45,
+          "mobile": 100,
+          "seo": 100,
+          "social": 84,
+          "conversion": 100,
+          "content": 72
+        },
+        "scanV2": "ok"
       },
       "hiring": {
         "hasCareersPage": false,
@@ -1015,7 +1187,7 @@
         "https://www.coworker.com/canada/calgary/stratus",
         "https://ca.linkedin.com/company/stratusoffices"
       ],
-      "leadWebUpgrade": true,
+      "leadWebUpgrade": false,
       "leadTalent": false,
       "scannedAt": "2026-06-21",
       "featured": false,
@@ -1039,23 +1211,33 @@
       "googleReviewCount": null,
       "targetMember": "entrepreneurs, startups, freelancers; events/meetings community",
       "digital": {
-        "score": 12,
+        "score": 29,
         "band": "F",
         "confidence": "high",
         "gaps": [
           "Website unreachable / failed to load"
         ],
         "signals": {
-          "reachable": false,
-          "https": null,
-          "mobileOptimized": null,
-          "metaDescription": null,
-          "openGraph": null,
-          "socialCount": null,
+          "reachable": true,
+          "https": false,
+          "mobileOptimized": false,
+          "metaDescription": false,
+          "openGraph": false,
+          "socialCount": 0,
           "socials": [],
-          "onlineBooking": null,
+          "onlineBooking": false,
           "dnsResolves": false
-        }
+        },
+        "breakdown": {
+          "security": 15,
+          "performance": 100,
+          "mobile": 50,
+          "seo": 0,
+          "social": 0,
+          "conversion": 0,
+          "content": 0
+        },
+        "scanV2": "ok"
       },
       "hiring": {
         "hasCareersPage": false,
@@ -1093,8 +1275,8 @@
       "googleReviewCount": null,
       "targetMember": "freelancers, consultants, small teams; private offices/dedicated desks/drop-in",
       "digital": {
-        "score": 54,
-        "band": "D",
+        "score": 87,
+        "band": "A",
         "confidence": "high",
         "gaps": [
           "HTTP 202",
@@ -1107,13 +1289,23 @@
           "reachable": true,
           "https": true,
           "mobileOptimized": true,
-          "metaDescription": false,
-          "openGraph": false,
+          "metaDescription": true,
+          "openGraph": true,
           "socialCount": 0,
           "socials": [],
-          "onlineBooking": false,
+          "onlineBooking": true,
           "dnsResolves": true
-        }
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 77,
+          "mobile": 100,
+          "seo": 100,
+          "social": 60,
+          "conversion": 100,
+          "content": 63
+        },
+        "scanV2": "ok"
       },
       "hiring": {
         "hasCareersPage": false,
@@ -1127,10 +1319,10 @@
         "https://www.coworker.com/canada/calgary/vennyyc",
         "https://www.coworkingcafe.com/coworking-property/ca/ab/calgary/vennyyc/"
       ],
-      "leadWebUpgrade": true,
+      "leadWebUpgrade": false,
       "leadTalent": false,
       "scannedAt": "2026-06-21",
-      "featured": false,
+      "featured": true,
       "screenshot": "/space-shots/vennyyc.jpg",
       "lat": 51.0417274,
       "lng": -114.0355701,
@@ -1151,8 +1343,8 @@
       "googleReviewCount": null,
       "targetMember": "SE Calgary/Okotoks/High River businesses; private offices, coworking, virtual",
       "digital": {
-        "score": 100,
-        "band": "A",
+        "score": 66,
+        "band": "B",
         "confidence": "high",
         "gaps": [],
         "signals": {
@@ -1160,7 +1352,7 @@
           "https": true,
           "mobileOptimized": true,
           "metaDescription": true,
-          "openGraph": true,
+          "openGraph": false,
           "socialCount": 3,
           "socials": [
             "facebook",
@@ -1169,7 +1361,17 @@
           ],
           "onlineBooking": true,
           "dnsResolves": true
-        }
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 56,
+          "mobile": 50,
+          "seo": 47,
+          "social": 44,
+          "conversion": 100,
+          "content": 80
+        },
+        "scanV2": "ok"
       },
       "hiring": {
         "hasCareersPage": false,
@@ -1207,8 +1409,8 @@
       "googleReviewCount": null,
       "targetMember": "startups, expanding companies, professionals; private offices, coworking, virtual",
       "digital": {
-        "score": 100,
-        "band": "A",
+        "score": 66,
+        "band": "B",
         "confidence": "high",
         "gaps": [],
         "signals": {
@@ -1216,7 +1418,7 @@
           "https": true,
           "mobileOptimized": true,
           "metaDescription": true,
-          "openGraph": true,
+          "openGraph": false,
           "socialCount": 3,
           "socials": [
             "facebook",
@@ -1225,7 +1427,17 @@
           ],
           "onlineBooking": true,
           "dnsResolves": true
-        }
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 40,
+          "mobile": 50,
+          "seo": 65,
+          "social": 44,
+          "conversion": 100,
+          "content": 84
+        },
+        "scanV2": "ok"
       },
       "hiring": {
         "hasCareersPage": false,
@@ -1263,23 +1475,33 @@
       "googleReviewCount": null,
       "targetMember": "creatives / remote workers; dedicated desks + event/photoshoot rental",
       "digital": {
-        "score": 12,
+        "score": 29,
         "band": "F",
         "confidence": "high",
         "gaps": [
           "Website unreachable / failed to load"
         ],
         "signals": {
-          "reachable": false,
-          "https": null,
-          "mobileOptimized": null,
-          "metaDescription": null,
-          "openGraph": null,
-          "socialCount": null,
+          "reachable": true,
+          "https": false,
+          "mobileOptimized": false,
+          "metaDescription": false,
+          "openGraph": false,
+          "socialCount": 0,
           "socials": [],
-          "onlineBooking": null,
+          "onlineBooking": false,
           "dnsResolves": false
-        }
+        },
+        "breakdown": {
+          "security": 15,
+          "performance": 100,
+          "mobile": 50,
+          "seo": 0,
+          "social": 0,
+          "conversion": 0,
+          "content": 0
+        },
+        "scanV2": "ok"
       },
       "hiring": {
         "hasCareersPage": false,
@@ -1317,8 +1539,8 @@
       "googleReviewCount": null,
       "targetMember": "designers, creative entrepreneurs, freelancers, small teams",
       "digital": {
-        "score": 88,
-        "band": "A",
+        "score": 79,
+        "band": "B",
         "confidence": "high",
         "gaps": [
           "No social links on site"
@@ -1328,12 +1550,22 @@
           "https": true,
           "mobileOptimized": true,
           "metaDescription": true,
-          "openGraph": true,
+          "openGraph": false,
           "socialCount": 0,
           "socials": [],
           "onlineBooking": true,
           "dnsResolves": true
-        }
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 90,
+          "mobile": 100,
+          "seo": 82,
+          "social": 20,
+          "conversion": 100,
+          "content": 43
+        },
+        "scanV2": "ok"
       },
       "hiring": {
         "hasCareersPage": false,
@@ -1371,23 +1603,33 @@
       "googleReviewCount": null,
       "targetMember": "SE Calgary neighbourhood coworkers; individual offices/shared desks",
       "digital": {
-        "score": 12,
+        "score": 29,
         "band": "F",
         "confidence": "high",
         "gaps": [
           "Website unreachable / failed to load"
         ],
         "signals": {
-          "reachable": false,
-          "https": null,
-          "mobileOptimized": null,
-          "metaDescription": null,
-          "openGraph": null,
-          "socialCount": null,
+          "reachable": true,
+          "https": false,
+          "mobileOptimized": false,
+          "metaDescription": false,
+          "openGraph": false,
+          "socialCount": 0,
           "socials": [],
-          "onlineBooking": null,
+          "onlineBooking": false,
           "dnsResolves": false
-        }
+        },
+        "breakdown": {
+          "security": 15,
+          "performance": 100,
+          "mobile": 50,
+          "seo": 0,
+          "social": 0,
+          "conversion": 0,
+          "content": 0
+        },
+        "scanV2": "ok"
       },
       "hiring": {
         "hasCareersPage": false,
@@ -1413,7 +1655,7 @@
     {
       "id": 26,
       "slug": "pavilion-cowork-courthouse-6-ave",
-      "name": "Pavilion Cowork — Courthouse 6 Ave",
+      "name": "Pavilion Cowork \u2014 Courthouse 6 Ave",
       "operator": "Pavilion Cowork (Alabaster Homes)",
       "isChain": false,
       "city": "Calgary",
@@ -1425,8 +1667,8 @@
       "googleReviewCount": null,
       "targetMember": "teams/professionals wanting premium downtown flex space",
       "digital": {
-        "score": 92,
-        "band": "A",
+        "score": 63,
+        "band": "C",
         "confidence": "high",
         "gaps": [
           "No meta description (weak SEO)"
@@ -1436,16 +1678,26 @@
           "https": true,
           "mobileOptimized": true,
           "metaDescription": false,
-          "openGraph": true,
+          "openGraph": false,
           "socialCount": 3,
           "socials": [
             "facebook",
             "instagram",
             "linkedin"
           ],
-          "onlineBooking": true,
+          "onlineBooking": false,
           "dnsResolves": true
-        }
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 65,
+          "mobile": 100,
+          "seo": 50,
+          "social": 24,
+          "conversion": 40,
+          "content": 63
+        },
+        "scanV2": "ok"
       },
       "hiring": {
         "hasCareersPage": true,
@@ -1483,7 +1735,7 @@
       "googleReviewCount": null,
       "targetMember": "founders, builders, creators (curated members-club)",
       "digital": {
-        "score": 86,
+        "score": 85,
         "band": "A",
         "confidence": "high",
         "gaps": [
@@ -1500,9 +1752,19 @@
             "instagram",
             "linkedin"
           ],
-          "onlineBooking": false,
+          "onlineBooking": true,
           "dnsResolves": true
-        }
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 73,
+          "mobile": 100,
+          "seo": 100,
+          "social": 76,
+          "conversion": 100,
+          "content": 37
+        },
+        "scanV2": "ok"
       },
       "hiring": {
         "hasCareersPage": false,
@@ -1540,7 +1802,7 @@
       "googleReviewCount": null,
       "targetMember": "entrepreneurs, small businesses, consultants, remote pros; private offices, coworking, virtual, meeting rooms",
       "digital": {
-        "score": 100,
+        "score": 84,
         "band": "A",
         "confidence": "high",
         "gaps": [],
@@ -1558,7 +1820,17 @@
           ],
           "onlineBooking": true,
           "dnsResolves": true
-        }
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 48,
+          "mobile": 100,
+          "seo": 85,
+          "social": 84,
+          "conversion": 100,
+          "content": 94
+        },
+        "scanV2": "ok"
       },
       "hiring": {
         "hasCareersPage": false,
@@ -1596,7 +1868,7 @@
       "googleReviewCount": null,
       "targetMember": "local Beltline businesses; coworking shared desks, private + virtual offices",
       "digital": {
-        "score": 100,
+        "score": 90,
         "band": "A",
         "confidence": "high",
         "gaps": [],
@@ -1614,7 +1886,17 @@
           ],
           "onlineBooking": true,
           "dnsResolves": true
-        }
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 60,
+          "mobile": 100,
+          "seo": 100,
+          "social": 84,
+          "conversion": 100,
+          "content": 97
+        },
+        "scanV2": "ok"
       },
       "hiring": {
         "hasCareersPage": false,
@@ -1631,7 +1913,7 @@
       "leadWebUpgrade": false,
       "leadTalent": false,
       "scannedAt": "2026-06-21",
-      "featured": false,
+      "featured": true,
       "screenshot": "/space-shots/astra-business-centre.jpg",
       "lat": 51.0404978,
       "lng": -114.0725934,
@@ -1640,7 +1922,7 @@
     {
       "id": 30,
       "slug": "spaces-regus-calgary-place",
-      "name": "Spaces / Regus — Calgary Place",
+      "name": "Spaces / Regus \u2014 Calgary Place",
       "operator": "IWG (cross-listed Spaces + Regus)",
       "isChain": true,
       "city": "Calgary",
@@ -1652,8 +1934,8 @@
       "googleReviewCount": null,
       "targetMember": "professionals & enterprise teams",
       "digital": {
-        "score": 56,
-        "band": "C",
+        "score": 77,
+        "band": "B",
         "confidence": "high",
         "gaps": [
           "Missing/blank page title",
@@ -1666,13 +1948,23 @@
           "reachable": true,
           "https": true,
           "mobileOptimized": true,
-          "metaDescription": false,
+          "metaDescription": true,
           "openGraph": false,
           "socialCount": 0,
           "socials": [],
-          "onlineBooking": false,
+          "onlineBooking": true,
           "dnsResolves": true
-        }
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 70,
+          "mobile": 100,
+          "seo": 82,
+          "social": 0,
+          "conversion": 100,
+          "content": 84
+        },
+        "scanV2": "ok"
       },
       "hiring": {
         "hasCareersPage": false,
@@ -1698,7 +1990,7 @@
     {
       "id": 31,
       "slug": "spaces-regus-telus-sky",
-      "name": "Spaces / Regus — Telus Sky",
+      "name": "Spaces / Regus \u2014 Telus Sky",
       "operator": "IWG (Spaces brand-of-record; cross-listed as Regus)",
       "isChain": true,
       "city": "Calgary",
@@ -1710,8 +2002,8 @@
       "googleReviewCount": null,
       "targetMember": "professionals & enterprise teams",
       "digital": {
-        "score": 56,
-        "band": "C",
+        "score": 81,
+        "band": "A",
         "confidence": "high",
         "gaps": [
           "Missing/blank page title",
@@ -1724,13 +2016,23 @@
           "reachable": true,
           "https": true,
           "mobileOptimized": true,
-          "metaDescription": false,
+          "metaDescription": true,
           "openGraph": false,
           "socialCount": 0,
           "socials": [],
-          "onlineBooking": false,
+          "onlineBooking": true,
           "dnsResolves": true
-        }
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 74,
+          "mobile": 100,
+          "seo": 100,
+          "social": 0,
+          "conversion": 100,
+          "content": 84
+        },
+        "scanV2": "ok"
       },
       "hiring": {
         "hasCareersPage": false,
@@ -1756,7 +2058,7 @@
     {
       "id": 32,
       "slug": "spaces-regus-altius-centre",
-      "name": "Spaces / Regus — Altius Centre",
+      "name": "Spaces / Regus \u2014 Altius Centre",
       "operator": "IWG (cross-listed Spaces + Regus)",
       "isChain": true,
       "city": "Calgary",
@@ -1768,8 +2070,8 @@
       "googleReviewCount": null,
       "targetMember": "professionals & enterprise teams",
       "digital": {
-        "score": 56,
-        "band": "C",
+        "score": 78,
+        "band": "B",
         "confidence": "high",
         "gaps": [
           "Missing/blank page title",
@@ -1782,13 +2084,23 @@
           "reachable": true,
           "https": true,
           "mobileOptimized": true,
-          "metaDescription": false,
+          "metaDescription": true,
           "openGraph": false,
           "socialCount": 0,
           "socials": [],
-          "onlineBooking": false,
+          "onlineBooking": true,
           "dnsResolves": true
-        }
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 73,
+          "mobile": 100,
+          "seo": 82,
+          "social": 0,
+          "conversion": 100,
+          "content": 84
+        },
+        "scanV2": "ok"
       },
       "hiring": {
         "hasCareersPage": false,
@@ -1813,7 +2125,7 @@
     {
       "id": 33,
       "slug": "spaces-regus-canada-trust-td-canada-trust",
-      "name": "Spaces / Regus — Canada Trust (TD Canada Trust)",
+      "name": "Spaces / Regus \u2014 Canada Trust (TD Canada Trust)",
       "operator": "IWG (cross-listed Spaces + Regus)",
       "isChain": true,
       "city": "Calgary",
@@ -1825,8 +2137,8 @@
       "googleReviewCount": null,
       "targetMember": "professionals & enterprise teams",
       "digital": {
-        "score": 56,
-        "band": "C",
+        "score": 79,
+        "band": "B",
         "confidence": "high",
         "gaps": [
           "Missing/blank page title",
@@ -1839,13 +2151,23 @@
           "reachable": true,
           "https": true,
           "mobileOptimized": true,
-          "metaDescription": false,
+          "metaDescription": true,
           "openGraph": false,
           "socialCount": 0,
           "socials": [],
-          "onlineBooking": false,
+          "onlineBooking": true,
           "dnsResolves": true
-        }
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 80,
+          "mobile": 100,
+          "seo": 82,
+          "social": 0,
+          "conversion": 100,
+          "content": 84
+        },
+        "scanV2": "ok"
       },
       "hiring": {
         "hasCareersPage": false,
@@ -1870,7 +2192,7 @@
     {
       "id": 34,
       "slug": "spaces-regus-bankers-hall",
-      "name": "Spaces / Regus — Bankers Hall",
+      "name": "Spaces / Regus \u2014 Bankers Hall",
       "operator": "IWG (Spaces brand-of-record; cross-listed as Regus)",
       "isChain": true,
       "city": "Calgary",
@@ -1882,8 +2204,8 @@
       "googleReviewCount": null,
       "targetMember": "professionals & enterprise teams",
       "digital": {
-        "score": 56,
-        "band": "C",
+        "score": 79,
+        "band": "B",
         "confidence": "high",
         "gaps": [
           "Missing/blank page title",
@@ -1896,13 +2218,23 @@
           "reachable": true,
           "https": true,
           "mobileOptimized": true,
-          "metaDescription": false,
+          "metaDescription": true,
           "openGraph": false,
           "socialCount": 0,
           "socials": [],
-          "onlineBooking": false,
+          "onlineBooking": true,
           "dnsResolves": true
-        }
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 77,
+          "mobile": 100,
+          "seo": 82,
+          "social": 0,
+          "conversion": 100,
+          "content": 84
+        },
+        "scanV2": "ok"
       },
       "hiring": {
         "hasCareersPage": false,
@@ -1927,7 +2259,7 @@
     {
       "id": 35,
       "slug": "spaces-regus-1011-1-st-sw",
-      "name": "Spaces / Regus — 1011 1 St SW",
+      "name": "Spaces / Regus \u2014 1011 1 St SW",
       "operator": "IWG (cross-listed Spaces + Regus)",
       "isChain": true,
       "city": "Calgary",
@@ -1939,8 +2271,8 @@
       "googleReviewCount": null,
       "targetMember": "professionals & enterprise teams",
       "digital": {
-        "score": 56,
-        "band": "C",
+        "score": 79,
+        "band": "B",
         "confidence": "high",
         "gaps": [
           "Missing/blank page title",
@@ -1953,13 +2285,23 @@
           "reachable": true,
           "https": true,
           "mobileOptimized": true,
-          "metaDescription": false,
+          "metaDescription": true,
           "openGraph": false,
           "socialCount": 0,
           "socials": [],
-          "onlineBooking": false,
+          "onlineBooking": true,
           "dnsResolves": true
-        }
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 77,
+          "mobile": 100,
+          "seo": 82,
+          "social": 0,
+          "conversion": 100,
+          "content": 84
+        },
+        "scanV2": "ok"
       },
       "hiring": {
         "hasCareersPage": false,
@@ -1984,7 +2326,7 @@
     {
       "id": 36,
       "slug": "spaces-regus-mcdougall",
-      "name": "Spaces / Regus — McDougall",
+      "name": "Spaces / Regus \u2014 McDougall",
       "operator": "IWG (cross-listed Spaces + Regus)",
       "isChain": true,
       "city": "Calgary",
@@ -1996,8 +2338,8 @@
       "googleReviewCount": null,
       "targetMember": "professionals & enterprise teams",
       "digital": {
-        "score": 56,
-        "band": "C",
+        "score": 74,
+        "band": "B",
         "confidence": "high",
         "gaps": [
           "Missing/blank page title",
@@ -2010,13 +2352,23 @@
           "reachable": true,
           "https": true,
           "mobileOptimized": true,
-          "metaDescription": false,
+          "metaDescription": true,
           "openGraph": false,
           "socialCount": 0,
           "socials": [],
-          "onlineBooking": false,
+          "onlineBooking": true,
           "dnsResolves": true
-        }
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 36,
+          "mobile": 100,
+          "seo": 100,
+          "social": 0,
+          "conversion": 100,
+          "content": 84
+        },
+        "scanV2": "ok"
       },
       "hiring": {
         "hasCareersPage": false,
@@ -2041,7 +2393,7 @@
     {
       "id": 37,
       "slug": "spaces-regus-903-8th-avenue-sw",
-      "name": "Spaces / Regus — 903 8th Avenue SW",
+      "name": "Spaces / Regus \u2014 903 8th Avenue SW",
       "operator": "IWG (cross-listed Spaces + Regus)",
       "isChain": true,
       "city": "Calgary",
@@ -2053,7 +2405,7 @@
       "googleReviewCount": null,
       "targetMember": "professionals & enterprise teams",
       "digital": {
-        "score": 56,
+        "score": 61,
         "band": "C",
         "confidence": "high",
         "gaps": [
@@ -2071,9 +2423,19 @@
           "openGraph": false,
           "socialCount": 0,
           "socials": [],
-          "onlineBooking": false,
+          "onlineBooking": true,
           "dnsResolves": true
-        }
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 58,
+          "mobile": 100,
+          "seo": 30,
+          "social": 0,
+          "conversion": 100,
+          "content": 36
+        },
+        "scanV2": "ok"
       },
       "hiring": {
         "hasCareersPage": false,
@@ -2098,7 +2460,7 @@
     {
       "id": 38,
       "slug": "spaces-regus-one-executive-place",
-      "name": "Spaces / Regus — One Executive Place",
+      "name": "Spaces / Regus \u2014 One Executive Place",
       "operator": "IWG (cross-listed Spaces + Regus)",
       "isChain": true,
       "city": "Calgary",
@@ -2110,8 +2472,8 @@
       "googleReviewCount": null,
       "targetMember": "professionals & enterprise teams",
       "digital": {
-        "score": 56,
-        "band": "C",
+        "score": 79,
+        "band": "B",
         "confidence": "high",
         "gaps": [
           "Missing/blank page title",
@@ -2124,13 +2486,23 @@
           "reachable": true,
           "https": true,
           "mobileOptimized": true,
-          "metaDescription": false,
+          "metaDescription": true,
           "openGraph": false,
           "socialCount": 0,
           "socials": [],
-          "onlineBooking": false,
+          "onlineBooking": true,
           "dnsResolves": true
-        }
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 79,
+          "mobile": 100,
+          "seo": 82,
+          "social": 0,
+          "conversion": 100,
+          "content": 84
+        },
+        "scanV2": "ok"
       },
       "hiring": {
         "hasCareersPage": false,
@@ -2155,7 +2527,7 @@
     {
       "id": 39,
       "slug": "spaces-regus-macleod-place-ii",
-      "name": "Spaces / Regus — Macleod Place II",
+      "name": "Spaces / Regus \u2014 Macleod Place II",
       "operator": "IWG (cross-listed Spaces + Regus)",
       "isChain": true,
       "city": "Calgary",
@@ -2167,8 +2539,8 @@
       "googleReviewCount": null,
       "targetMember": "professionals & enterprise teams",
       "digital": {
-        "score": 56,
-        "band": "C",
+        "score": 78,
+        "band": "B",
         "confidence": "high",
         "gaps": [
           "Missing/blank page title",
@@ -2181,13 +2553,23 @@
           "reachable": true,
           "https": true,
           "mobileOptimized": true,
-          "metaDescription": false,
+          "metaDescription": true,
           "openGraph": false,
           "socialCount": 0,
           "socials": [],
-          "onlineBooking": false,
+          "onlineBooking": true,
           "dnsResolves": true
-        }
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 75,
+          "mobile": 100,
+          "seo": 82,
+          "social": 0,
+          "conversion": 100,
+          "content": 84
+        },
+        "scanV2": "ok"
       },
       "hiring": {
         "hasCareersPage": false,
@@ -2212,7 +2594,7 @@
     {
       "id": 40,
       "slug": "spaces-regus-westmount-corporate-campus",
-      "name": "Spaces / Regus — WestMount Corporate Campus",
+      "name": "Spaces / Regus \u2014 WestMount Corporate Campus",
       "operator": "IWG (cross-listed Spaces + Regus)",
       "isChain": true,
       "city": "Calgary",
@@ -2224,8 +2606,8 @@
       "googleReviewCount": null,
       "targetMember": "professionals & enterprise teams",
       "digital": {
-        "score": 56,
-        "band": "C",
+        "score": 78,
+        "band": "B",
         "confidence": "high",
         "gaps": [
           "Missing/blank page title",
@@ -2238,13 +2620,23 @@
           "reachable": true,
           "https": true,
           "mobileOptimized": true,
-          "metaDescription": false,
+          "metaDescription": true,
           "openGraph": false,
           "socialCount": 0,
           "socials": [],
-          "onlineBooking": false,
+          "onlineBooking": true,
           "dnsResolves": true
-        }
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 73,
+          "mobile": 100,
+          "seo": 82,
+          "social": 0,
+          "conversion": 100,
+          "content": 84
+        },
+        "scanV2": "ok"
       },
       "hiring": {
         "hasCareersPage": false,
@@ -2269,7 +2661,7 @@
     {
       "id": 41,
       "slug": "spaces-regus-4503-brisebois-dr-nw",
-      "name": "Spaces / Regus — 4503 Brisebois Dr NW",
+      "name": "Spaces / Regus \u2014 4503 Brisebois Dr NW",
       "operator": "IWG (cross-listed Spaces + Regus)",
       "isChain": true,
       "city": "Calgary",
@@ -2281,8 +2673,8 @@
       "googleReviewCount": null,
       "targetMember": "professionals & enterprise teams",
       "digital": {
-        "score": 56,
-        "band": "C",
+        "score": 79,
+        "band": "B",
         "confidence": "high",
         "gaps": [
           "Missing/blank page title",
@@ -2295,13 +2687,23 @@
           "reachable": true,
           "https": true,
           "mobileOptimized": true,
-          "metaDescription": false,
+          "metaDescription": true,
           "openGraph": false,
           "socialCount": 0,
           "socials": [],
-          "onlineBooking": false,
+          "onlineBooking": true,
           "dnsResolves": true
-        }
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 79,
+          "mobile": 100,
+          "seo": 82,
+          "social": 0,
+          "conversion": 100,
+          "content": 84
+        },
+        "scanV2": "ok"
       },
       "hiring": {
         "hasCareersPage": false,
@@ -2326,7 +2728,7 @@
     {
       "id": 42,
       "slug": "regus-6815-8th-street-ne",
-      "name": "Regus — 6815 8th Street NE",
+      "name": "Regus \u2014 6815 8th Street NE",
       "operator": "Regus (IWG)",
       "isChain": true,
       "city": "Calgary",
@@ -2338,8 +2740,8 @@
       "googleReviewCount": null,
       "targetMember": "professionals & enterprise teams",
       "digital": {
-        "score": 56,
-        "band": "C",
+        "score": 75,
+        "band": "B",
         "confidence": "high",
         "gaps": [
           "Missing/blank page title",
@@ -2352,13 +2754,23 @@
           "reachable": true,
           "https": true,
           "mobileOptimized": true,
-          "metaDescription": false,
+          "metaDescription": true,
           "openGraph": false,
           "socialCount": 0,
           "socials": [],
-          "onlineBooking": false,
+          "onlineBooking": true,
           "dnsResolves": true
-        }
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 59,
+          "mobile": 100,
+          "seo": 82,
+          "social": 0,
+          "conversion": 100,
+          "content": 84
+        },
+        "scanV2": "ok"
       },
       "hiring": {
         "hasCareersPage": false,
@@ -2382,7 +2794,7 @@
     {
       "id": 43,
       "slug": "regus-quarry-park",
-      "name": "Regus — Quarry Park",
+      "name": "Regus \u2014 Quarry Park",
       "operator": "Regus (IWG)",
       "isChain": true,
       "city": "Calgary",
@@ -2394,8 +2806,8 @@
       "googleReviewCount": null,
       "targetMember": "professionals & enterprise teams",
       "digital": {
-        "score": 56,
-        "band": "C",
+        "score": 71,
+        "band": "B",
         "confidence": "high",
         "gaps": [
           "Missing/blank page title",
@@ -2408,13 +2820,23 @@
           "reachable": true,
           "https": true,
           "mobileOptimized": true,
-          "metaDescription": false,
+          "metaDescription": true,
           "openGraph": false,
           "socialCount": 0,
           "socials": [],
-          "onlineBooking": false,
+          "onlineBooking": true,
           "dnsResolves": true
-        }
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 40,
+          "mobile": 100,
+          "seo": 82,
+          "social": 0,
+          "conversion": 100,
+          "content": 84
+        },
+        "scanV2": "ok"
       },
       "hiring": {
         "hasCareersPage": false,
@@ -2439,7 +2861,7 @@
     {
       "id": 44,
       "slug": "regus-crowfoot-centre",
-      "name": "Regus — Crowfoot Centre",
+      "name": "Regus \u2014 Crowfoot Centre",
       "operator": "Regus (IWG)",
       "isChain": true,
       "city": "Calgary",
@@ -2451,8 +2873,8 @@
       "googleReviewCount": null,
       "targetMember": "professionals & enterprise teams",
       "digital": {
-        "score": 56,
-        "band": "C",
+        "score": 72,
+        "band": "B",
         "confidence": "high",
         "gaps": [
           "Missing/blank page title",
@@ -2465,13 +2887,23 @@
           "reachable": true,
           "https": true,
           "mobileOptimized": true,
-          "metaDescription": false,
+          "metaDescription": true,
           "openGraph": false,
           "socialCount": 0,
           "socials": [],
-          "onlineBooking": false,
+          "onlineBooking": true,
           "dnsResolves": true
-        }
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 46,
+          "mobile": 100,
+          "seo": 82,
+          "social": 0,
+          "conversion": 100,
+          "content": 84
+        },
+        "scanV2": "ok"
       },
       "hiring": {
         "hasCareersPage": false,
@@ -2495,7 +2927,7 @@
     {
       "id": 45,
       "slug": "wework-stephen-avenue-place",
-      "name": "WeWork — Stephen Avenue Place",
+      "name": "WeWork \u2014 Stephen Avenue Place",
       "operator": "WeWork",
       "isChain": true,
       "city": "Calgary",
@@ -2507,7 +2939,7 @@
       "googleReviewCount": 48,
       "targetMember": "professionals & enterprise teams",
       "digital": {
-        "score": 100,
+        "score": 88,
         "band": "A",
         "confidence": "high",
         "gaps": [],
@@ -2527,7 +2959,17 @@
           ],
           "onlineBooking": true,
           "dnsResolves": true
-        }
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 60,
+          "mobile": 100,
+          "seo": 100,
+          "social": 80,
+          "conversion": 100,
+          "content": 89
+        },
+        "scanV2": "ok"
       },
       "hiring": {
         "hasCareersPage": false,
@@ -2564,7 +3006,7 @@
       "googleReviewCount": null,
       "targetMember": "entrepreneurs, freelancers, independent contractors",
       "digital": {
-        "score": 90,
+        "score": 80,
         "band": "A",
         "confidence": "high",
         "gaps": [
@@ -2583,9 +3025,19 @@
             "linkedin",
             "twitter/x"
           ],
-          "onlineBooking": false,
+          "onlineBooking": true,
           "dnsResolves": true
-        }
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 27,
+          "mobile": 100,
+          "seo": 85,
+          "social": 92,
+          "conversion": 100,
+          "content": 80
+        },
+        "scanV2": "ok"
       },
       "hiring": {
         "hasCareersPage": false,
@@ -2610,7 +3062,7 @@
     {
       "id": 47,
       "slug": "regus-red-deer",
-      "name": "Regus — Red Deer",
+      "name": "Regus \u2014 Red Deer",
       "operator": "Regus (IWG)",
       "isChain": true,
       "city": "Red Deer",
@@ -2622,8 +3074,8 @@
       "googleReviewCount": null,
       "targetMember": "sole traders, startups, enterprises",
       "digital": {
-        "score": 56,
-        "band": "C",
+        "score": 80,
+        "band": "A",
         "confidence": "high",
         "gaps": [
           "Missing/blank page title",
@@ -2636,13 +3088,23 @@
           "reachable": true,
           "https": true,
           "mobileOptimized": true,
-          "metaDescription": false,
+          "metaDescription": true,
           "openGraph": false,
           "socialCount": 0,
           "socials": [],
-          "onlineBooking": false,
+          "onlineBooking": true,
           "dnsResolves": true
-        }
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 69,
+          "mobile": 100,
+          "seo": 100,
+          "social": 0,
+          "conversion": 100,
+          "content": 84
+        },
+        "scanV2": "ok"
       },
       "hiring": {
         "hasCareersPage": false,
@@ -2667,7 +3129,7 @@
     {
       "id": 48,
       "slug": "work-nicer-coworking-beaver-house",
-      "name": "Work Nicer Coworking — Beaver House",
+      "name": "Work Nicer Coworking \u2014 Beaver House",
       "operator": "Work Nicer",
       "isChain": false,
       "city": "Edmonton",
@@ -2679,8 +3141,8 @@
       "googleReviewCount": null,
       "targetMember": "founders, remote workers, small teams",
       "digital": {
-        "score": 100,
-        "band": "A",
+        "score": 72,
+        "band": "B",
         "confidence": "high",
         "gaps": [],
         "signals": {
@@ -2688,7 +3150,7 @@
           "https": true,
           "mobileOptimized": true,
           "metaDescription": true,
-          "openGraph": true,
+          "openGraph": false,
           "socialCount": 5,
           "socials": [
             "facebook",
@@ -2699,7 +3161,17 @@
           ],
           "onlineBooking": true,
           "dnsResolves": true
-        }
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 6,
+          "mobile": 100,
+          "seo": 100,
+          "social": 60,
+          "conversion": 100,
+          "content": 55
+        },
+        "scanV2": "ok"
       },
       "hiring": {
         "hasCareersPage": false,
@@ -2737,8 +3209,8 @@
       "googleReviewCount": null,
       "targetMember": "community + MacEwan-affiliated entrepreneurs, creatives, collaborators",
       "digital": {
-        "score": 100,
-        "band": "A",
+        "score": 79,
+        "band": "B",
         "confidence": "high",
         "gaps": [],
         "signals": {
@@ -2746,7 +3218,7 @@
           "https": true,
           "mobileOptimized": true,
           "metaDescription": true,
-          "openGraph": true,
+          "openGraph": false,
           "socialCount": 6,
           "socials": [
             "facebook",
@@ -2758,7 +3230,17 @@
           ],
           "onlineBooking": true,
           "dnsResolves": true
-        }
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 63,
+          "mobile": 100,
+          "seo": 80,
+          "social": 40,
+          "conversion": 100,
+          "content": 69
+        },
+        "scanV2": "ok"
       },
       "hiring": {
         "hasCareersPage": false,
@@ -2800,7 +3282,7 @@
         "band": "F",
         "confidence": "high",
         "gaps": [
-          "No website found — invisible online"
+          "No website found \u2014 invisible online"
         ],
         "signals": {
           "reachable": false,
@@ -2812,7 +3294,9 @@
           "socials": [],
           "onlineBooking": null,
           "dnsResolves": null
-        }
+        },
+        "breakdown": null,
+        "scanV2": "no website"
       },
       "hiring": {
         "hasCareersPage": false,
@@ -2838,7 +3322,7 @@
     {
       "id": 51,
       "slug": "the-corner-coworking-railway-st-hq",
-      "name": "The Corner Coworking — Railway St (HQ)",
+      "name": "The Corner Coworking \u2014 Railway St (HQ)",
       "operator": "The Corner Coworking (independent)",
       "isChain": false,
       "city": "Cochrane",
@@ -2850,7 +3334,7 @@
       "googleReviewCount": null,
       "targetMember": "solo workers, small teams, growing businesses",
       "digital": {
-        "score": 88,
+        "score": 90,
         "band": "A",
         "confidence": "high",
         "gaps": [
@@ -2866,7 +3350,17 @@
           "socials": [],
           "onlineBooking": true,
           "dnsResolves": true
-        }
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 80,
+          "mobile": 100,
+          "seo": 100,
+          "social": 60,
+          "conversion": 100,
+          "content": 88
+        },
+        "scanV2": "ok"
       },
       "hiring": {
         "hasCareersPage": false,
@@ -2892,7 +3386,7 @@
     {
       "id": 52,
       "slug": "the-corner-coworking-okotoks-riverside",
-      "name": "The Corner Coworking — Okotoks (Riverside)",
+      "name": "The Corner Coworking \u2014 Okotoks (Riverside)",
       "operator": "The Corner Coworking (independent)",
       "isChain": false,
       "city": "Okotoks",
@@ -2904,7 +3398,7 @@
       "googleReviewCount": null,
       "targetMember": "solo workers, small teams, remote workers",
       "digital": {
-        "score": 88,
+        "score": 93,
         "band": "A",
         "confidence": "high",
         "gaps": [
@@ -2920,7 +3414,17 @@
           "socials": [],
           "onlineBooking": true,
           "dnsResolves": true
-        }
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 96,
+          "mobile": 100,
+          "seo": 100,
+          "social": 60,
+          "conversion": 100,
+          "content": 88
+        },
+        "scanV2": "ok"
       },
       "hiring": {
         "hasCareersPage": false,

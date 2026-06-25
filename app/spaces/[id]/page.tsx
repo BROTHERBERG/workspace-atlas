@@ -235,6 +235,7 @@ export default async function SpacePage({ params }: { params: Promise<{ id: stri
               signals={d.signals}
               gaps={d.gaps}
               confidence={d.confidence}
+              breakdown={d.breakdown}
               detailed
             />
             <Card className="border-2 border-black shadow-[5px_5px_0px_0px_rgba(0,0,0,1)]">
