@@ -76,7 +76,7 @@ export default function Footer() {
                 Live · scanned {GENERATED_AT}
               </li>
               <li className="flex items-center gap-2">
-                <MapPin className="h-3.5 w-3.5 text-[#f9cb16]" /> Calgary &amp; Alberta
+                <MapPin className="h-3.5 w-3.5 text-[#f9cb16]" /> {s.marketCount} markets · {s.cities.length} cities
               </li>
               <li>
                 <Link

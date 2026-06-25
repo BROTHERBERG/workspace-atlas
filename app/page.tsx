@@ -20,8 +20,10 @@ import {
   webUpgradeLeads,
   talentLeads,
   bandColor,
+  resolveMarket,
+  marketLabel,
+  ALL_MARKETS,
   GENERATED_AT,
-  MARKET,
   type Band,
 } from "@/lib/spaces"
 
@@ -53,10 +55,13 @@ function Connector() {
   )
 }
 
-export default function Home() {
-  const s = marketStats()
-  const webLeads = webUpgradeLeads()
-  const talent = talentLeads()
+export default async function Home({ searchParams }: { searchParams: Promise<{ market?: string }> }) {
+  const market = resolveMarket((await searchParams).market)
+  const isAll = market === ALL_MARKETS
+  const label = marketLabel(market)
+  const s = marketStats(market)
+  const webLeads = webUpgradeLeads(market)
+  const talent = talentLeads(market)
   const liveOpening = talent.find((t) => t.hiring.confirmedOpening)
   const bands: Band[] = ["A", "B", "C", "D", "F"]
   const maxBand = Math.max(...bands.map((b) => s.bandCounts[b] || 0), 1)
@@ -70,7 +75,7 @@ export default function Home() {
             {/* Left */}
             <div className="flex flex-col justify-center">
               <Badge className="mb-5 inline-flex w-fit items-center gap-1.5 bg-[#f9cb16] text-black hover:bg-[#f9cb16] 2xl:mb-8 2xl:text-sm">
-                <MapPin className="h-3 w-3" /> Calgary & Alberta · live coworking intelligence
+                <MapPin className="h-3 w-3" /> {isAll ? "Global" : label} · live coworking intelligence
               </Badge>
               <h1 className="font-cal text-5xl leading-[0.95] tracking-tight sm:text-6xl xl:text-7xl 2xl:text-8xl">
                 Find the space.
@@ -147,7 +152,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <SignalMarquee />
+        <SignalMarquee market={market} />
       </section>
 
       {/* STAT BAND */}
@@ -155,7 +160,9 @@ export default function Home() {
         <div className="mx-auto grid max-w-7xl 2xl:max-w-[110rem] grid-cols-2 divide-x-2 divide-black/10 px-4 py-8 sm:px-6 md:grid-cols-4 lg:px-10">
           {[
             { n: s.total, l: "spaces mapped" },
-            { n: s.calgary, l: "in Calgary" },
+            isAll
+              ? { n: s.marketCount, l: "markets" }
+              : { n: s.cities.length, l: s.cities.length === 1 ? "city" : "cities" },
             { n: `${s.independents}`, l: "independent operators" },
             { n: s.liveOpenings, l: "hiring leadership now" },
           ].map((x, i) => (
@@ -172,7 +179,7 @@ export default function Home() {
         <div className="mx-auto max-w-7xl 2xl:max-w-[110rem] px-4 sm:px-6 lg:px-10">
           <div className="flex flex-col items-start justify-between gap-4 md:flex-row md:items-end">
             <div>
-              <h2 className="font-cal text-3xl tracking-tight sm:text-4xl">Calgary's strongest web presence</h2>
+              <h2 className="font-cal text-3xl tracking-tight sm:text-4xl">{isAll ? "The strongest web presence" : `${label}'s strongest web presence`}</h2>
               <p className="mt-2 max-w-2xl text-gray-500">
                 The operators setting the bar for digital presence in the local market.
               </p>
@@ -185,7 +192,7 @@ export default function Home() {
             </Link>
           </div>
           <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            <FeaturedSpaces />
+            <FeaturedSpaces market={market} />
           </div>
         </div>
       </section>
@@ -212,7 +219,7 @@ export default function Home() {
             <DiagramNode label="01 · input" title="The market">
               <div className="font-cal text-4xl text-white">{s.total}</div>
               <p className="mt-1 text-sm text-gray-400">
-                coworking spaces — every live website + careers page, {MARKET}.
+                coworking spaces — every live website + careers page, {isAll ? "across every market" : label}.
               </p>
             </DiagramNode>
 

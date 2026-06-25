@@ -8,15 +8,16 @@ import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import SpaceCard from "@/components/space-card"
-import { allSpaces, marketStats, sortedByScore } from "@/lib/spaces"
+import { allSpaces, marketStats, marketLabel, resolveMarket, sortedByScore, ALL_MARKETS } from "@/lib/spaces"
 
 const SPACES = allSpaces()
-const STATS = marketStats()
 
 type LeadFilter = "all" | "web" | "talent"
 
 function SearchInner() {
   const params = useSearchParams()
+  const market = resolveMarket(params.get("market"))
+  const stats = marketStats(market)
   const [q, setQ] = useState("")
   const [city, setCity] = useState("all")
   const [lead, setLead] = useState<LeadFilter>("all")
@@ -28,6 +29,7 @@ function SearchInner() {
 
   const results = useMemo(() => {
     const list = SPACES.filter((s) => {
+      if (market !== ALL_MARKETS && s.market !== market) return false
       if (city !== "all" && s.city !== city) return false
       if (lead === "web" && !s.leadWebUpgrade) return false
       if (lead === "talent" && !s.leadTalent) return false
@@ -38,7 +40,7 @@ function SearchInner() {
       return true
     })
     return sortedByScore(list)
-  }, [q, city, lead])
+  }, [q, city, lead, market])
 
   const hasQuery = q.trim() || city !== "all" || lead !== "all"
 
@@ -47,9 +49,13 @@ function SearchInner() {
       {/* Search hero */}
       <div className="border-b-2 border-black bg-[#1f1f1f] text-white">
         <div className="mx-auto max-w-4xl px-4 py-14 text-center sm:px-6 lg:px-10">
-          <h1 className="font-cal text-3xl tracking-tight sm:text-4xl">Search the Calgary coworking market</h1>
+          <h1 className="font-cal text-3xl tracking-tight sm:text-4xl">
+            {market === ALL_MARKETS
+              ? "Search the coworking market"
+              : `Search the ${marketLabel(market)} coworking market`}
+          </h1>
           <p className="mt-3 text-gray-300">
-            {STATS.total} real spaces, each scored on its live website. Search by name, operator, or neighborhood.
+            {stats.total} real spaces, each scored on its live website. Search by name, operator, or neighborhood.
           </p>
           <div className="mx-auto mt-7 flex max-w-2xl items-center gap-2 rounded-lg bg-white p-2">
             <Search className="ml-1 h-5 w-5 shrink-0 text-gray-500" />
@@ -74,7 +80,7 @@ function SearchInner() {
               </SelectTrigger>
               <SelectContent>
                 <SelectItem value="all">All cities</SelectItem>
-                {STATS.cities.map((c) => (
+                {stats.cities.map((c) => (
                   <SelectItem key={c.city} value={c.city}>
                     {c.city} ({c.count})
                   </SelectItem>

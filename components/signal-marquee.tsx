@@ -1,12 +1,19 @@
 // Hero ticker — real facts from the live scan, pinned above the fold.
-import { marketStats, talentLeads } from "@/lib/spaces"
+import { marketStats, marketLabel, talentLeads, ALL_MARKETS } from "@/lib/spaces"
 
-export default function SignalMarquee() {
-  const s = marketStats()
-  const opening = talentLeads().find((x) => x.hiring.confirmedOpening)
+export default function SignalMarquee({ market }: { market?: string }) {
+  const m = market ?? ALL_MARKETS
+  const s = marketStats(m)
+  const opening = talentLeads(m).find((x) => x.hiring.confirmedOpening)
+  const scope =
+    m === ALL_MARKETS
+      ? `across ${s.marketCount} markets`
+      : s.primaryCity
+        ? `${s.primaryCity} & more`
+        : marketLabel(m)
   const items = [
     `${s.total} real coworking spaces mapped`,
-    `${s.calgary} in Calgary · ${s.otherAlberta} across Alberta`,
+    scope,
     `Live digital-presence score on every site`,
     `Avg score ${s.avgScore}/100`,
     `${s.webUpgradeCount} with weak or missing web presence`,

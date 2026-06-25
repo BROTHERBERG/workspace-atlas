@@ -7,14 +7,15 @@ import {
   allSpaces,
   webUpgradeLeads,
   talentLeads,
-  MARKET,
+  resolveMarket,
+  marketLabel,
   GENERATED_AT,
   type Space,
 } from "@/lib/spaces"
 
 export const metadata = {
   title: "Recommended spaces — Workscape Atlas",
-  description: "Standout coworking spaces from the live Calgary & Alberta market scan.",
+  description: "Standout coworking spaces from the live market scan.",
 }
 
 function Section({
@@ -51,10 +52,17 @@ function Section({
   )
 }
 
-export default function RecommendationsPage() {
-  const topScored = sortedByScore(allSpaces().filter((s) => !s.isChain && (s.digital.score ?? 0) >= 88)).slice(0, 6)
-  const webLeads = webUpgradeLeads().slice(0, 6)
-  const talent = talentLeads()
+export default async function RecommendationsPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ market?: string }>
+}) {
+  const market = resolveMarket((await searchParams).market)
+  const topScored = sortedByScore(
+    allSpaces(market).filter((s) => !s.isChain && (s.digital.score ?? 0) >= 88),
+  ).slice(0, 6)
+  const webLeads = webUpgradeLeads(market).slice(0, 6)
+  const talent = talentLeads(market)
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -62,7 +70,7 @@ export default function RecommendationsPage() {
       <div className="border-b-2 border-black bg-[#1f1f1f] text-white">
         <div className="mx-auto max-w-7xl 2xl:max-w-[110rem] px-4 py-14 sm:px-6 lg:px-10">
           <Badge className="mb-4 inline-flex items-center gap-1.5 bg-[#f9cb16] text-black hover:bg-[#f9cb16]">
-            <Radar className="h-3 w-3" /> {MARKET} · scanned {GENERATED_AT}
+            <Radar className="h-3 w-3" /> {marketLabel(market)} · scanned {GENERATED_AT}
           </Badge>
           <h1 className="flex items-center gap-2 font-cal text-3xl tracking-tight sm:text-4xl">
             <Sparkles className="h-7 w-7 text-[#f9cb16]" /> Recommended spaces

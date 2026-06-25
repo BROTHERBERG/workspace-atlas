@@ -1,22 +1,24 @@
 "use client"
 
-import { useMemo, useState } from "react"
+import { Suspense, useMemo, useState } from "react"
+import { useSearchParams } from "next/navigation"
 import Link from "next/link"
 import { Search, SlidersHorizontal, Wand2, Briefcase, X } from "lucide-react"
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import SpaceCard from "@/components/space-card"
-import { allSpaces, marketStats } from "@/lib/spaces"
+import { allSpaces, marketStats, resolveMarket, marketLabel, ALL_MARKETS } from "@/lib/spaces"
 
 const SPACES = allSpaces()
-const STATS = marketStats()
 
 type ScoreFilter = "all" | "strong" | "weak"
 type LeadFilter = "all" | "web" | "talent"
 type Sort = "score-desc" | "score-asc" | "name"
 
-export default function DirectoryPage() {
+function DirectoryInner() {
+  const market = resolveMarket(useSearchParams().get("market"))
+  const STATS = marketStats(market)
   const [q, setQ] = useState("")
   const [city, setCity] = useState("all")
   const [score, setScore] = useState<ScoreFilter>("all")
@@ -25,6 +27,7 @@ export default function DirectoryPage() {
 
   const results = useMemo(() => {
     let list = SPACES.filter((s) => {
+      if (market !== ALL_MARKETS && s.market !== market) return false
       if (city !== "all" && s.city !== city) return false
       if (score === "strong" && (s.digital.score ?? -1) < 70) return false
       if (score === "weak" && (s.digital.score ?? 101) >= 55) return false
@@ -43,7 +46,7 @@ export default function DirectoryPage() {
       return sort === "score-asc" ? av - bv : bv - av
     })
     return list
-  }, [q, city, score, lead, sort])
+  }, [q, city, score, lead, sort, market])
 
   const hasFilters = q || city !== "all" || score !== "all" || lead !== "all"
 
@@ -53,11 +56,14 @@ export default function DirectoryPage() {
       <div className="border-b-2 border-black bg-[#1f1f1f] text-white">
         <div className="mx-auto max-w-7xl 2xl:max-w-[110rem] px-4 py-12 sm:px-6 lg:px-10">
           <h1 className="font-cal text-3xl tracking-tight sm:text-4xl md:text-5xl">
-            Calgary's coworking market, ranked
+            {market === ALL_MARKETS
+              ? "The global coworking market, ranked"
+              : `${marketLabel(market)}'s coworking market, ranked`}
           </h1>
           <p className="mt-3 max-w-2xl text-gray-300">
-            {STATS.total} real spaces across {STATS.cities.length} Alberta cities — each scored on its live website, not a
-            brochure.
+            {market === ALL_MARKETS
+              ? `${STATS.total} real spaces across ${STATS.marketCount} markets — each scored on its live website, not a brochure.`
+              : `${STATS.total} real spaces across ${STATS.cities.length} ${STATS.cities.length === 1 ? "city" : "cities"} — each scored on its live website, not a brochure.`}
           </p>
           <div className="mt-6 flex max-w-xl items-center gap-2 rounded-lg bg-white p-2">
             <Search className="ml-1 h-4 w-4 shrink-0 text-gray-500" />
@@ -173,5 +179,13 @@ export default function DirectoryPage() {
         </p>
       </div>
     </div>
+  )
+}
+
+export default function DirectoryPage() {
+  return (
+    <Suspense fallback={<div className="min-h-screen bg-gray-50" />}>
+      <DirectoryInner />
+    </Suspense>
   )
 }

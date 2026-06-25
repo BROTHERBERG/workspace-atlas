@@ -1,12 +1,13 @@
 "use client"
 
-import { useState } from "react"
+import { Suspense, useState } from "react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 import { Menu, X, Compass, Search, Award, Users, Radar } from "lucide-react"
+import MarketSwitcher from "@/components/market-switcher"
 
 const routes = [
   { name: "Directory", href: "/directory", icon: Search },
@@ -52,10 +53,9 @@ export default function Navbar() {
         </nav>
 
         <div className="ml-auto hidden items-center gap-3 md:flex">
-          <span className="hidden items-center gap-1.5 text-xs font-medium text-gray-500 lg:flex">
-            <span className="inline-block h-2 w-2 animate-pulse rounded-full bg-emerald-500" />
-            Calgary · live data
-          </span>
+          <Suspense fallback={<div className="h-9 w-36 rounded-md border-2 border-black bg-white" />}>
+            <MarketSwitcher />
+          </Suspense>
           <Button
             asChild
             className="bg-[#f9cb16] text-black hover:bg-[#f9cb16] border-2 border-black shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] transition-all hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-none"

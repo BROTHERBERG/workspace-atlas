@@ -35,15 +35,15 @@ export default function ScoreMySpacePage() {
           <div className="grid gap-10 lg:grid-cols-2 lg:gap-12">
             <div className="flex flex-col justify-center space-y-5">
               <Badge className="inline-flex w-fit items-center gap-1.5 bg-[#f9cb16] text-black hover:bg-[#f9cb16]">
-                <MapPin className="h-3 w-3" /> Calgary & Alberta coworking
+                <MapPin className="h-3 w-3" /> Live coworking intelligence
               </Badge>
               <div className="space-y-3">
                 <h1 className="font-cal text-4xl leading-[1.05] tracking-tight sm:text-5xl md:text-6xl">
-                  See how your Calgary space scores online.
+                  See how your space scores online.
                 </h1>
                 <p className="max-w-[600px] text-gray-300 md:text-xl">
                   We render your live site in a real browser and grade it on the five signals that decide whether a
-                  Calgary member ever finds — and books — your space.
+                  member ever finds — and books — your space.
                 </p>
               </div>
               <div className="flex flex-col gap-3 min-[400px]:flex-row">
@@ -212,10 +212,10 @@ export default function ScoreMySpacePage() {
                   <span className="font-cal text-lg">
                     Workscape<span className="text-[#f9cb16]"> Atlas</span>
                   </span>
-                  <span className="text-xs text-gray-400">Calgary scan</span>
+                  <span className="text-xs text-gray-400">Live scan</span>
                 </div>
                 <p className="mt-2 text-sm text-gray-400">
-                  How {s.scored} live Calgary &amp; Alberta sites graded out — A is clean across every signal, F is
+                  How {s.scored} live sites graded out — A is clean across every signal, F is
                   effectively invisible.
                 </p>
                 <div className="mt-5 space-y-2.5">
@@ -265,9 +265,9 @@ export default function ScoreMySpacePage() {
       <section className="bg-gray-50 py-16 md:py-24">
         <div className="container px-4 md:px-6">
           <div className="mx-auto max-w-3xl text-center">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">How real Calgary spaces score</h2>
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">How real coworking sites score</h2>
             <p className="mt-4 text-gray-500 md:text-xl">
-              Pulled live from the market scan — the strongest, the middle, and the one with the most to gain.
+              Pulled live from the scan — the strongest, the middle, and the one with the most to gain.
             </p>
           </div>
           <div className="mt-12 grid gap-8 md:grid-cols-3">

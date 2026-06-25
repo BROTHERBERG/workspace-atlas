@@ -75,7 +75,8 @@
       "screenshot": "/space-shots/work-nicer-coworking-red-mile.jpg",
       "lat": 51.0380718,
       "lng": -114.074009,
-      "geocodePrecision": "address"
+      "geocodePrecision": "address",
+      "market": "Calgary"
     },
     {
       "id": 2,
@@ -146,7 +147,8 @@
       "screenshot": "/space-shots/work-nicer-coworking-rail-yards.jpg",
       "lat": 51.0360222,
       "lng": -114.0363608,
-      "geocodePrecision": "address"
+      "geocodePrecision": "address",
+      "market": "Calgary"
     },
     {
       "id": 3,
@@ -213,7 +215,8 @@
       "screenshot": "/space-shots/workhaus-core.jpg",
       "lat": 51.0473777,
       "lng": -114.0671989,
-      "geocodePrecision": "neighborhood"
+      "geocodePrecision": "neighborhood",
+      "market": "Calgary"
     },
     {
       "id": 4,
@@ -278,7 +281,8 @@
       "screenshot": "/space-shots/assembly-coworking-space.jpg",
       "lat": 51.0547122,
       "lng": -114.0859262,
-      "geocodePrecision": "neighborhood"
+      "geocodePrecision": "neighborhood",
+      "market": "Calgary"
     },
     {
       "id": 5,
@@ -346,7 +350,8 @@
       "screenshot": "/space-shots/emergehub.jpg",
       "lat": 51.0456064,
       "lng": -114.057541,
-      "geocodePrecision": "city"
+      "geocodePrecision": "city",
+      "market": "Calgary"
     },
     {
       "id": 6,
@@ -412,7 +417,8 @@
       "screenshot": "/space-shots/shedpoint.jpg",
       "lat": 51.021669,
       "lng": -114.0279867,
-      "geocodePrecision": "neighborhood"
+      "geocodePrecision": "neighborhood",
+      "market": "Calgary"
     },
     {
       "id": 7,
@@ -478,7 +484,8 @@
       "screenshot": "/space-shots/tradespace.jpg",
       "lat": 51.0456064,
       "lng": -114.057541,
-      "geocodePrecision": "city"
+      "geocodePrecision": "city",
+      "market": "Calgary"
     },
     {
       "id": 8,
@@ -542,7 +549,8 @@
       "screenshot": "/space-shots/wrk-calgary-coworking-space.jpg",
       "lat": 51.0473777,
       "lng": -114.0671989,
-      "geocodePrecision": "neighborhood"
+      "geocodePrecision": "neighborhood",
+      "market": "Calgary"
     },
     {
       "id": 9,
@@ -610,7 +618,8 @@
       "screenshot": "/space-shots/work-buddiz.jpg",
       "lat": 51.0913575,
       "lng": -114.0491131,
-      "geocodePrecision": "neighborhood"
+      "geocodePrecision": "neighborhood",
+      "market": "Calgary"
     },
     {
       "id": 10,
@@ -674,11 +683,12 @@
       "leadWebUpgrade": false,
       "leadTalent": true,
       "scannedAt": "2026-06-21",
-      "featured": true,
+      "featured": false,
       "screenshot": "/space-shots/platform-calgary-innovation-centre.jpg",
       "lat": 51.044175,
       "lng": -114.0553551,
-      "geocodePrecision": "address"
+      "geocodePrecision": "address",
+      "market": "Calgary"
     },
     {
       "id": 11,
@@ -745,7 +755,8 @@
       "screenshot": "/space-shots/cspace-marda-loop.jpg",
       "lat": 51.0456064,
       "lng": -114.057541,
-      "geocodePrecision": "city"
+      "geocodePrecision": "city",
+      "market": "Calgary"
     },
     {
       "id": 12,
@@ -812,7 +823,8 @@
       "screenshot": "/space-shots/the-commons-calgary.jpg",
       "lat": 51.0456064,
       "lng": -114.057541,
-      "geocodePrecision": "city"
+      "geocodePrecision": "city",
+      "market": "Calgary"
     },
     {
       "id": 13,
@@ -877,7 +889,8 @@
       "screenshot": "/space-shots/thrive-business-centre.jpg",
       "lat": 50.9353433,
       "lng": -113.983195,
-      "geocodePrecision": "neighborhood"
+      "geocodePrecision": "neighborhood",
+      "market": "Calgary"
     },
     {
       "id": 14,
@@ -942,7 +955,8 @@
       "screenshot": "/space-shots/staples-studio-calgary-university-district.jpg",
       "lat": 51.0782395,
       "lng": -114.1431576,
-      "geocodePrecision": "address"
+      "geocodePrecision": "address",
+      "market": "Calgary"
     },
     {
       "id": 15,
@@ -1007,7 +1021,8 @@
       "screenshot": "/space-shots/smart-executive-centre-inc.jpg",
       "lat": 51.0456064,
       "lng": -114.057541,
-      "geocodePrecision": "city"
+      "geocodePrecision": "city",
+      "market": "Calgary"
     },
     {
       "id": 16,
@@ -1072,7 +1087,8 @@
       "screenshot": "/space-shots/antares-business-center.jpg",
       "lat": 51.0456064,
       "lng": -114.057541,
-      "geocodePrecision": "city"
+      "geocodePrecision": "city",
+      "market": "Calgary"
     },
     {
       "id": 17,
@@ -1126,7 +1142,8 @@
       "screenshot": null,
       "lat": 51.021669,
       "lng": -114.0279867,
-      "geocodePrecision": "neighborhood"
+      "geocodePrecision": "neighborhood",
+      "market": "Calgary"
     },
     {
       "id": 18,
@@ -1194,7 +1211,8 @@
       "screenshot": "/space-shots/stratus-stratus-offices-calgary.jpg",
       "lat": 51.0456064,
       "lng": -114.057541,
-      "geocodePrecision": "city"
+      "geocodePrecision": "city",
+      "market": "Calgary"
     },
     {
       "id": 19,
@@ -1258,7 +1276,8 @@
       "screenshot": null,
       "lat": 51.0421818,
       "lng": -114.0358842,
-      "geocodePrecision": "address"
+      "geocodePrecision": "address",
+      "market": "Calgary"
     },
     {
       "id": 20,
@@ -1322,11 +1341,12 @@
       "leadWebUpgrade": false,
       "leadTalent": false,
       "scannedAt": "2026-06-21",
-      "featured": true,
+      "featured": false,
       "screenshot": "/space-shots/vennyyc.jpg",
       "lat": 51.0417274,
       "lng": -114.0355701,
-      "geocodePrecision": "address"
+      "geocodePrecision": "address",
+      "market": "Calgary"
     },
     {
       "id": 21,
@@ -1392,7 +1412,8 @@
       "screenshot": "/space-shots/fish-creek-executive-centre.jpg",
       "lat": 50.9126066,
       "lng": -114.0630473,
-      "geocodePrecision": "neighborhood"
+      "geocodePrecision": "neighborhood",
+      "market": "Calgary"
     },
     {
       "id": 22,
@@ -1458,7 +1479,8 @@
       "screenshot": "/space-shots/mount-royal-executive-centre.jpg",
       "lat": 51.0456064,
       "lng": -114.057541,
-      "geocodePrecision": "city"
+      "geocodePrecision": "city",
+      "market": "Calgary"
     },
     {
       "id": 23,
@@ -1522,7 +1544,8 @@
       "screenshot": null,
       "lat": 51.0404978,
       "lng": -114.0725934,
-      "geocodePrecision": "neighborhood"
+      "geocodePrecision": "neighborhood",
+      "market": "Calgary"
     },
     {
       "id": 24,
@@ -1586,7 +1609,8 @@
       "screenshot": "/space-shots/seventy-70-cowork.jpg",
       "lat": 50.9912427,
       "lng": -114.0545042,
-      "geocodePrecision": "address"
+      "geocodePrecision": "address",
+      "market": "Calgary"
     },
     {
       "id": 25,
@@ -1650,7 +1674,8 @@
       "screenshot": null,
       "lat": 51.0094224,
       "lng": -114.0335331,
-      "geocodePrecision": "address"
+      "geocodePrecision": "address",
+      "market": "Calgary"
     },
     {
       "id": 26,
@@ -1718,7 +1743,8 @@
       "screenshot": "/space-shots/pavilion-cowork-courthouse-6-ave.jpg",
       "lat": 51.0456064,
       "lng": -114.057541,
-      "geocodePrecision": "city"
+      "geocodePrecision": "city",
+      "market": "Calgary"
     },
     {
       "id": 27,
@@ -1785,7 +1811,8 @@
       "screenshot": "/space-shots/house-831.jpg",
       "lat": 51.037651,
       "lng": -114.0812193,
-      "geocodePrecision": "address"
+      "geocodePrecision": "address",
+      "market": "Calgary"
     },
     {
       "id": 28,
@@ -1851,7 +1878,8 @@
       "screenshot": "/space-shots/victoria-park-business-centre.jpg",
       "lat": 51.0428134,
       "lng": -114.0567572,
-      "geocodePrecision": "neighborhood"
+      "geocodePrecision": "neighborhood",
+      "market": "Calgary"
     },
     {
       "id": 29,
@@ -1917,7 +1945,8 @@
       "screenshot": "/space-shots/astra-business-centre.jpg",
       "lat": 51.0404978,
       "lng": -114.0725934,
-      "geocodePrecision": "neighborhood"
+      "geocodePrecision": "neighborhood",
+      "market": "Calgary"
     },
     {
       "id": 30,
@@ -1985,7 +2014,8 @@
       "screenshot": "/space-shots/spaces-regus-calgary-place.jpg",
       "lat": 51.0456064,
       "lng": -114.057541,
-      "geocodePrecision": "city"
+      "geocodePrecision": "city",
+      "market": "Calgary"
     },
     {
       "id": 31,
@@ -2053,7 +2083,8 @@
       "screenshot": "/space-shots/spaces-regus-telus-sky.jpg",
       "lat": 51.009823,
       "lng": -114.0650127,
-      "geocodePrecision": "address"
+      "geocodePrecision": "address",
+      "market": "Calgary"
     },
     {
       "id": 32,
@@ -2120,7 +2151,8 @@
       "screenshot": "/space-shots/spaces-regus-altius-centre.jpg",
       "lat": 51.0464963,
       "lng": -114.0506433,
-      "geocodePrecision": "neighborhood"
+      "geocodePrecision": "neighborhood",
+      "market": "Calgary"
     },
     {
       "id": 33,
@@ -2187,7 +2219,8 @@
       "screenshot": "/space-shots/spaces-regus-canada-trust-td-canada-trust.jpg",
       "lat": 51.0464963,
       "lng": -114.0506433,
-      "geocodePrecision": "neighborhood"
+      "geocodePrecision": "neighborhood",
+      "market": "Calgary"
     },
     {
       "id": 34,
@@ -2254,7 +2287,8 @@
       "screenshot": "/space-shots/spaces-regus-bankers-hall.jpg",
       "lat": 51.0456064,
       "lng": -114.057541,
-      "geocodePrecision": "city"
+      "geocodePrecision": "city",
+      "market": "Calgary"
     },
     {
       "id": 35,
@@ -2321,7 +2355,8 @@
       "screenshot": "/space-shots/spaces-regus-1011-1-st-sw.jpg",
       "lat": 51.0456064,
       "lng": -114.057541,
-      "geocodePrecision": "city"
+      "geocodePrecision": "city",
+      "market": "Calgary"
     },
     {
       "id": 36,
@@ -2388,7 +2423,8 @@
       "screenshot": "/space-shots/spaces-regus-mcdougall.jpg",
       "lat": 51.0464963,
       "lng": -114.0506433,
-      "geocodePrecision": "neighborhood"
+      "geocodePrecision": "neighborhood",
+      "market": "Calgary"
     },
     {
       "id": 37,
@@ -2455,7 +2491,8 @@
       "screenshot": "/space-shots/spaces-regus-903-8th-avenue-sw.jpg",
       "lat": 51.0472663,
       "lng": -114.0863081,
-      "geocodePrecision": "neighborhood"
+      "geocodePrecision": "neighborhood",
+      "market": "Calgary"
     },
     {
       "id": 38,
@@ -2522,7 +2559,8 @@
       "screenshot": "/space-shots/spaces-regus-one-executive-place.jpg",
       "lat": 51.0456064,
       "lng": -114.057541,
-      "geocodePrecision": "city"
+      "geocodePrecision": "city",
+      "market": "Calgary"
     },
     {
       "id": 39,
@@ -2589,7 +2627,8 @@
       "screenshot": "/space-shots/spaces-regus-macleod-place-ii.jpg",
       "lat": 51.0197961,
       "lng": -114.0602352,
-      "geocodePrecision": "neighborhood"
+      "geocodePrecision": "neighborhood",
+      "market": "Calgary"
     },
     {
       "id": 40,
@@ -2656,7 +2695,8 @@
       "screenshot": "/space-shots/spaces-regus-westmount-corporate-campus.jpg",
       "lat": 51.0456064,
       "lng": -114.057541,
-      "geocodePrecision": "city"
+      "geocodePrecision": "city",
+      "market": "Calgary"
     },
     {
       "id": 41,
@@ -2723,7 +2763,8 @@
       "screenshot": "/space-shots/spaces-regus-4503-brisebois-dr-nw.jpg",
       "lat": 51.0934056,
       "lng": -114.129058,
-      "geocodePrecision": "address"
+      "geocodePrecision": "address",
+      "market": "Calgary"
     },
     {
       "id": 42,
@@ -2789,7 +2830,8 @@
       "screenshot": "/space-shots/regus-6815-8th-street-ne.jpg",
       "lat": 51.0456064,
       "lng": -114.057541,
-      "geocodePrecision": "city"
+      "geocodePrecision": "city",
+      "market": "Calgary"
     },
     {
       "id": 43,
@@ -2856,7 +2898,8 @@
       "screenshot": "/space-shots/regus-quarry-park.jpg",
       "lat": 50.9637118,
       "lng": -114.0013482,
-      "geocodePrecision": "neighborhood"
+      "geocodePrecision": "neighborhood",
+      "market": "Calgary"
     },
     {
       "id": 44,
@@ -2922,7 +2965,8 @@
       "screenshot": "/space-shots/regus-crowfoot-centre.jpg",
       "lat": 51.1286503,
       "lng": -114.1979022,
-      "geocodePrecision": "neighborhood"
+      "geocodePrecision": "neighborhood",
+      "market": "Calgary"
     },
     {
       "id": 45,
@@ -2989,7 +3033,8 @@
       "screenshot": "/space-shots/wework-stephen-avenue-place.jpg",
       "lat": 51.0456592,
       "lng": -114.0782269,
-      "geocodePrecision": "neighborhood"
+      "geocodePrecision": "neighborhood",
+      "market": "Calgary"
     },
     {
       "id": 46,
@@ -3057,7 +3102,8 @@
       "screenshot": "/space-shots/grupdesk.jpg",
       "lat": 52.2673428,
       "lng": -113.8187674,
-      "geocodePrecision": "address"
+      "geocodePrecision": "address",
+      "market": "Calgary"
     },
     {
       "id": 47,
@@ -3124,7 +3170,8 @@
       "screenshot": "/space-shots/regus-red-deer.jpg",
       "lat": 52.2690628,
       "lng": -113.8141464,
-      "geocodePrecision": "city"
+      "geocodePrecision": "city",
+      "market": "Calgary"
     },
     {
       "id": 48,
@@ -3192,7 +3239,8 @@
       "screenshot": "/space-shots/work-nicer-coworking-beaver-house.jpg",
       "lat": 53.5423007,
       "lng": -113.4975967,
-      "geocodePrecision": "address"
+      "geocodePrecision": "address",
+      "market": "Calgary"
     },
     {
       "id": 49,
@@ -3261,7 +3309,8 @@
       "screenshot": "/space-shots/roundhouse.jpg",
       "lat": 53.5462055,
       "lng": -113.491241,
-      "geocodePrecision": "city"
+      "geocodePrecision": "city",
+      "market": "Calgary"
     },
     {
       "id": 50,
@@ -3317,7 +3366,8 @@
       "screenshot": null,
       "lat": 51.28597,
       "lng": -114.01062,
-      "geocodePrecision": "city"
+      "geocodePrecision": "city",
+      "market": "Calgary"
     },
     {
       "id": 51,
@@ -3377,11 +3427,12 @@
       "leadWebUpgrade": false,
       "leadTalent": false,
       "scannedAt": "2026-06-21",
-      "featured": false,
+      "featured": true,
       "screenshot": "/space-shots/the-corner-coworking-railway-st-hq.jpg",
       "lat": 51.1859845,
       "lng": -114.4614926,
-      "geocodePrecision": "address"
+      "geocodePrecision": "address",
+      "market": "Calgary"
     },
     {
       "id": 52,
@@ -3441,11 +3492,5796 @@
       "leadWebUpgrade": false,
       "leadTalent": false,
       "scannedAt": "2026-06-21",
-      "featured": false,
+      "featured": true,
       "screenshot": "/space-shots/the-corner-coworking-okotoks-riverside.jpg",
       "lat": 50.7253685,
       "lng": -113.975082,
-      "geocodePrecision": "city"
+      "geocodePrecision": "city",
+      "market": "Calgary"
+    },
+    {
+      "id": 53,
+      "slug": "wework-357-bay-street",
+      "name": "WeWork - 357 Bay Street",
+      "operator": "WeWork",
+      "isChain": true,
+      "city": "Toronto",
+      "neighborhood": "Financial District / Old Town",
+      "address": "357 Bay Street, Toronto, ON M5H 4A6",
+      "website": "https://www.wework.com/buildings/357-bay-st--toronto",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Startups to enterprise teams seeking flexible private offices and coworking",
+      "digital": {
+        "score": 81,
+        "band": "A",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": true,
+          "socialCount": 5,
+          "socials": [],
+          "onlineBooking": true,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 25,
+          "mobile": 100,
+          "seo": 100,
+          "social": 80,
+          "conversion": 100,
+          "content": 88
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "Global careers page exists; no Toronto-specific open role verified in this research."
+      },
+      "sources": [
+        "https://www.wework.com/l/office-space/toronto",
+        "https://www.wework.com/buildings/357-bay-st--toronto",
+        "https://www.coworker.com/canada/toronto/wework-48-yonge-street"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/wework-357-bay-street.jpg",
+      "lat": 43.6509558,
+      "lng": -79.3814609,
+      "geocodePrecision": "address",
+      "market": "Toronto"
+    },
+    {
+      "id": 54,
+      "slug": "wework-240-richmond-street-west",
+      "name": "WeWork - 240 Richmond Street West",
+      "operator": "WeWork",
+      "isChain": true,
+      "city": "Toronto",
+      "neighborhood": "Entertainment District",
+      "address": "240 Richmond Street West, Toronto, ON",
+      "website": "https://www.wework.com/buildings/240-richmond-st-w--toronto",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Teams wanting a renovated heritage building near Osgoode Station",
+      "digital": {
+        "score": 81,
+        "band": "A",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": true,
+          "socialCount": 5,
+          "socials": [],
+          "onlineBooking": true,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 25,
+          "mobile": 100,
+          "seo": 100,
+          "social": 80,
+          "conversion": 100,
+          "content": 89
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "No location-specific opening verified."
+      },
+      "sources": [
+        "https://www.wework.com/l/office-space/toronto",
+        "https://www.wework.com/buildings/240-richmond-st-w--toronto",
+        "https://www.coworkingcafe.com/coworking-property/ca/on/toronto/240-richmond-st-w/"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/wework-240-richmond-street-west.jpg",
+      "lat": 43.6497542,
+      "lng": -79.3889071,
+      "geocodePrecision": "address",
+      "market": "Toronto"
+    },
+    {
+      "id": 55,
+      "slug": "wework-1-university-avenue",
+      "name": "WeWork - 1 University Avenue",
+      "operator": "WeWork",
+      "isChain": true,
+      "city": "Toronto",
+      "neighborhood": "Financial District",
+      "address": "1 University Avenue, Toronto, ON M5J 2P1",
+      "website": "https://www.wework.com/buildings/1-university-ave--toronto",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Teams near Union Station / Financial District gateway",
+      "digital": {
+        "score": 81,
+        "band": "A",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": true,
+          "socialCount": 5,
+          "socials": [],
+          "onlineBooking": true,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 25,
+          "mobile": 100,
+          "seo": 100,
+          "social": 80,
+          "conversion": 100,
+          "content": 89
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "No location-specific opening verified."
+      },
+      "sources": [
+        "https://www.wework.com/l/office-space/toronto",
+        "https://www.wework.com/buildings/1-university-ave--toronto"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/wework-1-university-avenue.jpg",
+      "lat": 43.6458144,
+      "lng": -79.3831914,
+      "geocodePrecision": "address",
+      "market": "Toronto"
+    },
+    {
+      "id": 56,
+      "slug": "wework-100-university-avenue",
+      "name": "WeWork - 100 University Avenue",
+      "operator": "WeWork",
+      "isChain": true,
+      "city": "Toronto",
+      "neighborhood": "Financial District",
+      "address": "100 University Avenue, Toronto, ON M5J 1V6",
+      "website": "https://www.wework.com/l/office-space/toronto",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Corporate and startup teams in the downtown core",
+      "digital": {
+        "score": 88,
+        "band": "A",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": true,
+          "socialCount": 5,
+          "socials": [],
+          "onlineBooking": true,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 60,
+          "mobile": 100,
+          "seo": 100,
+          "social": 80,
+          "conversion": 100,
+          "content": 86
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "No location-specific opening verified."
+      },
+      "sources": [
+        "https://www.wework.com/l/office-space/toronto"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/wework-100-university-avenue.jpg",
+      "lat": 43.6470948,
+      "lng": -79.3849348,
+      "geocodePrecision": "address",
+      "market": "Toronto"
+    },
+    {
+      "id": 57,
+      "slug": "wework-1100-king-street-west-1050-king-st-w",
+      "name": "WeWork - 1100 King Street West (1050 King St W)",
+      "operator": "WeWork",
+      "isChain": true,
+      "city": "Toronto",
+      "neighborhood": "King West / Liberty Village",
+      "address": "1100 King Street West, Toronto, ON M6K 1E6",
+      "website": "https://www.wework.com/l/office-space/toronto",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Creative and tech teams in the King West / Liberty Village corridor",
+      "digital": {
+        "score": 88,
+        "band": "A",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": true,
+          "socialCount": 5,
+          "socials": [],
+          "onlineBooking": true,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 60,
+          "mobile": 100,
+          "seo": 100,
+          "social": 80,
+          "conversion": 100,
+          "content": 87
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "No location-specific opening verified."
+      },
+      "sources": [
+        "https://www.wework.com/l/office-space/toronto",
+        "https://www.coworker.com/canada/toronto/wework-171-e-liberty-st"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/wework-1100-king-street-west-1050-king-st-w.jpg",
+      "lat": 43.6401253,
+      "lng": -79.4235749,
+      "geocodePrecision": "address",
+      "market": "Toronto"
+    },
+    {
+      "id": 58,
+      "slug": "regus-first-canadian-place",
+      "name": "Regus - First Canadian Place",
+      "operator": "Regus (IWG)",
+      "isChain": true,
+      "city": "Toronto",
+      "neighborhood": "Financial District",
+      "address": "100 King Street West, First Canadian Place, Suite 5600, Toronto, ON M5X 1C9",
+      "website": "https://www.regus.com/en-us/canada/toronto/first-canadian-place-946",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Professionals wanting premium serviced offices in Canada's tallest tower",
+      "digital": {
+        "score": 63,
+        "band": "C",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": false,
+          "socialCount": 0,
+          "socials": [],
+          "onlineBooking": true,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 1,
+          "mobile": 100,
+          "seo": 82,
+          "social": 0,
+          "conversion": 100,
+          "content": 83
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "IWG group careers site exists; no Toronto opening verified here."
+      },
+      "sources": [
+        "https://www.regus.com/en-us/canada/toronto/first-canadian-place-946",
+        "https://www.coworker.com/canada/toronto/regus-toronto-first-canadian-place",
+        "https://www.workthere.com/spaces/regus-first-canadian-place/"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/regus-first-canadian-place.jpg",
+      "lat": 43.6486382,
+      "lng": -79.3802817,
+      "geocodePrecision": "neighborhood",
+      "market": "Toronto"
+    },
+    {
+      "id": 59,
+      "slug": "regus-yonge-st-clair",
+      "name": "Regus - Yonge & St. Clair",
+      "operator": "Regus (IWG)",
+      "isChain": true,
+      "city": "Toronto",
+      "neighborhood": "Midtown / Deer Park",
+      "address": "2 St. Clair Avenue West, 18th Floor, Toronto, ON M4V 1L5",
+      "website": "https://www.coworker.com/canada/toronto/regus-ontario-toronto-yonge-st-clair",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Midtown finance, law and insurance professionals",
+      "digital": {
+        "score": 43,
+        "band": "D",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": false,
+          "openGraph": false,
+          "socialCount": 0,
+          "socials": [],
+          "onlineBooking": false,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 75,
+          "performance": 93,
+          "mobile": 100,
+          "seo": 0,
+          "social": 0,
+          "conversion": 0,
+          "content": 0
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "No location-specific opening verified."
+      },
+      "sources": [
+        "https://www.coworker.com/canada/toronto/regus-ontario-toronto-yonge-st-clair",
+        "https://www.regus.com/en-gb/canada/toronto/2-saint-clair-avenue-west-f18-3329",
+        "https://www.coworkingcafe.com/coworking-property/ca/on/toronto/yonge-st-clair/"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/regus-yonge-st-clair.jpg",
+      "lat": 43.6896289,
+      "lng": -79.3949223,
+      "geocodePrecision": "neighborhood",
+      "market": "Toronto"
+    },
+    {
+      "id": 60,
+      "slug": "regus-exchange-tower",
+      "name": "Regus - Exchange Tower",
+      "operator": "Regus (IWG)",
+      "isChain": true,
+      "city": "Toronto",
+      "neighborhood": "Financial District",
+      "address": "130 King Street West, Exchange Tower, Toronto, ON",
+      "website": "https://www.coworker.com/canada/toronto?view=list",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Financial District professionals wanting flexible serviced offices",
+      "digital": {
+        "score": 37,
+        "band": "D",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": false,
+          "metaDescription": false,
+          "openGraph": false,
+          "socialCount": 0,
+          "socials": [],
+          "onlineBooking": false,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 75,
+          "performance": 100,
+          "mobile": 50,
+          "seo": 0,
+          "social": 0,
+          "conversion": 0,
+          "content": 0
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "Listed in Coworker.com Toronto directory; suite-level address not independently confirmed in this pass."
+      },
+      "sources": [
+        "https://www.coworker.com/canada/toronto?view=list"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/regus-exchange-tower.jpg",
+      "lat": 43.6486382,
+      "lng": -79.3802817,
+      "geocodePrecision": "neighborhood",
+      "market": "Toronto"
+    },
+    {
+      "id": 61,
+      "slug": "regus-liberty-village",
+      "name": "Regus - Liberty Village",
+      "operator": "Regus (IWG)",
+      "isChain": true,
+      "city": "Toronto",
+      "neighborhood": "Liberty Village",
+      "address": null,
+      "website": "https://www.coworker.com/canada/toronto?view=list",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Liberty Village startups and small teams",
+      "digital": {
+        "score": 43,
+        "band": "D",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": false,
+          "openGraph": false,
+          "socialCount": 0,
+          "socials": [],
+          "onlineBooking": false,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 75,
+          "performance": 94,
+          "mobile": 100,
+          "seo": 0,
+          "social": 0,
+          "conversion": 0,
+          "content": 0
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "Listed in Coworker.com Toronto directory; exact street address not confirmed in this pass."
+      },
+      "sources": [
+        "https://www.coworker.com/canada/toronto?view=list"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/regus-liberty-village.jpg",
+      "lat": 43.6388951,
+      "lng": -79.4179531,
+      "geocodePrecision": "neighborhood",
+      "market": "Toronto"
+    },
+    {
+      "id": 62,
+      "slug": "spaces-gladstone",
+      "name": "Spaces - Gladstone",
+      "operator": "Spaces (IWG)",
+      "isChain": true,
+      "city": "Toronto",
+      "neighborhood": "West Queen West",
+      "address": "34 Minowan Miikan Lane, Toronto, ON M6J 0G3",
+      "website": "https://www.spacesworks.com/en/ca/5129",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Creative professionals and startups in West Queen West",
+      "digital": {
+        "score": 80,
+        "band": "A",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": false,
+          "socialCount": 0,
+          "socials": [],
+          "onlineBooking": true,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 69,
+          "mobile": 100,
+          "seo": 100,
+          "social": 0,
+          "conversion": 100,
+          "content": 84
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "No location-specific opening verified."
+      },
+      "sources": [
+        "https://www.spacesworks.com/en/ca/5129",
+        "https://www.coworker.com/canada/toronto/spaces-ontario-toronto-spaces-gladstone",
+        "https://coworkingmag.com/listings/coworking-property/ca/on/toronto/spaces-gladstone/"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/spaces-gladstone.jpg",
+      "lat": 43.64339,
+      "lng": -79.42825,
+      "geocodePrecision": "address",
+      "market": "Toronto"
+    },
+    {
+      "id": 63,
+      "slug": "spaces-queen-west",
+      "name": "Spaces - Queen West",
+      "operator": "Spaces (IWG)",
+      "isChain": true,
+      "city": "Toronto",
+      "neighborhood": "Queen West",
+      "address": "180 John Street, Toronto, ON",
+      "website": "https://www.spacesworks.com/toronto/queen-west/",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Innovative teams wanting a Queen West brick-and-beam space with rooftop",
+      "digital": {
+        "score": 78,
+        "band": "B",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": false,
+          "socialCount": 0,
+          "socials": [],
+          "onlineBooking": true,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 76,
+          "mobile": 100,
+          "seo": 82,
+          "social": 0,
+          "conversion": 100,
+          "content": 84
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "No location-specific opening verified."
+      },
+      "sources": [
+        "https://www.spacesworks.com/toronto/queen-west/",
+        "https://www.coworker.com/canada/toronto/spaces-ontario-toronto-spaces-toronto-queen-west",
+        "https://torontolife.com/real-estate/look-inside-spaces-new-queen-west-co-working-office-killer-rooftop-deck/"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/spaces-queen-west.jpg",
+      "lat": 43.6506025,
+      "lng": -79.3917177,
+      "geocodePrecision": "address",
+      "market": "Toronto"
+    },
+    {
+      "id": 64,
+      "slug": "spaces-liberty-village",
+      "name": "Spaces - Liberty Village",
+      "operator": "Spaces (IWG)",
+      "isChain": true,
+      "city": "Toronto",
+      "neighborhood": "Liberty Village",
+      "address": "80 Atlantic Avenue, Toronto, ON M6K 1X9",
+      "website": "https://www.spacesworks.com/toronto/liberty-village/",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Liberty Village startups, creatives and small businesses",
+      "digital": {
+        "score": 76,
+        "band": "B",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": false,
+          "socialCount": 0,
+          "socials": [],
+          "onlineBooking": true,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 62,
+          "mobile": 100,
+          "seo": 82,
+          "social": 0,
+          "conversion": 100,
+          "content": 84
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "No location-specific opening verified."
+      },
+      "sources": [
+        "https://www.spacesworks.com/toronto/liberty-village/",
+        "https://www.coworker.com/canada/toronto/spaces-ontario-toronto-spaces-liberty-village"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/spaces-liberty-village.jpg",
+      "lat": 43.6386831,
+      "lng": -79.4212523,
+      "geocodePrecision": "address",
+      "market": "Toronto"
+    },
+    {
+      "id": 65,
+      "slug": "spaces-yonge-st-clair",
+      "name": "Spaces - Yonge & St. Clair",
+      "operator": "Spaces (IWG)",
+      "isChain": true,
+      "city": "Toronto",
+      "neighborhood": "Midtown / Yonge & St. Clair",
+      "address": "2 St. Clair Avenue West, 18th Floor, Toronto, ON M4V 1L5",
+      "website": "https://www.coworker.com/canada/toronto/spaces-ontario-toronto-spaces-yonge-and-st-clair",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Midtown professional firms wanting upscale flex offices",
+      "digital": {
+        "score": 44,
+        "band": "D",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": false,
+          "openGraph": false,
+          "socialCount": 0,
+          "socials": [],
+          "onlineBooking": false,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 75,
+          "performance": 100,
+          "mobile": 100,
+          "seo": 0,
+          "social": 0,
+          "conversion": 0,
+          "content": 0
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "Shares the 2 St. Clair W building with Regus; no opening verified."
+      },
+      "sources": [
+        "https://www.coworker.com/canada/toronto/spaces-ontario-toronto-spaces-yonge-and-st-clair",
+        "https://www.commercialcafe.com/coworking-property/ca/on/toronto/spaces-yonge-and-st-clair/"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/spaces-yonge-st-clair.jpg",
+      "lat": 43.6534817,
+      "lng": -79.3839347,
+      "geocodePrecision": "city",
+      "market": "Toronto"
+    },
+    {
+      "id": 66,
+      "slug": "spaces-the-junction",
+      "name": "Spaces - The Junction",
+      "operator": "Spaces (IWG)",
+      "isChain": true,
+      "city": "Toronto",
+      "neighborhood": "The Junction",
+      "address": "1655 Dupont Street, Toronto, ON",
+      "website": "https://www.spacesworks.com/toronto/the-junction/",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "West-end creatives and teams wanting a characterful neighbourhood office",
+      "digital": {
+        "score": 77,
+        "band": "B",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": false,
+          "socialCount": 0,
+          "socials": [],
+          "onlineBooking": true,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 70,
+          "mobile": 100,
+          "seo": 82,
+          "social": 0,
+          "conversion": 100,
+          "content": 84
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "No location-specific opening verified."
+      },
+      "sources": [
+        "https://www.spacesworks.com/toronto/the-junction/",
+        "https://www.coworker.com/canada/toronto/spaces-ontario-toronto-spaces-the-junction"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/spaces-the-junction.jpg",
+      "lat": 43.6642178,
+      "lng": -79.4564216,
+      "geocodePrecision": "address",
+      "market": "Toronto"
+    },
+    {
+      "id": 67,
+      "slug": "industrious-yonge-bloor",
+      "name": "Industrious - Yonge & Bloor",
+      "operator": "Industrious",
+      "isChain": true,
+      "city": "Toronto",
+      "neighborhood": "Yorkville / Yonge & Bloor",
+      "address": "33 Bloor Street East, Toronto, ON M4W 3H1",
+      "website": "https://www.industriousoffice.com/locations/33-bloor-st-east-5th-floor",
+      "phone": "289-329-2002",
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Premium-seeking teams in a Class A tower with direct subway access",
+      "digital": {
+        "score": 89,
+        "band": "A",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": true,
+          "socialCount": 4,
+          "socials": [],
+          "onlineBooking": true,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 68,
+          "mobile": 100,
+          "seo": 82,
+          "social": 92,
+          "conversion": 100,
+          "content": 100
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "Industrious careers page exists; no Toronto opening verified here."
+      },
+      "sources": [
+        "https://www.industriousoffice.com/locations/33-bloor-st-east-5th-floor",
+        "https://www.coworkingcafe.com/coworking-property/ca/on/toronto/33-bloor-street-east/",
+        "https://www.loopnet.com/Listing/33-Bloor-St-E-Toronto-ON/26648857/"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/industrious-yonge-bloor.jpg",
+      "lat": 43.6697592,
+      "lng": -79.3856383,
+      "geocodePrecision": "address",
+      "market": "Toronto"
+    },
+    {
+      "id": 68,
+      "slug": "industrious-toronto-financial-district-30-adelaide",
+      "name": "Industrious - Toronto Financial District (30 Adelaide)",
+      "operator": "Industrious",
+      "isChain": true,
+      "city": "Toronto",
+      "neighborhood": "Financial District",
+      "address": "30 Adelaide Street East, 12th Floor, Toronto, ON",
+      "website": "https://www.industriousoffice.com/locations/30-adelaide-st-east-12th-floor",
+      "phone": "416-444-8095",
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Financial District teams wanting upscale flexible offices",
+      "digital": {
+        "score": 90,
+        "band": "A",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": true,
+          "socialCount": 4,
+          "socials": [],
+          "onlineBooking": true,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 69,
+          "mobile": 100,
+          "seo": 82,
+          "social": 92,
+          "conversion": 100,
+          "content": 100
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "No location-specific opening verified."
+      },
+      "sources": [
+        "https://www.industriousoffice.com/locations/30-adelaide-st-east-12th-floor",
+        "https://www.coworkingcafe.com/coworking-property/ca/on/toronto/30-adelaide-street-east/"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/industrious-toronto-financial-district-30-adelaide.jpg",
+      "lat": 43.6486382,
+      "lng": -79.3802817,
+      "geocodePrecision": "neighborhood",
+      "market": "Toronto"
+    },
+    {
+      "id": 69,
+      "slug": "workhaus-181-university-ave",
+      "name": "Workhaus - 181 University Ave",
+      "operator": "Workhaus",
+      "isChain": false,
+      "city": "Toronto",
+      "neighborhood": "Financial District",
+      "address": "181 University Avenue, Toronto, ON",
+      "website": "https://workhaus.ca/toronto/",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Professional teams wanting polished offices with skyline views",
+      "digital": {
+        "score": 74,
+        "band": "B",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": false,
+          "socialCount": 3,
+          "socials": [],
+          "onlineBooking": true,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 18,
+          "mobile": 100,
+          "seo": 100,
+          "social": 44,
+          "conversion": 100,
+          "content": 71
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "No dedicated careers page found; no open role verified."
+      },
+      "sources": [
+        "https://workhaus.ca/toronto/",
+        "https://www.coworker.com/canada/toronto/42705-workhaus-coworking"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/workhaus-181-university-ave.jpg",
+      "lat": 43.64922,
+      "lng": -79.3851803,
+      "geocodePrecision": "address",
+      "market": "Toronto"
+    },
+    {
+      "id": 70,
+      "slug": "workhaus-1-adelaide-st-e",
+      "name": "Workhaus - 1 Adelaide St E",
+      "operator": "Workhaus",
+      "isChain": false,
+      "city": "Toronto",
+      "neighborhood": "Financial District",
+      "address": "1 Adelaide Street East, Toronto, ON",
+      "website": "https://workhaus.ca/location/1-adelaide-street-east/",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Financial District companies wanting private offices and dedicated desks",
+      "digital": {
+        "score": 78,
+        "band": "B",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": true,
+          "socialCount": 3,
+          "socials": [],
+          "onlineBooking": true,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 16,
+          "mobile": 100,
+          "seo": 100,
+          "social": 84,
+          "conversion": 100,
+          "content": 71
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "No open role verified."
+      },
+      "sources": [
+        "https://workhaus.ca/location/1-adelaide-street-east/",
+        "https://workhaus.ca/toronto/"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/workhaus-1-adelaide-st-e.jpg",
+      "lat": 43.6502199,
+      "lng": -79.3778786,
+      "geocodePrecision": "address",
+      "market": "Toronto"
+    },
+    {
+      "id": 71,
+      "slug": "workhaus-215-spadina-ave",
+      "name": "Workhaus - 215 Spadina Ave",
+      "operator": "Workhaus",
+      "isChain": false,
+      "city": "Toronto",
+      "neighborhood": "Queen West / Kensington",
+      "address": "215 Spadina Avenue, 4th Floor, Toronto, ON",
+      "website": "https://workhaus.ca/toronto/",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Creative teams wanting heritage brick-and-beam space near Kensington",
+      "digital": {
+        "score": 74,
+        "band": "B",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": false,
+          "socialCount": 3,
+          "socials": [],
+          "onlineBooking": true,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 18,
+          "mobile": 100,
+          "seo": 100,
+          "social": 44,
+          "conversion": 100,
+          "content": 71
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "No open role verified."
+      },
+      "sources": [
+        "https://workhaus.ca/toronto/",
+        "https://drop-desk.com/blog/best/coworking-spaces-toronto/"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/workhaus-215-spadina-ave.jpg",
+      "lat": 43.6481269,
+      "lng": -79.3994346,
+      "geocodePrecision": "neighborhood",
+      "market": "Toronto"
+    },
+    {
+      "id": 72,
+      "slug": "workhaus-901-king-st-w",
+      "name": "Workhaus - 901 King St W",
+      "operator": "Workhaus",
+      "isChain": false,
+      "city": "Toronto",
+      "neighborhood": "King West",
+      "address": "901 King Street West, Toronto, ON",
+      "website": "https://workhaus.ca/location/901-king-st-w/",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "King West / Liberty Village corridor teams",
+      "digital": {
+        "score": 78,
+        "band": "B",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": true,
+          "socialCount": 3,
+          "socials": [],
+          "onlineBooking": true,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 15,
+          "mobile": 100,
+          "seo": 100,
+          "social": 84,
+          "conversion": 100,
+          "content": 70
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "No open role verified."
+      },
+      "sources": [
+        "https://workhaus.ca/location/901-king-st-w/",
+        "https://workhaus.ca/toronto/"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/workhaus-901-king-st-w.jpg",
+      "lat": 43.6418869,
+      "lng": -79.4112376,
+      "geocodePrecision": "address",
+      "market": "Toronto"
+    },
+    {
+      "id": 73,
+      "slug": "workhaus-2-sheppard-ave-e",
+      "name": "Workhaus - 2 Sheppard Ave E",
+      "operator": "Workhaus",
+      "isChain": false,
+      "city": "Toronto",
+      "neighborhood": "North York",
+      "address": "2 Sheppard Avenue East, Toronto, ON",
+      "website": "https://workhaus.ca/toronto/",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "North York / Yonge-Sheppard businesses wanting flexible offices",
+      "digital": {
+        "score": 74,
+        "band": "B",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": false,
+          "socialCount": 3,
+          "socials": [],
+          "onlineBooking": true,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 19,
+          "mobile": 100,
+          "seo": 100,
+          "social": 44,
+          "conversion": 100,
+          "content": 71
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "No open role verified."
+      },
+      "sources": [
+        "https://workhaus.ca/toronto/"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/workhaus-2-sheppard-ave-e.jpg",
+      "lat": 43.7620275,
+      "lng": -79.4103989,
+      "geocodePrecision": "address",
+      "market": "Toronto"
+    },
+    {
+      "id": 74,
+      "slug": "workhaus-350-bay-street",
+      "name": "Workhaus - 350 Bay Street",
+      "operator": "Workhaus",
+      "isChain": false,
+      "city": "Toronto",
+      "neighborhood": "Financial District",
+      "address": "350 Bay Street, Toronto, ON",
+      "website": "https://workhaus.ca/toronto/",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Financial District professional teams",
+      "digital": {
+        "score": 75,
+        "band": "B",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": false,
+          "socialCount": 3,
+          "socials": [],
+          "onlineBooking": true,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 22,
+          "mobile": 100,
+          "seo": 100,
+          "social": 44,
+          "conversion": 100,
+          "content": 71
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "No open role verified."
+      },
+      "sources": [
+        "https://workhaus.ca/toronto/"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/workhaus-350-bay-street.jpg",
+      "lat": 43.650256,
+      "lng": -79.3810525,
+      "geocodePrecision": "address",
+      "market": "Toronto"
+    },
+    {
+      "id": 75,
+      "slug": "iq-offices-150-king-street-west",
+      "name": "iQ Offices - 150 King Street West",
+      "operator": "iQ Offices",
+      "isChain": false,
+      "city": "Toronto",
+      "neighborhood": "Financial District / Entertainment District",
+      "address": "150 King Street West, Toronto, ON M5H 1J9",
+      "website": "https://www.iqoffices.com/all-locations/toronto-locations/",
+      "phone": "+1 800-933-3176",
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Established companies and professionals wanting premium Canadian-owned flex space",
+      "digital": {
+        "score": 70,
+        "band": "B",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": false,
+          "socialCount": 3,
+          "socials": [],
+          "onlineBooking": true,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 21,
+          "mobile": 100,
+          "seo": 100,
+          "social": 24,
+          "conversion": 100,
+          "content": 50
+        }
+      },
+      "hiring": {
+        "hasCareersPage": true,
+        "careersUrl": "https://www.iqoffices.com/careers/",
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "Careers page exists for the operator; no current opening verified in this pass."
+      },
+      "sources": [
+        "https://www.iqoffices.com/all-locations/toronto-locations/",
+        "https://liquidspace.com/ca/on/toronto/iq-office-suites-toronto"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": true,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/iq-offices-150-king-street-west.jpg",
+      "lat": 43.6481125,
+      "lng": -79.3844631,
+      "geocodePrecision": "address",
+      "market": "Toronto"
+    },
+    {
+      "id": 76,
+      "slug": "iq-offices-140-yonge-street",
+      "name": "iQ Offices - 140 Yonge Street",
+      "operator": "iQ Offices",
+      "isChain": false,
+      "city": "Toronto",
+      "neighborhood": "Financial District / Yonge-Dundas",
+      "address": "140 Yonge Street, Toronto, ON M5C 1X6",
+      "website": "https://www.iqoffices.com/all-locations/toronto-locations/140-yonge-street/",
+      "phone": "+1 800-933-3176",
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Professional teams wanting upscale offices at Yonge & Temperance",
+      "digital": {
+        "score": 76,
+        "band": "B",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": true,
+          "socialCount": 3,
+          "socials": [],
+          "onlineBooking": true,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 27,
+          "mobile": 100,
+          "seo": 100,
+          "social": 64,
+          "conversion": 100,
+          "content": 51
+        }
+      },
+      "hiring": {
+        "hasCareersPage": true,
+        "careersUrl": "https://www.iqoffices.com/careers/",
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "No current opening verified."
+      },
+      "sources": [
+        "https://www.iqoffices.com/all-locations/toronto-locations/140-yonge-street/",
+        "https://www.iqoffices.com/all-locations/toronto-locations/"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": true,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/iq-offices-140-yonge-street.jpg",
+      "lat": 43.6511494,
+      "lng": -79.378928,
+      "geocodePrecision": "address",
+      "market": "Toronto"
+    },
+    {
+      "id": 77,
+      "slug": "iq-offices-302-bay-street",
+      "name": "iQ Offices - 302 Bay Street",
+      "operator": "iQ Offices",
+      "isChain": false,
+      "city": "Toronto",
+      "neighborhood": "Financial District",
+      "address": "302 Bay Street, Toronto, ON M5H 0B6",
+      "website": "https://www.iqoffices.com/all-locations/toronto-locations/",
+      "phone": "+1 800-933-3176",
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Financial District firms wanting private offices and meeting space",
+      "digital": {
+        "score": 77,
+        "band": "B",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": false,
+          "socialCount": 3,
+          "socials": [],
+          "onlineBooking": true,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 55,
+          "mobile": 100,
+          "seo": 100,
+          "social": 24,
+          "conversion": 100,
+          "content": 50
+        }
+      },
+      "hiring": {
+        "hasCareersPage": true,
+        "careersUrl": "https://www.iqoffices.com/careers/",
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "No current opening verified."
+      },
+      "sources": [
+        "https://coworkingmag.com/listings/coworking-property/ca/on/toronto/iq-offices-302-bay-street/",
+        "https://www.iqoffices.com/all-locations/toronto-locations/"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": true,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/iq-offices-302-bay-street.jpg",
+      "lat": 43.6486382,
+      "lng": -79.3802817,
+      "geocodePrecision": "neighborhood",
+      "market": "Toronto"
+    },
+    {
+      "id": 78,
+      "slug": "iq-offices-545-king-street-west",
+      "name": "iQ Offices - 545 King Street West",
+      "operator": "iQ Offices",
+      "isChain": false,
+      "city": "Toronto",
+      "neighborhood": "King West",
+      "address": "545 King Street West, Toronto, ON M5V 1M1",
+      "website": "https://www.iqoffices.com/all-locations/toronto-locations/",
+      "phone": "+1 800-933-3176",
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "King West tech and creative companies wanting premium flex space",
+      "digital": {
+        "score": 78,
+        "band": "B",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": false,
+          "socialCount": 3,
+          "socials": [],
+          "onlineBooking": true,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 60,
+          "mobile": 100,
+          "seo": 100,
+          "social": 24,
+          "conversion": 100,
+          "content": 50
+        }
+      },
+      "hiring": {
+        "hasCareersPage": true,
+        "careersUrl": "https://www.iqoffices.com/careers/",
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "No current opening verified."
+      },
+      "sources": [
+        "https://www.iqoffices.com/all-locations/toronto-locations/"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": true,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/iq-offices-545-king-street-west.jpg",
+      "lat": 43.6445859,
+      "lng": -79.3988132,
+      "geocodePrecision": "address",
+      "market": "Toronto"
+    },
+    {
+      "id": 79,
+      "slug": "iq-offices-250-university-avenue",
+      "name": "iQ Offices - 250 University Avenue",
+      "operator": "iQ Offices",
+      "isChain": false,
+      "city": "Toronto",
+      "neighborhood": "Financial District / Downtown",
+      "address": "250 University Avenue, Toronto, ON M5H 3E5",
+      "website": "https://www.iqoffices.com/all-locations/toronto-locations/",
+      "phone": "+1 800-933-3176",
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Downtown professional firms near the courts and Financial District",
+      "digital": {
+        "score": 78,
+        "band": "B",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": false,
+          "socialCount": 3,
+          "socials": [],
+          "onlineBooking": true,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 59,
+          "mobile": 100,
+          "seo": 100,
+          "social": 24,
+          "conversion": 100,
+          "content": 50
+        }
+      },
+      "hiring": {
+        "hasCareersPage": true,
+        "careersUrl": "https://www.iqoffices.com/careers/",
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "No current opening verified."
+      },
+      "sources": [
+        "https://www.iqoffices.com/all-locations/toronto-locations/"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": true,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/iq-offices-250-university-avenue.jpg",
+      "lat": 43.6500056,
+      "lng": -79.3811696,
+      "geocodePrecision": "neighborhood",
+      "market": "Toronto"
+    },
+    {
+      "id": 80,
+      "slug": "workplace-one-queen-west",
+      "name": "Workplace One - Queen West",
+      "operator": "Workplace One",
+      "isChain": false,
+      "city": "Toronto",
+      "neighborhood": "Queen West / Trinity Bellwoods",
+      "address": "51 Wolseley Street, Toronto, ON M5T 1A4",
+      "website": "https://workplaceone.com/locations/queen-west/",
+      "phone": "(416) 645-7045",
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Independent professionals and small teams wanting boutique offices and coworking",
+      "digital": {
+        "score": 82,
+        "band": "A",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": true,
+          "socialCount": 4,
+          "socials": [],
+          "onlineBooking": true,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 67,
+          "mobile": 100,
+          "seo": 60,
+          "social": 92,
+          "conversion": 100,
+          "content": 65
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "No dedicated careers page or open role found."
+      },
+      "sources": [
+        "https://workplaceone.com/locations/queen-west/",
+        "https://www.coworker.com/canada/toronto/workplace-one-queen-west"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "featured": true,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/workplace-one-queen-west.jpg",
+      "lat": 43.6481715,
+      "lng": -79.402392,
+      "geocodePrecision": "address",
+      "market": "Toronto"
+    },
+    {
+      "id": 81,
+      "slug": "east-room",
+      "name": "East Room",
+      "operator": "East Room",
+      "isChain": false,
+      "city": "Toronto",
+      "neighborhood": "Leslieville / Riverside",
+      "address": "50 Carroll Street, Toronto, ON M4M 3G3",
+      "website": "https://www.eastroom.com/",
+      "phone": "(416) 628-5333",
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Freelancers, creative professionals and small businesses wanting a design-forward coworking club",
+      "digital": {
+        "score": 78,
+        "band": "B",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": true,
+          "socialCount": 3,
+          "socials": [],
+          "onlineBooking": true,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 68,
+          "mobile": 100,
+          "seo": 47,
+          "social": 64,
+          "conversion": 100,
+          "content": 84
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "No careers page or open role verified."
+      },
+      "sources": [
+        "https://www.eastroom.com/",
+        "https://www.yelp.ca/biz/east-room-toronto",
+        "https://torontolife.com/style/toronto-coolest-office-space-east-room/"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/east-room.jpg",
+      "lat": 43.6606654,
+      "lng": -79.3536038,
+      "geocodePrecision": "address",
+      "market": "Toronto"
+    },
+    {
+      "id": 82,
+      "slug": "project-spaces-king-west",
+      "name": "Project Spaces - King West",
+      "operator": "Project Spaces",
+      "isChain": false,
+      "city": "Toronto",
+      "neighborhood": "King West",
+      "address": "117 Peter Street area / King & Bathurst (Canadian Biscuit Company building, 7th floor), Toronto, ON",
+      "website": "https://www.projectspac.es/",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Founders and startups wanting affordable, founder-friendly coworking",
+      "digital": {
+        "score": 85,
+        "band": "A",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": true,
+          "socialCount": 4,
+          "socials": [],
+          "onlineBooking": true,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 84,
+          "mobile": 100,
+          "seo": 60,
+          "social": 92,
+          "conversion": 100,
+          "content": 65
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "Exact street number not confirmed; described as 7th floor of the historic Canadian Biscuit Company building at King & Bathurst. No open role verified."
+      },
+      "sources": [
+        "https://www.projectspac.es/",
+        "https://www.upsuite.com/coworking/toronto/projectspaces-kingwest/",
+        "https://www.coworker.com/canada/toronto/project-spaces"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "featured": true,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/project-spaces-king-west.jpg",
+      "lat": 43.6439095,
+      "lng": -79.4026719,
+      "geocodePrecision": "neighborhood",
+      "market": "Toronto"
+    },
+    {
+      "id": 83,
+      "slug": "project-spaces-camden-street",
+      "name": "Project Spaces - Camden Street",
+      "operator": "Project Spaces",
+      "isChain": false,
+      "city": "Toronto",
+      "neighborhood": "Queen West / Fashion District",
+      "address": "20 Camden Street, Suite 200, Toronto, ON M5V 1V1",
+      "website": "https://www.projectspac.es/",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Founders and small teams near Queen & Spadina",
+      "digital": {
+        "score": 85,
+        "band": "A",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": true,
+          "socialCount": 4,
+          "socials": [],
+          "onlineBooking": true,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 84,
+          "mobile": 100,
+          "seo": 60,
+          "social": 92,
+          "conversion": 100,
+          "content": 65
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "No open role verified. Single membership covers both Project Spaces locations."
+      },
+      "sources": [
+        "https://www.projectspac.es/",
+        "https://www.coworker.com/canada/toronto/project-spaces"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "featured": true,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/project-spaces-camden-street.jpg",
+      "lat": 43.6497683,
+      "lng": -79.3915554,
+      "geocodePrecision": "neighborhood",
+      "market": "Toronto"
+    },
+    {
+      "id": 84,
+      "slug": "the-fueling-station",
+      "name": "The Fueling Station",
+      "operator": "The Fueling Station",
+      "isChain": false,
+      "city": "Toronto",
+      "neighborhood": "Liberty Village",
+      "address": "147 Liberty Street, Toronto, ON M6K 3G3",
+      "website": "https://thefuelingstation.com/",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Liberty Village creative and tech businesses wanting characterful private offices and coworking",
+      "digital": {
+        "score": 79,
+        "band": "B",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": false,
+          "socialCount": 3,
+          "socials": [],
+          "onlineBooking": true,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 43,
+          "mobile": 100,
+          "seo": 100,
+          "social": 44,
+          "conversion": 100,
+          "content": 76
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "No careers page or open role verified. Also operates space at 54 Fraser Ave."
+      },
+      "sources": [
+        "https://thefuelingstation.com/",
+        "https://www.coworkingcafe.com/coworking-property/ca/on/toronto/147-liberty-street/",
+        "https://www.yelp.com/biz/the-fueling-station-toronto"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/the-fueling-station.jpg",
+      "lat": 43.6374406,
+      "lng": -79.4243501,
+      "geocodePrecision": "address",
+      "market": "Toronto"
+    },
+    {
+      "id": 85,
+      "slug": "startwell-king-street-west",
+      "name": "StartWell - King Street West",
+      "operator": "StartWell",
+      "isChain": false,
+      "city": "Toronto",
+      "neighborhood": "King West",
+      "address": "786 King Street West, Toronto, ON M5V 1N6",
+      "website": "https://startwell.co/",
+      "phone": "+1 647-799-5566",
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Teams and event hosts wanting coworking plus meeting/event space on King West",
+      "digital": {
+        "score": 82,
+        "band": "A",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": true,
+          "socialCount": 3,
+          "socials": [],
+          "onlineBooking": true,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 50,
+          "mobile": 100,
+          "seo": 85,
+          "social": 84,
+          "conversion": 100,
+          "content": 65
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "No careers page or open role verified."
+      },
+      "sources": [
+        "https://startwell.co/",
+        "https://www.coworker.com/canada/toronto/startwell",
+        "https://liquidspace.com/ca/on/toronto/startwell"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "featured": true,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/startwell-king-street-west.jpg",
+      "lat": 43.64342,
+      "lng": -79.40642,
+      "geocodePrecision": "address",
+      "market": "Toronto"
+    },
+    {
+      "id": 86,
+      "slug": "kairos",
+      "name": "Kairos",
+      "operator": "Kairos",
+      "isChain": false,
+      "city": "Toronto",
+      "neighborhood": "Liberty Village",
+      "address": "149 East Liberty Street, Toronto, ON M6K 3K4",
+      "website": "https://workatkairos.ca/",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Design-conscious professionals and small teams in Liberty Village",
+      "digital": {
+        "score": 68,
+        "band": "B",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": false,
+          "openGraph": false,
+          "socialCount": 2,
+          "socials": [],
+          "onlineBooking": true,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 70,
+          "mobile": 100,
+          "seo": 50,
+          "social": 16,
+          "conversion": 100,
+          "content": 29
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "No careers page or open role verified."
+      },
+      "sources": [
+        "https://workatkairos.ca/",
+        "https://www.instantoffices.com/en-us/ca/available-office-space/toronto/kairos-120033",
+        "https://www.officelovin.com/2026/03/a-tour-of-kairos-new-toronto-coworking-space/"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/kairos.jpg",
+      "lat": 43.638489,
+      "lng": -79.416706,
+      "geocodePrecision": "address",
+      "market": "Toronto"
+    },
+    {
+      "id": 87,
+      "slug": "make-lemonade",
+      "name": "Make Lemonade",
+      "operator": "Make Lemonade",
+      "isChain": false,
+      "city": "Toronto",
+      "neighborhood": "Entertainment District / King West",
+      "address": "326 Adelaide Street West, Floor 6, Toronto, ON M5V 1R3",
+      "website": "https://cowrk.club/listing/make-lemonade/",
+      "phone": "+1 647-882-9914",
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Women entrepreneurs and female-led businesses (women-focused coworking)",
+      "digital": {
+        "score": 82,
+        "band": "A",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": true,
+          "socialCount": 5,
+          "socials": [],
+          "onlineBooking": true,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 40,
+          "mobile": 100,
+          "seo": 100,
+          "social": 100,
+          "conversion": 100,
+          "content": 35
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "No careers page or open role verified."
+      },
+      "sources": [
+        "https://womenwhocowork.com/space/326-adelaide-street-west-coworking-make-lemonade/",
+        "https://www.coworker.com/canada/toronto/make-lemonade",
+        "https://www.designlinesmagazine.com/make-lemonade-toronto/"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "featured": true,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/make-lemonade.jpg",
+      "lat": 43.6433578,
+      "lng": -79.3891692,
+      "geocodePrecision": "neighborhood",
+      "market": "Toronto"
+    },
+    {
+      "id": 88,
+      "slug": "acme-works",
+      "name": "Acme Works",
+      "operator": "Acme Works",
+      "isChain": false,
+      "city": "Toronto",
+      "neighborhood": "Niagara / King West",
+      "address": "229 Niagara Street, Toronto, ON",
+      "website": "https://www.coworker.com/canada/toronto/acme-works",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Freelancers and small creative/tech teams wanting an independent neighbourhood space",
+      "digital": {
+        "score": 44,
+        "band": "D",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": false,
+          "openGraph": false,
+          "socialCount": 0,
+          "socials": [],
+          "onlineBooking": false,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 75,
+          "performance": 100,
+          "mobile": 100,
+          "seo": 0,
+          "social": 0,
+          "conversion": 0,
+          "content": 0
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "No careers page or open role verified."
+      },
+      "sources": [
+        "https://www.coworker.com/canada/toronto/acme-works",
+        "https://www.upsuite.com/coworking/toronto/acmeworks-toronto/",
+        "https://coworkingmag.com/listings/coworking-property/ca/on/toronto/acme-works/"
+      ],
+      "leadWebUpgrade": true,
+      "leadTalent": false,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/acme-works.jpg",
+      "lat": 43.6437376,
+      "lng": -79.4086821,
+      "geocodePrecision": "address",
+      "market": "Toronto"
+    },
+    {
+      "id": 89,
+      "slug": "verkspace-adelaide-west",
+      "name": "Verkspace - Adelaide West",
+      "operator": "Verkspace",
+      "isChain": false,
+      "city": "Toronto",
+      "neighborhood": "Fashion District / Entertainment District",
+      "address": "410 Adelaide Street West, Suite 220, Toronto, ON",
+      "website": "https://coworker.com/canada/toronto/verkspace-2",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Independent professionals and small teams wanting affordable downtown coworking",
+      "digital": {
+        "score": 44,
+        "band": "D",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": false,
+          "openGraph": false,
+          "socialCount": 0,
+          "socials": [],
+          "onlineBooking": false,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 75,
+          "performance": 99,
+          "mobile": 100,
+          "seo": 0,
+          "social": 0,
+          "conversion": 0,
+          "content": 0
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "No careers page or open role verified. Also has a location at 32 Britain Street."
+      },
+      "sources": [
+        "https://coworker.com/canada/toronto/verkspace-2",
+        "https://www.servicedoffice.com/canada/ontario/toronto/verkspace-18367",
+        "https://coworkingtoronto.ca/space/verkspace-32-britain/"
+      ],
+      "leadWebUpgrade": true,
+      "leadTalent": false,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/verkspace-adelaide-west.jpg",
+      "lat": 43.6433578,
+      "lng": -79.3891692,
+      "geocodePrecision": "neighborhood",
+      "market": "Toronto"
+    },
+    {
+      "id": 90,
+      "slug": "lab-t-o",
+      "name": "Lab T.O.",
+      "operator": "Lab T.O.",
+      "isChain": false,
+      "city": "Toronto",
+      "neighborhood": "Junction Triangle",
+      "address": "Campbell Avenue (Junction Triangle), Toronto, ON",
+      "website": "https://labto.com/",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Designers, technologists and product builders wanting a hands-on creative space",
+      "digital": {
+        "score": 61,
+        "band": "C",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": false,
+          "openGraph": true,
+          "socialCount": 0,
+          "socials": [],
+          "onlineBooking": false,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 87,
+          "mobile": 100,
+          "seo": 50,
+          "social": 60,
+          "conversion": 0,
+          "content": 3
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "Exact street number not confirmed; located in the Campbell Avenue complex in the Junction Triangle. No open role verified."
+      },
+      "sources": [
+        "https://labto.com/",
+        "https://www.coworker.com/canada/toronto/lab-to",
+        "https://www.getcroissant.com/discover/toronto/junction-triangle/lab-t-o"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/lab-t-o.jpg",
+      "lat": 43.659978,
+      "lng": -79.4477957,
+      "geocodePrecision": "address",
+      "market": "Toronto"
+    },
+    {
+      "id": 91,
+      "slug": "centre-for-social-innovation-192-spadina",
+      "name": "Centre for Social Innovation - 192 Spadina",
+      "operator": "Centre for Social Innovation (CSI)",
+      "isChain": false,
+      "city": "Toronto",
+      "neighborhood": "Chinatown / Queen West",
+      "address": "192 Spadina Avenue, Toronto, ON",
+      "website": "https://socialinnovation.org/space/locations/csi-spadina/",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Nonprofits, social enterprises and mission-driven organizations",
+      "digital": {
+        "score": 84,
+        "band": "A",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": false,
+          "openGraph": true,
+          "socialCount": 5,
+          "socials": [],
+          "onlineBooking": true,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 60,
+          "mobile": 100,
+          "seo": 70,
+          "social": 100,
+          "conversion": 100,
+          "content": 75
+        }
+      },
+      "hiring": {
+        "hasCareersPage": true,
+        "careersUrl": "https://socialinnovation.org/about/careers/",
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "CSI is a nonprofit with a careers page; no current opening verified. Note: their former 720 Bathurst (Annex) location was sold in 2025 and is closed \u2014 192 Spadina is now their consolidated location."
+      },
+      "sources": [
+        "https://socialinnovation.org/space/locations/csi-spadina/",
+        "https://socialinnovation.org/space/locations/",
+        "https://www.yelp.ca/biz/centre-for-social-innovation-192-spadina-toronto-2"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": true,
+      "featured": true,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/centre-for-social-innovation-192-spadina.jpg",
+      "lat": 43.6499323,
+      "lng": -79.3975316,
+      "geocodePrecision": "address",
+      "market": "Toronto"
+    },
+    {
+      "id": 92,
+      "slug": "good-gorilla",
+      "name": "Good Gorilla",
+      "operator": "Good Gorilla",
+      "isChain": false,
+      "city": "Toronto",
+      "neighborhood": "Downtown Toronto",
+      "address": null,
+      "website": "https://www.coworker.com/canada/toronto/good-gorilla",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Freelancers and creatives wanting an independent downtown coworking space",
+      "digital": {
+        "score": 44,
+        "band": "D",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": false,
+          "openGraph": false,
+          "socialCount": 0,
+          "socials": [],
+          "onlineBooking": false,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 75,
+          "performance": 100,
+          "mobile": 100,
+          "seo": 0,
+          "social": 0,
+          "conversion": 0,
+          "content": 0
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "Listed on Coworker.com; exact street address not confirmed in this pass. No open role verified."
+      },
+      "sources": [
+        "https://www.coworker.com/canada/toronto/good-gorilla",
+        "https://www.coworkbooking.com/north-america/canada/toronto/good-gorilla"
+      ],
+      "leadWebUpgrade": true,
+      "leadTalent": false,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/good-gorilla.jpg",
+      "lat": 43.6573229,
+      "lng": -79.3810085,
+      "geocodePrecision": "neighborhood",
+      "market": "Toronto"
+    },
+    {
+      "id": 93,
+      "slug": "capital-factory",
+      "name": "Capital Factory",
+      "operator": "Capital Factory",
+      "isChain": false,
+      "city": "Austin",
+      "neighborhood": "Downtown",
+      "address": "701 Brazos St, Austin, TX 78701",
+      "website": "https://capitalfactory.com",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Startups, founders, tech companies seeking accelerator + coworking + investor network",
+      "digital": {
+        "score": 74,
+        "band": "B",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": true,
+          "socialCount": 0,
+          "socials": [],
+          "onlineBooking": false,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 77,
+          "mobile": 100,
+          "seo": 80,
+          "social": 60,
+          "conversion": 0,
+          "content": 100
+        }
+      },
+      "hiring": {
+        "hasCareersPage": true,
+        "careersUrl": "https://jobs.capitalfactory.com/jobs",
+        "confirmedOpening": true,
+        "liveJobBoard": false,
+        "notes": "Multiple current openings on the official Capital Factory job board (e.g. Account Executive (STATION), AV/IT Technician, Community Sales Lead) per ZipRecruiter/Glassdoor June 2026."
+      },
+      "sources": [
+        "https://capitalfactory.com/",
+        "https://coworkingmag.com/listings/coworking-property/us/tx/austin/capital-factory/",
+        "https://www.yelp.com/biz/capital-factory-austin",
+        "https://jobs.capitalfactory.com/jobs"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": true,
+      "featured": true,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/capital-factory.jpg",
+      "lat": 30.268971,
+      "lng": -97.7406286,
+      "geocodePrecision": "address",
+      "market": "Austin"
+    },
+    {
+      "id": 94,
+      "slug": "common-desk-6th-congress",
+      "name": "Common Desk - 6th & Congress",
+      "operator": "Common Desk",
+      "isChain": false,
+      "city": "Austin",
+      "neighborhood": "Downtown (6th & Congress)",
+      "address": "106 E 6th St, Suite 900, Austin, TX 78701",
+      "website": "https://thecommondesk.com/locations/downtown-austin-coworking/",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Professionals and teams wanting design-forward downtown coworking in the historic Littlefield Building",
+      "digital": {
+        "score": 92,
+        "band": "A",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": true,
+          "socialCount": 4,
+          "socials": [],
+          "onlineBooking": true,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 65,
+          "mobile": 100,
+          "seo": 100,
+          "social": 92,
+          "conversion": 100,
+          "content": 95
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "No current Austin opening confirmed. Common Desk is owned by WeWork/Cushman & Wakefield; no live Austin role found."
+      },
+      "sources": [
+        "https://thecommondesk.com/locations/downtown-austin-coworking/",
+        "https://liquidspace.com/us/tx/austin/common-desk-6th-congres",
+        "https://app.deskpass.com/spaces/common-desk-6th-congress"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "featured": true,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/common-desk-6th-congress.jpg",
+      "lat": 30.2681838,
+      "lng": -97.7421455,
+      "geocodePrecision": "address",
+      "market": "Austin"
+    },
+    {
+      "id": 95,
+      "slug": "industrious-5th-and-colorado",
+      "name": "Industrious 5th and Colorado",
+      "operator": "Industrious",
+      "isChain": true,
+      "city": "Austin",
+      "neighborhood": "Downtown (2nd Street District)",
+      "address": "201 W 5th St, Austin, TX 78701",
+      "website": "https://www.industriousoffice.com/m/austin",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Companies wanting premium hospitality-led workspace-as-a-service",
+      "digital": {
+        "score": 89,
+        "band": "A",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": true,
+          "socialCount": 4,
+          "socials": [],
+          "onlineBooking": true,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 57,
+          "mobile": 100,
+          "seo": 100,
+          "social": 92,
+          "conversion": 100,
+          "content": 89
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "Industrious lists ~6 Austin openings (June 2026) incl. Member Experience Associate (~$21.60/hr) via ZipRecruiter/Glassdoor; corporate roles via Ashby. Specific branch assignment not stated."
+      },
+      "sources": [
+        "https://www.industriousoffice.com/m/austin",
+        "https://www.ziprecruiter.com/co/Industrious/Jobs/-in-Austin,TX",
+        "https://www.industriousoffice.com/careers"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/industrious-5th-and-colorado.jpg",
+      "lat": 30.2673437,
+      "lng": -97.7449999,
+      "geocodePrecision": "address",
+      "market": "Austin"
+    },
+    {
+      "id": 96,
+      "slug": "industrious-3rd-congress",
+      "name": "Industrious 3rd & Congress",
+      "operator": "Industrious",
+      "isChain": true,
+      "city": "Austin",
+      "neighborhood": "Downtown",
+      "address": "301 Congress Ave, Austin, TX 78701",
+      "website": "https://www.industriousoffice.com/m/austin",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Companies wanting premium hospitality-led workspace-as-a-service",
+      "digital": {
+        "score": 93,
+        "band": "A",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": true,
+          "socialCount": 4,
+          "socials": [],
+          "onlineBooking": true,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 75,
+          "mobile": 100,
+          "seo": 100,
+          "social": 92,
+          "conversion": 100,
+          "content": 89
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "Industrious has current Austin-area openings (June 2026); not branch-specific."
+      },
+      "sources": [
+        "https://www.industriousoffice.com/m/austin",
+        "https://www.ziprecruiter.com/co/Industrious/Jobs/-in-Austin,TX"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/industrious-3rd-congress.jpg",
+      "lat": 30.2653325,
+      "lng": -97.7430632,
+      "geocodePrecision": "address",
+      "market": "Austin"
+    },
+    {
+      "id": 97,
+      "slug": "industrious-9th-and-congress",
+      "name": "Industrious 9th and Congress",
+      "operator": "Industrious",
+      "isChain": true,
+      "city": "Austin",
+      "neighborhood": "Downtown",
+      "address": "823 Congress Ave, Austin, TX 78701",
+      "website": "https://www.industriousoffice.com/m/austin",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Companies wanting premium hospitality-led workspace-as-a-service",
+      "digital": {
+        "score": 93,
+        "band": "A",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": true,
+          "socialCount": 4,
+          "socials": [],
+          "onlineBooking": true,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 75,
+          "mobile": 100,
+          "seo": 100,
+          "social": 92,
+          "conversion": 100,
+          "content": 89
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "Industrious has current Austin-area openings (June 2026); not branch-specific."
+      },
+      "sources": [
+        "https://www.industriousoffice.com/m/austin",
+        "https://www.ziprecruiter.com/co/Industrious/Jobs/-in-Austin,TX"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/industrious-9th-and-congress.jpg",
+      "lat": 30.2704889,
+      "lng": -97.7414583,
+      "geocodePrecision": "address",
+      "market": "Austin"
+    },
+    {
+      "id": 98,
+      "slug": "industrious-san-jacinto-blvd",
+      "name": "Industrious San Jacinto Blvd",
+      "operator": "Industrious",
+      "isChain": true,
+      "city": "Austin",
+      "neighborhood": "Downtown",
+      "address": "98 San Jacinto Blvd, Austin, TX 78701",
+      "website": "https://www.industriousoffice.com/m/austin",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Companies wanting premium hospitality-led workspace-as-a-service",
+      "digital": {
+        "score": 93,
+        "band": "A",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": true,
+          "socialCount": 4,
+          "socials": [],
+          "onlineBooking": true,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 75,
+          "mobile": 100,
+          "seo": 100,
+          "social": 92,
+          "conversion": 100,
+          "content": 89
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "Industrious has current Austin-area openings (June 2026); not branch-specific."
+      },
+      "sources": [
+        "https://www.industriousoffice.com/m/austin"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/industrious-san-jacinto-blvd.jpg",
+      "lat": 30.26262,
+      "lng": -97.742228,
+      "geocodePrecision": "address",
+      "market": "Austin"
+    },
+    {
+      "id": 99,
+      "slug": "indy-by-industrious-burnet-rd",
+      "name": "Indy by Industrious - Burnet Rd",
+      "operator": "Industrious",
+      "isChain": true,
+      "city": "Austin",
+      "neighborhood": "North Austin (Burnet Rd)",
+      "address": "7001 Burnet Rd, Austin, TX 78757",
+      "website": "https://www.industriousoffice.com/m/austin",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Companies wanting premium hospitality-led workspace-as-a-service",
+      "digital": {
+        "score": 93,
+        "band": "A",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": true,
+          "socialCount": 4,
+          "socials": [],
+          "onlineBooking": true,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 75,
+          "mobile": 100,
+          "seo": 100,
+          "social": 92,
+          "conversion": 100,
+          "content": 89
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "Industrious has current Austin-area openings (June 2026); not branch-specific."
+      },
+      "sources": [
+        "https://www.industriousoffice.com/m/austin"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/indy-by-industrious-burnet-rd.jpg",
+      "lat": 30.3467439,
+      "lng": -97.7359373,
+      "geocodePrecision": "address",
+      "market": "Austin"
+    },
+    {
+      "id": 100,
+      "slug": "industrious-e-7th-st",
+      "name": "Industrious E 7th St",
+      "operator": "Industrious",
+      "isChain": true,
+      "city": "Austin",
+      "neighborhood": "East Austin",
+      "address": "924 E 7th St, Austin, TX 78702",
+      "website": "https://www.industriousoffice.com/m/austin",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Companies wanting premium hospitality-led workspace-as-a-service",
+      "digital": {
+        "score": 93,
+        "band": "A",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": true,
+          "socialCount": 4,
+          "socials": [],
+          "onlineBooking": true,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 75,
+          "mobile": 100,
+          "seo": 100,
+          "social": 92,
+          "conversion": 100,
+          "content": 89
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "Industrious has current Austin-area openings (June 2026); not branch-specific."
+      },
+      "sources": [
+        "https://www.industriousoffice.com/m/austin"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/industrious-e-7th-st.jpg",
+      "lat": 30.266138,
+      "lng": -97.731906,
+      "geocodePrecision": "address",
+      "market": "Austin"
+    },
+    {
+      "id": 101,
+      "slug": "industrious-victory-plaza",
+      "name": "Industrious Victory Plaza",
+      "operator": "Industrious",
+      "isChain": true,
+      "city": "Austin",
+      "neighborhood": "North Austin (Burnet Rd)",
+      "address": "5209 Burnet Rd, Austin, TX 78756",
+      "website": "https://www.industriousoffice.com/m/austin",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Companies wanting premium hospitality-led workspace-as-a-service",
+      "digital": {
+        "score": 93,
+        "band": "A",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": true,
+          "socialCount": 4,
+          "socials": [],
+          "onlineBooking": true,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 75,
+          "mobile": 100,
+          "seo": 100,
+          "social": 92,
+          "conversion": 100,
+          "content": 89
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "Industrious has current Austin-area openings (June 2026); not branch-specific."
+      },
+      "sources": [
+        "https://www.industriousoffice.com/m/austin"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/industrious-victory-plaza.jpg",
+      "lat": 30.3240304,
+      "lng": -97.7391247,
+      "geocodePrecision": "address",
+      "market": "Austin"
+    },
+    {
+      "id": 102,
+      "slug": "wework-600-congress-ave",
+      "name": "WeWork - 600 Congress Ave",
+      "operator": "WeWork",
+      "isChain": true,
+      "city": "Austin",
+      "neighborhood": "Downtown",
+      "address": "600 Congress Ave, Austin, TX 78701",
+      "website": "https://www.wework.com/buildings/600-congress-ave--austin--TX",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Startups to enterprise teams wanting flexible downtown coworking and private offices",
+      "digital": {
+        "score": null,
+        "band": "?",
+        "confidence": "low",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": false,
+          "openGraph": false,
+          "socialCount": 0,
+          "socials": [],
+          "onlineBooking": false,
+          "dnsResolves": true
+        },
+        "breakdown": null
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "No specific current Austin opening confirmed in this research; WeWork maintains a global careers site."
+      },
+      "sources": [
+        "https://www.wework.com/l/coworking-space/austin--TX",
+        "https://www.wework.com/buildings/600-congress-ave--austin--TX"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/wework-600-congress-ave.jpg",
+      "lat": 30.2684247,
+      "lng": -97.7431556,
+      "geocodePrecision": "address",
+      "market": "Austin"
+    },
+    {
+      "id": 103,
+      "slug": "wework-801-barton-springs-rd",
+      "name": "WeWork - 801 Barton Springs Rd",
+      "operator": "WeWork",
+      "isChain": true,
+      "city": "Austin",
+      "neighborhood": "South Austin (Barton Springs)",
+      "address": "801 Barton Springs Rd, Austin, TX 78704",
+      "website": "https://www.wework.com/en-GB/buildings/801-barton-springs-rd--austin--TX",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Startups to enterprise teams wanting flexible coworking near downtown/Zilker",
+      "digital": {
+        "score": null,
+        "band": "?",
+        "confidence": "low",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": false,
+          "openGraph": false,
+          "socialCount": 0,
+          "socials": [],
+          "onlineBooking": false,
+          "dnsResolves": true
+        },
+        "breakdown": null
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "No specific current Austin opening confirmed in this research."
+      },
+      "sources": [
+        "https://www.wework.com/l/coworking-space/austin--TX",
+        "https://www.coworkingcafe.com/coworking-property/us/tx/austin/801-barton-springs-road/"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/wework-801-barton-springs-rd.jpg",
+      "lat": 30.258911,
+      "lng": -97.752543,
+      "geocodePrecision": "address",
+      "market": "Austin"
+    },
+    {
+      "id": 104,
+      "slug": "wework-the-domain",
+      "name": "WeWork - The Domain",
+      "operator": "WeWork",
+      "isChain": true,
+      "city": "Austin",
+      "neighborhood": "North Austin (The Domain)",
+      "address": "11801 Domain Blvd, 3rd Floor, Austin, TX 78758",
+      "website": "https://www.wework.com/buildings/the-domain--austin--TX",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Teams wanting flexible workspace in North Austin's Domain business/lifestyle hub",
+      "digital": {
+        "score": null,
+        "band": "?",
+        "confidence": "low",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": false,
+          "openGraph": false,
+          "socialCount": 0,
+          "socials": [],
+          "onlineBooking": false,
+          "dnsResolves": true
+        },
+        "breakdown": null
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "No specific current Austin opening confirmed in this research."
+      },
+      "sources": [
+        "https://www.wework.com/buildings/the-domain--austin--TX",
+        "https://www.yelp.com/biz/wework-domain-austin",
+        "https://www.propertyshark.com/cre/coworking-property/us/tx/austin/the-domain/"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/wework-the-domain.jpg",
+      "lat": 30.4023299,
+      "lng": -97.7260086,
+      "geocodePrecision": "neighborhood",
+      "market": "Austin"
+    },
+    {
+      "id": 105,
+      "slug": "wework-university-park",
+      "name": "WeWork - University Park",
+      "operator": "WeWork",
+      "isChain": true,
+      "city": "Austin",
+      "neighborhood": "North/Central Austin (I-35)",
+      "address": "3300 N Interstate 35, Suite 700, Austin, TX 78705",
+      "website": "https://www.wework.com/l/coworking-space/austin--TX",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Teams wanting flexible workspace near UT/central Austin",
+      "digital": {
+        "score": null,
+        "band": "?",
+        "confidence": "low",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": false,
+          "openGraph": false,
+          "socialCount": 0,
+          "socials": [],
+          "onlineBooking": false,
+          "dnsResolves": true
+        },
+        "breakdown": null
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "Address per search aggregation; no specific current Austin opening confirmed."
+      },
+      "sources": [
+        "https://www.wework.com/l/coworking-space/austin--TX",
+        "https://www.coworkingnotes.com/blog/ultimate-guide-to-the-best-wework-locations-in-austin"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/wework-university-park.jpg",
+      "lat": 30.3428997,
+      "lng": -97.6992302,
+      "geocodePrecision": "neighborhood",
+      "market": "Austin"
+    },
+    {
+      "id": 106,
+      "slug": "wework-quarry-oaks-ii",
+      "name": "WeWork - Quarry Oaks II",
+      "operator": "WeWork",
+      "isChain": true,
+      "city": "Austin",
+      "neighborhood": "Northwest Austin (Stonelake)",
+      "address": "10900 Stonelake Blvd, Building 2, Suite 100, Austin, TX 78759",
+      "website": "https://www.wework.com/buildings/quarry-oaks-ii--austin--TX",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Teams wanting flexible workspace in NW Austin's Stonelake office park",
+      "digital": {
+        "score": null,
+        "band": "?",
+        "confidence": "low",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": false,
+          "openGraph": false,
+          "socialCount": 0,
+          "socials": [],
+          "onlineBooking": false,
+          "dnsResolves": true
+        },
+        "breakdown": null
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "No specific current Austin opening confirmed in this research."
+      },
+      "sources": [
+        "https://www.wework.com/buildings/quarry-oaks-ii--austin--TX",
+        "https://www.coworkingnotes.com/blog/ultimate-guide-to-the-best-wework-locations-in-austin"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/wework-quarry-oaks-ii.jpg",
+      "lat": 30.3989953,
+      "lng": -97.7326272,
+      "geocodePrecision": "neighborhood",
+      "market": "Austin"
+    },
+    {
+      "id": 107,
+      "slug": "regus-100-congress-111-congress-ave",
+      "name": "Regus - 100 Congress (111 Congress Ave)",
+      "operator": "Regus (IWG)",
+      "isChain": true,
+      "city": "Austin",
+      "neighborhood": "Downtown",
+      "address": "111 Congress Ave, Suite 500, Austin, TX 78701",
+      "website": "https://www.regus.com/en-us/united-states/texas/austin/coworking",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Businesses wanting serviced offices, coworking and meeting rooms downtown",
+      "digital": {
+        "score": 76,
+        "band": "B",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": false,
+          "socialCount": 0,
+          "socials": [],
+          "onlineBooking": true,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 47,
+          "mobile": 100,
+          "seo": 100,
+          "social": 0,
+          "conversion": 100,
+          "content": 84
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "No specific current Austin opening confirmed; IWG (Regus parent) runs a global careers portal."
+      },
+      "sources": [
+        "https://www.regus.com/en-us/united-states/texas/austin/coworking",
+        "https://www.coworker.com/united-states/texas/austin"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/regus-100-congress-111-congress-ave.jpg",
+      "lat": 30.2680536,
+      "lng": -97.7447642,
+      "geocodePrecision": "neighborhood",
+      "market": "Austin"
+    },
+    {
+      "id": 108,
+      "slug": "regus-lamar-central",
+      "name": "Regus - Lamar Central",
+      "operator": "Regus (IWG)",
+      "isChain": true,
+      "city": "Austin",
+      "neighborhood": "Central Austin (North Lamar)",
+      "address": "3800 N Lamar Blvd, Suite 200, Austin, TX 78756",
+      "website": "https://www.regus.com/en-us/united-states/texas/austin/coworking",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Businesses wanting serviced offices and coworking in central Austin",
+      "digital": {
+        "score": 76,
+        "band": "B",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": false,
+          "socialCount": 0,
+          "socials": [],
+          "onlineBooking": true,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 50,
+          "mobile": 100,
+          "seo": 100,
+          "social": 0,
+          "conversion": 100,
+          "content": 84
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "No specific current Austin opening confirmed."
+      },
+      "sources": [
+        "https://www.regus.com/en-us/united-states/texas/austin/coworking",
+        "https://coworkingmag.com/listings/coworking-property/us/tx/austin/lamar-central/"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/regus-lamar-central.jpg",
+      "lat": 30.4043401,
+      "lng": -97.6773771,
+      "geocodePrecision": "neighborhood",
+      "market": "Austin"
+    },
+    {
+      "id": 109,
+      "slug": "regus-barton-oaks-plaza",
+      "name": "Regus - Barton Oaks Plaza",
+      "operator": "Regus (IWG)",
+      "isChain": true,
+      "city": "Austin",
+      "neighborhood": "South Austin (Mopac/Barton)",
+      "address": "901 S Mopac Expressway, Building 1, Suite 300, Austin, TX 78746",
+      "website": "https://www.regus.com/en-us/united-states/texas/austin/coworking",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Businesses wanting serviced offices near Zilker/South Mopac",
+      "digital": {
+        "score": 78,
+        "band": "B",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": false,
+          "socialCount": 0,
+          "socials": [],
+          "onlineBooking": true,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 60,
+          "mobile": 100,
+          "seo": 100,
+          "social": 0,
+          "conversion": 100,
+          "content": 84
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "No specific current Austin opening confirmed."
+      },
+      "sources": [
+        "https://www.regus.com/en-us/united-states/texas/austin/coworking"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/regus-barton-oaks-plaza.jpg",
+      "lat": 30.2711286,
+      "lng": -97.7436995,
+      "geocodePrecision": "city",
+      "market": "Austin"
+    },
+    {
+      "id": 110,
+      "slug": "regus-arboretum-plaza",
+      "name": "Regus - Arboretum Plaza",
+      "operator": "Regus (IWG)",
+      "isChain": true,
+      "city": "Austin",
+      "neighborhood": "Northwest Austin (Arboretum)",
+      "address": "9442 N Capital of Texas Hwy, Suite 500, Austin, TX 78759",
+      "website": "https://www.regus.com/en-us/united-states/texas/austin/coworking",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Businesses wanting serviced offices in NW Austin's Arboretum area",
+      "digital": {
+        "score": 77,
+        "band": "B",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": false,
+          "socialCount": 0,
+          "socials": [],
+          "onlineBooking": true,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 53,
+          "mobile": 100,
+          "seo": 100,
+          "social": 0,
+          "conversion": 100,
+          "content": 84
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "No specific current Austin opening confirmed."
+      },
+      "sources": [
+        "https://www.regus.com/en-us/united-states/texas/austin/coworking"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/regus-arboretum-plaza.jpg",
+      "lat": 30.3954395,
+      "lng": -97.7539304,
+      "geocodePrecision": "neighborhood",
+      "market": "Austin"
+    },
+    {
+      "id": 111,
+      "slug": "regus-dobie-center",
+      "name": "Regus - Dobie Center",
+      "operator": "Regus (IWG)",
+      "isChain": true,
+      "city": "Austin",
+      "neighborhood": "Central Austin (UT/Guadalupe)",
+      "address": "2021 Guadalupe St, Suite 260, Austin, TX 78705",
+      "website": "https://www.regus.com/en-us/united-states/texas/austin/coworking",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Businesses and students wanting serviced offices near the UT campus",
+      "digital": {
+        "score": 76,
+        "band": "B",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": false,
+          "socialCount": 0,
+          "socials": [],
+          "onlineBooking": true,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 48,
+          "mobile": 100,
+          "seo": 100,
+          "social": 0,
+          "conversion": 100,
+          "content": 84
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "No specific current Austin opening confirmed."
+      },
+      "sources": [
+        "https://www.regus.com/en-us/united-states/texas/austin/coworking"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/regus-dobie-center.jpg",
+      "lat": 30.2711286,
+      "lng": -97.7436995,
+      "geocodePrecision": "city",
+      "market": "Austin"
+    },
+    {
+      "id": 112,
+      "slug": "spaces-the-domain",
+      "name": "Spaces - The Domain",
+      "operator": "Spaces (IWG)",
+      "isChain": true,
+      "city": "Austin",
+      "neighborhood": "North Austin (The Domain)",
+      "address": null,
+      "website": "https://www.spacesworks.com/en/us/texas/austin",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Companies wanting design-led, all-inclusive flexible coworking at The Domain",
+      "digital": {
+        "score": 80,
+        "band": "A",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": false,
+          "socialCount": 0,
+          "socials": [],
+          "onlineBooking": true,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 70,
+          "mobile": 100,
+          "seo": 100,
+          "social": 0,
+          "conversion": 100,
+          "content": 84
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "Spaces opened at The Domain in 2023 (IWG + Simon). Exact street address not separately confirmed in this pass; no specific opening confirmed."
+      },
+      "sources": [
+        "https://austin.culturemap.com/news/city-life/spaces-the-domain-coworking/",
+        "https://communityimpact.com/austin/northwest-austin/business/2022/11/30/spaces-concept-to-provide-all-inclusive-coworking-solution-at-the-domain/",
+        "https://www.spacesworks.com/en/us/texas/austin"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/spaces-the-domain.jpg",
+      "lat": 30.4023299,
+      "lng": -97.7260086,
+      "geocodePrecision": "neighborhood",
+      "market": "Austin"
+    },
+    {
+      "id": 113,
+      "slug": "bond-collective-east-austin",
+      "name": "Bond Collective - East Austin",
+      "operator": "Bond Collective",
+      "isChain": true,
+      "city": "Austin",
+      "neighborhood": "East Austin (East Cesar Chavez)",
+      "address": "310 Comal St, Building A, Suite 200, Austin, TX 78702",
+      "website": "https://www.bondcollective.com/locations/east-austin/",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Creatives and teams wanting design-forward coworking near Plaza Saltillo",
+      "digital": {
+        "score": 89,
+        "band": "A",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": true,
+          "socialCount": 3,
+          "socials": [],
+          "onlineBooking": true,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 74,
+          "mobile": 100,
+          "seo": 85,
+          "social": 84,
+          "conversion": 100,
+          "content": 85
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "No specific current Austin opening confirmed in this research."
+      },
+      "sources": [
+        "https://www.bondcollective.com/locations/east-austin/",
+        "https://www.propertyshark.com/cre/coworking-property/us/tx/austin/bond-collective-east-austin/",
+        "https://liquidspace.com/us/tx/austin/bond-collective-east-austin"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/bond-collective-east-austin.jpg",
+      "lat": 30.2610485,
+      "lng": -97.7230733,
+      "geocodePrecision": "neighborhood",
+      "market": "Austin"
+    },
+    {
+      "id": 114,
+      "slug": "createscape-coworking",
+      "name": "Createscape Coworking",
+      "operator": "Createscape",
+      "isChain": false,
+      "city": "Austin",
+      "neighborhood": "East Austin",
+      "address": "701 Tillery St #12, Austin, TX 78702",
+      "website": "https://www.createscapework.co/",
+      "phone": "+1 512-356-9814",
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Freelancers, remote workers and small creative businesses (in a renovated 1950s bread factory)",
+      "digital": {
+        "score": 85,
+        "band": "A",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": true,
+          "socialCount": 4,
+          "socials": [],
+          "onlineBooking": true,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 61,
+          "mobile": 100,
+          "seo": 82,
+          "social": 92,
+          "conversion": 100,
+          "content": 71
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "Small independent (est. 2014); no dedicated careers page or current opening found."
+      },
+      "sources": [
+        "https://www.createscapework.co/",
+        "https://www.yelp.com/biz/createscape-coworking-austin-2",
+        "https://www.coworker.com/united-states/texas/austin/createscape-coworking"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "featured": true,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/createscape-coworking.jpg",
+      "lat": 30.2605082,
+      "lng": -97.7042739,
+      "geocodePrecision": "address",
+      "market": "Austin"
+    },
+    {
+      "id": 115,
+      "slug": "link-coworking",
+      "name": "Link Coworking",
+      "operator": "Link Coworking",
+      "isChain": false,
+      "city": "Austin",
+      "neighborhood": "North Austin (Anderson Ln/Crestview)",
+      "address": "2700 W Anderson Ln, Suite 205, Austin, TX 78757",
+      "website": "https://linkcoworking.com/",
+      "phone": "+1 512-364-0563",
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Freelancers and small businesses wanting a friendly neighborhood coworking community",
+      "digital": {
+        "score": 37,
+        "band": "D",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": false,
+          "metaDescription": false,
+          "openGraph": false,
+          "socialCount": 0,
+          "socials": [],
+          "onlineBooking": false,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 75,
+          "performance": 100,
+          "mobile": 50,
+          "seo": 0,
+          "social": 0,
+          "conversion": 0,
+          "content": 0
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "One of Austin's original coworking spaces (founder Liz Elam). No current opening found."
+      },
+      "sources": [
+        "https://www.yelp.com/biz/link-coworking-austin",
+        "https://www.coworker.com/united-states/texas/austin/link-coworking",
+        "https://www.builtinaustin.com/company/link-coworking"
+      ],
+      "leadWebUpgrade": true,
+      "leadTalent": false,
+      "featured": true,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/link-coworking.jpg",
+      "lat": 30.2711286,
+      "lng": -97.7436995,
+      "geocodePrecision": "city",
+      "market": "Austin"
+    },
+    {
+      "id": 116,
+      "slug": "cospace-austin",
+      "name": "CoSpace Austin",
+      "operator": "CoSpace",
+      "isChain": false,
+      "city": "Austin",
+      "neighborhood": "Northwest Austin (Great Hills/Jollyville)",
+      "address": "11126 Jollyville Rd, Suite C, Austin, TX 78759",
+      "website": "https://www.cospaceaustin.io/",
+      "phone": "+1 512-643-1800",
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Startups, entrepreneurs and small teams wanting month-to-month North Austin coworking",
+      "digital": {
+        "score": 64,
+        "band": "C",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": true,
+          "socialCount": 0,
+          "socials": [],
+          "onlineBooking": false,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 56,
+          "mobile": 50,
+          "seo": 100,
+          "social": 60,
+          "conversion": 40,
+          "content": 30
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "Independent operator; no dedicated careers page or current opening found."
+      },
+      "sources": [
+        "https://www.cospaceaustin.io/",
+        "https://www.propertyshark.com/cre/coworking-property/us/tx/austin/cospace-coworking/",
+        "https://www.coworkingcafe.com/coworking-property/us/tx/austin/cospace-coworking/"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "featured": true,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/cospace-austin.jpg",
+      "lat": 30.2711286,
+      "lng": -97.7436995,
+      "geocodePrecision": "city",
+      "market": "Austin"
+    },
+    {
+      "id": 117,
+      "slug": "impact-hub-austin-bouldin-creek-vuka",
+      "name": "Impact Hub Austin (Bouldin Creek / VUKA)",
+      "operator": "Impact Hub Austin (VUKA)",
+      "isChain": false,
+      "city": "Austin",
+      "neighborhood": "South Austin (Bouldin Creek)",
+      "address": "411 W Monroe St, Austin, TX 78704",
+      "website": "https://vuka.co/impact-hub-austin/",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Social entrepreneurs, nonprofits and impact-driven professionals/community",
+      "digital": {
+        "score": 80,
+        "band": "A",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": true,
+          "socialCount": 3,
+          "socials": [],
+          "onlineBooking": false,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 90,
+          "mobile": 100,
+          "seo": 80,
+          "social": 84,
+          "conversion": 40,
+          "content": 57
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "Local mission-driven hub operated by VUKA; no current opening found. Original VUKA office became Impact Hub in 2016."
+      },
+      "sources": [
+        "https://vuka.co/impact-hub-austin/",
+        "https://coworkingmag.com/united-states/impact-hub-austin/",
+        "https://www.yelp.com/biz/impact-hub-austin-bouldin-creek-austin-2"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "featured": true,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/impact-hub-austin-bouldin-creek-vuka.jpg",
+      "lat": 30.2488489,
+      "lng": -97.7537969,
+      "geocodePrecision": "address",
+      "market": "Austin"
+    },
+    {
+      "id": 118,
+      "slug": "galvanize-2nd-street-district",
+      "name": "Galvanize - 2nd Street District",
+      "operator": "Galvanize",
+      "isChain": true,
+      "city": "Austin",
+      "neighborhood": "Downtown (2nd Street District)",
+      "address": "119 Nueces St, Austin, TX 78701",
+      "website": "https://www.galvanize.com/campuses/austin-2nd-street-district/",
+      "phone": "+1 512-717-5244",
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Tech professionals, bootcamp students and startups (campus + coworking)",
+      "digital": {
+        "score": 82,
+        "band": "A",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": false,
+          "openGraph": false,
+          "socialCount": 5,
+          "socials": [],
+          "onlineBooking": true,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 67,
+          "mobile": 100,
+          "seo": 70,
+          "social": 60,
+          "conversion": 100,
+          "content": 85
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "Listing active (Yelp updated March 2026). No specific Austin coworking-staff opening confirmed; Galvanize is primarily a coding/data bootcamp with attached coworking."
+      },
+      "sources": [
+        "https://www.galvanize.com/campuses/austin-2nd-street-district/",
+        "https://www.yelp.com/biz/galvanize-2nd-street-district-austin",
+        "https://www.coworker.com/united-states/texas/austin/galvanize-austin"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/galvanize-2nd-street-district.jpg",
+      "lat": 30.2712828,
+      "lng": -97.7478396,
+      "geocodePrecision": "address",
+      "market": "Austin"
+    },
+    {
+      "id": 119,
+      "slug": "spicewood-professional-offices",
+      "name": "Spicewood Professional Offices",
+      "operator": "Spicewood Professional Offices",
+      "isChain": false,
+      "city": "Austin",
+      "neighborhood": "Northwest Austin (Spicewood Springs)",
+      "address": "4408 Spicewood Springs Rd, Austin, TX 78759",
+      "website": null,
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Small businesses and professionals wanting private/day offices and meeting rooms in NW Austin",
+      "digital": {
+        "score": 8,
+        "band": "F",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": false,
+          "https": null,
+          "mobileOptimized": null,
+          "metaDescription": null,
+          "openGraph": null,
+          "socialCount": null,
+          "socials": [],
+          "onlineBooking": null,
+          "dnsResolves": null
+        },
+        "breakdown": null
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "Independent serviced-office/flex provider; no careers page or opening found. Website not confirmed."
+      },
+      "sources": [
+        "https://www.commercialcafe.com/coworking-property/us/tx/austin/spicewood-professional-offices/",
+        "https://www.coworkingcafe.com/coworking-property/us/tx/austin/4408-spicewood-springs-road/"
+      ],
+      "leadWebUpgrade": true,
+      "leadTalent": false,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": null,
+      "lat": 30.372936,
+      "lng": -97.7578152,
+      "geocodePrecision": "address",
+      "market": "Austin"
+    },
+    {
+      "id": 120,
+      "slug": "wework-one-central",
+      "name": "WeWork One Central",
+      "operator": "WeWork",
+      "isChain": true,
+      "city": "Dubai",
+      "neighborhood": "One Central, Dubai World Trade Centre / Trade Centre District",
+      "address": "One Central, Dubai World Trade Centre, Sheikh Zayed Road, Dubai",
+      "website": "https://www.wework.com/buildings/one-central--dubai",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Startups, SMEs and enterprise teams of all sizes",
+      "digital": {
+        "score": null,
+        "band": "?",
+        "confidence": "low",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": false,
+          "openGraph": false,
+          "socialCount": 0,
+          "socials": [],
+          "onlineBooking": false,
+          "dnsResolves": true
+        },
+        "breakdown": null
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "WeWork has a global careers portal; did not verify a current Dubai-specific open role."
+      },
+      "sources": [
+        "https://www.wework.com/buildings/one-central--dubai",
+        "https://www.wework.com/l/coworking-space/dubai",
+        "https://www.coworker.com/united-arab-emirates/dubai/wework-one-central"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/wework-one-central.jpg",
+      "lat": 25.0742823,
+      "lng": 55.1885387,
+      "geocodePrecision": "city",
+      "market": "Dubai"
+    },
+    {
+      "id": 121,
+      "slug": "regus-dubai-dwtc-district",
+      "name": "Regus Dubai, DWTC District",
+      "operator": "Regus (IWG)",
+      "isChain": true,
+      "city": "Dubai",
+      "neighborhood": "DWTC District / Trade Centre",
+      "address": null,
+      "website": "https://www.regus.com/en-ae/united-arab-emirates/dubai",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "SMEs, corporates and individuals needing flexible serviced offices",
+      "digital": {
+        "score": 77,
+        "band": "B",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": false,
+          "socialCount": 0,
+          "socials": [],
+          "onlineBooking": true,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 55,
+          "mobile": 100,
+          "seo": 100,
+          "social": 0,
+          "conversion": 100,
+          "content": 84
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "IWG (Regus parent) runs a global careers site; no Dubai-specific role verified."
+      },
+      "sources": [
+        "https://www.coworker.com/united-arab-emirates/dubai",
+        "https://www.regus.com/en-ae/united-arab-emirates/dubai"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/regus-dubai-dwtc-district.jpg",
+      "lat": 25.0742823,
+      "lng": 55.1885387,
+      "geocodePrecision": "city",
+      "market": "Dubai"
+    },
+    {
+      "id": 122,
+      "slug": "regus-dubai-marina-gate",
+      "name": "Regus Dubai, Marina Gate",
+      "operator": "Regus (IWG)",
+      "isChain": true,
+      "city": "Dubai",
+      "neighborhood": "Dubai Marina",
+      "address": "Marina Gate, Dubai Marina",
+      "website": "https://www.regus.com/en-ae/united-arab-emirates/dubai",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "SMEs, corporates and individuals needing flexible serviced offices",
+      "digital": {
+        "score": 76,
+        "band": "B",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": false,
+          "socialCount": 0,
+          "socials": [],
+          "onlineBooking": true,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 46,
+          "mobile": 100,
+          "seo": 100,
+          "social": 0,
+          "conversion": 100,
+          "content": 84
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "IWG global careers site; no Dubai-specific role verified."
+      },
+      "sources": [
+        "https://www.coworker.com/united-arab-emirates/dubai"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/regus-dubai-marina-gate.jpg",
+      "lat": 25.0869715,
+      "lng": 55.147091,
+      "geocodePrecision": "address",
+      "market": "Dubai"
+    },
+    {
+      "id": 123,
+      "slug": "regus-dubai-boulevard-tower-1",
+      "name": "Regus Dubai, Boulevard Tower 1",
+      "operator": "Regus (IWG)",
+      "isChain": true,
+      "city": "Dubai",
+      "neighborhood": "Business Bay",
+      "address": "Boulevard Tower 1, Business Bay",
+      "website": "https://www.regus.com/en-ae/united-arab-emirates/dubai",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "SMEs, corporates and individuals needing flexible serviced offices",
+      "digital": {
+        "score": 75,
+        "band": "B",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": false,
+          "socialCount": 0,
+          "socials": [],
+          "onlineBooking": true,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 45,
+          "mobile": 100,
+          "seo": 100,
+          "social": 0,
+          "conversion": 100,
+          "content": 84
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "IWG global careers site; no Dubai-specific role verified."
+      },
+      "sources": [
+        "https://www.coworker.com/united-arab-emirates/dubai"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/regus-dubai-boulevard-tower-1.jpg",
+      "lat": 25.1794564,
+      "lng": 55.2683707,
+      "geocodePrecision": "neighborhood",
+      "market": "Dubai"
+    },
+    {
+      "id": 124,
+      "slug": "regus-dubai-jumeirah-lake-towers-south",
+      "name": "Regus Dubai, Jumeirah Lake Towers South",
+      "operator": "Regus (IWG)",
+      "isChain": true,
+      "city": "Dubai",
+      "neighborhood": "Jumeirah Lake Towers (JLT)",
+      "address": null,
+      "website": "https://www.regus.com/en-ae/united-arab-emirates/dubai",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "SMEs, corporates and individuals needing flexible serviced offices",
+      "digital": {
+        "score": 72,
+        "band": "B",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": false,
+          "socialCount": 0,
+          "socials": [],
+          "onlineBooking": true,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 29,
+          "mobile": 100,
+          "seo": 100,
+          "social": 0,
+          "conversion": 100,
+          "content": 84
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "IWG global careers site; no Dubai-specific role verified."
+      },
+      "sources": [
+        "https://www.coworker.com/united-arab-emirates/dubai"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/regus-dubai-jumeirah-lake-towers-south.jpg",
+      "lat": 25.0798234,
+      "lng": 55.1499296,
+      "geocodePrecision": "neighborhood",
+      "market": "Dubai"
+    },
+    {
+      "id": 125,
+      "slug": "spaces-dubai-world-trade-centre-c1",
+      "name": "Spaces Dubai World Trade Centre (C1)",
+      "operator": "Spaces (IWG)",
+      "isChain": true,
+      "city": "Dubai",
+      "neighborhood": "Central One District / Trade Centre",
+      "address": "Dubai World Trade Centre C1, Central One District, Sheikh Zayed Road",
+      "website": "https://www.spacesworks.com/en/ae/dubai",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Entrepreneurs, creatives and growing companies",
+      "digital": {
+        "score": 81,
+        "band": "A",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": false,
+          "socialCount": 0,
+          "socials": [],
+          "onlineBooking": true,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 73,
+          "mobile": 100,
+          "seo": 100,
+          "social": 0,
+          "conversion": 100,
+          "content": 84
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "Spaces is an IWG brand; uses the IWG global careers site. No Dubai-specific role verified."
+      },
+      "sources": [
+        "https://www.spacesworks.com/en/ae/dubai"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/spaces-dubai-world-trade-centre-c1.jpg",
+      "lat": 25.0742823,
+      "lng": 55.1885387,
+      "geocodePrecision": "city",
+      "market": "Dubai"
+    },
+    {
+      "id": 126,
+      "slug": "spaces-boulevard-plaza-tower-1",
+      "name": "Spaces Boulevard Plaza Tower 1",
+      "operator": "Spaces (IWG)",
+      "isChain": true,
+      "city": "Dubai",
+      "neighborhood": "Downtown Dubai",
+      "address": "Boulevard Plaza Tower 1, Downtown Dubai",
+      "website": "https://www.spacesworks.com/en/ae/dubai",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Entrepreneurs, creatives and growing companies",
+      "digital": {
+        "score": 82,
+        "band": "A",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": false,
+          "socialCount": 0,
+          "socials": [],
+          "onlineBooking": true,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 77,
+          "mobile": 100,
+          "seo": 100,
+          "social": 0,
+          "conversion": 100,
+          "content": 84
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "IWG global careers site; no Dubai-specific role verified."
+      },
+      "sources": [
+        "https://www.spacesworks.com/en/ae/dubai"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/spaces-boulevard-plaza-tower-1.jpg",
+      "lat": 25.2000888,
+      "lng": 55.2750722,
+      "geocodePrecision": "address",
+      "market": "Dubai"
+    },
+    {
+      "id": 127,
+      "slug": "spaces-standard-chartered-tower",
+      "name": "Spaces Standard Chartered Tower",
+      "operator": "Spaces (IWG)",
+      "isChain": true,
+      "city": "Dubai",
+      "neighborhood": "Downtown Dubai (Burj Khalifa area)",
+      "address": "Standard Chartered Tower, Downtown Dubai",
+      "website": "https://www.spacesworks.com/en/ae/dubai",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Entrepreneurs, creatives and growing companies",
+      "digital": {
+        "score": 82,
+        "band": "A",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": false,
+          "socialCount": 0,
+          "socials": [],
+          "onlineBooking": true,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 80,
+          "mobile": 100,
+          "seo": 100,
+          "social": 0,
+          "conversion": 100,
+          "content": 84
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "IWG global careers site; no Dubai-specific role verified."
+      },
+      "sources": [
+        "https://www.spacesworks.com/en/ae/dubai"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/spaces-standard-chartered-tower.jpg",
+      "lat": 25.0742823,
+      "lng": 55.1885387,
+      "geocodePrecision": "city",
+      "market": "Dubai"
+    },
+    {
+      "id": 128,
+      "slug": "servcorp-emirates-towers",
+      "name": "Servcorp Emirates Towers",
+      "operator": "Servcorp",
+      "isChain": true,
+      "city": "Dubai",
+      "neighborhood": "Sheikh Zayed Road / DIFC area",
+      "address": "Levels 41 & 42, Emirates Towers, Sheikh Zayed Road, Dubai",
+      "website": "https://www.servcorp.ae/en/coworking/locations/dubai/emirates-towers/",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Established businesses, finance/consulting professionals and corporates",
+      "digital": {
+        "score": 85,
+        "band": "A",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": false,
+          "socialCount": 5,
+          "socials": [],
+          "onlineBooking": true,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 63,
+          "mobile": 100,
+          "seo": 100,
+          "social": 40,
+          "conversion": 100,
+          "content": 95
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "Servcorp has a global careers page; no current Dubai role verified."
+      },
+      "sources": [
+        "https://www.servcorp.ae/en/coworking/locations/dubai/",
+        "https://www.servcorp.ae/en/coworking/locations/dubai/emirates-towers/"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/servcorp-emirates-towers.jpg",
+      "lat": 25.0742823,
+      "lng": 55.1885387,
+      "geocodePrecision": "city",
+      "market": "Dubai"
+    },
+    {
+      "id": 129,
+      "slug": "servcorp-boulevard-plaza-2",
+      "name": "Servcorp Boulevard Plaza 2",
+      "operator": "Servcorp",
+      "isChain": true,
+      "city": "Dubai",
+      "neighborhood": "Downtown Dubai",
+      "address": "Level 23, Boulevard Plaza 2, Sheikh Mohammed bin Rashid Boulevard, Downtown Dubai",
+      "website": "https://www.servcorp.ae/en/coworking/locations/dubai/",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Established businesses and corporates",
+      "digital": {
+        "score": 83,
+        "band": "A",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": false,
+          "socialCount": 5,
+          "socials": [],
+          "onlineBooking": true,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 57,
+          "mobile": 100,
+          "seo": 100,
+          "social": 40,
+          "conversion": 100,
+          "content": 87
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "Global Servcorp careers page; no Dubai role verified."
+      },
+      "sources": [
+        "https://www.servcorp.ae/en/coworking/locations/dubai/"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/servcorp-boulevard-plaza-2.jpg",
+      "lat": 25.1948428,
+      "lng": 55.278195,
+      "geocodePrecision": "neighborhood",
+      "market": "Dubai"
+    },
+    {
+      "id": 130,
+      "slug": "servcorp-almas-tower",
+      "name": "Servcorp Almas Tower",
+      "operator": "Servcorp",
+      "isChain": true,
+      "city": "Dubai",
+      "neighborhood": "Jumeirah Lake Towers (JLT) / DMCC Free Zone",
+      "address": "Level 54, Almas Tower, JLT, DMCC Free Zone, Dubai",
+      "website": "https://www.servcorp.ae/en/coworking/locations/dubai/",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Free-zone companies and corporates",
+      "digital": {
+        "score": 83,
+        "band": "A",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": false,
+          "socialCount": 5,
+          "socials": [],
+          "onlineBooking": true,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 58,
+          "mobile": 100,
+          "seo": 100,
+          "social": 40,
+          "conversion": 100,
+          "content": 87
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "Global Servcorp careers page; no Dubai role verified."
+      },
+      "sources": [
+        "https://www.servcorp.ae/en/coworking/locations/dubai/"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/servcorp-almas-tower.jpg",
+      "lat": 25.0742823,
+      "lng": 55.1885387,
+      "geocodePrecision": "city",
+      "market": "Dubai"
+    },
+    {
+      "id": 131,
+      "slug": "the-executive-centre-one-central",
+      "name": "The Executive Centre - One Central",
+      "operator": "The Executive Centre",
+      "isChain": true,
+      "city": "Dubai",
+      "neighborhood": "One Central, Dubai World Trade Centre / Trade Centre District",
+      "address": "Building 3, One Central, Dubai World Trade Centre, Sheikh Zayed Road, Dubai",
+      "website": "https://executivecentre.ae/one-central-world-trade-centre-dubai",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Multinational firms, finance and professional services",
+      "digital": {
+        "score": 78,
+        "band": "B",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": true,
+          "socialCount": 0,
+          "socials": [],
+          "onlineBooking": true,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 47,
+          "mobile": 100,
+          "seo": 67,
+          "social": 60,
+          "conversion": 100,
+          "content": 99
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "TEC has a global careers page; no current Dubai role verified."
+      },
+      "sources": [
+        "https://executivecentre.ae/one-central-world-trade-centre-dubai",
+        "https://www.coworker.com/united-arab-emirates/dubai/the-executive-centre-one-central-building-3",
+        "https://www.coworkingcafe.com/coworking-property/ae/dubai/dubai/the-executive-centre-dubai-one-central-dubai/"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/the-executive-centre-one-central.jpg",
+      "lat": 25.0742823,
+      "lng": 55.1885387,
+      "geocodePrecision": "city",
+      "market": "Dubai"
+    },
+    {
+      "id": 132,
+      "slug": "astrolabs",
+      "name": "AstroLabs",
+      "operator": "AstroLabs",
+      "isChain": false,
+      "city": "Dubai",
+      "neighborhood": "Jumeirah Lake Towers (JLT), Cluster R",
+      "address": "Cluster R, Jumeirah Lake Towers (JLT), Dubai",
+      "website": "https://astrolabs.com/coworking-space-in-dubai",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Tech startups and founders (Google Developers / tech hub focus)",
+      "digital": {
+        "score": 84,
+        "band": "A",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": true,
+          "socialCount": 5,
+          "socials": [],
+          "onlineBooking": true,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 56,
+          "mobile": 100,
+          "seo": 80,
+          "social": 100,
+          "conversion": 100,
+          "content": 67
+        }
+      },
+      "hiring": {
+        "hasCareersPage": true,
+        "careersUrl": "https://astrolabs.com/careers",
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "Site footer links to a /careers page; no specific open role verified."
+      },
+      "sources": [
+        "https://astrolabs.com/coworking-space-in-dubai",
+        "https://www.coworker.com/united-arab-emirates/dubai/astrolabs",
+        "https://www.bayut.com/mybayut/creative-coworking-spaces-dubai/"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": true,
+      "featured": true,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/astrolabs.jpg",
+      "lat": 25.0742823,
+      "lng": 55.1885387,
+      "geocodePrecision": "city",
+      "market": "Dubai"
+    },
+    {
+      "id": 133,
+      "slug": "nook-by-duplays",
+      "name": "Nook (by DUPLAYS)",
+      "operator": "Nook",
+      "isChain": false,
+      "city": "Dubai",
+      "neighborhood": "Jumeirah Lake Towers (JLT)",
+      "address": "2nd Floor, One JLT, Jumeirah Lake Towers, Dubai",
+      "website": "https://www.nookwork.ae/",
+      "phone": "+971 4 283 7090",
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Sports, fitness and wellness entrepreneurs (also open to general professionals)",
+      "digital": {
+        "score": 68,
+        "band": "B",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": false,
+          "socialCount": 4,
+          "socials": [],
+          "onlineBooking": false,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 85,
+          "mobile": 100,
+          "seo": 60,
+          "social": 32,
+          "conversion": 40,
+          "content": 43
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "No careers/jobs page found on site; team profiles listed but no recruitment section."
+      },
+      "sources": [
+        "https://www.nookwork.ae/",
+        "https://www.dubaitravelplanner.com/best-coworking-space-in-dubai/"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/nook-by-duplays.jpg",
+      "lat": 25.0798234,
+      "lng": 55.1499296,
+      "geocodePrecision": "neighborhood",
+      "market": "Dubai"
+    },
+    {
+      "id": 134,
+      "slug": "a4-space",
+      "name": "A4 Space",
+      "operator": "Alserkal Avenue",
+      "isChain": false,
+      "city": "Dubai",
+      "neighborhood": "Alserkal Avenue, Al Quoz",
+      "address": "Warehouse 4, Alserkal Avenue, Al Quoz, Dubai",
+      "website": "https://alserkal.online/community/a4-space",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Creatives, artists and the arts-district community (free/community space)",
+      "digital": {
+        "score": 79,
+        "band": "B",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": true,
+          "socialCount": 5,
+          "socials": [],
+          "onlineBooking": true,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 61,
+          "mobile": 100,
+          "seo": 47,
+          "social": 100,
+          "conversion": 100,
+          "content": 64
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "Community space run by Alserkal Avenue; no dedicated A4 Space careers page found."
+      },
+      "sources": [
+        "https://alserkal.online/community/a4-space",
+        "https://www.bayut.com/mybayut/creative-coworking-spaces-dubai/",
+        "https://www.dubaitravelplanner.com/best-coworking-space-in-dubai/"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "featured": true,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/a4-space.jpg",
+      "lat": 25.1413291,
+      "lng": 55.2263579,
+      "geocodePrecision": "address",
+      "market": "Dubai"
+    },
+    {
+      "id": 135,
+      "slug": "oh-my-desk-downtown",
+      "name": "Oh My Desk - Downtown",
+      "operator": "Oh My Desk",
+      "isChain": false,
+      "city": "Dubai",
+      "neighborhood": "Downtown Dubai (Al Fattan)",
+      "address": null,
+      "website": "https://www.ohmydesk.com/spaces/coworking-space-dubai-downtown",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Entrepreneurs, founders and growing teams; community-driven",
+      "digital": {
+        "score": 87,
+        "band": "A",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": true,
+          "socialCount": 3,
+          "socials": [],
+          "onlineBooking": true,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 75,
+          "performance": 74,
+          "mobile": 100,
+          "seo": 100,
+          "social": 84,
+          "conversion": 100,
+          "content": 69
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "No dedicated careers page found on site; check LinkedIn for roles. No open role verified."
+      },
+      "sources": [
+        "https://www.ohmydesk.com/best-coworking-space-dubai",
+        "https://www.ohmydesk.com/spaces/coworking-space-dubai-downtown"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "featured": true,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/oh-my-desk-downtown.jpg",
+      "lat": 25.0742823,
+      "lng": 55.1885387,
+      "geocodePrecision": "city",
+      "market": "Dubai"
+    },
+    {
+      "id": 136,
+      "slug": "oh-my-desk-business-bay",
+      "name": "Oh My Desk - Business Bay",
+      "operator": "Oh My Desk",
+      "isChain": false,
+      "city": "Dubai",
+      "neighborhood": "Business Bay (Bay Square)",
+      "address": "Bay Square, Business Bay, Dubai",
+      "website": "https://www.ohmydesk.com/",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Entrepreneurs, founders and growing teams; community-driven",
+      "digital": {
+        "score": 87,
+        "band": "A",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": true,
+          "socialCount": 3,
+          "socials": [],
+          "onlineBooking": true,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 43,
+          "mobile": 100,
+          "seo": 100,
+          "social": 84,
+          "conversion": 100,
+          "content": 100
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "No dedicated careers page found; LinkedIn presence exists. No open role verified."
+      },
+      "sources": [
+        "https://www.ohmydesk.com/best-coworking-space-dubai",
+        "https://www.ohmydesk.com/"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "featured": true,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/oh-my-desk-business-bay.jpg",
+      "lat": 25.185517,
+      "lng": 55.2805444,
+      "geocodePrecision": "address",
+      "market": "Dubai"
+    },
+    {
+      "id": 137,
+      "slug": "the-bureau",
+      "name": "The Bureau",
+      "operator": "The Bureau",
+      "isChain": false,
+      "city": "Dubai",
+      "neighborhood": "Gold & Diamond Park",
+      "address": "Building 6, Gold and Diamond Park, Sheikh Zayed Road, Dubai",
+      "website": "https://thebureaubc.com",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Freelancers, remote teams and small businesses",
+      "digital": {
+        "score": 63,
+        "band": "C",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": false,
+          "openGraph": false,
+          "socialCount": 5,
+          "socials": [],
+          "onlineBooking": true,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 75,
+          "performance": 44,
+          "mobile": 100,
+          "seo": 50,
+          "social": 40,
+          "conversion": 100,
+          "content": 37
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "No careers page verified."
+      },
+      "sources": [
+        "https://www.dubaitravelplanner.com/best-coworking-space-in-dubai/",
+        "https://www.bayut.com/mybayut/creative-coworking-spaces-dubai/"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/the-bureau.jpg",
+      "lat": 25.1262395,
+      "lng": 55.2079367,
+      "geocodePrecision": "neighborhood",
+      "market": "Dubai"
+    },
+    {
+      "id": 138,
+      "slug": "unbox-community",
+      "name": "UNBOX Community",
+      "operator": "UNBOX",
+      "isChain": false,
+      "city": "Dubai",
+      "neighborhood": "Business Bay (Bay Square), also Al Barsha and Sheikh Zayed Road",
+      "address": "Level 2, Building 4, Bay Square, Business Bay, Dubai",
+      "website": "https://unboxinc.com",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Entrepreneurs, SMEs and freelancers across multiple Dubai sites",
+      "digital": {
+        "score": 62,
+        "band": "C",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": false,
+          "socialCount": 4,
+          "socials": [],
+          "onlineBooking": true,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 12,
+          "mobile": 50,
+          "seo": 82,
+          "social": 52,
+          "conversion": 100,
+          "content": 63
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "No careers page verified."
+      },
+      "sources": [
+        "https://www.dubaitravelplanner.com/best-coworking-space-in-dubai/",
+        "https://www.bayut.com/mybayut/creative-coworking-spaces-dubai/"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/unbox-community.jpg",
+      "lat": 25.0742823,
+      "lng": 55.1885387,
+      "geocodePrecision": "city",
+      "market": "Dubai"
+    },
+    {
+      "id": 139,
+      "slug": "modern-working",
+      "name": "Modern Working",
+      "operator": "Modern Working",
+      "isChain": false,
+      "city": "Dubai",
+      "neighborhood": "Business Bay",
+      "address": "Office C101, The Opus, Business Bay, Dubai",
+      "website": "https://modernworking.ae",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "SMEs, startups and professionals",
+      "digital": {
+        "score": 35,
+        "band": "D",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": false,
+          "metaDescription": false,
+          "openGraph": false,
+          "socialCount": 0,
+          "socials": [],
+          "onlineBooking": false,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 75,
+          "performance": 91,
+          "mobile": 50,
+          "seo": 0,
+          "social": 0,
+          "conversion": 0,
+          "content": 0
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "No careers page verified."
+      },
+      "sources": [
+        "https://www.bayut.com/mybayut/creative-coworking-spaces-dubai/",
+        "https://www.dubaitravelplanner.com/best-coworking-space-in-dubai/"
+      ],
+      "leadWebUpgrade": true,
+      "leadTalent": false,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/modern-working.jpg",
+      "lat": 25.1794564,
+      "lng": 55.2683707,
+      "geocodePrecision": "neighborhood",
+      "market": "Dubai"
+    },
+    {
+      "id": 140,
+      "slug": "nasab-by-koa",
+      "name": "Nasab by KOA",
+      "operator": "KOA",
+      "isChain": false,
+      "city": "Dubai",
+      "neighborhood": "Wadi Al Safa (KOA Canvas, Living Legends)",
+      "address": "KOA Canvas, Living Legends, Wadi Al Safa 3, Dubai",
+      "website": "https://nasabdubai.com",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Members' club / creative professionals and families; lifestyle-led workspace",
+      "digital": {
+        "score": 76,
+        "band": "B",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": true,
+          "socialCount": 3,
+          "socials": [],
+          "onlineBooking": false,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 47,
+          "mobile": 100,
+          "seo": 100,
+          "social": 84,
+          "conversion": 40,
+          "content": 63
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "No careers page verified."
+      },
+      "sources": [
+        "https://www.bayut.com/mybayut/creative-coworking-spaces-dubai/",
+        "https://www.dubaitravelplanner.com/best-coworking-space-in-dubai/"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/nasab-by-koa.jpg",
+      "lat": 25.0926763,
+      "lng": 55.3024783,
+      "geocodePrecision": "address",
+      "market": "Dubai"
+    },
+    {
+      "id": 141,
+      "slug": "cloud-spaces-dubai-mall-fountain-views",
+      "name": "Cloud Spaces - Dubai Mall (Fountain Views)",
+      "operator": "Cloud Spaces",
+      "isChain": false,
+      "city": "Dubai",
+      "neighborhood": "Downtown Dubai (Dubai Mall Fountain Views)",
+      "address": "Dubai Mall Fountain Views, Downtown Dubai",
+      "website": null,
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Freelancers and professionals wanting day-pass / flexible access",
+      "digital": {
+        "score": 8,
+        "band": "F",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": false,
+          "https": null,
+          "mobileOptimized": null,
+          "metaDescription": null,
+          "openGraph": null,
+          "socialCount": null,
+          "socials": [],
+          "onlineBooking": null,
+          "dnsResolves": null
+        },
+        "breakdown": null
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "No careers page verified. Day passes ~Dhs120 incl. coffee/WiFi per Time Out / WhatsOn."
+      },
+      "sources": [
+        "https://www.bayut.com/mybayut/creative-coworking-spaces-dubai/",
+        "https://whatson.ae/2026/04/ditch-the-desk-7-great-value-co-working-spaces-in-dubai/"
+      ],
+      "leadWebUpgrade": true,
+      "leadTalent": false,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": null,
+      "lat": 25.0742823,
+      "lng": 55.1885387,
+      "geocodePrecision": "city",
+      "market": "Dubai"
+    },
+    {
+      "id": 142,
+      "slug": "cloud-spaces-circle-mall-jvc",
+      "name": "Cloud Spaces - Circle Mall (JVC)",
+      "operator": "Cloud Spaces",
+      "isChain": false,
+      "city": "Dubai",
+      "neighborhood": "Jumeirah Village Circle (JVC)",
+      "address": "Circle Mall, Jumeirah Village Circle (JVC), Dubai",
+      "website": null,
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Freelancers and professionals wanting flexible access",
+      "digital": {
+        "score": 8,
+        "band": "F",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": false,
+          "https": null,
+          "mobileOptimized": null,
+          "metaDescription": null,
+          "openGraph": null,
+          "socialCount": null,
+          "socials": [],
+          "onlineBooking": null,
+          "dnsResolves": null
+        },
+        "breakdown": null
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "No careers page verified."
+      },
+      "sources": [
+        "https://www.bayut.com/mybayut/creative-coworking-spaces-dubai/"
+      ],
+      "leadWebUpgrade": true,
+      "leadTalent": false,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": null,
+      "lat": 25.0657081,
+      "lng": 55.2159386,
+      "geocodePrecision": "address",
+      "market": "Dubai"
+    },
+    {
+      "id": 143,
+      "slug": "rso-workplace",
+      "name": "RSO Workplace",
+      "operator": "RSO Workplace",
+      "isChain": false,
+      "city": "Dubai",
+      "neighborhood": "Jumeirah Lake Towers (JLT) and Barsha Heights",
+      "address": "Reef Tower, JLT; Cayan Business Centre, Barsha Heights, Dubai",
+      "website": null,
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "SMEs and professionals needing serviced/shared offices",
+      "digital": {
+        "score": 8,
+        "band": "F",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": false,
+          "https": null,
+          "mobileOptimized": null,
+          "metaDescription": null,
+          "openGraph": null,
+          "socialCount": null,
+          "socials": [],
+          "onlineBooking": null,
+          "dnsResolves": null
+        },
+        "breakdown": null
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "No careers page verified."
+      },
+      "sources": [
+        "https://www.bayut.com/mybayut/creative-coworking-spaces-dubai/"
+      ],
+      "leadWebUpgrade": true,
+      "leadTalent": false,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": null,
+      "lat": 25.0742823,
+      "lng": 55.1885387,
+      "geocodePrecision": "city",
+      "market": "Dubai"
+    },
+    {
+      "id": 144,
+      "slug": "d3-business-centre",
+      "name": "D3 Business Centre",
+      "operator": "D3 Business Centre",
+      "isChain": false,
+      "city": "Dubai",
+      "neighborhood": "Dubai Design District (d3)",
+      "address": "Level 2, Building 3, Dubai Design District, Dubai",
+      "website": null,
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Design, creative and media professionals",
+      "digital": {
+        "score": 8,
+        "band": "F",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": false,
+          "https": null,
+          "mobileOptimized": null,
+          "metaDescription": null,
+          "openGraph": null,
+          "socialCount": null,
+          "socials": [],
+          "onlineBooking": null,
+          "dnsResolves": null
+        },
+        "breakdown": null
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "No careers page verified."
+      },
+      "sources": [
+        "https://www.bayut.com/mybayut/creative-coworking-spaces-dubai/"
+      ],
+      "leadWebUpgrade": true,
+      "leadTalent": false,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": null,
+      "lat": 25.1883375,
+      "lng": 55.2974839,
+      "geocodePrecision": "neighborhood",
+      "market": "Dubai"
+    },
+    {
+      "id": 145,
+      "slug": "sentinel-business-centre",
+      "name": "Sentinel Business Centre",
+      "operator": "Sentinel",
+      "isChain": false,
+      "city": "Dubai",
+      "neighborhood": "Sheikh Zayed Road (The H Hotel Office Tower)",
+      "address": "Floors 9, 19 & 25, The H Hotel Office Tower, Sheikh Zayed Road, Dubai",
+      "website": null,
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "SMEs and corporates needing serviced offices",
+      "digital": {
+        "score": 8,
+        "band": "F",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": false,
+          "https": null,
+          "mobileOptimized": null,
+          "metaDescription": null,
+          "openGraph": null,
+          "socialCount": null,
+          "socials": [],
+          "onlineBooking": null,
+          "dnsResolves": null
+        },
+        "breakdown": null
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "No careers page verified."
+      },
+      "sources": [
+        "https://www.bayut.com/mybayut/creative-coworking-spaces-dubai/"
+      ],
+      "leadWebUpgrade": true,
+      "leadTalent": false,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": null,
+      "lat": 25.0742823,
+      "lng": 55.1885387,
+      "geocodePrecision": "city",
+      "market": "Dubai"
+    },
+    {
+      "id": 146,
+      "slug": "office-square-al-fattan-business-hub",
+      "name": "Office Square - Al Fattan Business Hub",
+      "operator": "Office Square",
+      "isChain": false,
+      "city": "Dubai",
+      "neighborhood": "Dubai Marina",
+      "address": "Levels 9 & 10, Al Fattan Business Hub, Dubai Marina, Dubai",
+      "website": "https://officesquare.com/offices-al-fattan-business-hub-dubai-marina",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Small to mid-sized companies, startups and regional offices",
+      "digital": {
+        "score": 87,
+        "band": "A",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": true,
+          "socialCount": 4,
+          "socials": [],
+          "onlineBooking": true,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 46,
+          "mobile": 100,
+          "seo": 100,
+          "social": 92,
+          "conversion": 100,
+          "content": 85
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "No careers page verified on operator site."
+      },
+      "sources": [
+        "https://officesquare.com/offices-al-fattan-business-hub-dubai-marina",
+        "https://officesquare.com/"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "featured": true,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/office-square-al-fattan-business-hub.jpg",
+      "lat": 25.0786415,
+      "lng": 55.1352524,
+      "geocodePrecision": "neighborhood",
+      "market": "Dubai"
+    },
+    {
+      "id": 147,
+      "slug": "myoffice-dubai-marina",
+      "name": "myOffice Dubai Marina",
+      "operator": "myOffice",
+      "isChain": false,
+      "city": "Dubai",
+      "neighborhood": "Dubai Marina (Marina Plaza)",
+      "address": "Marina Plaza, Dubai Marina, Dubai",
+      "website": "https://www.myoffice.ae/dubai-marina-plaza/",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Startups, SMEs and freelancers needing on-demand/serviced workspace",
+      "digital": {
+        "score": 86,
+        "band": "A",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": true,
+          "openGraph": true,
+          "socialCount": 4,
+          "socials": [],
+          "onlineBooking": true,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 100,
+          "performance": 67,
+          "mobile": 100,
+          "seo": 80,
+          "social": 72,
+          "conversion": 100,
+          "content": 99
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "No careers page verified."
+      },
+      "sources": [
+        "https://www.myoffice.ae/dubai-marina-plaza/",
+        "https://www.coworker.com/united-arab-emirates/dubai/myoffice-dubai-marina"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "featured": true,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/myoffice-dubai-marina.jpg",
+      "lat": 25.0754142,
+      "lng": 55.1400171,
+      "geocodePrecision": "address",
+      "market": "Dubai"
+    },
+    {
+      "id": 148,
+      "slug": "nest-tryp-by-wyndham",
+      "name": "Nest (Tryp by Wyndham)",
+      "operator": "Nest",
+      "isChain": false,
+      "city": "Dubai",
+      "neighborhood": "Barsha Heights (TECOM)",
+      "address": "Tryp by Wyndham, Barsha Heights, Dubai",
+      "website": "https://www.trypwyndhamdubai.com/nest",
+      "phone": null,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "targetMember": "Remote workers, freelancers and hotel-based coworking users",
+      "digital": {
+        "score": 64,
+        "band": "C",
+        "confidence": "high",
+        "gaps": [],
+        "signals": {
+          "reachable": true,
+          "https": true,
+          "mobileOptimized": true,
+          "metaDescription": false,
+          "openGraph": false,
+          "socialCount": 4,
+          "socials": [],
+          "onlineBooking": true,
+          "dnsResolves": true
+        },
+        "breakdown": {
+          "security": 75,
+          "performance": 57,
+          "mobile": 100,
+          "seo": 30,
+          "social": 32,
+          "conversion": 100,
+          "content": 68
+        }
+      },
+      "hiring": {
+        "hasCareersPage": false,
+        "careersUrl": null,
+        "confirmedOpening": false,
+        "liveJobBoard": false,
+        "notes": "Hotel-operated coworking space; no dedicated Nest careers page verified."
+      },
+      "sources": [
+        "https://www.dubaitravelplanner.com/best-coworking-space-in-dubai/"
+      ],
+      "leadWebUpgrade": false,
+      "leadTalent": false,
+      "featured": false,
+      "scannedAt": "2026-06-25",
+      "screenshot": "/space-shots/nest-tryp-by-wyndham.jpg",
+      "lat": 25.0974296,
+      "lng": 55.1750053,
+      "geocodePrecision": "address",
+      "market": "Dubai"
     }
-  ]
+  ],
+  "markets": {
+    "Calgary": {
+      "label": "Calgary & Alberta",
+      "country": "Canada"
+    },
+    "Toronto": {
+      "label": "Toronto",
+      "country": "Canada"
+    },
+    "Austin": {
+      "label": "Austin",
+      "country": "USA"
+    },
+    "Dubai": {
+      "label": "Dubai",
+      "country": "UAE"
+    }
+  }
 }

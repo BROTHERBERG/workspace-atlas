@@ -19,7 +19,7 @@ export default function SignUpPage() {
         </div>
         <div className="relative z-20 mt-auto space-y-6">
           <span className="inline-flex w-fit items-center gap-1.5 rounded-md bg-[#f9cb16] px-2.5 py-1 text-xs font-bold text-black">
-            <MapPin className="h-3 w-3" /> Calgary &amp; Alberta
+            <MapPin className="h-3 w-3" /> {s.marketCount} markets
           </span>
           <p className="max-w-md font-cal text-3xl leading-[1.1] tracking-tight">
             The coworking market, <span className="text-[#f9cb16]">scored and mapped.</span>
@@ -34,7 +34,7 @@ export default function SignUpPage() {
             </div>
             <div>
               <div className="font-cal text-3xl text-[#f9cb16]">{s.calgary}</div>
-              <div className="mt-0.5 text-[11px] uppercase tracking-wide text-gray-400">in Calgary</div>
+              <div className="mt-0.5 text-[11px] uppercase tracking-wide text-gray-400">mapped</div>
             </div>
             <div>
               <div className="font-cal text-3xl text-[#f9cb16]">{s.scored}</div>

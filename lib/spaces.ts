@@ -54,6 +54,15 @@ export interface Space {
   lat: number | null
   lng: number | null
   geocodePrecision: "address" | "neighborhood" | "city" | null
+  market: string
+}
+
+export interface MarketInfo {
+  key: string
+  label: string
+  country: string
+  count: number
+  center: [number, number] | null
 }
 
 export interface Methodology {
@@ -67,14 +76,54 @@ const data = dataset as unknown as {
   market: string
   methodology: Methodology
   spaces: Space[]
+  markets: Record<string, { label: string; country: string }>
 }
 
 export const GENERATED_AT = data.generatedAt
 export const MARKET = data.market
 export const METHODOLOGY = data.methodology
+export const ALL_MARKETS = "all"
 
-export function allSpaces(): Space[] {
-  return data.spaces
+const matchMarket = (market: string) => (s: Space) => market === ALL_MARKETS || s.market === market
+
+// Markets registry, sorted by space count (largest first).
+export function markets(): MarketInfo[] {
+  const counts: Record<string, number> = {}
+  const centerAcc: Record<string, [number, number, number]> = {}
+  for (const s of data.spaces) {
+    counts[s.market] = (counts[s.market] || 0) + 1
+    if (typeof s.lat === "number" && typeof s.lng === "number") {
+      const a = centerAcc[s.market] || [0, 0, 0]
+      centerAcc[s.market] = [a[0] + s.lat, a[1] + s.lng, a[2] + 1]
+    }
+  }
+  return Object.entries(data.markets || {})
+    .map(([key, v]) => {
+      const c = centerAcc[key]
+      return {
+        key,
+        label: v.label,
+        country: v.country,
+        count: counts[key] || 0,
+        center: c && c[2] ? ([c[0] / c[2], c[1] / c[2]] as [number, number]) : null,
+      }
+    })
+    .sort((a, b) => b.count - a.count)
+}
+
+// Validate a market key from a URL param; falls back to "all".
+export function resolveMarket(m?: string | null): string {
+  if (!m || m === ALL_MARKETS) return ALL_MARKETS
+  return markets().some((x) => x.key === m) ? m : ALL_MARKETS
+}
+
+export function marketLabel(m: string): string {
+  if (m === ALL_MARKETS) return "Every market"
+  return markets().find((x) => x.key === m)?.label || m
+}
+
+export function allSpaces(market: string = ALL_MARKETS): Space[] {
+  return data.spaces.filter(matchMarket(market))
 }
 
 export function getSpace(id: number): Space | undefined {
@@ -85,22 +134,18 @@ export function getSpaceBySlug(slug: string): Space | undefined {
   return data.spaces.find((s) => s.slug === slug)
 }
 
-export function featuredSpaces(): Space[] {
-  return data.spaces.filter((s) => s.featured)
-}
-
-export function calgarySpaces(): Space[] {
-  return data.spaces.filter((s) => s.city === "Calgary")
+export function featuredSpaces(market: string = ALL_MARKETS): Space[] {
+  return data.spaces.filter((s) => s.featured && matchMarket(market)(s))
 }
 
 // Crush web-services pipeline: spaces with weak / missing / broken web presence.
-export function webUpgradeLeads(): Space[] {
-  return data.spaces.filter((s) => s.leadWebUpgrade)
+export function webUpgradeLeads(market: string = ALL_MARKETS): Space[] {
+  return data.spaces.filter((s) => s.leadWebUpgrade && matchMarket(market)(s))
 }
 
 // Lean Six Search pipeline: independent operators surfacing hiring/talent signals.
-export function talentLeads(): Space[] {
-  return data.spaces.filter((s) => s.leadTalent)
+export function talentLeads(market: string = ALL_MARKETS): Space[] {
+  return data.spaces.filter((s) => s.leadTalent && matchMarket(market)(s))
 }
 
 const BAND_ORDER: Band[] = ["A", "B", "C", "D", "F", "?"]
@@ -126,16 +171,19 @@ export interface MarketStats {
   talentCount: number
   liveOpenings: number
   cities: { city: string; count: number }[]
+  marketCount: number
+  primaryCity: string
 }
 
-export function marketStats(): MarketStats {
-  const spaces = data.spaces
+export function marketStats(market: string = ALL_MARKETS): MarketStats {
+  const spaces = allSpaces(market)
   const scored = spaces.filter((s) => typeof s.digital.score === "number")
   const bandCounts: Record<string, number> = {}
   for (const b of BAND_ORDER) bandCounts[b] = 0
   for (const s of spaces) bandCounts[s.digital.band] = (bandCounts[s.digital.band] || 0) + 1
   const cityMap = new Map<string, number>()
   for (const s of spaces) cityMap.set(s.city, (cityMap.get(s.city) || 0) + 1)
+  const cities = [...cityMap.entries()].map(([city, count]) => ({ city, count })).sort((a, b) => b.count - a.count)
   return {
     total: spaces.length,
     calgary: spaces.filter((s) => s.city === "Calgary").length,
@@ -150,9 +198,9 @@ export function marketStats(): MarketStats {
     webUpgradeCount: spaces.filter((s) => s.leadWebUpgrade).length,
     talentCount: spaces.filter((s) => s.leadTalent).length,
     liveOpenings: spaces.filter((s) => s.hiring.confirmedOpening).length,
-    cities: [...cityMap.entries()]
-      .map(([city, count]) => ({ city, count }))
-      .sort((a, b) => b.count - a.count),
+    cities,
+    marketCount: new Set(spaces.map((s) => s.market)).size,
+    primaryCity: cities[0]?.city || "",
   }
 }
 

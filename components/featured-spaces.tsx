@@ -1,8 +1,8 @@
 import SpaceCard from "@/components/space-card"
 import { featuredSpaces } from "@/lib/spaces"
 
-export default function FeaturedSpaces() {
-  const spaces = featuredSpaces()
+export default function FeaturedSpaces({ market }: { market?: string }) {
+  const spaces = featuredSpaces(market)
   return (
     <>
       {spaces.map((space) => (

@@ -45,7 +45,15 @@ function distKm(a: [number, number], b: [number, number]) {
   return 2 * R * Math.asin(Math.sqrt(x))
 }
 
-export default function SpaceMap({ points }: { points: MapPoint[] }) {
+export default function SpaceMap({
+  points,
+  center,
+  zoom,
+}: {
+  points: MapPoint[]
+  center?: [number, number]
+  zoom?: number
+}) {
   const ref = useRef<HTMLDivElement>(null)
   const mapRef = useRef<unknown>(null)
 
@@ -55,7 +63,10 @@ export default function SpaceMap({ points }: { points: MapPoint[] }) {
     ;(async () => {
       const L = (await import("leaflet")).default
       if (cancelled || !ref.current) return
-      const map = L.map(ref.current, { scrollWheelZoom: true }).setView(CALGARY, 12)
+      const map = L.map(ref.current, { scrollWheelZoom: true }).setView(
+        center ?? CALGARY,
+        center ? zoom ?? 11 : 12,
+      )
       mapRef.current = map
       L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png", {
         attribution: "&copy; OpenStreetMap &copy; CARTO",
@@ -114,7 +125,7 @@ export default function SpaceMap({ points }: { points: MapPoint[] }) {
       if (mapRef.current) mapRef.current.remove?.()
       mapRef.current = null
     }
-  }, [points])
+  }, [points, center, zoom])
 
   return (
     <div className="overflow-hidden rounded-xl border-2 border-black shadow-[5px_5px_0px_0px_rgba(249,203,22,0.6)]">

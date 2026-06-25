@@ -6,7 +6,7 @@ import { MapPin, Mail, Clock, Send } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Contact Us - Workscape Atlas',
-  description: 'Get in touch with the Workscape Atlas team in Calgary, Alberta.',
+  description: 'Get in touch with the Workscape Atlas team.',
 }
 
 export default function ContactPage() {
@@ -19,7 +19,7 @@ export default function ContactPage() {
         <div className="mx-auto max-w-7xl 2xl:max-w-[110rem] px-4 py-16 sm:px-6 md:py-24 lg:px-10">
           <div className="mx-auto max-w-3xl text-center">
             <Badge className="mb-5 inline-flex items-center gap-1.5 bg-[#f9cb16] text-black hover:bg-[#f9cb16]">
-              <MapPin className="h-3 w-3" /> Calgary &amp; Alberta
+              <MapPin className="h-3 w-3" /> {s.marketCount} markets
             </Badge>
             <h1 className="font-cal text-4xl tracking-tight sm:text-5xl md:text-6xl">
               Get in touch
@@ -43,7 +43,7 @@ export default function ContactPage() {
                 </h2>
                 <p className="mt-4 text-gray-600">
                   Whether you run a coworking space looking to sharpen your digital presence
-                  or you&apos;re searching the Calgary market for the right workspace, we&apos;re here to help.
+                  or you&apos;re searching for the right workspace, we&apos;re here to help.
                 </p>
               </div>
 
@@ -85,7 +85,7 @@ export default function ContactPage() {
               <div className="rounded-xl border-2 border-black bg-[#1f1f1f] p-6 text-white shadow-[5px_5px_0px_0px_rgba(249,203,22,1)]">
                 <h3 className="font-cal text-lg text-[#f9cb16]">For space operators</h3>
                 <p className="mt-2 text-sm text-gray-300">
-                  Want your space on Workscape Atlas? We&apos;ve already scored {s.total} spaces across Alberta.
+                  Want your space on Workscape Atlas? We&apos;ve already scored {s.total} spaces across {s.marketCount} markets.
                   Mention &quot;Space Partnership&quot; in your message and we&apos;ll prioritize your inquiry.
                 </p>
               </div>

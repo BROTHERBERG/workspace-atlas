@@ -13,7 +13,7 @@ import {
 } from "lucide-react"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
-import { talentLeads, marketStats, MARKET, GENERATED_AT } from "@/lib/spaces"
+import { talentLeads, marketStats, marketLabel, resolveMarket, ALL_MARKETS, GENERATED_AT } from "@/lib/spaces"
 import { loadSignals } from "@/lib/radar/store"
 
 const SENIORITY_LABEL: Record<string, string> = {
@@ -36,9 +36,15 @@ const ROLES = [
   { title: "Sales / Membership", note: "Fills desks and grows recurring revenue." },
 ]
 
-export default function RecruitmentPage() {
-  const talent = talentLeads()
-  const s = marketStats()
+export default async function RecruitmentPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ market?: string }>
+}) {
+  const market = resolveMarket((await searchParams).market)
+  const label = marketLabel(market)
+  const talent = talentLeads(market)
+  const s = marketStats(market)
   const live = talent.filter((t) => t.hiring.confirmedOpening)
 
   // Global industry Radar — live ATS scan across major operators (Bottle Rocket's targets).
@@ -60,7 +66,7 @@ export default function RecruitmentPage() {
         <div className="mx-auto grid max-w-7xl 2xl:max-w-[110rem] gap-10 px-4 py-16 sm:px-6 lg:grid-cols-2 lg:px-10">
           <div className="flex flex-col justify-center">
             <Badge className="mb-4 inline-flex w-fit items-center gap-1.5 bg-[#f9cb16] text-black hover:bg-[#f9cb16]">
-              <Radar className="h-3 w-3" /> Sourced from the {MARKET} scan
+              <Radar className="h-3 w-3" /> Sourced from the {market === ALL_MARKETS ? "live market" : label} scan
             </Badge>
             <h1 className="font-cal text-4xl leading-tight tracking-tight sm:text-5xl 2xl:text-6xl">
               Coworking recruitment,
@@ -117,7 +123,9 @@ export default function RecruitmentPage() {
       {/* Live leads */}
       <section id="leads" className="scroll-mt-20 bg-gray-50 py-16">
         <div className="mx-auto max-w-7xl 2xl:max-w-[110rem] px-4 sm:px-6 lg:px-10">
-          <h2 className="font-cal text-3xl tracking-tight">Talent leads in the market right now</h2>
+          <h2 className="font-cal text-3xl tracking-tight">
+            {market === ALL_MARKETS ? "Talent leads in the market right now" : `Talent leads in ${label} right now`}
+          </h2>
           <p className="mt-2 max-w-2xl text-gray-500">
             Independent operators showing real hiring signals — a careers page, an open role, or both. Each one is a warm
             intro for a recruiter.
@@ -173,7 +181,7 @@ export default function RecruitmentPage() {
                 <Badge className="bg-[#f9cb16] text-black hover:bg-[#f9cb16]">Global</Badge>
               </div>
               <p className="mt-2 max-w-2xl text-gray-300">
-                The Calgary leads above prove the method. The Radar is the same engine pointed at the whole industry —
+                The {market === ALL_MARKETS ? "leads" : `${label} leads`} above prove the method. The Radar is the same engine pointed at the whole industry —
                 a live scan of {radarActive.length} active openings across {radarOperators.slice(0, 3).join(", ")}
                 {radarOperators.length > 3 ? " and more" : ""} — Bottle Rocket's actual placement market.
               </p>

@@ -21,16 +21,19 @@ import {
   sortedByScore,
   allSpaces,
   bandColor,
+  markets,
+  marketLabel,
+  resolveMarket,
+  ALL_MARKETS,
   METHODOLOGY,
   GENERATED_AT,
-  MARKET,
   type Band,
   type Space,
 } from "@/lib/spaces"
 
 export const metadata = {
-  title: "Calgary Coworking Intelligence — Workscape Atlas",
-  description: "Every coworking space in Calgary, scored on live web signals and sorted into web-services and recruitment leads.",
+  title: "Coworking Intelligence — Workscape Atlas",
+  description: "Every coworking space, scored on live web signals and sorted into web-services and recruitment leads.",
 }
 
 function SignalDots({ space }: { space: Space }) {
@@ -67,13 +70,21 @@ function BandChip({ band, score }: { band: Band; score: number | null }) {
   )
 }
 
-export default function IntelligencePage() {
-  const s = marketStats()
-  const webLeads = webUpgradeLeads()
-  const talent = talentLeads()
-  const ranked = sortedByScore(allSpaces())
+export default async function IntelligencePage({
+  searchParams,
+}: {
+  searchParams: Promise<{ market?: string }>
+}) {
+  const market = resolveMarket((await searchParams).market)
+  const label = marketLabel(market)
+  const s = marketStats(market)
+  const webLeads = webUpgradeLeads(market)
+  const talent = talentLeads(market)
+  const spaces = allSpaces(market)
+  const ranked = sortedByScore(spaces)
   const bands: Band[] = ["A", "B", "C", "D", "F"]
-  const mapPoints: MapPoint[] = allSpaces()
+  const center = market === ALL_MARKETS ? undefined : markets().find((m) => m.key === market)?.center ?? undefined
+  const mapPoints: MapPoint[] = spaces
     .filter((sp) => typeof sp.lat === "number" && typeof sp.lng === "number")
     .map((sp) => ({
       id: sp.id,
@@ -96,17 +107,22 @@ export default function IntelligencePage() {
       <section className="border-b-2 border-black bg-[#1f1f1f] text-white">
         <div className="mx-auto max-w-7xl 2xl:max-w-[110rem] px-4 py-14 sm:px-6 lg:px-10">
           <Badge className="mb-4 inline-flex items-center gap-1.5 bg-[#f9cb16] text-black hover:bg-[#f9cb16]">
-            <Radar className="h-3 w-3" /> {MARKET} · scanned {GENERATED_AT}
+            <Radar className="h-3 w-3" />{" "}
+            {market === ALL_MARKETS ? `${s.marketCount} markets` : label} · scanned {GENERATED_AT}
           </Badge>
-          <h1 className="font-cal text-4xl tracking-tight sm:text-5xl">Calgary Coworking Intelligence</h1>
+          <h1 className="font-cal text-4xl tracking-tight sm:text-5xl">Coworking Intelligence</h1>
           <p className="mt-4 max-w-2xl text-lg text-gray-300">
-            One live scan of the local coworking market — every operator located, every website scored, every lead
-            sorted into the pipeline that can act on it.
+            {market === ALL_MARKETS
+              ? `One live scan across ${s.marketCount} markets`
+              : `One live scan of the ${label} coworking market`}{" "}
+            — every operator located, every website scored, every lead sorted into the pipeline that can act on it.
           </p>
           <div className="mt-8 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-6">
             {[
               { n: s.total, l: "spaces" },
-              { n: s.calgary, l: "Calgary" },
+              market === ALL_MARKETS
+                ? { n: s.marketCount, l: "markets" }
+                : { n: s.cities[0]?.count ?? s.total, l: s.primaryCity || "primary city" },
               { n: s.independents, l: "independents" },
               { n: s.avgScore, l: "avg score" },
               { n: s.webUpgradeCount, l: "web leads", c: "text-orange-400" },
@@ -129,7 +145,7 @@ export default function IntelligencePage() {
             Every space, plotted and colored by digital score. Scroll to zoom, click a marker for score + lead status.
           </p>
           <div className="mt-6">
-            <SpaceMap points={mapPoints} />
+            <SpaceMap points={mapPoints} center={center} zoom={market === ALL_MARKETS ? undefined : 11} />
           </div>
         </div>
       </section>
