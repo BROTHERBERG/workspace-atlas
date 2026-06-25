@@ -2,15 +2,15 @@
   "generatedAt": "2026-06-21",
   "market": "Calgary & Alberta",
   "methodology": {
-    "enumeration": "Real spaces sourced from operator sites, Coworker.com, CoworkingCafe, Spaces/Regus & WeWork directories, cross-verified against a second source. Unknown attributes left null \u2014 never fabricated.",
+    "enumeration": "Real spaces sourced from operator sites, Coworker.com, CoworkingCafe, Spaces/Regus & WeWork directories, cross-verified against a second source. Unknown attributes left null — never fabricated.",
     "digitalScore": "Live headless-Chromium render of each site (2026-06-21). 0-100 from real signals: reachable/200 (20), HTTPS (18), mobile viewport (18), title (8), meta description (8), Open Graph (6), social links up to 3 (12), booking CTA (10). Bot-protected pages flagged low-confidence, not scored as failing.",
-    "limits": "google ratings sparse (not metered-API-pulled to avoid cost). 3 independent domains did not resolve via DNS on scan day \u2014 flagged, not assumed closed."
+    "limits": "This scores web PRESENCE (technical hygiene: HTTPS, mobile, SEO meta, social, booking), not the quality of the space itself — and it saturates, so several strong sites tie at 100. National chain locations (Regus/Spaces) score on their thin templated location page, not the brand's main site, so their identical C scores reflect the template, not the operator. Booking/social detection is heuristic and can miss non-standard widgets. Google ratings are sparse (not metered-API-pulled, to avoid cost). 3 independent domains did not resolve via DNS on scan day — flagged, not assumed closed. Coordinates are geocoded from addresses (some at neighborhood/city precision)."
   },
   "spaces": [
     {
       "id": 1,
       "slug": "work-nicer-coworking-red-mile",
-      "name": "Work Nicer Coworking \u2014 Red Mile",
+      "name": "Work Nicer Coworking — Red Mile",
       "operator": "Work Nicer",
       "isChain": false,
       "city": "Calgary",
@@ -61,12 +61,16 @@
       "leadWebUpgrade": false,
       "leadTalent": false,
       "scannedAt": "2026-06-21",
-      "featured": true
+      "featured": true,
+      "screenshot": "/space-shots/work-nicer-coworking-red-mile.jpg",
+      "lat": 51.0380718,
+      "lng": -114.074009,
+      "geocodePrecision": "address"
     },
     {
       "id": 2,
       "slug": "work-nicer-coworking-rail-yards",
-      "name": "Work Nicer Coworking \u2014 Rail Yards",
+      "name": "Work Nicer Coworking — Rail Yards",
       "operator": "Work Nicer",
       "isChain": false,
       "city": "Calgary",
@@ -118,7 +122,11 @@
       "leadWebUpgrade": false,
       "leadTalent": false,
       "scannedAt": "2026-06-21",
-      "featured": false
+      "featured": false,
+      "screenshot": "/space-shots/work-nicer-coworking-rail-yards.jpg",
+      "lat": 51.0360222,
+      "lng": -114.0363608,
+      "geocodePrecision": "address"
     },
     {
       "id": 3,
@@ -171,7 +179,11 @@
       "leadWebUpgrade": false,
       "leadTalent": true,
       "scannedAt": "2026-06-21",
-      "featured": true
+      "featured": true,
+      "screenshot": "/space-shots/workhaus-core.jpg",
+      "lat": 51.0473777,
+      "lng": -114.0671989,
+      "geocodePrecision": "neighborhood"
     },
     {
       "id": 4,
@@ -222,7 +234,11 @@
       "leadWebUpgrade": false,
       "leadTalent": false,
       "scannedAt": "2026-06-21",
-      "featured": true
+      "featured": true,
+      "screenshot": "/space-shots/assembly-coworking-space.jpg",
+      "lat": 51.0547122,
+      "lng": -114.0859262,
+      "geocodePrecision": "neighborhood"
     },
     {
       "id": 5,
@@ -276,7 +292,11 @@
       "leadWebUpgrade": false,
       "leadTalent": false,
       "scannedAt": "2026-06-21",
-      "featured": true
+      "featured": true,
+      "screenshot": "/space-shots/emergehub.jpg",
+      "lat": 51.0456064,
+      "lng": -114.057541,
+      "geocodePrecision": "city"
     },
     {
       "id": 6,
@@ -328,7 +348,11 @@
       "leadWebUpgrade": false,
       "leadTalent": false,
       "scannedAt": "2026-06-21",
-      "featured": true
+      "featured": true,
+      "screenshot": "/space-shots/shedpoint.jpg",
+      "lat": 51.021669,
+      "lng": -114.0279867,
+      "geocodePrecision": "neighborhood"
     },
     {
       "id": 7,
@@ -337,8 +361,8 @@
       "operator": "TradeSpace",
       "isChain": false,
       "city": "Calgary",
-      "neighborhood": "Multiple \u2014 SE (HQ) and NE",
-      "address": "HQ: 4030 8 Street SE; also 4121 23B Street NE and 2360 Portland St SE \u2014 Calgary, AB (3 locations)",
+      "neighborhood": "Multiple — SE (HQ) and NE",
+      "address": "HQ: 4030 8 Street SE; also 4121 23B Street NE and 2360 Portland St SE — Calgary, AB (3 locations)",
       "website": "https://www.gotradespace.com",
       "phone": "(587) 317-5457",
       "googleRating": null,
@@ -380,7 +404,11 @@
       "leadWebUpgrade": false,
       "leadTalent": true,
       "scannedAt": "2026-06-21",
-      "featured": true
+      "featured": true,
+      "screenshot": "/space-shots/tradespace.jpg",
+      "lat": 51.0456064,
+      "lng": -114.057541,
+      "geocodePrecision": "city"
     },
     {
       "id": 8,
@@ -430,7 +458,11 @@
       "leadWebUpgrade": false,
       "leadTalent": false,
       "scannedAt": "2026-06-21",
-      "featured": false
+      "featured": false,
+      "screenshot": "/space-shots/wrk-calgary-coworking-space.jpg",
+      "lat": 51.0473777,
+      "lng": -114.0671989,
+      "geocodePrecision": "neighborhood"
     },
     {
       "id": 9,
@@ -484,7 +516,11 @@
       "leadWebUpgrade": false,
       "leadTalent": false,
       "scannedAt": "2026-06-21",
-      "featured": false
+      "featured": false,
+      "screenshot": "/space-shots/work-buddiz.jpg",
+      "lat": 51.0913575,
+      "lng": -114.0491131,
+      "geocodePrecision": "neighborhood"
     },
     {
       "id": 10,
@@ -538,7 +574,11 @@
       "leadWebUpgrade": false,
       "leadTalent": true,
       "scannedAt": "2026-06-21",
-      "featured": false
+      "featured": false,
+      "screenshot": "/space-shots/platform-calgary-innovation-centre.jpg",
+      "lat": 51.044175,
+      "lng": -114.0553551,
+      "geocodePrecision": "address"
     },
     {
       "id": 11,
@@ -591,7 +631,11 @@
       "leadWebUpgrade": false,
       "leadTalent": true,
       "scannedAt": "2026-06-21",
-      "featured": false
+      "featured": false,
+      "screenshot": "/space-shots/cspace-marda-loop.jpg",
+      "lat": 51.0456064,
+      "lng": -114.057541,
+      "geocodePrecision": "city"
     },
     {
       "id": 12,
@@ -644,7 +688,11 @@
       "leadWebUpgrade": false,
       "leadTalent": false,
       "scannedAt": "2026-06-21",
-      "featured": false
+      "featured": false,
+      "screenshot": "/space-shots/the-commons-calgary.jpg",
+      "lat": 51.0456064,
+      "lng": -114.057541,
+      "geocodePrecision": "city"
     },
     {
       "id": 13,
@@ -695,12 +743,16 @@
       "leadWebUpgrade": false,
       "leadTalent": false,
       "scannedAt": "2026-06-21",
-      "featured": false
+      "featured": false,
+      "screenshot": "/space-shots/thrive-business-centre.jpg",
+      "lat": 50.9353433,
+      "lng": -113.983195,
+      "geocodePrecision": "neighborhood"
     },
     {
       "id": 14,
       "slug": "staples-studio-calgary-university-district",
-      "name": "Staples Studio \u2014 Calgary University District",
+      "name": "Staples Studio — Calgary University District",
       "operator": "Staples Canada",
       "isChain": false,
       "city": "Calgary",
@@ -746,7 +798,11 @@
       "leadWebUpgrade": false,
       "leadTalent": false,
       "scannedAt": "2026-06-21",
-      "featured": false
+      "featured": false,
+      "screenshot": "/space-shots/staples-studio-calgary-university-district.jpg",
+      "lat": 51.0782395,
+      "lng": -114.1431576,
+      "geocodePrecision": "address"
     },
     {
       "id": 15,
@@ -797,7 +853,11 @@
       "leadWebUpgrade": false,
       "leadTalent": false,
       "scannedAt": "2026-06-21",
-      "featured": false
+      "featured": false,
+      "screenshot": "/space-shots/smart-executive-centre-inc.jpg",
+      "lat": 51.0456064,
+      "lng": -114.057541,
+      "geocodePrecision": "city"
     },
     {
       "id": 16,
@@ -848,7 +908,11 @@
       "leadWebUpgrade": false,
       "leadTalent": false,
       "scannedAt": "2026-06-21",
-      "featured": false
+      "featured": false,
+      "screenshot": "/space-shots/antares-business-center.jpg",
+      "lat": 51.0456064,
+      "lng": -114.057541,
+      "geocodePrecision": "city"
     },
     {
       "id": 17,
@@ -869,7 +933,7 @@
         "band": "F",
         "confidence": "high",
         "gaps": [
-          "No website found \u2014 invisible online"
+          "No website found — invisible online"
         ],
         "signals": {
           "reachable": false,
@@ -896,16 +960,20 @@
       "leadWebUpgrade": true,
       "leadTalent": false,
       "scannedAt": "2026-06-21",
-      "featured": false
+      "featured": false,
+      "screenshot": null,
+      "lat": 51.021669,
+      "lng": -114.0279867,
+      "geocodePrecision": "neighborhood"
     },
     {
       "id": 18,
       "slug": "stratus-stratus-offices-calgary",
-      "name": "STRATUS (Stratus Offices) \u2014 Calgary",
+      "name": "STRATUS (Stratus Offices) — Calgary",
       "operator": "Stratus Offices",
       "isChain": false,
       "city": "Calgary",
-      "neighborhood": "Beltline \u2014 PetroWest Plaza; also the 534 Building on 17 Ave SW",
+      "neighborhood": "Beltline — PetroWest Plaza; also the 534 Building on 17 Ave SW",
       "address": "1210 8 Street SW, Calgary, AB (PetroWest Plaza); 2nd Calgary location at the 534 Building, 17 Ave SW",
       "website": "https://www.stratusoffices.com",
       "phone": "(587) 392-5545",
@@ -950,7 +1018,11 @@
       "leadWebUpgrade": true,
       "leadTalent": false,
       "scannedAt": "2026-06-21",
-      "featured": false
+      "featured": false,
+      "screenshot": "/space-shots/stratus-stratus-offices-calgary.jpg",
+      "lat": 51.0456064,
+      "lng": -114.057541,
+      "geocodePrecision": "city"
     },
     {
       "id": 19,
@@ -1000,7 +1072,11 @@
       "leadWebUpgrade": true,
       "leadTalent": false,
       "scannedAt": "2026-06-21",
-      "featured": false
+      "featured": false,
+      "screenshot": null,
+      "lat": 51.0421818,
+      "lng": -114.0358842,
+      "geocodePrecision": "address"
     },
     {
       "id": 20,
@@ -1054,7 +1130,11 @@
       "leadWebUpgrade": true,
       "leadTalent": false,
       "scannedAt": "2026-06-21",
-      "featured": false
+      "featured": false,
+      "screenshot": "/space-shots/vennyyc.jpg",
+      "lat": 51.0417274,
+      "lng": -114.0355701,
+      "geocodePrecision": "address"
     },
     {
       "id": 21,
@@ -1106,7 +1186,11 @@
       "leadWebUpgrade": false,
       "leadTalent": false,
       "scannedAt": "2026-06-21",
-      "featured": false
+      "featured": false,
+      "screenshot": "/space-shots/fish-creek-executive-centre.jpg",
+      "lat": 50.9126066,
+      "lng": -114.0630473,
+      "geocodePrecision": "neighborhood"
     },
     {
       "id": 22,
@@ -1158,7 +1242,11 @@
       "leadWebUpgrade": false,
       "leadTalent": false,
       "scannedAt": "2026-06-21",
-      "featured": false
+      "featured": false,
+      "screenshot": "/space-shots/mount-royal-executive-centre.jpg",
+      "lat": 51.0456064,
+      "lng": -114.057541,
+      "geocodePrecision": "city"
     },
     {
       "id": 23,
@@ -1208,7 +1296,11 @@
       "leadWebUpgrade": true,
       "leadTalent": false,
       "scannedAt": "2026-06-21",
-      "featured": false
+      "featured": false,
+      "screenshot": null,
+      "lat": 51.0404978,
+      "lng": -114.0725934,
+      "geocodePrecision": "neighborhood"
     },
     {
       "id": 24,
@@ -1258,7 +1350,11 @@
       "leadWebUpgrade": false,
       "leadTalent": false,
       "scannedAt": "2026-06-21",
-      "featured": false
+      "featured": false,
+      "screenshot": "/space-shots/seventy-70-cowork.jpg",
+      "lat": 50.9912427,
+      "lng": -114.0545042,
+      "geocodePrecision": "address"
     },
     {
       "id": 25,
@@ -1308,12 +1404,16 @@
       "leadWebUpgrade": true,
       "leadTalent": false,
       "scannedAt": "2026-06-21",
-      "featured": false
+      "featured": false,
+      "screenshot": null,
+      "lat": 51.0094224,
+      "lng": -114.0335331,
+      "geocodePrecision": "address"
     },
     {
       "id": 26,
       "slug": "pavilion-cowork-courthouse-6-ave",
-      "name": "Pavilion Cowork \u2014 Courthouse 6 Ave",
+      "name": "Pavilion Cowork — Courthouse 6 Ave",
       "operator": "Pavilion Cowork (Alabaster Homes)",
       "isChain": false,
       "city": "Calgary",
@@ -1362,7 +1462,11 @@
       "leadWebUpgrade": false,
       "leadTalent": true,
       "scannedAt": "2026-06-21",
-      "featured": false
+      "featured": false,
+      "screenshot": "/space-shots/pavilion-cowork-courthouse-6-ave.jpg",
+      "lat": 51.0456064,
+      "lng": -114.057541,
+      "geocodePrecision": "city"
     },
     {
       "id": 27,
@@ -1415,7 +1519,11 @@
       "leadWebUpgrade": false,
       "leadTalent": false,
       "scannedAt": "2026-06-21",
-      "featured": false
+      "featured": false,
+      "screenshot": "/space-shots/house-831.jpg",
+      "lat": 51.037651,
+      "lng": -114.0812193,
+      "geocodePrecision": "address"
     },
     {
       "id": 28,
@@ -1467,7 +1575,11 @@
       "leadWebUpgrade": false,
       "leadTalent": false,
       "scannedAt": "2026-06-21",
-      "featured": false
+      "featured": false,
+      "screenshot": "/space-shots/victoria-park-business-centre.jpg",
+      "lat": 51.0428134,
+      "lng": -114.0567572,
+      "geocodePrecision": "neighborhood"
     },
     {
       "id": 29,
@@ -1519,12 +1631,16 @@
       "leadWebUpgrade": false,
       "leadTalent": false,
       "scannedAt": "2026-06-21",
-      "featured": false
+      "featured": false,
+      "screenshot": "/space-shots/astra-business-centre.jpg",
+      "lat": 51.0404978,
+      "lng": -114.0725934,
+      "geocodePrecision": "neighborhood"
     },
     {
       "id": 30,
       "slug": "spaces-regus-calgary-place",
-      "name": "Spaces / Regus \u2014 Calgary Place",
+      "name": "Spaces / Regus — Calgary Place",
       "operator": "IWG (cross-listed Spaces + Regus)",
       "isChain": true,
       "city": "Calgary",
@@ -1573,12 +1689,16 @@
       "leadWebUpgrade": false,
       "leadTalent": false,
       "scannedAt": "2026-06-21",
-      "featured": false
+      "featured": false,
+      "screenshot": "/space-shots/spaces-regus-calgary-place.jpg",
+      "lat": 51.0456064,
+      "lng": -114.057541,
+      "geocodePrecision": "city"
     },
     {
       "id": 31,
       "slug": "spaces-regus-telus-sky",
-      "name": "Spaces / Regus \u2014 Telus Sky",
+      "name": "Spaces / Regus — Telus Sky",
       "operator": "IWG (Spaces brand-of-record; cross-listed as Regus)",
       "isChain": true,
       "city": "Calgary",
@@ -1627,12 +1747,16 @@
       "leadWebUpgrade": false,
       "leadTalent": false,
       "scannedAt": "2026-06-21",
-      "featured": false
+      "featured": false,
+      "screenshot": "/space-shots/spaces-regus-telus-sky.jpg",
+      "lat": 51.009823,
+      "lng": -114.0650127,
+      "geocodePrecision": "address"
     },
     {
       "id": 32,
       "slug": "spaces-regus-altius-centre",
-      "name": "Spaces / Regus \u2014 Altius Centre",
+      "name": "Spaces / Regus — Altius Centre",
       "operator": "IWG (cross-listed Spaces + Regus)",
       "isChain": true,
       "city": "Calgary",
@@ -1680,12 +1804,16 @@
       "leadWebUpgrade": false,
       "leadTalent": false,
       "scannedAt": "2026-06-21",
-      "featured": false
+      "featured": false,
+      "screenshot": "/space-shots/spaces-regus-altius-centre.jpg",
+      "lat": 51.0464963,
+      "lng": -114.0506433,
+      "geocodePrecision": "neighborhood"
     },
     {
       "id": 33,
       "slug": "spaces-regus-canada-trust-td-canada-trust",
-      "name": "Spaces / Regus \u2014 Canada Trust (TD Canada Trust)",
+      "name": "Spaces / Regus — Canada Trust (TD Canada Trust)",
       "operator": "IWG (cross-listed Spaces + Regus)",
       "isChain": true,
       "city": "Calgary",
@@ -1733,12 +1861,16 @@
       "leadWebUpgrade": false,
       "leadTalent": false,
       "scannedAt": "2026-06-21",
-      "featured": false
+      "featured": false,
+      "screenshot": "/space-shots/spaces-regus-canada-trust-td-canada-trust.jpg",
+      "lat": 51.0464963,
+      "lng": -114.0506433,
+      "geocodePrecision": "neighborhood"
     },
     {
       "id": 34,
       "slug": "spaces-regus-bankers-hall",
-      "name": "Spaces / Regus \u2014 Bankers Hall",
+      "name": "Spaces / Regus — Bankers Hall",
       "operator": "IWG (Spaces brand-of-record; cross-listed as Regus)",
       "isChain": true,
       "city": "Calgary",
@@ -1786,12 +1918,16 @@
       "leadWebUpgrade": false,
       "leadTalent": false,
       "scannedAt": "2026-06-21",
-      "featured": false
+      "featured": false,
+      "screenshot": "/space-shots/spaces-regus-bankers-hall.jpg",
+      "lat": 51.0456064,
+      "lng": -114.057541,
+      "geocodePrecision": "city"
     },
     {
       "id": 35,
       "slug": "spaces-regus-1011-1-st-sw",
-      "name": "Spaces / Regus \u2014 1011 1 St SW",
+      "name": "Spaces / Regus — 1011 1 St SW",
       "operator": "IWG (cross-listed Spaces + Regus)",
       "isChain": true,
       "city": "Calgary",
@@ -1839,12 +1975,16 @@
       "leadWebUpgrade": false,
       "leadTalent": false,
       "scannedAt": "2026-06-21",
-      "featured": false
+      "featured": false,
+      "screenshot": "/space-shots/spaces-regus-1011-1-st-sw.jpg",
+      "lat": 51.0456064,
+      "lng": -114.057541,
+      "geocodePrecision": "city"
     },
     {
       "id": 36,
       "slug": "spaces-regus-mcdougall",
-      "name": "Spaces / Regus \u2014 McDougall",
+      "name": "Spaces / Regus — McDougall",
       "operator": "IWG (cross-listed Spaces + Regus)",
       "isChain": true,
       "city": "Calgary",
@@ -1892,12 +2032,16 @@
       "leadWebUpgrade": false,
       "leadTalent": false,
       "scannedAt": "2026-06-21",
-      "featured": false
+      "featured": false,
+      "screenshot": "/space-shots/spaces-regus-mcdougall.jpg",
+      "lat": 51.0464963,
+      "lng": -114.0506433,
+      "geocodePrecision": "neighborhood"
     },
     {
       "id": 37,
       "slug": "spaces-regus-903-8th-avenue-sw",
-      "name": "Spaces / Regus \u2014 903 8th Avenue SW",
+      "name": "Spaces / Regus — 903 8th Avenue SW",
       "operator": "IWG (cross-listed Spaces + Regus)",
       "isChain": true,
       "city": "Calgary",
@@ -1945,12 +2089,16 @@
       "leadWebUpgrade": false,
       "leadTalent": false,
       "scannedAt": "2026-06-21",
-      "featured": false
+      "featured": false,
+      "screenshot": "/space-shots/spaces-regus-903-8th-avenue-sw.jpg",
+      "lat": 51.0472663,
+      "lng": -114.0863081,
+      "geocodePrecision": "neighborhood"
     },
     {
       "id": 38,
       "slug": "spaces-regus-one-executive-place",
-      "name": "Spaces / Regus \u2014 One Executive Place",
+      "name": "Spaces / Regus — One Executive Place",
       "operator": "IWG (cross-listed Spaces + Regus)",
       "isChain": true,
       "city": "Calgary",
@@ -1998,12 +2146,16 @@
       "leadWebUpgrade": false,
       "leadTalent": false,
       "scannedAt": "2026-06-21",
-      "featured": false
+      "featured": false,
+      "screenshot": "/space-shots/spaces-regus-one-executive-place.jpg",
+      "lat": 51.0456064,
+      "lng": -114.057541,
+      "geocodePrecision": "city"
     },
     {
       "id": 39,
       "slug": "spaces-regus-macleod-place-ii",
-      "name": "Spaces / Regus \u2014 Macleod Place II",
+      "name": "Spaces / Regus — Macleod Place II",
       "operator": "IWG (cross-listed Spaces + Regus)",
       "isChain": true,
       "city": "Calgary",
@@ -2051,12 +2203,16 @@
       "leadWebUpgrade": false,
       "leadTalent": false,
       "scannedAt": "2026-06-21",
-      "featured": false
+      "featured": false,
+      "screenshot": "/space-shots/spaces-regus-macleod-place-ii.jpg",
+      "lat": 51.0197961,
+      "lng": -114.0602352,
+      "geocodePrecision": "neighborhood"
     },
     {
       "id": 40,
       "slug": "spaces-regus-westmount-corporate-campus",
-      "name": "Spaces / Regus \u2014 WestMount Corporate Campus",
+      "name": "Spaces / Regus — WestMount Corporate Campus",
       "operator": "IWG (cross-listed Spaces + Regus)",
       "isChain": true,
       "city": "Calgary",
@@ -2104,12 +2260,16 @@
       "leadWebUpgrade": false,
       "leadTalent": false,
       "scannedAt": "2026-06-21",
-      "featured": false
+      "featured": false,
+      "screenshot": "/space-shots/spaces-regus-westmount-corporate-campus.jpg",
+      "lat": 51.0456064,
+      "lng": -114.057541,
+      "geocodePrecision": "city"
     },
     {
       "id": 41,
       "slug": "spaces-regus-4503-brisebois-dr-nw",
-      "name": "Spaces / Regus \u2014 4503 Brisebois Dr NW",
+      "name": "Spaces / Regus — 4503 Brisebois Dr NW",
       "operator": "IWG (cross-listed Spaces + Regus)",
       "isChain": true,
       "city": "Calgary",
@@ -2157,12 +2317,16 @@
       "leadWebUpgrade": false,
       "leadTalent": false,
       "scannedAt": "2026-06-21",
-      "featured": false
+      "featured": false,
+      "screenshot": "/space-shots/spaces-regus-4503-brisebois-dr-nw.jpg",
+      "lat": 51.0934056,
+      "lng": -114.129058,
+      "geocodePrecision": "address"
     },
     {
       "id": 42,
       "slug": "regus-6815-8th-street-ne",
-      "name": "Regus \u2014 6815 8th Street NE",
+      "name": "Regus — 6815 8th Street NE",
       "operator": "Regus (IWG)",
       "isChain": true,
       "city": "Calgary",
@@ -2209,12 +2373,16 @@
       "leadWebUpgrade": false,
       "leadTalent": false,
       "scannedAt": "2026-06-21",
-      "featured": false
+      "featured": false,
+      "screenshot": "/space-shots/regus-6815-8th-street-ne.jpg",
+      "lat": 51.0456064,
+      "lng": -114.057541,
+      "geocodePrecision": "city"
     },
     {
       "id": 43,
       "slug": "regus-quarry-park",
-      "name": "Regus \u2014 Quarry Park",
+      "name": "Regus — Quarry Park",
       "operator": "Regus (IWG)",
       "isChain": true,
       "city": "Calgary",
@@ -2262,12 +2430,16 @@
       "leadWebUpgrade": false,
       "leadTalent": false,
       "scannedAt": "2026-06-21",
-      "featured": false
+      "featured": false,
+      "screenshot": "/space-shots/regus-quarry-park.jpg",
+      "lat": 50.9637118,
+      "lng": -114.0013482,
+      "geocodePrecision": "neighborhood"
     },
     {
       "id": 44,
       "slug": "regus-crowfoot-centre",
-      "name": "Regus \u2014 Crowfoot Centre",
+      "name": "Regus — Crowfoot Centre",
       "operator": "Regus (IWG)",
       "isChain": true,
       "city": "Calgary",
@@ -2314,12 +2486,16 @@
       "leadWebUpgrade": false,
       "leadTalent": false,
       "scannedAt": "2026-06-21",
-      "featured": false
+      "featured": false,
+      "screenshot": "/space-shots/regus-crowfoot-centre.jpg",
+      "lat": 51.1286503,
+      "lng": -114.1979022,
+      "geocodePrecision": "neighborhood"
     },
     {
       "id": 45,
       "slug": "wework-stephen-avenue-place",
-      "name": "WeWork \u2014 Stephen Avenue Place",
+      "name": "WeWork — Stephen Avenue Place",
       "operator": "WeWork",
       "isChain": true,
       "city": "Calgary",
@@ -2367,7 +2543,11 @@
       "leadWebUpgrade": false,
       "leadTalent": false,
       "scannedAt": "2026-06-21",
-      "featured": false
+      "featured": false,
+      "screenshot": "/space-shots/wework-stephen-avenue-place.jpg",
+      "lat": 51.0456592,
+      "lng": -114.0782269,
+      "geocodePrecision": "neighborhood"
     },
     {
       "id": 46,
@@ -2421,12 +2601,16 @@
       "leadWebUpgrade": false,
       "leadTalent": false,
       "scannedAt": "2026-06-21",
-      "featured": false
+      "featured": false,
+      "screenshot": "/space-shots/grupdesk.jpg",
+      "lat": 52.2673428,
+      "lng": -113.8187674,
+      "geocodePrecision": "address"
     },
     {
       "id": 47,
       "slug": "regus-red-deer",
-      "name": "Regus \u2014 Red Deer",
+      "name": "Regus — Red Deer",
       "operator": "Regus (IWG)",
       "isChain": true,
       "city": "Red Deer",
@@ -2474,12 +2658,16 @@
       "leadWebUpgrade": false,
       "leadTalent": false,
       "scannedAt": "2026-06-21",
-      "featured": false
+      "featured": false,
+      "screenshot": "/space-shots/regus-red-deer.jpg",
+      "lat": 52.2690628,
+      "lng": -113.8141464,
+      "geocodePrecision": "city"
     },
     {
       "id": 48,
       "slug": "work-nicer-coworking-beaver-house",
-      "name": "Work Nicer Coworking \u2014 Beaver House",
+      "name": "Work Nicer Coworking — Beaver House",
       "operator": "Work Nicer",
       "isChain": false,
       "city": "Edmonton",
@@ -2528,7 +2716,11 @@
       "leadWebUpgrade": false,
       "leadTalent": false,
       "scannedAt": "2026-06-21",
-      "featured": false
+      "featured": false,
+      "screenshot": "/space-shots/work-nicer-coworking-beaver-house.jpg",
+      "lat": 53.5423007,
+      "lng": -113.4975967,
+      "geocodePrecision": "address"
     },
     {
       "id": 49,
@@ -2583,7 +2775,11 @@
       "leadWebUpgrade": false,
       "leadTalent": false,
       "scannedAt": "2026-06-21",
-      "featured": false
+      "featured": false,
+      "screenshot": "/space-shots/roundhouse.jpg",
+      "lat": 53.5462055,
+      "lng": -113.491241,
+      "geocodePrecision": "city"
     },
     {
       "id": 50,
@@ -2604,7 +2800,7 @@
         "band": "F",
         "confidence": "high",
         "gaps": [
-          "No website found \u2014 invisible online"
+          "No website found — invisible online"
         ],
         "signals": {
           "reachable": false,
@@ -2633,12 +2829,16 @@
       "leadWebUpgrade": true,
       "leadTalent": false,
       "scannedAt": "2026-06-21",
-      "featured": false
+      "featured": false,
+      "screenshot": null,
+      "lat": 51.28597,
+      "lng": -114.01062,
+      "geocodePrecision": "city"
     },
     {
       "id": 51,
       "slug": "the-corner-coworking-railway-st-hq",
-      "name": "The Corner Coworking \u2014 Railway St (HQ)",
+      "name": "The Corner Coworking — Railway St (HQ)",
       "operator": "The Corner Coworking (independent)",
       "isChain": false,
       "city": "Cochrane",
@@ -2683,12 +2883,16 @@
       "leadWebUpgrade": false,
       "leadTalent": false,
       "scannedAt": "2026-06-21",
-      "featured": false
+      "featured": false,
+      "screenshot": "/space-shots/the-corner-coworking-railway-st-hq.jpg",
+      "lat": 51.1859845,
+      "lng": -114.4614926,
+      "geocodePrecision": "address"
     },
     {
       "id": 52,
       "slug": "the-corner-coworking-okotoks-riverside",
-      "name": "The Corner Coworking \u2014 Okotoks (Riverside)",
+      "name": "The Corner Coworking — Okotoks (Riverside)",
       "operator": "The Corner Coworking (independent)",
       "isChain": false,
       "city": "Okotoks",
@@ -2733,7 +2937,11 @@
       "leadWebUpgrade": false,
       "leadTalent": false,
       "scannedAt": "2026-06-21",
-      "featured": false
+      "featured": false,
+      "screenshot": "/space-shots/the-corner-coworking-okotoks-riverside.jpg",
+      "lat": 50.7253685,
+      "lng": -113.975082,
+      "geocodePrecision": "city"
     }
   ]
 }

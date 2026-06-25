@@ -91,6 +91,18 @@ export default async function SpacePage({ params }: { params: Promise<{ id: stri
         <div className="grid gap-8 lg:grid-cols-3">
           {/* Left */}
           <div className="space-y-8 lg:col-span-2">
+            {/* Their live site (the real screenshot we scored) */}
+            {space.screenshot && (
+              <figure>
+                <div className="overflow-hidden rounded-xl border-2 border-black shadow-[5px_5px_0px_0px_rgba(0,0,0,1)]">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img src={space.screenshot} alt={`${space.name} website`} className="w-full" />
+                </div>
+                <figcaption className="mt-2 text-xs text-gray-500">
+                  Their live site on scan day ({space.scannedAt}) — exactly what we scored.
+                </figcaption>
+              </figure>
+            )}
             {/* Why it's on the radar */}
             {(space.leadWebUpgrade || space.leadTalent) && (
               <div>

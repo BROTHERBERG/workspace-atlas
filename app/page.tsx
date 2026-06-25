@@ -172,7 +172,7 @@ export default function Home() {
         <div className="mx-auto max-w-7xl 2xl:max-w-[110rem] px-4 sm:px-6 lg:px-10">
           <div className="flex flex-col items-start justify-between gap-4 md:flex-row md:items-end">
             <div>
-              <h2 className="font-cal text-3xl tracking-tight sm:text-4xl">Calgary's best-scoring independents</h2>
+              <h2 className="font-cal text-3xl tracking-tight sm:text-4xl">Calgary's strongest web presence</h2>
               <p className="mt-2 max-w-2xl text-gray-500">
                 The operators setting the bar for digital presence in the local market.
               </p>

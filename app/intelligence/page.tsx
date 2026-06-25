@@ -13,6 +13,7 @@ import {
   CheckCircle2,
 } from "lucide-react"
 import { Badge } from "@/components/ui/badge"
+import SpaceMap, { type MapPoint } from "@/components/space-map"
 import {
   marketStats,
   webUpgradeLeads,
@@ -72,6 +73,22 @@ export default function IntelligencePage() {
   const talent = talentLeads()
   const ranked = sortedByScore(allSpaces())
   const bands: Band[] = ["A", "B", "C", "D", "F"]
+  const mapPoints: MapPoint[] = allSpaces()
+    .filter((sp) => typeof sp.lat === "number" && typeof sp.lng === "number")
+    .map((sp) => ({
+      id: sp.id,
+      name: sp.name,
+      slug: sp.slug,
+      lat: sp.lat as number,
+      lng: sp.lng as number,
+      band: sp.digital.band,
+      score: sp.digital.score,
+      web: sp.leadWebUpgrade,
+      talent: sp.leadTalent,
+      hiringNow: sp.hiring.confirmedOpening,
+      neighborhood: sp.neighborhood,
+      city: sp.city,
+    }))
 
   return (
     <div className="bg-white">
@@ -100,6 +117,19 @@ export default function IntelligencePage() {
                 <div className="text-[11px] uppercase tracking-wide text-gray-400">{x.l}</div>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* The map */}
+      <section className="border-b-2 border-black bg-white py-12">
+        <div className="mx-auto max-w-7xl 2xl:max-w-[110rem] px-4 sm:px-6 lg:px-10">
+          <h2 className="font-cal text-2xl">The map</h2>
+          <p className="mt-2 max-w-2xl text-gray-500">
+            Every space, plotted and colored by digital score. Click a marker for the score and lead status.
+          </p>
+          <div className="mt-6">
+            <SpaceMap points={mapPoints} />
           </div>
         </div>
       </section>

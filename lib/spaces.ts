@@ -49,6 +49,10 @@ export interface Space {
   leadTalent: boolean
   featured: boolean
   scannedAt: string
+  screenshot: string | null
+  lat: number | null
+  lng: number | null
+  geocodePrecision: "address" | "neighborhood" | "city" | null
 }
 
 export interface Methodology {
