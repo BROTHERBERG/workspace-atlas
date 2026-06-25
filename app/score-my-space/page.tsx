@@ -31,7 +31,7 @@ export default function ScoreMySpacePage() {
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
       <section className="bg-[#1f1f1f] py-16 text-white md:py-24">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-10">
+        <div className="mx-auto max-w-7xl 2xl:max-w-[110rem] px-4 sm:px-6 lg:px-10">
           <div className="grid gap-10 lg:grid-cols-2 lg:gap-12">
             <div className="flex flex-col justify-center space-y-5">
               <Badge className="inline-flex w-fit items-center gap-1.5 bg-[#f9cb16] text-black hover:bg-[#f9cb16]">

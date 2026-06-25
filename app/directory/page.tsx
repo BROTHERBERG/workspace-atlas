@@ -51,7 +51,7 @@ export default function DirectoryPage() {
     <div className="min-h-screen bg-gray-50">
       {/* Header */}
       <div className="border-b-2 border-black bg-[#1f1f1f] text-white">
-        <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-10">
+        <div className="mx-auto max-w-7xl 2xl:max-w-[110rem] px-4 py-12 sm:px-6 lg:px-10">
           <h1 className="font-cal text-3xl tracking-tight sm:text-4xl md:text-5xl">
             Calgary's coworking market, ranked
           </h1>
@@ -77,7 +77,7 @@ export default function DirectoryPage() {
         </div>
       </div>
 
-      <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-10">
+      <div className="mx-auto max-w-7xl 2xl:max-w-[110rem] px-4 py-8 sm:px-6 lg:px-10">
         {/* Controls */}
         <div className="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
           <div className="flex flex-wrap items-center gap-2">

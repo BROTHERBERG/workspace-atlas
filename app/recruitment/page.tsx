@@ -57,17 +57,17 @@ export default function RecruitmentPage() {
     <div className="min-h-screen bg-white">
       {/* Hero */}
       <section className="border-b-2 border-black bg-[#1f1f1f] text-white">
-        <div className="mx-auto grid max-w-7xl gap-10 px-4 py-16 sm:px-6 lg:grid-cols-2 lg:px-10">
+        <div className="mx-auto grid max-w-7xl 2xl:max-w-[110rem] gap-10 px-4 py-16 sm:px-6 lg:grid-cols-2 lg:px-10">
           <div className="flex flex-col justify-center">
             <Badge className="mb-4 inline-flex w-fit items-center gap-1.5 bg-[#f9cb16] text-black hover:bg-[#f9cb16]">
               <Radar className="h-3 w-3" /> Sourced from the {MARKET} scan
             </Badge>
-            <h1 className="font-cal text-4xl leading-tight tracking-tight sm:text-5xl">
+            <h1 className="font-cal text-4xl leading-tight tracking-tight sm:text-5xl 2xl:text-6xl">
               Coworking recruitment,
               <br />
               powered by live signals.
             </h1>
-            <p className="mt-5 max-w-xl text-lg text-gray-300">
+            <p className="mt-5 max-w-xl text-lg text-gray-300 2xl:max-w-2xl 2xl:text-xl">
               Every operator hiring leadership in the market — surfaced automatically and routed to Bottle Rocket Search
               Group.
             </p>
@@ -87,7 +87,7 @@ export default function RecruitmentPage() {
             </div>
           </div>
           <div className="flex items-center justify-center">
-            <div className="w-full max-w-sm rounded-xl border-2 border-white/15 bg-black/40 p-6 text-center shadow-[8px_8px_0px_0px_rgba(249,203,22,0.25)]">
+            <div className="w-full max-w-sm rounded-xl border-2 border-white/15 bg-black/40 p-6 text-center shadow-[8px_8px_0px_0px_rgba(249,203,22,0.25)] 2xl:max-w-md 2xl:p-8">
               <div className="grid grid-cols-2 gap-4">
                 <div>
                   <div className="font-cal text-4xl text-[#f9cb16]">{talent.length}</div>
@@ -116,7 +116,7 @@ export default function RecruitmentPage() {
 
       {/* Live leads */}
       <section id="leads" className="scroll-mt-20 bg-gray-50 py-16">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-10">
+        <div className="mx-auto max-w-7xl 2xl:max-w-[110rem] px-4 sm:px-6 lg:px-10">
           <h2 className="font-cal text-3xl tracking-tight">Talent leads in the market right now</h2>
           <p className="mt-2 max-w-2xl text-gray-500">
             Independent operators showing real hiring signals — a careers page, an open role, or both. Each one is a warm
@@ -164,7 +164,7 @@ export default function RecruitmentPage() {
 
       {/* Global Radar — live industry openings */}
       <section className="border-y-2 border-black bg-[#1f1f1f] py-16 text-white">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-10">
+        <div className="mx-auto max-w-7xl 2xl:max-w-[110rem] px-4 sm:px-6 lg:px-10">
           <div className="flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
             <div>
               <div className="flex items-center gap-2">
@@ -220,7 +220,7 @@ export default function RecruitmentPage() {
 
       {/* Roles */}
       <section className="border-y-2 border-black bg-white py-16">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-10">
+        <div className="mx-auto max-w-7xl 2xl:max-w-[110rem] px-4 sm:px-6 lg:px-10">
           <h2 className="font-cal text-3xl tracking-tight">Roles Bottle Rocket places</h2>
           <p className="mt-2 max-w-2xl text-gray-500">
             The leadership seats that make or break a flexible-workspace operator.
@@ -239,7 +239,7 @@ export default function RecruitmentPage() {
 
       {/* How signals surface */}
       <section className="bg-gray-50 py-16">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-10">
+        <div className="mx-auto max-w-7xl 2xl:max-w-[110rem] px-4 sm:px-6 lg:px-10">
           <h2 className="font-cal text-3xl tracking-tight">How the signals surface</h2>
           <div className="mt-8 grid gap-6 md:grid-cols-3">
             {[

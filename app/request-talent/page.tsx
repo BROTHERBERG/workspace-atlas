@@ -38,7 +38,7 @@ export default async function RequestTalentPage({ searchParams }: RequestTalentP
     <div className="min-h-screen bg-white">
       {/* Hero */}
       <section className="border-b-2 border-black bg-[#1f1f1f] text-white">
-        <div className="mx-auto grid max-w-7xl gap-10 px-4 py-16 sm:px-6 lg:grid-cols-2 lg:px-10">
+        <div className="mx-auto grid max-w-7xl 2xl:max-w-[110rem] gap-10 px-4 py-16 sm:px-6 lg:grid-cols-2 lg:px-10">
           <div className="flex flex-col justify-center">
             <Badge className="mb-4 inline-flex w-fit items-center gap-1.5 bg-[#f9cb16] text-black hover:bg-[#f9cb16]">
               <Radar className="h-3 w-3" /> Routed to Bottle Rocket Search
@@ -95,7 +95,7 @@ export default async function RequestTalentPage({ searchParams }: RequestTalentP
 
       {/* How It Works */}
       <section className="border-b-2 border-black bg-gray-50 py-16">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-10">
+        <div className="mx-auto max-w-7xl 2xl:max-w-[110rem] px-4 sm:px-6 lg:px-10">
           <h2 className="font-cal text-3xl tracking-tight">How it works</h2>
           <p className="mt-2 max-w-2xl text-gray-500">
             Three steps from open seat to a warm shortlist — no cold lists, no guesswork.
@@ -119,7 +119,7 @@ export default async function RequestTalentPage({ searchParams }: RequestTalentP
 
       {/* Form Section */}
       <section className="bg-white py-16 md:py-20">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-10">
+        <div className="mx-auto max-w-7xl 2xl:max-w-[110rem] px-4 sm:px-6 lg:px-10">
           <div className="mx-auto max-w-2xl text-center">
             <Badge className="mb-4 inline-flex items-center gap-1.5 bg-[#f9cb16] text-black hover:bg-[#f9cb16]">
               <Briefcase className="h-3 w-3" /> Request talent

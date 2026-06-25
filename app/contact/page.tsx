@@ -16,7 +16,7 @@ export default function ContactPage() {
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
       <section className="border-b-2 border-black bg-[#1f1f1f] text-white">
-        <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 md:py-24 lg:px-10">
+        <div className="mx-auto max-w-7xl 2xl:max-w-[110rem] px-4 py-16 sm:px-6 md:py-24 lg:px-10">
           <div className="mx-auto max-w-3xl text-center">
             <Badge className="mb-5 inline-flex items-center gap-1.5 bg-[#f9cb16] text-black hover:bg-[#f9cb16]">
               <MapPin className="h-3 w-3" /> Calgary &amp; Alberta
@@ -33,7 +33,7 @@ export default function ContactPage() {
 
       {/* Contact Section */}
       <section className="py-16 md:py-24">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-10">
+        <div className="mx-auto max-w-7xl 2xl:max-w-[110rem] px-4 sm:px-6 lg:px-10">
           <div className="grid gap-12 lg:grid-cols-2">
             {/* Contact Information */}
             <div className="space-y-8">
@@ -104,7 +104,7 @@ export default function ContactPage() {
 
       {/* FAQ Section */}
       <section className="border-y-2 border-black bg-white py-16 md:py-24">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-10">
+        <div className="mx-auto max-w-7xl 2xl:max-w-[110rem] px-4 sm:px-6 lg:px-10">
           <div className="mx-auto max-w-3xl text-center">
             <Badge className="mb-4 inline-flex items-center gap-1.5 bg-[#f9cb16] text-black hover:bg-[#f9cb16]">
               FAQ

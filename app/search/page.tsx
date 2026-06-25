@@ -101,7 +101,7 @@ function SearchInner() {
         </div>
       </div>
 
-      <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-10">
+      <div className="mx-auto max-w-7xl 2xl:max-w-[110rem] px-4 py-8 sm:px-6 lg:px-10">
         <p className="mb-6 text-sm font-semibold text-gray-700">
           {hasQuery ? `${results.length} result${results.length === 1 ? "" : "s"}` : `All ${results.length} spaces, ranked by digital score`}
         </p>

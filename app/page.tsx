@@ -66,26 +66,26 @@ export default function Home() {
       {/* HERO — full viewport, marquee pinned above the fold */}
       <section className="relative flex min-h-[calc(100dvh-4rem)] flex-col bg-[#1f1f1f] text-white">
         <div className="flex flex-1 items-center">
-          <div className="mx-auto grid w-full max-w-7xl gap-10 px-4 py-12 sm:px-6 lg:grid-cols-[1.35fr_1fr] lg:gap-12 lg:px-10">
+          <div className="mx-auto grid w-full max-w-7xl 2xl:max-w-[110rem] gap-10 px-4 py-12 sm:px-6 lg:grid-cols-[1.35fr_1fr] lg:gap-12 lg:px-10">
             {/* Left */}
             <div className="flex flex-col justify-center">
-              <Badge className="mb-5 inline-flex w-fit items-center gap-1.5 bg-[#f9cb16] text-black hover:bg-[#f9cb16]">
+              <Badge className="mb-5 inline-flex w-fit items-center gap-1.5 bg-[#f9cb16] text-black hover:bg-[#f9cb16] 2xl:mb-8 2xl:text-sm">
                 <MapPin className="h-3 w-3" /> Calgary & Alberta · live coworking intelligence
               </Badge>
-              <h1 className="font-cal text-5xl leading-[0.95] tracking-tight sm:text-6xl xl:text-7xl">
+              <h1 className="font-cal text-5xl leading-[0.95] tracking-tight sm:text-6xl xl:text-7xl 2xl:text-8xl">
                 Find the space.
                 <br />
                 Score the market.
                 <br />
                 <span className="text-[#f9cb16]">Hire the crew.</span>
               </h1>
-              <p className="mt-6 max-w-xl text-lg text-gray-300">
+              <p className="mt-6 max-w-xl text-lg text-gray-300 2xl:max-w-2xl 2xl:text-2xl">
                 {s.total} real spaces. {s.scored} live website scans. Two lead pipelines hiding in one map.
               </p>
-              <div className="mt-8 flex flex-col gap-3 sm:flex-row">
+              <div className="mt-8 flex flex-col gap-3 sm:flex-row 2xl:mt-12 2xl:gap-4">
                 <Link
                   href="/intelligence"
-                  className="inline-flex h-12 items-center justify-center gap-2 rounded-md bg-[#f9cb16] px-7 text-sm font-bold text-black border-2 border-[#f9cb16] transition-all hover:bg-[#ffd83a]"
+                  className="inline-flex h-12 items-center justify-center gap-2 rounded-md bg-[#f9cb16] px-7 text-sm font-bold text-black border-2 border-[#f9cb16] transition-all hover:bg-[#ffd83a] 2xl:h-14 2xl:px-9 2xl:text-base"
                 >
                   <Radar className="h-4 w-4" /> Open the intelligence map
                 </Link>
@@ -103,43 +103,43 @@ export default function Home() {
 
             {/* Right — live scan board (real distribution) */}
             <div className="flex items-center justify-center">
-              <div className="w-full max-w-md rounded-xl border-2 border-white/15 bg-black/40 p-6 shadow-[8px_8px_0px_0px_rgba(249,203,22,0.25)]">
+              <div className="w-full max-w-md rounded-xl border-2 border-white/15 bg-black/40 p-6 shadow-[8px_8px_0px_0px_rgba(249,203,22,0.25)] 2xl:max-w-xl 2xl:p-8">
                 <div className="flex items-center justify-between">
-                  <span className="font-cal text-lg">Live scan</span>
-                  <span className="flex items-center gap-1.5 text-xs text-gray-400">
+                  <span className="font-cal text-lg 2xl:text-2xl">Live scan</span>
+                  <span className="flex items-center gap-1.5 text-xs text-gray-400 2xl:text-sm">
                     <span className="inline-block h-2 w-2 animate-pulse rounded-full bg-emerald-500" />
                     {GENERATED_AT}
                   </span>
                 </div>
-                <div className="mt-5 space-y-2.5">
+                <div className="mt-5 space-y-2.5 2xl:mt-8 2xl:space-y-5">
                   {bands.map((b) => {
                     const count = s.bandCounts[b] || 0
                     const c = bandColor(b)
                     return (
                       <div key={b} className="flex items-center gap-3">
-                        <span className="w-4 font-cal text-sm text-gray-300">{b}</span>
-                        <div className="h-5 flex-1 overflow-hidden rounded bg-white/5">
+                        <span className="w-4 font-cal text-sm text-gray-300 2xl:w-6 2xl:text-lg">{b}</span>
+                        <div className="h-5 flex-1 overflow-hidden rounded bg-white/5 2xl:h-8">
                           <div
                             className={`h-full ${c.bg}`}
                             style={{ width: `${Math.max((count / maxBand) * 100, count ? 6 : 0)}%` }}
                           />
                         </div>
-                        <span className="w-6 text-right text-sm font-medium text-gray-200">{count}</span>
+                        <span className="w-6 text-right text-sm font-medium text-gray-200 2xl:text-lg">{count}</span>
                       </div>
                     )
                   })}
                 </div>
-                <div className="mt-6 grid grid-cols-3 gap-3 border-t border-white/10 pt-5 text-center">
+                <div className="mt-6 grid grid-cols-3 gap-3 border-t border-white/10 pt-5 text-center 2xl:mt-9 2xl:pt-8">
                   <div>
-                    <div className="font-cal text-2xl text-[#f9cb16]">{s.avgScore}</div>
+                    <div className="font-cal text-2xl 2xl:text-4xl text-[#f9cb16]">{s.avgScore}</div>
                     <div className="text-[11px] uppercase tracking-wide text-gray-400">Avg score</div>
                   </div>
                   <div>
-                    <div className="font-cal text-2xl text-orange-400">{s.webUpgradeCount}</div>
+                    <div className="font-cal text-2xl 2xl:text-4xl text-orange-400">{s.webUpgradeCount}</div>
                     <div className="text-[11px] uppercase tracking-wide text-gray-400">Web leads</div>
                   </div>
                   <div>
-                    <div className="font-cal text-2xl text-emerald-400">{s.talentCount}</div>
+                    <div className="font-cal text-2xl 2xl:text-4xl text-emerald-400">{s.talentCount}</div>
                     <div className="text-[11px] uppercase tracking-wide text-gray-400">Talent leads</div>
                   </div>
                 </div>
@@ -152,7 +152,7 @@ export default function Home() {
 
       {/* STAT BAND */}
       <section className="border-b-2 border-black bg-[#f9cb16]">
-        <div className="mx-auto grid max-w-7xl grid-cols-2 divide-x-2 divide-black/10 px-4 py-8 sm:px-6 md:grid-cols-4 lg:px-10">
+        <div className="mx-auto grid max-w-7xl 2xl:max-w-[110rem] grid-cols-2 divide-x-2 divide-black/10 px-4 py-8 sm:px-6 md:grid-cols-4 lg:px-10">
           {[
             { n: s.total, l: "spaces mapped" },
             { n: s.calgary, l: "in Calgary" },
@@ -169,7 +169,7 @@ export default function Home() {
 
       {/* FEATURED */}
       <section className="bg-white py-16 md:py-20">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-10">
+        <div className="mx-auto max-w-7xl 2xl:max-w-[110rem] px-4 sm:px-6 lg:px-10">
           <div className="flex flex-col items-start justify-between gap-4 md:flex-row md:items-end">
             <div>
               <h2 className="font-cal text-3xl tracking-tight sm:text-4xl">Calgary's best-scoring independents</h2>
@@ -200,7 +200,7 @@ export default function Home() {
             backgroundSize: "34px 34px",
           }}
         />
-        <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-10">
+        <div className="relative mx-auto max-w-7xl 2xl:max-w-[110rem] px-4 sm:px-6 lg:px-10">
           <span className="font-mono text-xs uppercase tracking-[0.2em] text-[#f9cb16]">how it works</span>
           <h2 className="mt-2 font-cal text-4xl tracking-tight sm:text-5xl">One scan. Two pipelines.</h2>
           <p className="mt-3 max-w-2xl text-gray-400">
@@ -271,7 +271,7 @@ export default function Home() {
 
       {/* CTA */}
       <section className="bg-[#1f1f1f] py-16 text-white md:py-20">
-        <div className="mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-10">
+        <div className="mx-auto max-w-7xl 2xl:max-w-[110rem] px-4 text-center sm:px-6 lg:px-10">
           <h2 className="font-cal text-3xl tracking-tight sm:text-4xl md:text-5xl">
             A market map that pays for itself in one call.
           </h2>

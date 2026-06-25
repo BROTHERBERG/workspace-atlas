@@ -32,7 +32,7 @@ function Section({
 }) {
   if (!spaces.length) return null
   return (
-    <section className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-10">
+    <section className="mx-auto max-w-7xl 2xl:max-w-[110rem] px-4 py-10 sm:px-6 lg:px-10">
       <div className="flex items-center gap-3">
         <span className={`flex h-10 w-10 items-center justify-center rounded-md border-2 border-black ${accent}`}>
           <Icon className="h-5 w-5" />
@@ -60,7 +60,7 @@ export default function RecommendationsPage() {
     <div className="min-h-screen bg-gray-50">
       {/* Header */}
       <div className="border-b-2 border-black bg-[#1f1f1f] text-white">
-        <div className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-10">
+        <div className="mx-auto max-w-7xl 2xl:max-w-[110rem] px-4 py-14 sm:px-6 lg:px-10">
           <Badge className="mb-4 inline-flex items-center gap-1.5 bg-[#f9cb16] text-black hover:bg-[#f9cb16]">
             <Radar className="h-3 w-3" /> {MARKET} · scanned {GENERATED_AT}
           </Badge>
@@ -96,7 +96,7 @@ export default function RecommendationsPage() {
         accent="bg-[#f9cb16]/20 text-[#caa406]"
       />
 
-      <div className="mx-auto max-w-7xl px-4 pb-16 sm:px-6 lg:px-10">
+      <div className="mx-auto max-w-7xl 2xl:max-w-[110rem] px-4 pb-16 sm:px-6 lg:px-10">
         <div className="rounded-xl border-2 border-black bg-white p-6 text-center shadow-[5px_5px_0px_0px_rgba(0,0,0,1)]">
           <p className="text-gray-700">Want the full picture — every space, every lead, the methodology?</p>
           <Link
