@@ -54,7 +54,7 @@ function DirectoryInner() {
     <div className="min-h-screen bg-gray-50">
       {/* Header */}
       <div className="border-b-2 border-black bg-[#1f1f1f] text-white">
-        <div className="mx-auto max-w-7xl 2xl:max-w-[110rem] px-4 py-12 sm:px-6 lg:px-10">
+        <div className="mx-auto max-w-7xl 2xl:max-w-[min(93vw,150rem)] px-4 py-12 sm:px-6 lg:px-10">
           <h1 className="font-cal text-3xl tracking-tight sm:text-4xl md:text-5xl">
             {market === ALL_MARKETS
               ? "The global coworking market, ranked"
@@ -83,7 +83,7 @@ function DirectoryInner() {
         </div>
       </div>
 
-      <div className="mx-auto max-w-7xl 2xl:max-w-[110rem] px-4 py-8 sm:px-6 lg:px-10">
+      <div className="mx-auto max-w-7xl 2xl:max-w-[min(93vw,150rem)] px-4 py-8 sm:px-6 lg:px-10">
         {/* Controls */}
         <div className="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
           <div className="flex flex-wrap items-center gap-2">
@@ -147,7 +147,7 @@ function DirectoryInner() {
 
         {/* Results */}
         {results.length > 0 ? (
-          <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3 min-[2000px]:grid-cols-4">
             {results.map((space) => (
               <SpaceCard key={space.id} space={space} />
             ))}

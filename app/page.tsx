@@ -71,20 +71,20 @@ export default async function Home({ searchParams }: { searchParams: Promise<{ m
       {/* HERO — full viewport, marquee pinned above the fold */}
       <section className="relative flex min-h-[calc(100dvh-4rem)] flex-col bg-[#1f1f1f] text-white">
         <div className="flex flex-1 items-center">
-          <div className="mx-auto grid w-full max-w-7xl 2xl:max-w-[110rem] gap-10 px-4 py-12 sm:px-6 lg:grid-cols-[1.35fr_1fr] lg:gap-12 lg:px-10">
+          <div className="mx-auto grid w-full max-w-7xl 2xl:max-w-[min(93vw,150rem)] gap-10 px-4 py-12 sm:px-6 lg:grid-cols-[1.35fr_1fr] lg:gap-12 lg:px-10">
             {/* Left */}
             <div className="flex flex-col justify-center">
               <Badge className="mb-5 inline-flex w-fit items-center gap-1.5 bg-[#f9cb16] text-black hover:bg-[#f9cb16] 2xl:mb-8 2xl:text-sm">
                 <MapPin className="h-3 w-3" /> {isAll ? "Global" : label} · live coworking intelligence
               </Badge>
-              <h1 className="font-cal text-5xl leading-[0.95] tracking-tight sm:text-6xl xl:text-7xl 2xl:text-8xl">
+              <h1 className="font-cal text-5xl leading-[0.95] tracking-tight sm:text-6xl xl:text-7xl 2xl:text-8xl min-[2000px]:text-[6.5rem] min-[2560px]:text-[7.5rem]">
                 Find the space.
                 <br />
                 Score the market.
                 <br />
                 <span className="text-[#f9cb16]">Hire the crew.</span>
               </h1>
-              <p className="mt-6 max-w-xl text-lg text-gray-300 2xl:max-w-2xl 2xl:text-2xl">
+              <p className="mt-6 max-w-xl text-lg text-gray-300 2xl:max-w-2xl 2xl:text-2xl min-[2000px]:text-3xl">
                 {s.total} real spaces. {s.scored} live website scans. Two lead pipelines hiding in one map.
               </p>
               <div className="mt-8 flex flex-col gap-3 sm:flex-row 2xl:mt-12 2xl:gap-4">
@@ -108,7 +108,7 @@ export default async function Home({ searchParams }: { searchParams: Promise<{ m
 
             {/* Right — live scan board (real distribution) */}
             <div className="flex items-center justify-center">
-              <div className="w-full max-w-md rounded-xl border-2 border-white/15 bg-black/40 p-6 shadow-[8px_8px_0px_0px_rgba(249,203,22,0.25)] 2xl:max-w-xl 2xl:p-8">
+              <div className="w-full max-w-md rounded-xl border-2 border-white/15 bg-black/40 p-6 shadow-[8px_8px_0px_0px_rgba(249,203,22,0.25)] 2xl:max-w-xl 2xl:p-8 min-[2000px]:max-w-2xl min-[2000px]:p-10">
                 <div className="flex items-center justify-between">
                   <span className="font-cal text-lg 2xl:text-2xl">Live scan</span>
                   <span className="flex items-center gap-1.5 text-xs text-gray-400 2xl:text-sm">
@@ -157,7 +157,7 @@ export default async function Home({ searchParams }: { searchParams: Promise<{ m
 
       {/* STAT BAND */}
       <section className="border-b-2 border-black bg-[#f9cb16]">
-        <div className="mx-auto grid max-w-7xl 2xl:max-w-[110rem] grid-cols-2 divide-x-2 divide-black/10 px-4 py-8 sm:px-6 md:grid-cols-4 lg:px-10">
+        <div className="mx-auto grid max-w-7xl 2xl:max-w-[min(93vw,150rem)] grid-cols-2 divide-x-2 divide-black/10 px-4 py-8 sm:px-6 md:grid-cols-4 lg:px-10">
           {[
             { n: s.total, l: "spaces mapped" },
             isAll
@@ -176,7 +176,7 @@ export default async function Home({ searchParams }: { searchParams: Promise<{ m
 
       {/* FEATURED */}
       <section className="bg-white py-16 md:py-20">
-        <div className="mx-auto max-w-7xl 2xl:max-w-[110rem] px-4 sm:px-6 lg:px-10">
+        <div className="mx-auto max-w-7xl 2xl:max-w-[min(93vw,150rem)] px-4 sm:px-6 lg:px-10">
           <div className="flex flex-col items-start justify-between gap-4 md:flex-row md:items-end">
             <div>
               <h2 className="font-cal text-3xl tracking-tight sm:text-4xl">{isAll ? "The strongest web presence" : `${label}'s strongest web presence`}</h2>
@@ -191,7 +191,7 @@ export default async function Home({ searchParams }: { searchParams: Promise<{ m
               All {s.total} spaces <ArrowRight className="h-4 w-4" />
             </Link>
           </div>
-          <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3 min-[2000px]:grid-cols-4">
             <FeaturedSpaces market={market} />
           </div>
         </div>
@@ -207,7 +207,7 @@ export default async function Home({ searchParams }: { searchParams: Promise<{ m
             backgroundSize: "34px 34px",
           }}
         />
-        <div className="relative mx-auto max-w-7xl 2xl:max-w-[110rem] px-4 sm:px-6 lg:px-10">
+        <div className="relative mx-auto max-w-7xl 2xl:max-w-[min(93vw,150rem)] px-4 sm:px-6 lg:px-10">
           <span className="font-mono text-xs uppercase tracking-[0.2em] text-[#f9cb16]">how it works</span>
           <h2 className="mt-2 font-cal text-4xl tracking-tight sm:text-5xl">One scan. Two pipelines.</h2>
           <p className="mt-3 max-w-2xl text-gray-400">
@@ -278,7 +278,7 @@ export default async function Home({ searchParams }: { searchParams: Promise<{ m
 
       {/* CTA */}
       <section className="bg-[#1f1f1f] py-16 text-white md:py-20">
-        <div className="mx-auto max-w-7xl 2xl:max-w-[110rem] px-4 text-center sm:px-6 lg:px-10">
+        <div className="mx-auto max-w-7xl 2xl:max-w-[min(93vw,150rem)] px-4 text-center sm:px-6 lg:px-10">
           <h2 className="font-cal text-3xl tracking-tight sm:text-4xl md:text-5xl">
             A market map that pays for itself in one call.
           </h2>

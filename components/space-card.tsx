@@ -23,68 +23,66 @@ export default function SpaceCard({ space }: { space: Space }) {
   const sig = space.digital.signals
   const scoreText = space.digital.score === null ? "—" : space.digital.score
 
-  const LeadBadges = () => (
-    <div className="flex flex-col items-end gap-1">
-      {space.leadWebUpgrade && (
-        <Badge className="border border-orange-400 bg-orange-500/90 text-white hover:bg-orange-500/90">
-          <Wand2 className="mr-1 h-3 w-3" /> Web upgrade
-        </Badge>
-      )}
-      {space.hiring.confirmedOpening ? (
-        <Badge className="border border-black bg-[#f9cb16] text-black hover:bg-[#f9cb16]">
-          <Briefcase className="mr-1 h-3 w-3" /> Hiring now
-        </Badge>
-      ) : space.leadTalent ? (
-        <Badge className="border border-black bg-white text-black hover:bg-white">
-          <Briefcase className="mr-1 h-3 w-3" /> Talent signal
-        </Badge>
-      ) : null}
-    </div>
-  )
-
-  const ScoreChip = () => (
-    <span className={`inline-flex items-center gap-1.5 rounded-md border-2 border-black px-2 py-1 ${c.bg} text-black shadow-[2px_2px_0px_0px_rgba(0,0,0,1)]`}>
-      <span className="font-cal text-lg leading-none">{space.digital.band}</span>
-      <span className="text-xs font-bold">{scoreText}<span className="font-medium opacity-70">/100</span></span>
-    </span>
-  )
+  // Only show the operator when it actually adds info (not a repeat of the name).
+  const opToken = (space.operator?.split(/[\s(—-]/)[0] || "").toLowerCase()
+  const showOperator = !!space.operator && !!opToken && !space.name.toLowerCase().includes(opToken)
 
   return (
     <Card className="flex flex-col overflow-hidden border-2 border-black shadow-[5px_5px_0px_0px_rgba(0,0,0,1)] transition-all hover:-translate-y-1">
       {/* Header: real screenshot of the operator's live site (or an honest "no site" panel) */}
-      <div className="relative h-44 overflow-hidden border-b-2 border-black">
+      <div className="relative h-52 overflow-hidden border-b-2 border-black 2xl:h-60">
         {space.screenshot ? (
           // eslint-disable-next-line @next/next/no-img-element
-          <img
-            src={space.screenshot}
-            alt={`${space.name} website`}
-            loading="lazy"
-            className="h-full w-full object-cover object-top"
-          />
+          <img src={space.screenshot} alt={`${space.name} website`} loading="lazy" className="h-full w-full object-cover object-top" />
         ) : (
           <div className={`flex h-full flex-col items-center justify-center ${c.bg} text-black`}>
             <ImageOff className="h-6 w-6 opacity-60" />
             <span className="mt-2 font-cal text-3xl leading-none">{space.digital.band}</span>
-            <span className="mt-1 text-xs font-bold uppercase tracking-wide">
-              {!space.website ? "no website" : "site offline"}
-            </span>
+            <span className="mt-1 text-xs font-bold uppercase tracking-wide">{!space.website ? "no website" : "site offline"}</span>
           </div>
         )}
-        {/* overlays */}
         <div className="pointer-events-none absolute inset-x-0 top-0 flex items-start justify-between p-2">
-          {space.screenshot ? <ScoreChip /> : <span />}
-          <LeadBadges />
+          {space.screenshot ? (
+            <span className={`inline-flex items-center gap-1.5 rounded-md border-2 border-black px-2 py-1 ${c.bg} text-black shadow-[2px_2px_0px_0px_rgba(0,0,0,1)]`}>
+              <span className="font-cal text-lg leading-none">{space.digital.band}</span>
+              <span className="text-xs font-bold">
+                {scoreText}
+                <span className="font-medium opacity-70">/100</span>
+              </span>
+            </span>
+          ) : (
+            <span />
+          )}
+          <div className="flex flex-col items-end gap-1">
+            {space.leadWebUpgrade && (
+              <Badge className="border border-orange-400 bg-orange-500/90 text-white hover:bg-orange-500/90">
+                <Wand2 className="mr-1 h-3 w-3" /> Web upgrade
+              </Badge>
+            )}
+            {space.hiring.confirmedOpening ? (
+              <Badge className="border border-black bg-[#f9cb16] text-black hover:bg-[#f9cb16]">
+                <Briefcase className="mr-1 h-3 w-3" /> Hiring now
+              </Badge>
+            ) : space.leadTalent ? (
+              <Badge className="border border-black bg-white text-black hover:bg-white">
+                <Briefcase className="mr-1 h-3 w-3" /> Talent signal
+              </Badge>
+            ) : null}
+          </div>
         </div>
       </div>
 
-      <CardContent className="flex-1 p-4">
-        <div className="flex items-center gap-1.5 text-xs font-medium text-gray-500">
-          <MapPin className="h-3 w-3 text-[#caa406]" />
-          {space.neighborhood || space.city}
+      {/* Body: name/neighborhood on the left, signal dots pinned right */}
+      <CardContent className="flex items-start justify-between gap-3 p-4">
+        <div className="min-w-0 flex-1">
+          <div className="flex items-center gap-1.5 text-xs font-medium text-gray-500">
+            <MapPin className="h-3 w-3 shrink-0 text-[#caa406]" />
+            <span className="truncate">{space.neighborhood || space.city}</span>
+          </div>
+          <h3 className="mt-1 font-cal text-lg leading-tight">{space.name}</h3>
+          {showOperator && <p className="mt-0.5 truncate text-sm text-gray-500">{space.operator}</p>}
         </div>
-        <h3 className="mt-1 font-cal text-lg leading-tight">{space.name}</h3>
-        <p className="mt-0.5 text-sm text-gray-500">{space.operator || "Independent"}</p>
-        <div className="mt-3 flex gap-1.5">
+        <div className="grid shrink-0 grid-cols-2 gap-1.5">
           <Signal ok={sig.https} label="HTTPS" icon={ShieldCheck} />
           <Signal ok={sig.mobileOptimized} label="Mobile-optimized" icon={Smartphone} />
           <Signal ok={(sig.socialCount ?? 0) > 0} label="Social presence" icon={Share2} />

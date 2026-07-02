@@ -10,7 +10,7 @@ export default function Footer() {
     <footer className="border-t-2 border-[#f9cb16] bg-[#161616] text-white">
       {/* By the numbers */}
       <div className="border-b border-white/10">
-        <div className="mx-auto grid max-w-7xl 2xl:max-w-[110rem] grid-cols-2 gap-px px-4 py-8 sm:px-6 md:grid-cols-4 lg:px-10">
+        <div className="mx-auto grid max-w-7xl 2xl:max-w-[min(93vw,150rem)] grid-cols-2 gap-px px-4 py-8 sm:px-6 md:grid-cols-4 lg:px-10">
           {[
             { n: s.total, l: "spaces mapped" },
             { n: s.avgScore, l: "average score" },
@@ -26,7 +26,7 @@ export default function Footer() {
       </div>
 
       {/* Main */}
-      <div className="mx-auto max-w-7xl 2xl:max-w-[110rem] px-4 py-14 sm:px-6 lg:px-10">
+      <div className="mx-auto max-w-7xl 2xl:max-w-[min(93vw,150rem)] px-4 py-14 sm:px-6 lg:px-10">
         <div className="grid gap-10 lg:grid-cols-[1.6fr_1fr_1fr]">
           <div>
             <div className="flex items-center gap-2">

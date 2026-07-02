@@ -63,7 +63,7 @@ export default async function RecruitmentPage({
     <div className="min-h-screen bg-white">
       {/* Hero */}
       <section className="border-b-2 border-black bg-[#1f1f1f] text-white">
-        <div className="mx-auto grid max-w-7xl 2xl:max-w-[110rem] gap-10 px-4 py-16 sm:px-6 lg:grid-cols-2 lg:px-10">
+        <div className="mx-auto grid max-w-7xl 2xl:max-w-[min(93vw,150rem)] gap-10 px-4 py-16 sm:px-6 lg:grid-cols-2 lg:px-10">
           <div className="flex flex-col justify-center">
             <Badge className="mb-4 inline-flex w-fit items-center gap-1.5 bg-[#f9cb16] text-black hover:bg-[#f9cb16]">
               <Radar className="h-3 w-3" /> Sourced from the {market === ALL_MARKETS ? "live market" : label} scan
@@ -122,7 +122,7 @@ export default async function RecruitmentPage({
 
       {/* Live leads */}
       <section id="leads" className="scroll-mt-20 bg-gray-50 py-16">
-        <div className="mx-auto max-w-7xl 2xl:max-w-[110rem] px-4 sm:px-6 lg:px-10">
+        <div className="mx-auto max-w-7xl 2xl:max-w-[min(93vw,150rem)] px-4 sm:px-6 lg:px-10">
           <h2 className="font-cal text-3xl tracking-tight">
             {market === ALL_MARKETS ? "Talent leads in the market right now" : `Talent leads in ${label} right now`}
           </h2>
@@ -172,7 +172,7 @@ export default async function RecruitmentPage({
 
       {/* Global Radar — live industry openings */}
       <section className="border-y-2 border-black bg-[#1f1f1f] py-16 text-white">
-        <div className="mx-auto max-w-7xl 2xl:max-w-[110rem] px-4 sm:px-6 lg:px-10">
+        <div className="mx-auto max-w-7xl 2xl:max-w-[min(93vw,150rem)] px-4 sm:px-6 lg:px-10">
           <div className="flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
             <div>
               <div className="flex items-center gap-2">
@@ -228,7 +228,7 @@ export default async function RecruitmentPage({
 
       {/* Roles */}
       <section className="border-y-2 border-black bg-white py-16">
-        <div className="mx-auto max-w-7xl 2xl:max-w-[110rem] px-4 sm:px-6 lg:px-10">
+        <div className="mx-auto max-w-7xl 2xl:max-w-[min(93vw,150rem)] px-4 sm:px-6 lg:px-10">
           <h2 className="font-cal text-3xl tracking-tight">Roles Bottle Rocket places</h2>
           <p className="mt-2 max-w-2xl text-gray-500">
             The leadership seats that make or break a flexible-workspace operator.
@@ -247,7 +247,7 @@ export default async function RecruitmentPage({
 
       {/* How signals surface */}
       <section className="bg-gray-50 py-16">
-        <div className="mx-auto max-w-7xl 2xl:max-w-[110rem] px-4 sm:px-6 lg:px-10">
+        <div className="mx-auto max-w-7xl 2xl:max-w-[min(93vw,150rem)] px-4 sm:px-6 lg:px-10">
           <h2 className="font-cal text-3xl tracking-tight">How the signals surface</h2>
           <div className="mt-8 grid gap-6 md:grid-cols-3">
             {[

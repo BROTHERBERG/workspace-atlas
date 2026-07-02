@@ -107,12 +107,12 @@ function SearchInner() {
         </div>
       </div>
 
-      <div className="mx-auto max-w-7xl 2xl:max-w-[110rem] px-4 py-8 sm:px-6 lg:px-10">
+      <div className="mx-auto max-w-7xl 2xl:max-w-[min(93vw,150rem)] px-4 py-8 sm:px-6 lg:px-10">
         <p className="mb-6 text-sm font-semibold text-gray-700">
           {hasQuery ? `${results.length} result${results.length === 1 ? "" : "s"}` : `All ${results.length} spaces, ranked by digital score`}
         </p>
         {results.length > 0 ? (
-          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 min-[2000px]:grid-cols-4">
             {results.map((space) => (
               <SpaceCard key={space.id} space={space} />
             ))}

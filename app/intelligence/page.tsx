@@ -105,7 +105,7 @@ export default async function IntelligencePage({
     <div className="bg-white">
       {/* Header */}
       <section className="border-b-2 border-black bg-[#1f1f1f] text-white">
-        <div className="mx-auto max-w-7xl 2xl:max-w-[110rem] px-4 py-14 sm:px-6 lg:px-10">
+        <div className="mx-auto max-w-7xl 2xl:max-w-[min(93vw,150rem)] px-4 py-14 sm:px-6 lg:px-10">
           <Badge className="mb-4 inline-flex items-center gap-1.5 bg-[#f9cb16] text-black hover:bg-[#f9cb16]">
             <Radar className="h-3 w-3" />{" "}
             {market === ALL_MARKETS ? `${s.marketCount} markets` : label} · scanned {GENERATED_AT}
@@ -139,7 +139,7 @@ export default async function IntelligencePage({
 
       {/* The map */}
       <section className="border-b-2 border-black bg-[#1f1f1f] py-12 text-white">
-        <div className="mx-auto max-w-7xl 2xl:max-w-[110rem] px-4 sm:px-6 lg:px-10">
+        <div className="mx-auto max-w-7xl 2xl:max-w-[min(93vw,150rem)] px-4 sm:px-6 lg:px-10">
           <h2 className="font-cal text-2xl">The map</h2>
           <p className="mt-2 max-w-2xl text-gray-400">
             Every space, plotted and colored by digital score. Scroll to zoom, click a marker for score + lead status.
@@ -152,7 +152,7 @@ export default async function IntelligencePage({
 
       {/* Market shape */}
       <section className="border-b-2 border-black bg-gray-50 py-12">
-        <div className="mx-auto max-w-7xl 2xl:max-w-[110rem] px-4 sm:px-6 lg:px-10">
+        <div className="mx-auto max-w-7xl 2xl:max-w-[min(93vw,150rem)] px-4 sm:px-6 lg:px-10">
           <h2 className="font-cal text-2xl">Where the market sits</h2>
           <div className="mt-6 grid gap-8 lg:grid-cols-2">
             <div className="rounded-xl border-2 border-black bg-white p-6 shadow-[5px_5px_0px_0px_rgba(0,0,0,1)]">
@@ -200,7 +200,7 @@ export default async function IntelligencePage({
 
       {/* WEB UPGRADE LEADS */}
       <section id="web-upgrade" className="scroll-mt-20 border-b-2 border-black bg-white py-14">
-        <div className="mx-auto max-w-7xl 2xl:max-w-[110rem] px-4 sm:px-6 lg:px-10">
+        <div className="mx-auto max-w-7xl 2xl:max-w-[min(93vw,150rem)] px-4 sm:px-6 lg:px-10">
           <div className="flex items-center gap-3">
             <span className="flex h-12 w-12 items-center justify-center rounded-md border-2 border-black bg-orange-100">
               <Wand2 className="h-6 w-6 text-orange-600" />
@@ -260,7 +260,7 @@ export default async function IntelligencePage({
 
       {/* TALENT LEADS */}
       <section id="talent" className="scroll-mt-20 border-b-2 border-black bg-[#1f1f1f] py-14 text-white">
-        <div className="mx-auto max-w-7xl 2xl:max-w-[110rem] px-4 sm:px-6 lg:px-10">
+        <div className="mx-auto max-w-7xl 2xl:max-w-[min(93vw,150rem)] px-4 sm:px-6 lg:px-10">
           <div className="flex items-center gap-3">
             <span className="flex h-12 w-12 items-center justify-center rounded-md border-2 border-[#f9cb16] bg-[#f9cb16]/15">
               <Briefcase className="h-6 w-6 text-[#f9cb16]" />
@@ -312,7 +312,7 @@ export default async function IntelligencePage({
 
       {/* FULL RANKED TABLE */}
       <section className="border-b-2 border-black bg-white py-14">
-        <div className="mx-auto max-w-7xl 2xl:max-w-[110rem] px-4 sm:px-6 lg:px-10">
+        <div className="mx-auto max-w-7xl 2xl:max-w-[min(93vw,150rem)] px-4 sm:px-6 lg:px-10">
           <h2 className="font-cal text-2xl">The full market, ranked by digital score</h2>
           <p className="mt-2 text-sm text-gray-500">All {s.total} spaces. Green dots = HTTPS · mobile · social · booking.</p>
           <div className="mt-6 overflow-x-auto rounded-xl border-2 border-black shadow-[5px_5px_0px_0px_rgba(0,0,0,1)]">
