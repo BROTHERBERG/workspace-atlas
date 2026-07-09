@@ -1,3 +1,5 @@
+import spacesData from '../../data/spaces.json'
+
 /**
  * Operator roster for the Coworking Industry Radar.
  *
@@ -20,6 +22,29 @@ export interface OperatorConfig {
     ashby?: string[]
     smartrecruiters?: string[]
     workable?: string[]
+  }
+}
+
+export interface OperatorRegistryEntry {
+  /** Canonical display name */
+  name: string
+  aliases: string[]
+  /** Operator domains from repo data; aggregator/listing domains are excluded */
+  domains: string[]
+  careersUrl: string | null
+  teamPageUrl: string | null
+  knownAddresses: string[]
+  markets: string[]
+}
+
+interface SpaceRecord {
+  name?: string
+  operator?: string
+  website?: string | null
+  address?: string | null
+  market?: string | null
+  hiring?: {
+    careersUrl?: string | null
   }
 }
 
@@ -135,6 +160,112 @@ export const OPERATORS: OperatorConfig[] = [
     ats: { lever: ['wotso'], greenhouse: ['wotso'] },
   },
 ]
+
+const AGGREGATOR_DOMAINS = ['coworker.com', 'liquidspace.com', 'deskpass.com', 'sharedesk', 'spacest']
+
+function uniqueSorted(values: Iterable<string>): string[] {
+  return Array.from(new Set(Array.from(values).map((v) => v.trim()).filter(Boolean))).sort((a, b) => a.localeCompare(b))
+}
+
+function isAggregatorDomain(domain: string): boolean {
+  return AGGREGATOR_DOMAINS.some((aggregator) => domain === aggregator || domain.includes(aggregator))
+}
+
+function domainFromUrl(url: string | null | undefined): string | null {
+  if (!url) return null
+  try {
+    const domain = new URL(url).hostname.replace(/^www\./, '')
+    return isAggregatorDomain(domain) ? null : domain
+  } catch {
+    return null
+  }
+}
+
+function derivedAliases(name: string): string[] {
+  const aliases = new Set<string>()
+  const lower = name.toLowerCase().trim()
+  aliases.add(lower)
+
+  const withoutParenthetical = lower.replace(/\s*\([^)]*\)/g, '').trim()
+  if (withoutParenthetical && withoutParenthetical !== lower) aliases.add(withoutParenthetical)
+
+  for (const part of lower.split('/')) {
+    const cleaned = part.replace(/\s*\([^)]*\)/g, '').trim()
+    if (cleaned) aliases.add(cleaned)
+  }
+
+  return Array.from(aliases)
+}
+
+function buildOperatorRegistry(): OperatorRegistryEntry[] {
+  const byName = new Map<
+    string,
+    {
+      name: string
+      aliases: Set<string>
+      domains: string[]
+      careersUrls: string[]
+      knownAddresses: Set<string>
+      markets: Set<string>
+    }
+  >()
+
+  const spaces = (spacesData as { spaces?: SpaceRecord[] }).spaces ?? []
+  for (const space of spaces) {
+    const name = (space.operator || space.name || '').trim()
+    if (!name) continue
+
+    let entry = byName.get(name)
+    if (!entry) {
+      entry = {
+        name,
+        aliases: new Set(derivedAliases(name)),
+        domains: [],
+        careersUrls: [],
+        knownAddresses: new Set(),
+        markets: new Set(),
+      }
+      byName.set(name, entry)
+    }
+
+    const domain = domainFromUrl(space.website)
+    if (domain && !entry.domains.includes(domain)) entry.domains.push(domain)
+    const careersUrl = space.hiring?.careersUrl?.trim()
+    if (careersUrl && !entry.careersUrls.includes(careersUrl)) entry.careersUrls.push(careersUrl)
+    if (space.address) entry.knownAddresses.add(space.address)
+    if (space.market) entry.markets.add(space.market)
+  }
+
+  for (const operator of OPERATORS) {
+    let entry = byName.get(operator.name)
+    if (!entry) {
+      entry = {
+        name: operator.name,
+        aliases: new Set(),
+        domains: [],
+        careersUrls: [],
+        knownAddresses: new Set(),
+        markets: new Set(),
+      }
+      byName.set(operator.name, entry)
+    }
+    for (const alias of operator.aliases) entry.aliases.add(alias.toLowerCase().trim())
+  }
+
+  return Array.from(byName.values())
+    .map((entry) => ({
+      name: entry.name,
+      aliases: uniqueSorted(entry.aliases),
+      domains: uniqueSorted(entry.domains),
+      careersUrl: entry.careersUrls[0] ?? null,
+      teamPageUrl: null,
+      knownAddresses: uniqueSorted(entry.knownAddresses),
+      markets: uniqueSorted(entry.markets),
+    }))
+    .sort((a, b) => a.name.localeCompare(b.name))
+}
+
+export const OPERATOR_REGISTRY: OperatorRegistryEntry[] = buildOperatorRegistry()
 
 /** Industry news feeds scanned for expansion / opening / leadership-change signals */
 export const NEWS_FEEDS: { name: string; url: string }[] = [
