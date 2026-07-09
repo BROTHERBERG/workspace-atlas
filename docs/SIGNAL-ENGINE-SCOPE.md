@@ -51,8 +51,16 @@ Every signal answers: *"why would this operator need a leader RIGHT NOW?"* Each 
 ## Entity resolution & scoring
 
 - **Operator registry** (extend `lib/radar/operators.ts`): canonical operator → aliases, domains, careers URL, team-page URL, known addresses, market(s). Seed = our 148 spaces + the global ATS operator list. Every signal must resolve to a registry operator or park in a triage queue — no orphan signals.
-- **Trigger score per operator**: weighted sum with time decay (e.g. S3 departure 40 · S6 permit 35 · S1 expansion 30 · S5 poach 30 · S2 careers-add 25 · S8 funding 20 · S4 aged-posting 15 · S10 modifier ±10; half-life ~45 days). **Compounding is the product**: expansion news + fit-out permit + careers-page GM role = red-hot, auto-surfaced.
-- **Reason-to-call**: every hot operator gets one generated sentence citing its signals + source URLs — the thing a recruiter says on the phone. This string IS the product.
+- **Trigger score per operator** (T6 spec, locked 07-09):
+  - `score(op) = Σ over active signals: baseWeight(type) × confidence × decay(ageDays)`
+  - `decay(d) = 0.5^(d/45)` (exponential, 45-day half-life; a signal older than ~90 days is background noise)
+  - Base weights: `team_departure 40 · interim_title 35 · permit 35 · expansion_news 30 · poach 30 · careers_added 25 · location_page 25 · funding_ma 20 · licence_change 20 · aged_posting 15`; `review_decline` is never scored alone — it's a ±10 modifier applied only when ≥1 other signal is active.
+  - Per-type cap: max 2 scoring signals per type per operator (a press blitz about one opening must not read as five events).
+  - **Hot ≥ 50 · Warm 25–49 · Watch < 25.** Compounding is the product: one signal rarely crosses Hot alone; departure + careers-add does, expansion + permit does. That's by design.
+- **Reason-to-call**: every Hot/Warm operator gets ONE sentence — present tense, concrete, phone-ready — citing each signal inline with `[source]` links. Format: `{Operator} {signal clause}, {signal clause}{, and their {aged role} posting has sat unfilled for {N} days}.` Worked examples (fixture style):
+  - *"TradeSpace's GM left the team page in June [site diff] and a 'Director, Community' role appeared on their careers page this week [tradespace.ca/careers] — nothing posted to boards yet."*
+  - *"Industrious announced two Austin locations for Q4 [Bisnow] and pulled a fit-out permit at 600 Congress [Austin permits] — GM hires typically follow within 3–6 months."*
+  - No signal = no sentence = not on the board. A reason-to-call must never assert anything not backed by a stored signal URL (fixture tests enforce this).
 
 ## Money surfaces
 
