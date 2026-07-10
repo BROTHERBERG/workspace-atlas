@@ -18,6 +18,8 @@ export interface PageSnapshot {
   fetchedAt: string
   hash: string
   normalizedText: string
+  rawHtml?: string
+  rendered?: boolean
 }
 
 export interface FetchErrorRecord {
@@ -44,6 +46,9 @@ export interface SnapshotDiffResult {
   added: SnapshotDiffBlock[]
   removed: SnapshotDiffBlock[]
   snapshotPath?: string
+  normalizedText?: string
+  rawHtml?: string
+  rendered?: boolean
   error?: string
 }
 
@@ -51,6 +56,7 @@ export interface SnapshotPageInput {
   operatorId: string
   pageKey: string
   url: string
+  render?: boolean
 }
 
 function sleep(ms: number): Promise<void> {
@@ -72,6 +78,12 @@ function ensureDir(dir: string): void {
 
 function pageDir(operatorId: string, pageKey: string): string {
   return path.join(SNAPSHOT_DIR, snapshotSlug(operatorId), snapshotSlug(pageKey))
+}
+
+export function snapshotArtifactsDir(operatorId: string, pageKey: string): string {
+  const dir = pageDir(operatorId, pageKey)
+  ensureDir(dir)
+  return dir
 }
 
 function safeSnapshotName(fetchedAt: string): string {
@@ -198,7 +210,7 @@ async function waitForDomain(url: string): Promise<void> {
   lastFetchByDomain.set(domain, Date.now())
 }
 
-async function fetchPage(url: string): Promise<string> {
+export async function fetchStaticPage(url: string): Promise<string> {
   await waitForDomain(url)
   const response = await fetch(url, {
     signal: AbortSignal.timeout(TIMEOUT_MS),
@@ -211,6 +223,19 @@ async function fetchPage(url: string): Promise<string> {
 
   if (!response.ok) throw new Error(`HTTP ${response.status}`)
   return response.text()
+}
+
+async function renderPage(url: string): Promise<string> {
+  await waitForDomain(url)
+  const { chromium } = await import('playwright')
+  const browser = await chromium.launch({ headless: true })
+  try {
+    const page = await browser.newPage({ userAgent: USER_AGENT })
+    await page.goto(url, { waitUntil: 'networkidle', timeout: TIMEOUT_MS })
+    return await page.content()
+  } finally {
+    await browser.close()
+  }
 }
 
 function diffBlocks(previousText: string, currentText: string): { added: SnapshotDiffBlock[]; removed: SnapshotDiffBlock[] } {
@@ -256,7 +281,7 @@ export async function snapshotPage(input: SnapshotPageInput): Promise<SnapshotDi
   const previous = loadLatest(dir)
 
   try {
-    const html = await fetchPage(input.url)
+    const html = input.render ? await renderPage(input.url) : await fetchStaticPage(input.url)
     const normalizedText = normalizePageHtml(html)
     const currentHash = hashText(normalizedText)
     const snapshot: PageSnapshot = {
@@ -266,6 +291,8 @@ export async function snapshotPage(input: SnapshotPageInput): Promise<SnapshotDi
       fetchedAt,
       hash: currentHash,
       normalizedText,
+      rawHtml: html,
+      rendered: Boolean(input.render),
     }
     const snapshotPath = storeSnapshot(snapshot)
 
@@ -281,6 +308,9 @@ export async function snapshotPage(input: SnapshotPageInput): Promise<SnapshotDi
         added: [],
         removed: [],
         snapshotPath,
+        normalizedText,
+        rawHtml: html,
+        rendered: Boolean(input.render),
       }
     }
 
@@ -296,6 +326,9 @@ export async function snapshotPage(input: SnapshotPageInput): Promise<SnapshotDi
         added: [],
         removed: [],
         snapshotPath,
+        normalizedText,
+        rawHtml: html,
+        rendered: Boolean(input.render),
       }
     }
 
@@ -310,6 +343,9 @@ export async function snapshotPage(input: SnapshotPageInput): Promise<SnapshotDi
       previousHash: previous.hash,
       ...diff,
       snapshotPath,
+      normalizedText,
+      rawHtml: html,
+      rendered: Boolean(input.render),
     }
   } catch (err) {
     const error = err instanceof Error ? err.message : String(err)

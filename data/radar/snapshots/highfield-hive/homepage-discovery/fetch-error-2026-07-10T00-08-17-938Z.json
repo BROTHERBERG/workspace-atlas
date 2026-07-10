@@ -1,0 +1,8 @@
+{
+  "operatorId": "highfield-hive",
+  "pageKey": "homepage-discovery",
+  "url": "https://hfhive.ca/",
+  "fetchedAt": "2026-07-10T00:08:17.938Z",
+  "status": "fetch_error",
+  "error": "fetch failed"
+}

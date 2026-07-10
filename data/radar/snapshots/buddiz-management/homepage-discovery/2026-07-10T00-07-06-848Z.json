@@ -1,0 +1,10 @@
+{
+  "operatorId": "buddiz-management",
+  "pageKey": "homepage-discovery",
+  "url": "https://workbuddiz.com/",
+  "fetchedAt": "2026-07-10T00:07:06.848Z",
+  "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "normalizedText": "",
+  "rawHtml": "<!DOCTYPE html><html><head><script>window.onload=function(){window.location.href=\"/lander\"}</script></head></html>",
+  "rendered": false
+}
